@@ -10,7 +10,9 @@ web
 
 ## Stack
 
-STACK_PENDING
+delegated (kickoff หัวข้อ 4 ข้อ 2 ให้ Claude ตรวจแล้วเลือก): TypeScript 7.0.2 (ใช้ตรวจชนิดอย่างเดียว) + Vite 8.3.8 + Preact 11.2.0 · Vitest 5.1.1 + fast-check 4.11.0 · zod 4.6.7 ตรวจไฟล์ข้อมูลใน CI · PRNG เขียนเองใน repo · เซฟเป็น JSON ใน localStorage พร้อมปุ่มส่งออก/นำเข้าไฟล์เซฟ · กราฟและแผนที่เป็น SVG ที่เขียนเอง · ฟอนต์โฮสต์เองด้วย @fontsource · โฮสต์บน GitHub Pages ผ่าน GitHub Actions · Node 22
+
+ต่างจาก v2 หัวข้อ 6 สามข้อ: IndexedDB → localStorage พร้อมไฟล์เซฟ (Safari ลบข้อมูลที่สคริปต์เขียน หลัง 7 วันที่ไม่ได้เปิดเว็บ) · PWA เลื่อนออกไป · Web Worker เลื่อนออกไปจนกว่าจะช้า (เครื่องยนต์ไม่แตะ DOM จึงย้ายได้ภายหลัง) · ผลตรวจรายข้อพร้อมแหล่ง: `docs/rattanava-stack-check.md`
 
 ## Users
 
