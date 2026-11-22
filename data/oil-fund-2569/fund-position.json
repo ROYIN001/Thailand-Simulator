@@ -1,0 +1,1906 @@
+[
+ {
+  "id": "fund.position.net.2026-02-01",
+  "label": "ฐานะกองทุน สุทธิ (รวม)",
+  "value": 505,
+  "unit": "ล้านบาท",
+  "asOf": "2026-02-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-02-01.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 1 ก.พ. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 1 ก.พ. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 39,046 -38,541 505",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Pre-crisis baseline (end Jan). assets-liab=net checked. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches. Caveat: \"pre-crisis baseline\" - Jan 2569 reports on the same listing were negative (25 Jan -428), 1 Feb is first positive week."
+ },
+ {
+  "id": "fund.position.oil.2026-02-01",
+  "label": "ฐานะกองทุน สุทธิ บัญชีน้ำมัน",
+  "value": 39046,
+  "unit": "ล้านบาท",
+  "asOf": "2026-02-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-02-01.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 1 ก.พ. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 1 ก.พ. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 39,046 -38,541 505",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.lpg.2026-02-01",
+  "label": "ฐานะกองทุน สุทธิ บัญชี LPG",
+  "value": -38541,
+  "unit": "ล้านบาท",
+  "asOf": "2026-02-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-02-01.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 1 ก.พ. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 1 ก.พ. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 39,046 -38,541 505",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.debt.loan.2026-02-01",
+  "label": "เจ้าหนี้ เงินกู้ยืม (รวม)",
+  "value": 28054,
+  "unit": "ล้านบาท",
+  "asOf": "2026-02-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-02-01.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 1 ก.พ. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 1 ก.พ. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินกู้ยืม 21,818 6,236 28,054",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liabilities.total.2026-02-01",
+  "label": "หนี้สินรวม (รวม)",
+  "value": 61543,
+  "unit": "ล้านบาท",
+  "asOf": "2026-02-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-02-01.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 1 ก.พ. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 1 ก.พ. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินชดเชยน้ำมันเชื้อเพลิงประเภทต่างๆ 220 - 220 | หนี้สินรวม 22,126 39,417 61,543",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Incl. oil-comp. payable to traders 220, LPG-comp. payable 280, internal oil->LPG transfer 32,901. Assets 62,048. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.net.2026-02-15",
+  "label": "ฐานะกองทุน สุทธิ (รวม)",
+  "value": 1772,
+  "unit": "ล้านบาท",
+  "asOf": "2026-02-15",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-02-15.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 15 ก.พ. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 15 ก.พ. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 39,951 -38,179 1,772",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Pre-crisis baseline (mid Feb). assets-liab=net checked. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.oil.2026-02-15",
+  "label": "ฐานะกองทุน สุทธิ บัญชีน้ำมัน",
+  "value": 39951,
+  "unit": "ล้านบาท",
+  "asOf": "2026-02-15",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-02-15.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 15 ก.พ. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 15 ก.พ. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 39,951 -38,179 1,772",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.lpg.2026-02-15",
+  "label": "ฐานะกองทุน สุทธิ บัญชี LPG",
+  "value": -38179,
+  "unit": "ล้านบาท",
+  "asOf": "2026-02-15",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-02-15.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 15 ก.พ. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 15 ก.พ. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 39,951 -38,179 1,772",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.debt.loan.2026-02-15",
+  "label": "เจ้าหนี้ เงินกู้ยืม (รวม)",
+  "value": 27498,
+  "unit": "ล้านบาท",
+  "asOf": "2026-02-15",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-02-15.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 15 ก.พ. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 15 ก.พ. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินกู้ยืม 21,386 6,112 27,498",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liabilities.total.2026-02-15",
+  "label": "หนี้สินรวม (รวม)",
+  "value": 60915,
+  "unit": "ล้านบาท",
+  "asOf": "2026-02-15",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-02-15.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 15 ก.พ. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 15 ก.พ. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินชดเชยน้ำมันเชื้อเพลิงประเภทต่างๆ 335 - 335 | หนี้สินรวม 21,809 39,106 60,915",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Incl. oil-comp. payable to traders 335, LPG-comp. payable 390, internal oil->LPG transfer 32,604. Assets 62,687. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.net.2026-02-22",
+  "label": "ฐานะกองทุน สุทธิ (รวม)",
+  "value": 2385,
+  "unit": "ล้านบาท",
+  "asOf": "2026-02-22",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-02-22.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 22 ก.พ. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 22 ก.พ. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 40,374 -37,989 2,385",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "assets-liab=net checked. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.oil.2026-02-22",
+  "label": "ฐานะกองทุน สุทธิ บัญชีน้ำมัน",
+  "value": 40374,
+  "unit": "ล้านบาท",
+  "asOf": "2026-02-22",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-02-22.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 22 ก.พ. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 22 ก.พ. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 40,374 -37,989 2,385",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.lpg.2026-02-22",
+  "label": "ฐานะกองทุน สุทธิ บัญชี LPG",
+  "value": -37989,
+  "unit": "ล้านบาท",
+  "asOf": "2026-02-22",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-02-22.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 22 ก.พ. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 22 ก.พ. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 40,374 -37,989 2,385",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.debt.loan.2026-02-22",
+  "label": "เจ้าหนี้ เงินกู้ยืม (รวม)",
+  "value": 27221,
+  "unit": "ล้านบาท",
+  "asOf": "2026-02-22",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-02-22.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 22 ก.พ. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 22 ก.พ. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินกู้ยืม 21,170 6,051 27,221",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liabilities.total.2026-02-22",
+  "label": "หนี้สินรวม (รวม)",
+  "value": 60568,
+  "unit": "ล้านบาท",
+  "asOf": "2026-02-22",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-02-22.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 22 ก.พ. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 22 ก.พ. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินชดเชยน้ำมันเชื้อเพลิงประเภทต่างๆ 389 - 389 | หนี้สินรวม 21,647 38,921 60,568",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Incl. oil-comp. payable to traders 389, LPG-comp. payable 390, internal oil->LPG transfer 32,480. Assets 62,953. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.net.2026-03-01",
+  "label": "ฐานะกองทุน สุทธิ (รวม)",
+  "value": 2459,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-01.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 1 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 1 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 40,313 -37,854 2,459",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Last positive week before crisis. assets-liab=net checked. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.oil.2026-03-01",
+  "label": "ฐานะกองทุน สุทธิ บัญชีน้ำมัน",
+  "value": 40313,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-01.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 1 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 1 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 40,313 -37,854 2,459",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.lpg.2026-03-01",
+  "label": "ฐานะกองทุน สุทธิ บัญชี LPG",
+  "value": -37854,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-01.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 1 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 1 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 40,313 -37,854 2,459",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.debt.loan.2026-03-01",
+  "label": "เจ้าหนี้ เงินกู้ยืม (รวม)",
+  "value": 26804,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-01.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 1 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 1 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินกู้ยืม 20,846 5,958 26,804",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liabilities.total.2026-03-01",
+  "label": "หนี้สินรวม (รวม)",
+  "value": 60193,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-01.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 1 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 1 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินชดเชยน้ำมันเชื้อเพลิงประเภทต่างๆ 473 - 473 | หนี้สินรวม 21,407 38,786 60,193",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Incl. oil-comp. payable to traders 473, LPG-comp. payable 358, internal oil->LPG transfer 32,470. Assets 62,652. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.net.2026-03-08",
+  "label": "ฐานะกองทุน สุทธิ (รวม)",
+  "value": -786,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-08",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-08.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 8 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 8 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 36,949 -37,735 -786",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "First negative week. assets-liab=net checked. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches. Caveat on researcher note \"First negative week\": only true after Feb; the same สกนช. series shows net negative in Jan 2569 (4 Jan -4,788; 25 Jan -428)."
+ },
+ {
+  "id": "fund.position.oil.2026-03-08",
+  "label": "ฐานะกองทุน สุทธิ บัญชีน้ำมัน",
+  "value": 36949,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-08",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-08.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 8 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 8 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 36,949 -37,735 -786",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.lpg.2026-03-08",
+  "label": "ฐานะกองทุน สุทธิ บัญชี LPG",
+  "value": -37735,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-08",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-08.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 8 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 8 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 36,949 -37,735 -786",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.debt.loan.2026-03-08",
+  "label": "เจ้าหนี้ เงินกู้ยืม (รวม)",
+  "value": 26665,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-08",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-08.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 8 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 8 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินกู้ยืม 20,738 5,927 26,665",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liabilities.total.2026-03-08",
+  "label": "หนี้สินรวม (รวม)",
+  "value": 63352,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-08",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-08.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 8 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 8 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินชดเชยน้ำมันเชื้อเพลิงประเภทต่างๆ 3,810 - 3,810 | หนี้สินรวม 24,636 38,716 63,352",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Incl. oil-comp. payable to traders 3,810, LPG-comp. payable 440, internal oil->LPG transfer 32,349. Assets 62,566. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.net.2026-03-15",
+  "label": "ฐานะกองทุน สุทธิ (รวม)",
+  "value": -12605,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-15",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-15.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 15 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 15 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 25,016 -37,621 -12,605",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Also matches offo infographic ฐานะ15มีค69.jpg and bangkokbiznews 1225313. assets-liab=net checked. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.oil.2026-03-15",
+  "label": "ฐานะกองทุน สุทธิ บัญชีน้ำมัน",
+  "value": 25016,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-15",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-15.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 15 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 15 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 25,016 -37,621 -12,605",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.lpg.2026-03-15",
+  "label": "ฐานะกองทุน สุทธิ บัญชี LPG",
+  "value": -37621,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-15",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-15.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 15 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 15 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 25,016 -37,621 -12,605",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.debt.loan.2026-03-15",
+  "label": "เจ้าหนี้ เงินกู้ยืม (รวม)",
+  "value": 26248,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-15",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-15.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 15 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 15 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินกู้ยืม 20,414 5,834 26,248",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liabilities.total.2026-03-15",
+  "label": "หนี้สินรวม (รวม)",
+  "value": 74886,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-15",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-15.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 15 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 15 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินชดเชยน้ำมันเชื้อเพลิงประเภทต่างๆ 15,831 - 15,831 | หนี้สินรวม 36,333 38,553 74,886",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Incl. oil-comp. payable to traders 15,831, LPG-comp. payable 526, internal oil->LPG transfer 32,193. Assets 62,281. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.net.2026-03-22",
+  "label": "ฐานะกองทุน สุทธิ (รวม)",
+  "value": -28109,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-22",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-22.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 22 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 22 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 9,302 -37,411 -28,109",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Confirms news lead (oil +9,302, LPG -37,411, net -28,109). Also matches offo infographic ฐานะ22มีค69.jpg. assets-liab=net checked. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.oil.2026-03-22",
+  "label": "ฐานะกองทุน สุทธิ บัญชีน้ำมัน",
+  "value": 9302,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-22",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-22.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 22 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 22 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 9,302 -37,411 -28,109",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.lpg.2026-03-22",
+  "label": "ฐานะกองทุน สุทธิ บัญชี LPG",
+  "value": -37411,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-22",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-22.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 22 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 22 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ 9,302 -37,411 -28,109",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.debt.loan.2026-03-22",
+  "label": "เจ้าหนี้ เงินกู้ยืม (รวม)",
+  "value": 25970,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-22",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-22.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 22 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 22 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินกู้ยืม 20,198 5,772 25,970",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches thansettakij 655036 (หนี้ที่ต้องจ่ายคืนเงินกู้อีกราว 25,970 ล้านบาท). | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liabilities.total.2026-03-22",
+  "label": "หนี้สินรวม (รวม)",
+  "value": 90041,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-22",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-22.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 22 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 22 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินชดเชยน้ำมันเชื้อเพลิงประเภทต่างๆ 31,412 - 31,412 | หนี้สินรวม 51,698 38,343 90,041",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Incl. oil-comp. payable to traders 31,412, LPG-comp. payable 612, internal oil->LPG transfer 31,959. Assets 61,932. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.net.2026-03-29",
+  "label": "ฐานะกองทุน สุทธิ (รวม)",
+  "value": -42148,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-29",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-29.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 29 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 29 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -4,833 -37,315 -42,148",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Also matches offo infographic (TEMPLATE-3032569.jpg). assets-liab=net checked. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.oil.2026-03-29",
+  "label": "ฐานะกองทุน สุทธิ บัญชีน้ำมัน",
+  "value": -4833,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-29",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-29.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 29 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 29 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -4,833 -37,315 -42,148",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Oil account turns negative. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.lpg.2026-03-29",
+  "label": "ฐานะกองทุน สุทธิ บัญชี LPG",
+  "value": -37315,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-29",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-29.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 29 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 29 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -4,833 -37,315 -42,148",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.debt.loan.2026-03-29",
+  "label": "เจ้าหนี้ เงินกู้ยืม (รวม)",
+  "value": 25970,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-29",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-29.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 29 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 29 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินกู้ยืม 20,198 5,772 25,970",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Unchanged vs 22 Mar. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liabilities.total.2026-03-29",
+  "label": "หนี้สินรวม (รวม)",
+  "value": 103745,
+  "unit": "ล้านบาท",
+  "asOf": "2026-03-29",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-03-29.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 29 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 29 มี.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินชดเชยน้ำมันเชื้อเพลิงประเภทต่างๆ 45,321 - 45,321 | หนี้สินรวม 65,607 38,138 103,745",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Incl. oil-comp. payable to traders 45,321, LPG-comp. payable 551, internal oil->LPG transfer 31,815. Assets 61,597. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.net.2026-04-05",
+  "label": "ฐานะกองทุน สุทธิ (รวม)",
+  "value": -53226,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-05",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-04-05.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 5 เม.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 5 เม.ย. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -15,800 -37,426 -53,226",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Also matches offo infographic (TEMPLATE-5เมย69.jpg); cabinet loan item cites this date (~5.3 หมื่นล้าน). assets-liab=net checked. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.oil.2026-04-05",
+  "label": "ฐานะกองทุน สุทธิ บัญชีน้ำมัน",
+  "value": -15800,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-05",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-04-05.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 5 เม.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 5 เม.ย. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -15,800 -37,426 -53,226",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.lpg.2026-04-05",
+  "label": "ฐานะกองทุน สุทธิ บัญชี LPG",
+  "value": -37426,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-05",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-04-05.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 5 เม.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 5 เม.ย. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -15,800 -37,426 -53,226",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.debt.loan.2026-04-05",
+  "label": "เจ้าหนี้ เงินกู้ยืม (รวม)",
+  "value": 25554,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-05",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-04-05.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 5 เม.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 5 เม.ย. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินกู้ยืม 19,874 5,680 25,554",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liabilities.total.2026-04-05",
+  "label": "หนี้สินรวม (รวม)",
+  "value": 114796,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-05",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-04-05.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 5 เม.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 5 เม.ย. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินชดเชยน้ำมันเชื้อเพลิงประเภทต่างๆ 56,399 - 56,399 | หนี้สินรวม 76,361 38,435 114,796",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Incl. oil-comp. payable to traders 56,399, LPG-comp. payable 989, internal oil->LPG transfer 31,766. Assets 61,570. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.oil.2026-04-12",
+  "label": "ประมาณการฐานะกองทุน บัญชีน้ำมัน",
+  "value": -22478,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-12",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/69-12%E0%B9%80%E0%B8%A1%E0%B8%A2.png",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 12 เมษายน 2569",
+   "kind": "primary"
+  },
+  "evidence": "12 เมษายน 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (22,478) (37,689) (60,167) | ประมาณการสภาพคล่อง (ต่อวัน) (451.63) (24.41) (476.04)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative; oil+LPG=total checked. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.lpg.2026-04-12",
+  "label": "ประมาณการฐานะกองทุน บัญชีก๊าซ LPG",
+  "value": -37689,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-12",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/69-12%E0%B9%80%E0%B8%A1%E0%B8%A2.png",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 12 เมษายน 2569",
+   "kind": "primary"
+  },
+  "evidence": "12 เมษายน 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (22,478) (37,689) (60,167) | ประมาณการสภาพคล่อง (ต่อวัน) (451.63) (24.41) (476.04)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.net.2026-04-12",
+  "label": "ประมาณการฐานะกองทุน (รวม)",
+  "value": -60167,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-12",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/69-12%E0%B9%80%E0%B8%A1%E0%B8%A2.png",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 12 เมษายน 2569",
+   "kind": "primary"
+  },
+  "evidence": "12 เมษายน 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (22,478) (37,689) (60,167) | ประมาณการสภาพคล่อง (ต่อวัน) (451.63) (24.41) (476.04)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative. No loan/liability breakdown published 12 Apr-3 May. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liquidity.daily.oil.2026-04-12",
+  "label": "ประมาณการสภาพคล่อง (ต่อวัน) บัญชีน้ำมัน",
+  "value": -451.63,
+  "unit": "ล้านบาท (ต่อวัน)",
+  "asOf": "2026-04-12",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/69-12%E0%B9%80%E0%B8%A1%E0%B8%A2.png",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 12 เมษายน 2569",
+   "kind": "primary"
+  },
+  "evidence": "12 เมษายน 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (22,478) (37,689) (60,167) | ประมาณการสภาพคล่อง (ต่อวัน) (451.63) (24.41) (476.04)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative (net outflow per day). | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liquidity.daily.lpg.2026-04-12",
+  "label": "ประมาณการสภาพคล่อง (ต่อวัน) บัญชีก๊าซ LPG",
+  "value": -24.41,
+  "unit": "ล้านบาท (ต่อวัน)",
+  "asOf": "2026-04-12",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/69-12%E0%B9%80%E0%B8%A1%E0%B8%A2.png",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 12 เมษายน 2569",
+   "kind": "primary"
+  },
+  "evidence": "12 เมษายน 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (22,478) (37,689) (60,167) | ประมาณการสภาพคล่อง (ต่อวัน) (451.63) (24.41) (476.04)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liquidity.daily.total.2026-04-12",
+  "label": "ประมาณการสภาพคล่อง (ต่อวัน) รวม",
+  "value": -476.04,
+  "unit": "ล้านบาท (ต่อวัน)",
+  "asOf": "2026-04-12",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/69-12%E0%B9%80%E0%B8%A1%E0%B8%A2.png",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 12 เมษายน 2569",
+   "kind": "primary"
+  },
+  "evidence": "12 เมษายน 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (22,478) (37,689) (60,167) | ประมาณการสภาพคล่อง (ต่อวัน) (451.63) (24.41) (476.04)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative; 451.63+24.41=476.04 checked. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.oil.2026-04-19",
+  "label": "ประมาณการฐานะกองทุน บัญชีน้ำมัน",
+  "value": -24073,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%9919%E0%B9%80%E0%B8%A1%E0%B8%A269.png",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 19 เมษายน 2569",
+   "kind": "primary"
+  },
+  "evidence": "19 เมษายน 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (24,073) (37,860) (61,933) | ประมาณการสภาพคล่อง (ต่อวัน) (89.42) (24.41) (113.83)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.lpg.2026-04-19",
+  "label": "ประมาณการฐานะกองทุน บัญชีก๊าซ LPG",
+  "value": -37860,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%9919%E0%B9%80%E0%B8%A1%E0%B8%A269.png",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 19 เมษายน 2569",
+   "kind": "primary"
+  },
+  "evidence": "19 เมษายน 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (24,073) (37,860) (61,933) | ประมาณการสภาพคล่อง (ต่อวัน) (89.42) (24.41) (113.83)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.net.2026-04-19",
+  "label": "ประมาณการฐานะกองทุน (รวม)",
+  "value": -61933,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%9919%E0%B9%80%E0%B8%A1%E0%B8%A269.png",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 19 เมษายน 2569",
+   "kind": "primary"
+  },
+  "evidence": "19 เมษายน 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (24,073) (37,860) (61,933) | ประมาณการสภาพคล่อง (ต่อวัน) (89.42) (24.41) (113.83)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative; oil+LPG=total checked. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liquidity.daily.oil.2026-04-19",
+  "label": "ประมาณการสภาพคล่อง (ต่อวัน) บัญชีน้ำมัน",
+  "value": -89.42,
+  "unit": "ล้านบาท (ต่อวัน)",
+  "asOf": "2026-04-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%9919%E0%B9%80%E0%B8%A1%E0%B8%A269.png",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 19 เมษายน 2569",
+   "kind": "primary"
+  },
+  "evidence": "19 เมษายน 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (24,073) (37,860) (61,933) | ประมาณการสภาพคล่อง (ต่อวัน) (89.42) (24.41) (113.83)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liquidity.daily.lpg.2026-04-19",
+  "label": "ประมาณการสภาพคล่อง (ต่อวัน) บัญชีก๊าซ LPG",
+  "value": -24.41,
+  "unit": "ล้านบาท (ต่อวัน)",
+  "asOf": "2026-04-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%9919%E0%B9%80%E0%B8%A1%E0%B8%A269.png",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 19 เมษายน 2569",
+   "kind": "primary"
+  },
+  "evidence": "19 เมษายน 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (24,073) (37,860) (61,933) | ประมาณการสภาพคล่อง (ต่อวัน) (89.42) (24.41) (113.83)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liquidity.daily.total.2026-04-19",
+  "label": "ประมาณการสภาพคล่อง (ต่อวัน) รวม",
+  "value": -113.83,
+  "unit": "ล้านบาท (ต่อวัน)",
+  "asOf": "2026-04-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%9919%E0%B9%80%E0%B8%A1%E0%B8%A269.png",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 19 เมษายน 2569",
+   "kind": "primary"
+  },
+  "evidence": "19 เมษายน 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (24,073) (37,860) (61,933) | ประมาณการสภาพคล่อง (ต่อวัน) (89.42) (24.41) (113.83)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative; 89.42+24.41=113.83 checked. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.oil.2026-04-26",
+  "label": "ประมาณการฐานะกองทุน บัญชีน้ำมัน",
+  "value": -24143,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-26",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%9926%E0%B9%80%E0%B8%A1%E0%B8%A269.jpg",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 26 เมษายน 2569",
+   "kind": "primary"
+  },
+  "evidence": "26 เมษายน 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (24,143) (38,221) (62,364) | ประมาณการสภาพคล่อง (ต่อวัน) (78.50) (24.41) (102.91)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.lpg.2026-04-26",
+  "label": "ประมาณการฐานะกองทุน บัญชีก๊าซ LPG",
+  "value": -38221,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-26",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%9926%E0%B9%80%E0%B8%A1%E0%B8%A269.jpg",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 26 เมษายน 2569",
+   "kind": "primary"
+  },
+  "evidence": "26 เมษายน 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (24,143) (38,221) (62,364) | ประมาณการสภาพคล่อง (ต่อวัน) (78.50) (24.41) (102.91)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.net.2026-04-26",
+  "label": "ประมาณการฐานะกองทุน (รวม)",
+  "value": -62364,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-26",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%9926%E0%B9%80%E0%B8%A1%E0%B8%A269.jpg",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 26 เมษายน 2569",
+   "kind": "primary"
+  },
+  "evidence": "26 เมษายน 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (24,143) (38,221) (62,364) | ประมาณการสภาพคล่อง (ต่อวัน) (78.50) (24.41) (102.91)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative; oil+LPG=total checked. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liquidity.daily.oil.2026-04-26",
+  "label": "ประมาณการสภาพคล่อง (ต่อวัน) บัญชีน้ำมัน",
+  "value": -78.5,
+  "unit": "ล้านบาท (ต่อวัน)",
+  "asOf": "2026-04-26",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%9926%E0%B9%80%E0%B8%A1%E0%B8%A269.jpg",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 26 เมษายน 2569",
+   "kind": "primary"
+  },
+  "evidence": "26 เมษายน 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (24,143) (38,221) (62,364) | ประมาณการสภาพคล่อง (ต่อวัน) (78.50) (24.41) (102.91)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative; source shows 78.50. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liquidity.daily.lpg.2026-04-26",
+  "label": "ประมาณการสภาพคล่อง (ต่อวัน) บัญชีก๊าซ LPG",
+  "value": -24.41,
+  "unit": "ล้านบาท (ต่อวัน)",
+  "asOf": "2026-04-26",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%9926%E0%B9%80%E0%B8%A1%E0%B8%A269.jpg",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 26 เมษายน 2569",
+   "kind": "primary"
+  },
+  "evidence": "26 เมษายน 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (24,143) (38,221) (62,364) | ประมาณการสภาพคล่อง (ต่อวัน) (78.50) (24.41) (102.91)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liquidity.daily.total.2026-04-26",
+  "label": "ประมาณการสภาพคล่อง (ต่อวัน) รวม",
+  "value": -102.91,
+  "unit": "ล้านบาท (ต่อวัน)",
+  "asOf": "2026-04-26",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%9926%E0%B9%80%E0%B8%A1%E0%B8%A269.jpg",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 26 เมษายน 2569",
+   "kind": "primary"
+  },
+  "evidence": "26 เมษายน 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (24,143) (38,221) (62,364) | ประมาณการสภาพคล่อง (ต่อวัน) (78.50) (24.41) (102.91)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative; 78.50+24.41=102.91 checked. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.oil.2026-05-03",
+  "label": "ประมาณการฐานะกองทุน บัญชีน้ำมัน",
+  "value": -24880,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-03",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%993%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A169_0.png",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 3 พฤษภาคม 2569",
+   "kind": "primary"
+  },
+  "evidence": "3 พฤษภาคม 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (24,880) (38,309) (63,189) | ประมาณการสภาพคล่อง (ต่อวัน) (155.76) (33.19) (188.95)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.lpg.2026-05-03",
+  "label": "ประมาณการฐานะกองทุน บัญชีก๊าซ LPG",
+  "value": -38309,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-03",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%993%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A169_0.png",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 3 พฤษภาคม 2569",
+   "kind": "primary"
+  },
+  "evidence": "3 พฤษภาคม 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (24,880) (38,309) (63,189) | ประมาณการสภาพคล่อง (ต่อวัน) (155.76) (33.19) (188.95)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22 · สุ่มเปิดแหล่งซ้ำโดย agent หลัก 2026-11-22 ตรง",
+  "notes": "Image report, read visually; ( )=negative. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.net.2026-05-03",
+  "label": "ประมาณการฐานะกองทุน (รวม)",
+  "value": -63189,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-03",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%993%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A169_0.png",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 3 พฤษภาคม 2569",
+   "kind": "primary"
+  },
+  "evidence": "3 พฤษภาคม 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (24,880) (38,309) (63,189) | ประมาณการสภาพคล่อง (ต่อวัน) (155.76) (33.19) (188.95)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative; oil+LPG=total checked. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liquidity.daily.oil.2026-05-03",
+  "label": "ประมาณการสภาพคล่อง (ต่อวัน) บัญชีน้ำมัน",
+  "value": -155.76,
+  "unit": "ล้านบาท (ต่อวัน)",
+  "asOf": "2026-05-03",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%993%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A169_0.png",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 3 พฤษภาคม 2569",
+   "kind": "primary"
+  },
+  "evidence": "3 พฤษภาคม 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (24,880) (38,309) (63,189) | ประมาณการสภาพคล่อง (ต่อวัน) (155.76) (33.19) (188.95)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liquidity.daily.lpg.2026-05-03",
+  "label": "ประมาณการสภาพคล่อง (ต่อวัน) บัญชีก๊าซ LPG",
+  "value": -33.19,
+  "unit": "ล้านบาท (ต่อวัน)",
+  "asOf": "2026-05-03",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%993%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A169_0.png",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 3 พฤษภาคม 2569",
+   "kind": "primary"
+  },
+  "evidence": "3 พฤษภาคม 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (24,880) (38,309) (63,189) | ประมาณการสภาพคล่อง (ต่อวัน) (155.76) (33.19) (188.95)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liquidity.daily.total.2026-05-03",
+  "label": "ประมาณการสภาพคล่อง (ต่อวัน) รวม",
+  "value": -188.95,
+  "unit": "ล้านบาท (ต่อวัน)",
+  "asOf": "2026-05-03",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%993%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A169_0.png",
+   "publisher": "สกนช.",
+   "title": "สถานะการเงินกองทุนน้ำมันเชื้อเพลิง 3 พฤษภาคม 2569",
+   "kind": "primary"
+  },
+  "evidence": "3 พฤษภาคม 2569 หน่วย : ล้านบาท | น้ำมัน ก๊าซ LPG รวม | ประมาณการฐานะกองทุน (24,880) (38,309) (63,189) | ประมาณการสภาพคล่อง (ต่อวัน) (155.76) (33.19) (188.95)",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Image report, read visually; ( )=negative; 155.76+33.19=188.95 checked. | ผู้ตรวจ: สกนช. infographic viewed; ( )=negative; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.net.2026-05-10",
+  "label": "ฐานะกองทุน สุทธิ (รวม)",
+  "value": -63279,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-10",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-10.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 10 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 10 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -24,787 -38,492 -63,279",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "assets-liab=net checked. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.oil.2026-05-10",
+  "label": "ฐานะกองทุน สุทธิ บัญชีน้ำมัน",
+  "value": -24787,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-10",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-10.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 10 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 10 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -24,787 -38,492 -63,279",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.lpg.2026-05-10",
+  "label": "ฐานะกองทุน สุทธิ บัญชี LPG",
+  "value": -38492,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-10",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-10.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 10 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 10 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -24,787 -38,492 -63,279",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.debt.loan.2026-05-10",
+  "label": "เจ้าหนี้ เงินกู้ยืม (รวม)",
+  "value": 24026,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-10",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-10.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 10 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 10 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินกู้ยืม 18,686 5,340 24,026",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22 · สุ่มเปิดแหล่งซ้ำโดย agent หลัก 2026-11-22 ตรง",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liabilities.total.2026-05-10",
+  "label": "หนี้สินรวม (รวม)",
+  "value": 120669,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-10",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-10.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 10 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 10 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินชดเชยน้ำมันเชื้อเพลิงประเภทต่างๆ 62,408 - 62,408 | หนี้สินรวม 81,152 39,517 120,669",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Incl. oil-comp. payable to traders 62,408, LPG-comp. payable 4,670, internal oil->LPG transfer 29,507. Assets 57,390. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.net.2026-05-17",
+  "label": "ฐานะกองทุน สุทธิ (รวม)",
+  "value": -63746,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-17",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-17.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 17 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 17 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -25,097 -38,649 -63,746",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Deepest weekly net in window. assets-liab=net checked. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches. \"Deepest weekly net\" holds only within Feb-7 Jun window; later สกนช. reports go much lower (15 Nov 2569 -108,864)."
+ },
+ {
+  "id": "fund.position.oil.2026-05-17",
+  "label": "ฐานะกองทุน สุทธิ บัญชีน้ำมัน",
+  "value": -25097,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-17",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-17.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 17 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 17 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -25,097 -38,649 -63,746",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.lpg.2026-05-17",
+  "label": "ฐานะกองทุน สุทธิ บัญชี LPG",
+  "value": -38649,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-17",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-17.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 17 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 17 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -25,097 -38,649 -63,746",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.debt.loan.2026-05-17",
+  "label": "เจ้าหนี้ เงินกู้ยืม (รวม)",
+  "value": 23748,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-17",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-17.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 17 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 17 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินกู้ยืม 18,470 5,278 23,748",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liabilities.total.2026-05-17",
+  "label": "หนี้สินรวม (รวม)",
+  "value": 121474,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-17",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-17.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 17 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 17 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินชดเชยน้ำมันเชื้อเพลิงประเภทต่างๆ 63,177 - 63,177 | หนี้สินรวม 81,705 39,769 121,474",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Incl. oil-comp. payable to traders 63,177, LPG-comp. payable 5,504, internal oil->LPG transfer 28,987. Assets 57,728. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.net.2026-05-24",
+  "label": "ฐานะกองทุน สุทธิ (รวม)",
+  "value": -57923,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-24",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-24-%E0%B8%9B%E0%B8%9B%20%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B9%89%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B9%88%E0%B8%99-o.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 24 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 24 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -19,525 -38,398 -57,923",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Report note: ฐานะกองทุน ณ วันที่ 24 พ.ค. 69 ปรับปรุงรายการเจ้าหนี้เงินชดเชยฯ ตามข้อมูลจากผู้ค้า (restatement; jump vs 17 May partly accounting). assets-liab=net checked. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches. Report note confirms restatement: \"ฐานะกองทุน ณ วันที่ 24 พ.ค. 69 ปรับปรุงรายการเจ้าหนี้เงินชดเชย... ตามที่ได้รับแจ้งข้อมูลจากผู้ค้า\"."
+ },
+ {
+  "id": "fund.position.oil.2026-05-24",
+  "label": "ฐานะกองทุน สุทธิ บัญชีน้ำมัน",
+  "value": -19525,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-24",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-24-%E0%B8%9B%E0%B8%9B%20%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B9%89%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B9%88%E0%B8%99-o.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 24 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 24 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -19,525 -38,398 -57,923",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Payables restated 24 May per traders (report note). | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.lpg.2026-05-24",
+  "label": "ฐานะกองทุน สุทธิ บัญชี LPG",
+  "value": -38398,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-24",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-24-%E0%B8%9B%E0%B8%9B%20%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B9%89%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B9%88%E0%B8%99-o.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 24 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 24 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -19,525 -38,398 -57,923",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Payables restated 24 May per traders (report note). | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.debt.loan.2026-05-24",
+  "label": "เจ้าหนี้ เงินกู้ยืม (รวม)",
+  "value": 23470,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-24",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-24-%E0%B8%9B%E0%B8%9B%20%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B9%89%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B9%88%E0%B8%99-o.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 24 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 24 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินกู้ยืม 18,254 5,216 23,470",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liabilities.total.2026-05-24",
+  "label": "หนี้สินรวม (รวม)",
+  "value": 116421,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-24",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-24-%E0%B8%9B%E0%B8%9B%20%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B9%89%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B9%88%E0%B8%99-o.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 24 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 24 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินชดเชยน้ำมันเชื้อเพลิงประเภทต่างๆ 58,410 - 58,410 | หนี้สินรวม 76,722 39,699 116,421",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Incl. oil-comp. payable to traders 58,410, LPG-comp. payable 6,067, internal oil->LPG transfer 28,416. Assets 58,498. Payables restated 24 May. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.net.2026-05-31",
+  "label": "ฐานะกองทุน สุทธิ (รวม)",
+  "value": -58125,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-31-%E0%B8%9B%E0%B8%9B%20%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B9%89%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B9%88%E0%B8%99%20-oo.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 31 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 31 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -19,559 -38,566 -58,125",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "assets-liab=net checked. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.oil.2026-05-31",
+  "label": "ฐานะกองทุน สุทธิ บัญชีน้ำมัน",
+  "value": -19559,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-31-%E0%B8%9B%E0%B8%9B%20%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B9%89%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B9%88%E0%B8%99%20-oo.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 31 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 31 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -19,559 -38,566 -58,125",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.lpg.2026-05-31",
+  "label": "ฐานะกองทุน สุทธิ บัญชี LPG",
+  "value": -38566,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-31-%E0%B8%9B%E0%B8%9B%20%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B9%89%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B9%88%E0%B8%99%20-oo.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 31 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 31 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -19,559 -38,566 -58,125",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.debt.loan.2026-05-31",
+  "label": "เจ้าหนี้ เงินกู้ยืม (รวม)",
+  "value": 23331,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-31-%E0%B8%9B%E0%B8%9B%20%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B9%89%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B9%88%E0%B8%99%20-oo.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 31 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 31 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินกู้ยืม 18,146 5,185 23,331",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.liabilities.total.2026-05-31",
+  "label": "หนี้สินรวม (รวม)",
+  "value": 117116,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-05-31-%E0%B8%9B%E0%B8%9B%20%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B9%89%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B9%88%E0%B8%99%20-oo.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 31 พ.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 31 พ.ค. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินชดเชยน้ำมันเชื้อเพลิงประเภทต่างๆ 59,042 - 59,042 | หนี้สินรวม 77,246 39,870 117,116",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Incl. oil-comp. payable to traders 59,042, LPG-comp. payable 7,098, internal oil->LPG transfer 27,587. Assets 58,991. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.net.2026-06-07",
+  "label": "ฐานะกองทุน สุทธิ (รวม)",
+  "value": -58533,
+  "unit": "ล้านบาท",
+  "asOf": "2026-06-07",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-06-07-%E0%B8%9B%E0%B8%9B%20%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B9%89%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B9%88%E0%B8%99%20-oo.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 7 มิ.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 7 มิ.ย. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -19,812 -38,721 -58,533",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "PDF also rendered and checked visually. assets-liab=net checked. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.oil.2026-06-07",
+  "label": "ฐานะกองทุน สุทธิ บัญชีน้ำมัน",
+  "value": -19812,
+  "unit": "ล้านบาท",
+  "asOf": "2026-06-07",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-06-07-%E0%B8%9B%E0%B8%9B%20%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B9%89%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B9%88%E0%B8%99%20-oo.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 7 มิ.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 7 มิ.ย. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -19,812 -38,721 -58,533",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.position.lpg.2026-06-07",
+  "label": "ฐานะกองทุน สุทธิ บัญชี LPG",
+  "value": -38721,
+  "unit": "ล้านบาท",
+  "asOf": "2026-06-07",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-06-07-%E0%B8%9B%E0%B8%9B%20%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B9%89%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B9%88%E0%B8%99%20-oo.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 7 มิ.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 7 มิ.ย. 69 | น้ำมัน LPG รวม (ล้านบาท) | ฐานะกองทุน สุทธิ -19,812 -38,721 -58,533",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.debt.loan.2026-06-07",
+  "label": "เจ้าหนี้ เงินกู้ยืม (รวม)",
+  "value": 22915,
+  "unit": "ล้านบาท",
+  "asOf": "2026-06-07",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-06-07-%E0%B8%9B%E0%B8%9B%20%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B9%89%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B9%88%E0%B8%99%20-oo.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 7 มิ.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 7 มิ.ย. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินกู้ยืม 17,822 5,093 22,915",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "No new 20,000 loan drawn by this date (line keeps declining). | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches. True at 7 Jun; but new loan later appears: 16 Aug 2569 report shows extra เงินกู้ column 10,000 (loan line total 29,998), 20 Sep loan line 38,470."
+ },
+ {
+  "id": "fund.liabilities.total.2026-06-07",
+  "label": "หนี้สินรวม (รวม)",
+  "value": 118258,
+  "unit": "ล้านบาท",
+  "asOf": "2026-06-07",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-06-07-%E0%B8%9B%E0%B8%9B%20%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B9%89%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B9%88%E0%B8%99%20-oo.pdf",
+   "publisher": "สกนช.",
+   "title": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง สิ้นสุด ณ วันที่ 7 มิ.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 7 มิ.ย. 69 | น้ำมัน LPG รวม (ล้านบาท) | เจ้าหนี้ เงินชดเชยน้ำมันเชื้อเพลิงประเภทต่างๆ 60,080 - 60,080 | หนี้สินรวม 77,960 40,298 118,258",
+  "status": "verified",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Incl. oil-comp. payable to traders 60,080, LPG-comp. payable 7,976, internal oil->LPG transfer 27,229. Assets 59,725. | ผู้ตรวจ: สกนช. PDF (data owner), text-extracted; unit ล้านบาท; matches."
+ },
+ {
+  "id": "fund.outflow.diesel_daily.2026-03-09",
+  "label": "เงินกองทุนชดเชยดีเซลเฉลี่ยต่อวัน (ข่าว)",
+  "value": 1200,
+  "unit": "ล้านบาท (1 วัน เฉลี่ย)",
+  "asOf": "2026-03-09",
+  "source": {
+   "url": "https://www.bangkokbiznews.com/economics/1224491",
+   "publisher": "กรุงเทพธุรกิจ",
+   "title": "กองทุนน้ำมันฯ ควักวันละ 1,200 ล้านอุ้มดีเซล 'พิพัฒน์' เปิดทางเลือก 'ลดภาษี' พยุงราคา",
+   "kind": "secondary"
+  },
+  "evidence": "ส่วนสถานะของกองทุนน้ำมันและการแบกรับภาระชดเชย จากการหารือวานนี้ (9 มี.ค.) พบว่า 1 วัน เฉลี่ย 1,200 ล้านบาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Published 2026-03-10; minister statement; diesel subsidy only. | ผู้ตรวจ: Value correct; news/relay source (kind=secondary, correctly labelled). Quote and value match; bangkokbiznews metadata publication 10 มี.ค. 2569. News report of minister statement; headline frames it as diesel support."
+ },
+ {
+  "id": "fund.outflow.daily.2026-03-23",
+  "label": "เงินอุดหนุนจากกองทุนต่อวัน (ข่าว)",
+  "value": 2000,
+  "unit": "ล้านบาท (1 วัน ประมาณ)",
+  "asOf": "2026-03-23",
+  "source": {
+   "url": "https://www.thaipbs.or.th/news/content/503673",
+   "publisher": "Thai PBS",
+   "title": "พลังงานแจงดีเซลไทยถูกกว่าเพื่อนบ้านอาเซียน - กองทุนน้ำมันติดลบ 2 หมื่นล้าน",
+   "kind": "secondary"
+  },
+  "evidence": "ส่วนกองทุนน้ำมันมีสถานะติดลบ อยู่ในระดับ 20,000 ล้าน เพราะ 1 วัน รัฐใช้เงินอุดหนุนประมาณ 2,000 ล้านบาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Ministry of Energy (EPPO) briefing 23 Mar as reported. Weekly primary 22 Mar net = -28,109. | ผู้ตรวจ: Value correct; news/relay source (kind=secondary, correctly labelled). Matches; Thai PBS 23 มี.ค. 69, EPPO deputy director briefing. Its \"-20,000\" is rounder/less negative than สกนช. weekly 22 Mar net -28,109."
+ },
+ {
+  "id": "fund.outflow.daily.2026-03-27",
+  "label": "เงินไหลออกจากกองทุนต่อวัน (ข่าว)",
+  "value": 2,
+  "unit": "พันล้านบาท (วันละประมาณ)",
+  "asOf": "2026-03-27",
+  "source": {
+   "url": "https://www.thansettakij.com/economy/energy/655036",
+   "publisher": "ฐานเศรษฐกิจ",
+   "title": "ปล่อยลอยตัวราคาน้ำมัน ‘กองทุน’ แบกไม่ไหว เล็งดึงภาษีสรรพสามิตช่วย 6 บาท",
+   "kind": "secondary"
+  },
+  "evidence": "หากยังคงชดเชยในระดับดังกล่าวจะส่งผลให้กองทุนน้ำมันฯ มีฐานะติดลบมากขึ้น จากการไหลออกวันละประมาณ 2 พันล้านบาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Refers to subsidy level before the 26 Mar cut (diesel 26.99->19.12 บาท/ลิตร). Same article also says 'เงินไหลออกกว่า 2,500 ล้านบาทต่อวัน'. Its 22 Mar figures match primary. | ผู้ตรวจ: Value correct; news/relay source (kind=secondary, correctly labelled). Matches; thansettakij publication 27 มี.ค. 69 01:46. Same article also says \"เงินไหลออกกว่า 2,500 ล้านบาทต่อวัน\" - internally inconsistent."
+ },
+ {
+  "id": "fund.outflow.daily.2026-04-01",
+  "label": "เงินไหลออกจากกองทุนต่อวัน (ข่าว)",
+  "value": 1.7,
+  "unit": "พันล้านบาท (วันละประมาณ)",
+  "asOf": "2026-04-01",
+  "source": {
+   "url": "https://www.thairath.co.th/news/politic/2924108",
+   "publisher": "ไทยรัฐ",
+   "title": "แจงอุดหนุนดีเซล 21.89 บาท/ลิตร ทำกองทุนน้ำมันฯ ติดลบพุ่ง 4.7 หมื่นล้าน",
+   "kind": "secondary"
+  },
+  "evidence": "สถานะของกองทุนน้ำมันเชื้อเพลิง ณ วันที่ 1 เม.ย.2569 มีสถานะติดลบประมาณ 4.7 หมื่นล้านบาท โดยมีเงินไหลออกวันละประมาณ 1.7 พันล้านบาท ซึ่งมาจากการที่อุดหนุนราคาน้ำมันดีเซล 21.89 บาทต่อลิตร",
+  "status": "secondary-only",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Energy Ministry spokesperson, Government House, 1 Apr. | ผู้ตรวจ: Value correct; news/relay source (kind=secondary, correctly labelled). Matches; Thairath 1 เม.ย. 2569, MoE spokesperson at Government House."
+ },
+ {
+  "id": "fund.position.net.moe_daily.2026-04-03",
+  "label": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง (รายงานรายวัน ก.พลังงาน)",
+  "value": -49403,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-03",
+  "source": {
+   "url": "https://www.thaipbs.or.th/news/content/504251",
+   "publisher": "Thai PBS",
+   "title": "พลังงาน เผยราคาน้ำมันโลกพุ่ง แจงกองทุนฯ ติดลบ 49,403 ล้านบาท",
+   "kind": "secondary"
+  },
+  "evidence": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง ณ วันที่ 3 เม.ย.2569 ติดลบ 49,403 ล้านบาท โดยมีการชดเชยน้ำมันดีเซลวันละประมาณ 1,159 ล้านบาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Ministry of Energy daily situation report as carried by news; original on energy.go.th not reachable. Daily estimate, not the weekly สกนช. report. | ผู้ตรวจ: Value correct; news/relay source (kind=secondary, correctly labelled). Matches; Thai PBS 3 เม.ย. 69. News relay of MoE daily report."
+ },
+ {
+  "id": "fund.outflow.diesel_daily.2026-04-03",
+  "label": "การชดเชยน้ำมันดีเซลวันละประมาณ (รายงานรายวัน ก.พลังงาน)",
+  "value": 1159,
+  "unit": "ล้านบาท (วันละประมาณ)",
+  "asOf": "2026-04-03",
+  "source": {
+   "url": "https://www.thaipbs.or.th/news/content/504251",
+   "publisher": "Thai PBS",
+   "title": "พลังงาน เผยราคาน้ำมันโลกพุ่ง แจงกองทุนฯ ติดลบ 49,403 ล้านบาท",
+   "kind": "secondary"
+  },
+  "evidence": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง ณ วันที่ 3 เม.ย.2569 ติดลบ 49,403 ล้านบาท โดยมีการชดเชยน้ำมันดีเซลวันละประมาณ 1,159 ล้านบาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "MoE daily report via news. Diesel only, excludes other products/LPG. | ผู้ตรวจ: Value correct; news/relay source (kind=secondary, correctly labelled). Matches; diesel only. News relay."
+ },
+ {
+  "id": "fund.position.net.moe_daily.2026-04-07",
+  "label": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง (รายงานรายวัน ก.พลังงาน)",
+  "value": -56229,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-07",
+  "source": {
+   "url": "https://www.infoquest.co.th/?p=583479",
+   "publisher": "InfoQuest",
+   "title": "ก.พลังงาน เผยสถานะกองทุนฯ ติดลบกว่า 5.6 หมื่นลบ. ปริมาณสำรองอยู่ที่ 105 วัน",
+   "kind": "secondary"
+  },
+  "evidence": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง ณ วันที่ 7 เมษายน 2569 ติดลบ 56,229 ล้านบาท โดยมีการชดเชยน้ำมันดีเซลวันละประมาณ 1,473 ล้านบาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "MoE daily report via news; original not reachable. | ผู้ตรวจ: Value correct; news/relay source (kind=secondary, correctly labelled). Matches; InfoQuest (07 เม.ย. 69). News relay."
+ },
+ {
+  "id": "fund.outflow.diesel_daily.2026-04-07",
+  "label": "การชดเชยน้ำมันดีเซลวันละประมาณ (รายงานรายวัน ก.พลังงาน)",
+  "value": 1473,
+  "unit": "ล้านบาท (วันละประมาณ)",
+  "asOf": "2026-04-07",
+  "source": {
+   "url": "https://www.infoquest.co.th/?p=583479",
+   "publisher": "InfoQuest",
+   "title": "ก.พลังงาน เผยสถานะกองทุนฯ ติดลบกว่า 5.6 หมื่นลบ. ปริมาณสำรองอยู่ที่ 105 วัน",
+   "kind": "secondary"
+  },
+  "evidence": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง ณ วันที่ 7 เมษายน 2569 ติดลบ 56,229 ล้านบาท โดยมีการชดเชยน้ำมันดีเซลวันละประมาณ 1,473 ล้านบาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "MoE daily report via news. Diesel only. | ผู้ตรวจ: Value correct; news/relay source (kind=secondary, correctly labelled). Matches; diesel only. News relay."
+ },
+ {
+  "id": "fund.position.net.moe_daily.2026-04-10",
+  "label": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง (รายงานรายวัน ก.พลังงาน)",
+  "value": -59447.8,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-10",
+  "source": {
+   "url": "https://www.pptvhd36.com/wealth/economic/272944",
+   "publisher": "PPTV",
+   "title": "กระทรวงพลังงาน 10 เมษายน 2569 กองทุนน้ำมัน ติดลบ 59,447.80 ล้านบาท",
+   "kind": "secondary"
+  },
+  "evidence": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง ณ วันที่ 10 เมษายน 2569 ติดลบ 59,447.80 ล้านบาท โดยมีการชดเชยน้ำมันดีเซลวันละประมาณ 520.70 ล้านบาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "MoE daily report via news; source shows 59,447.80. | ผู้ตรวจ: Value correct; news/relay source (kind=secondary, correctly labelled). Matches; PPTV เผยแพร่ 10 เม.ย. 2569. News relay."
+ },
+ {
+  "id": "fund.outflow.diesel_daily.2026-04-10",
+  "label": "การชดเชยน้ำมันดีเซลวันละประมาณ (รายงานรายวัน ก.พลังงาน)",
+  "value": 520.7,
+  "unit": "ล้านบาท (วันละประมาณ)",
+  "asOf": "2026-04-10",
+  "source": {
+   "url": "https://www.pptvhd36.com/wealth/economic/272944",
+   "publisher": "PPTV",
+   "title": "กระทรวงพลังงาน 10 เมษายน 2569 กองทุนน้ำมัน ติดลบ 59,447.80 ล้านบาท",
+   "kind": "secondary"
+  },
+  "evidence": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง ณ วันที่ 10 เมษายน 2569 ติดลบ 59,447.80 ล้านบาท โดยมีการชดเชยน้ำมันดีเซลวันละประมาณ 520.70 ล้านบาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "MoE daily report via news; source shows 520.70. Diesel only. | ผู้ตรวจ: Value correct; news/relay source (kind=secondary, correctly labelled). Matches; diesel only. News relay."
+ },
+ {
+  "id": "fund.outflow.daily_peak.2026-04-11",
+  "label": "ขาดทุนสูงสุดต่อวันของกองทุน (คำแถลง)",
+  "value": 2500,
+  "unit": "ล้านบาท (วันละ)",
+  "asOf": "2026-04-11",
+  "source": {
+   "url": "https://www.thairath.co.th/news/politic/2926132",
+   "publisher": "ไทยรัฐ",
+   "title": "“เอกนัฏ” ยันสงกรานต์มีน้ำมันเพียงพอ ชี้ไม่จำเป็นออก พ.ร.ก.กู้ หากกองทุนน้ำมันบริหารสภาพคล่องได้",
+   "kind": "secondary"
+  },
+  "evidence": "จากที่เคยขาดทุนมากสุดวันละ 2,500 ล้านบาท ตอนนี้อยู่ที่วันละประมาณ 400-500 ล้านบาท เป็นระดับที่สามารถบริหารจัดการได้",
+  "status": "secondary-only",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Energy Minister at Government House 11 Apr; peak date not stated; current 400-500 ล้านบาท/วัน (cf. primary 12 Apr liquidity -476.04). | ผู้ตรวจ: Value correct; news/relay source (kind=secondary, correctly labelled). Matches; Thairath, minister at Government House 09.45 น. 11 เม.ย. 2569. Peak date not stated."
+ },
+ {
+  "id": "fund.position.net.moe_daily.2026-04-17",
+  "label": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง (รายงานรายวัน ก.พลังงาน)",
+  "value": -61705,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-17",
+  "source": {
+   "url": "https://www.thaipbs.or.th/news/content/504740",
+   "publisher": "Thai PBS",
+   "title": "พลังงาน แจงไทยมีน้ำมันสำรอง 109 วัน กองทุนฯ ติดลบ 61,705 ล้านบาท",
+   "kind": "secondary"
+  },
+  "evidence": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง ณ วันที่ 17 เม.ย.2569 ติดลบ 61,705 ล้านบาท โดยมีการชดเชยน้ำมันดีเซลวันละประมาณ 185.76 ล้านบาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "MoE daily report via news; original not reachable. | ผู้ตรวจ: Value correct; news/relay source (kind=secondary, correctly labelled). Matches; Thai PBS 17 เม.ย. 69. News relay."
+ },
+ {
+  "id": "fund.outflow.diesel_daily.2026-04-17",
+  "label": "การชดเชยน้ำมันดีเซลวันละประมาณ (รายงานรายวัน ก.พลังงาน)",
+  "value": 185.76,
+  "unit": "ล้านบาท (วันละประมาณ)",
+  "asOf": "2026-04-17",
+  "source": {
+   "url": "https://www.thaipbs.or.th/news/content/504740",
+   "publisher": "Thai PBS",
+   "title": "พลังงาน แจงไทยมีน้ำมันสำรอง 109 วัน กองทุนฯ ติดลบ 61,705 ล้านบาท",
+   "kind": "secondary"
+  },
+  "evidence": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง ณ วันที่ 17 เม.ย.2569 ติดลบ 61,705 ล้านบาท โดยมีการชดเชยน้ำมันดีเซลวันละประมาณ 185.76 ล้านบาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "MoE daily report via news. Diesel only. | ผู้ตรวจ: Value correct; news/relay source (kind=secondary, correctly labelled). Matches; diesel only. News relay."
+ },
+ {
+  "id": "fund.position.net.moe_daily.2026-04-22",
+  "label": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง (รายงานรายวัน ก.พลังงาน)",
+  "value": -62062.06,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-22",
+  "source": {
+   "url": "https://www.thaipbs.or.th/news/content/504949",
+   "publisher": "Thai PBS",
+   "title": "ไทยมีน้ำมันสำรอง 112 วัน กองทุนฯ ติดลบ 6.2 หมื่นล้าน",
+   "kind": "secondary"
+  },
+  "evidence": "สำหรับฐานะของ กองทุนน้ำมันเชื้อเพลิง ณ วันที่ 22 เม.ย.2569 พบว่ายังคงติดลบ 62,062.06 ล้านบาท โดยยังมีการนำเงินจากกองทุนมาชดเชยราคาน้ำมันดีเซลเฉลี่ยวันละ 31.62 ล้านบาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "MoE daily report via news; original not reachable. | ผู้ตรวจ: Value correct; news/relay source (kind=secondary, correctly labelled). Matches; Thai PBS 22 เม.ย. 2569. News relay."
+ },
+ {
+  "id": "fund.outflow.diesel_daily.2026-04-22",
+  "label": "การชดเชยน้ำมันดีเซลวันละประมาณ (รายงานรายวัน ก.พลังงาน)",
+  "value": 31.62,
+  "unit": "ล้านบาท (วันละ เฉลี่ย)",
+  "asOf": "2026-04-22",
+  "source": {
+   "url": "https://www.thaipbs.or.th/news/content/504949",
+   "publisher": "Thai PBS",
+   "title": "ไทยมีน้ำมันสำรอง 112 วัน กองทุนฯ ติดลบ 6.2 หมื่นล้าน",
+   "kind": "secondary"
+  },
+  "evidence": "สำหรับฐานะของ กองทุนน้ำมันเชื้อเพลิง ณ วันที่ 22 เม.ย.2569 พบว่ายังคงติดลบ 62,062.06 ล้านบาท โดยยังมีการนำเงินจากกองทุนมาชดเชยราคาน้ำมันดีเซลเฉลี่ยวันละ 31.62 ล้านบาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "MoE daily report via news. Diesel only. | ผู้ตรวจ: Value correct; news/relay source (kind=secondary, correctly labelled). Matches; diesel only, \"เฉลี่ยวันละ\". News relay."
+ },
+ {
+  "id": "fund.position.net.moe_daily.2026-04-28",
+  "label": "ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิง (รายงานรายวัน ก.พลังงาน)",
+  "value": -62617.87,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-28",
+  "source": {
+   "url": "https://ratchaburi.prd.go.th/th/content/category/detail/id/57/iid/498675",
+   "publisher": "กรมประชาสัมพันธ์ (สวท.ราชบุรี)",
+   "title": "ครม. อนุมัติให้กองทุนน้ำมันเชื้อเพลิง กู้ยืมเงิน 2 หมื่นล้าน เสริมสภาพคล่อง พยุงราคาพลังงาน",
+   "kind": "secondary"
+  },
+  "evidence": "ข้อมูลล่าสุด วันที่ 28 เมษายน 2569 กระทรวงพลังงานรายงานว่า ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิงติดลบ 62,617.87 ล้านบาท โดยเป็นการชดเชยน้ำมันดีเซลวันละประมาณ 155.96 ล้านบาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Government PR dept relaying MoE report (not data owner); original on energy.go.th not reachable. | ผู้ตรวจ: Value correct; news/relay source (kind=secondary, correctly labelled). Matches; PRD Ratchaburi page dated 29/04/2569 relaying MoE - government PR office, not data owner."
+ },
+ {
+  "id": "fund.outflow.diesel_daily.2026-04-28",
+  "label": "การชดเชยน้ำมันดีเซลวันละประมาณ (รายงานรายวัน ก.พลังงาน)",
+  "value": 155.96,
+  "unit": "ล้านบาท (วันละประมาณ)",
+  "asOf": "2026-04-28",
+  "source": {
+   "url": "https://ratchaburi.prd.go.th/th/content/category/detail/id/57/iid/498675",
+   "publisher": "กรมประชาสัมพันธ์ (สวท.ราชบุรี)",
+   "title": "ครม. อนุมัติให้กองทุนน้ำมันเชื้อเพลิง กู้ยืมเงิน 2 หมื่นล้าน เสริมสภาพคล่อง พยุงราคาพลังงาน",
+   "kind": "secondary"
+  },
+  "evidence": "ข้อมูลล่าสุด วันที่ 28 เมษายน 2569 กระทรวงพลังงานรายงานว่า ประมาณการฐานะกองทุนน้ำมันเชื้อเพลิงติดลบ 62,617.87 ล้านบาท โดยเป็นการชดเชยน้ำมันดีเซลวันละประมาณ 155.96 ล้านบาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Government PR dept relaying MoE report. Diesel only. | ผู้ตรวจ: Value correct; news/relay source (kind=secondary, correctly labelled). Matches; diesel only. PRD relay, not data owner."
+ },
+ {
+  "id": "fund.debt.new_loan_approved.2026-04-28",
+  "label": "วงเงินกู้ยืมที่ ครม. อนุมัติให้ สกนช.",
+  "value": 2,
+  "unit": "หมื่นล้านบาท",
+  "asOf": "2026-04-28",
+  "source": {
+   "url": "https://ratchaburi.prd.go.th/th/content/category/detail/id/57/iid/498675",
+   "publisher": "กรมประชาสัมพันธ์ (สวท.ราชบุรี)",
+   "title": "ครม. อนุมัติให้กองทุนน้ำมันเชื้อเพลิง กู้ยืมเงิน 2 หมื่นล้าน เสริมสภาพคล่อง พยุงราคาพลังงาน",
+   "kind": "secondary"
+  },
+  "evidence": "(28 เม.ย. 69) ที่ประชุมคณะรัฐมนตรี มีมติอนุมัติให้สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.) กู้ยืมเงินวงเงิน 2 หมื่นล้านบาท และให้ สกนช. ดำเนินการกู้เงินได้เมื่อคณะรัฐมนตรีอนุมัติแผนการบริหารหนี้สาธารณะด้วยแล้ว",
+  "status": "secondary-only",
+  "checkedBy": "verify:fund-position (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same page: spend plan Jun-Aug 2569, repay Jul 2571-Aug 2574; กบน. approved proposal 10 Apr. Weekly primary loan line shows no new drawdown through 28 Jun 2569. Cabinet original on thaigov.go.th blocked. | ผู้ตรวจ: Value correct; news/relay source (kind=secondary, correctly labelled). Matches (2 หมื่นล้านบาท = 20,000 ล้านบาท); spend plan มิ.ย.-ส.ค. 2569, repay ก.ค. 2571-ส.ค. 2574, กบน. 10 เม.ย. all on page. Researcher note \"no new drawdown through 28 Jun\" true (28 Jun loan line 22,220) but drawdown appears 16 Aug (10,000)."
+ }
+]

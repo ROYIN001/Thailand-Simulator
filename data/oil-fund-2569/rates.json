@@ -1,0 +1,2384 @@
+[
+ {
+  "id": "rate.diesel_b7.levy.2026-01-31",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": 0.2,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-01-31",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.5%20ลงวันที่%2030%20มกราคม%202568.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 5/2569 ลว. 30 ม.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” ๐.๒๐ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "BASELINE in force on 1 Feb. sign: + = อัตราเงินส่งเข้ากองทุน, - = อัตราเงินชดเชย (ประกาศพิมพ์เป็นเลขบวกคนละคอลัมน์); ข้อ 3 (ผลิตในประเทศ) = ข้อ 4 (นำเข้า) ทุกฉบับ; 'น้ำมันดีเซลหมุนเร็วธรรมดา' ในประกาศ = H-DIESEL B7 ในโครงสร้างราคาของ สกนช.; ชื่อไฟล์ PDF ระบุ 2568 แต่ตัวประกาศเป็นฉบับที่ 5 พ.ศ. 2569; B20=+0.20; premium=+1.70; คงที่ตลอดถึง 7 มิ.ย. 2569: kerosene=+0.10, lowblend_diesel=+1.00, slow_diesel=+1.20, fuel_oil=+0.06 | ผู้ตรวจ: ข้อ3=ข้อ4; doc is 5/2569 (filename says 2568); in force to 6 Feb (cancelled by 7/2569)"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-01-31",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 2.5,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-01-31",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.5%20ลงวันที่%2030%20มกราคม%202568.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 5/2569 ลว. 30 ม.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๒.๕๐ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "BASELINE in force on 1 Feb. sign as in rate.diesel_b7.levy.2026-01-31; benzene=+9.60; gsh91=+2.50; e20=+0.80; e85=+0.70 (gsh91 เท่ากับ gsh95 ทุกฉบับในช่วงนี้) | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-02-07",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -0.19,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-02-07",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.7%20ลงวันที่%206%20กุมภาพันธ์%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 7/2569 ลว. 6 ก.พ. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๐.๑๙",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-0.19; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-02-07",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 2.1,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-02-07",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.7%20ลงวันที่%206%20กุมภาพันธ์%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 7/2569 ลว. 6 ก.พ. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๒.๑๐ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+9.10; gsh91=+2.10; e20=+0.38; e85=+0.58 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.levy.2026-02-17",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": 0.15,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-02-17",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.8%20ลงวันที่%2016%20กุมภาพันธ์%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 8/2569 ลว. 16 ก.พ. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” ๐.๑๕ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=+0.15; premium=+1.65 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-02-21",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -0.3,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-02-21",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.9%20ลงวันที่%2020%20กุมภาพันธ์%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 9/2569 ลว. 20 ก.พ. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๐.๓๐",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-0.30; premium=+1.50; ข่าว สกนช. 20 ก.พ. 2569 (https://www.offo.or.th/th/node/2082): กบน. มีมติลดอัตราดีเซล 45 สตางค์ จากเก็บเข้า 15 สตางค์เป็นอุดหนุน รับมือความตึงเครียดสหรัฐฯ-อิหร่าน | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-02-24",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -0.74,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-02-24",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.10%20ลงวันที่%2023%20กุมภาพันธ์%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 10/2569 ลว. 23 ก.พ. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๐.๗๔",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-0.74; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-02-24",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 1.3,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-02-24",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.10%20ลงวันที่%2023%20กุมภาพันธ์%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 10/2569 ลว. 23 ก.พ. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๑.๓๐ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+8.50; gsh91=+1.30; e20=+0.08; e85=+0.08 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-03-03",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 0.8,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-03",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.12%20ลงวันที่%202%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 12/2569 ลว. 2 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๐.๘๐ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+8.00; gsh91=+0.80; e20=+0.08; e85=+0.08; ดีเซลไม่เปลี่ยน (-0.74) | ผู้ตรวจ: ข้อ3=ข้อ4; diesel in same issue -0.74 (unchanged)"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-04",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -3.51,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-04",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.13%20ลงวันที่%203%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 13/2569 ลว. 3 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๓.๕๑",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-3.51; premium=+1.50; เพิ่มชดเชย 2.77 เพื่อตรึงขายปลีก 29.94 (ดู policy.diesel.retail_cap.2026-03-03) | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-03-04",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 0.1,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-04",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.13%20ลงวันที่%203%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 13/2569 ลว. 3 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๐.๑๐ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+7.30; gsh91=+0.10; e20=-0.78; e85=-0.30 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-05",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -6.21,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-05",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.14%20ลงวันที่%204%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 14/2569 ลว. 4 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๖.๒๑",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-6.21; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.compensation.2026-03-05",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": -0.9,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-05",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.14%20ลงวันที่%204%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 14/2569 ลว. 4 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” - ๐.๙๐",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+7.30; gsh91=-0.90; e20=-1.78; e85=-0.30 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-06",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -9.57,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-06",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.15%20ลงวันที่%205%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 15/2569 ลว. 5 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๙.๕๗",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-9.57; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.compensation.2026-03-06",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": -2,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-06",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.15%20ลงวันที่%205%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 15/2569 ลว. 5 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” - ๒.๐๐",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+7.30; gsh91=-2.00; e20=-2.88; e85=-0.30 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-07",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -11.73,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-07",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.16%20ลงวันที่%206%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 16/2569 ลว. 6 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๑.๗๓",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-11.73; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.compensation.2026-03-07",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": -3.06,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-07",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.16%20ลงวันที่%206%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 16/2569 ลว. 6 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” - ๓.๐๖",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+5.05; gsh91=-3.06; e20=-4.03; e85=-0.30 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-10",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -12.73,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-10",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.17%20ลงวันที่%209%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 17/2569 ลว. 9 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๒.๗๓",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-12.73; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.compensation.2026-03-10",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": -5.38,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-10",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.17%20ลงวันที่%209%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 17/2569 ลว. 9 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” - ๕.๓๘",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+1.13; gsh91=-5.38; e20=-7.22; e85=-2.28 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-11",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -16.97,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-11",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.18%20ลงวันที่%2010%20%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 18/2569 ลว. 10 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๖.๙๗",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-16.97; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.compensation.2026-03-11",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": -7.41,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-11",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.18%20ลงวันที่%2010%20%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 18/2569 ลว. 10 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” - ๗.๔๑",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+0.10; gsh91=-7.41; e20=-9.01; e85=-2.28 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-12",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -15.45,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-12",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.19%20ลงวันที่%2011%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 19/2569 ลว. 11 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๕.๔๕",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-15.45; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.compensation.2026-03-12",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": -7.86,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-12",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.19%20ลงวันที่%2011%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 19/2569 ลว. 11 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” - ๗.๘๖",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+0.10; gsh91=-7.86; e20=-9.41; e85=-2.28 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-13",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -14.15,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-13",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.20%20ลงวันที่%2012%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 20/2569 ลว. 12 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๔.๑๕",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-14.15; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.compensation.2026-03-13",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": -7.52,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-13",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.20%20ลงวันที่%2012%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 20/2569 ลว. 12 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” - ๗.๕๒",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+0.10; gsh91=-7.52; e20=-9.11; e85=-2.28 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-14",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -18.31,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-14",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.21%20ลงวันที่%2013%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 21/2569 ลว. 13 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๘.๓๑",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-18.31; premium=+1.50; ตรงกับค่า 18.31 ในข่าวนำ | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.compensation.2026-03-14",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": -8.37,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-14",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.21%20ลงวันที่%2013%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 21/2569 ลว. 13 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” - ๘.๓๗",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+0.10; gsh91=-8.37; e20=-9.85; e85=-2.28 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-17",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -20.36,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-17",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.22%20ลงวันที่%2016%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 22/2569 ลว. 16 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒๐.๓๖",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-20.36; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.compensation.2026-03-17",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": -9.73,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-17",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.22%20ลงวันที่%2016%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 22/2569 ลว. 16 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” - ๙.๗๓",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+0.10; gsh91=-9.73; e20=-11.06; e85=-2.28 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-18",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -19.86,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-18",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.23%20ลงวันที่%2017%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 23/2569 ลว. 17 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๙.๘๖",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-19.86; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.compensation.2026-03-18",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": -9.73,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-18",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.23%20ลงวันที่%2017%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 23/2569 ลว. 17 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” - ๙.๗๓",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "gsh95 ไม่เปลี่ยน; record นี้มีเพราะ e20/e85 เปลี่ยน: benzene=+0.10; gsh91=-9.73; e20=-12.85; e85=-4.28 | ผู้ตรวจ: ข้อ3=ข้อ4; gsh95 unchanged from 22/2569, e20/e85 changed as noted"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-19",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -20.65,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.24%20ลงวันที่%2018%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 24/2569 ลว. 18 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒๐.๖๕",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-20.65; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-20",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -21.09,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-20",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.25%20ลงวันที่%2019%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 25/2569 ลว. 19 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒๑.๐๙",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-21.09; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-21",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -24.25,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-21",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.26%20ลงวันที่%2020%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 26/2569 ลว. 20 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒๔.๒๕",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-24.25; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-24",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -24.09,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-24",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.27%20ลงวันที่%2023%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 27/2569 ลว. 23 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒๔.๐๙",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-24.09; premium=+1.50; วันที่ขายปลีกขึ้นสู่เพดาน 33 ตามข่าว | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-25",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -26.99,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-25",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.28%20ลงวันที่%2024%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 28/2569 ลว. 24 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒๖.๙๙",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-26.99; premium=+1.50; อัตราชดเชยดีเซลสูงสุดในช่วง 1 ก.พ.-7 มิ.ย. 2569 | ผู้ตรวจ: ข้อ3=ข้อ4; lowest diesel rate across 5/2569-82/2569 (all 69 oil issues parsed)"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-26",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -19.12,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-26",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.29%20%20ลงวันที่%2025%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 29/2569 ลว. 25 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๙.๑๒",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-19.12; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.compensation.2026-03-26",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": -3.26,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-26",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.29%20%20ลงวันที่%2025%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 29/2569 ลว. 25 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” - ๓.๒๖",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+2.50; gsh91=-3.26; e20=-5.94; e85=+2.29 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-27",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -16.02,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.30%20ลงวันที่%2026%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 30/2569 ลว. 26 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๖.๐๒",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-18.94; premium=+1.50; ฉบับแรกที่ B20 ต่างจาก B7 | ผู้ตรวจ: ข้อ3=ข้อ4; first issue where B20 (-18.94) differs from B7"
+ },
+ {
+  "id": "rate.gasohol95.compensation.2026-03-27",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": -0.56,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.30%20ลงวันที่%2026%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 30/2569 ลว. 26 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” - ๐.๕๖",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+5.50; gsh91=-0.56; e20=-3.54; e85=+2.99 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-28",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -16.67,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-28",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.31%20ลงวันที่%2027%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 31/2569 ลว. 27 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๖.๖๗",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-19.50; premium=+1.50; ตรงกับค่า 16.67 ในข่าวนำ | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-03-28",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 0.43,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-28",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.31%20ลงวันที่%2027%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 31/2569 ลว. 27 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๐.๔๓ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+6.59; gsh91=+0.43; e20=-2.66; e85=+3.31; คงอัตรานี้ถึง 9 เม.ย. 2569 | ผู้ตรวจ: ข้อ3=ข้อ4; 0.43 unchanged in 32,33,36,38-43 until 44/2569 (eff 10 Apr)"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-03-31",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -18.76,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-31",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/2148/ประกาศ%20ฉ.32%20ลงวันที่%2030%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 32/2569 ลว. 30 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๘.๗๖",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-21.39; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-01",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -21.89,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/2149/ประกาศ%20ฉ.33%20ลงวันที่%2031%20มีนาคม%202568.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 33/2569 ลว. 31 มี.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒๑.๘๙",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-24.11; premium=+1.50; ฉบับ 36/2569 (ลว. 1 เม.ย. มีผล 1 เม.ย.) ออกซ้ำด้วยอัตราเดิมทุกชนิด เพิ่มชื่อการค้าดีเซลพรีเมียม; ชื่อไฟล์ระบุ 2568 | ผู้ตรวจ: ข้อ3=ข้อ4; filename says 2568, doc is 33/2569; I opened 36/2569 (dated+eff 1 Apr, cancels 33): identical rates for all fuels"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-02",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -17.78,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-02",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.38%20ลงวันที่%201%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 38/2569 ลว. 1 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๗.๗๘",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-20.12; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-03",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -14.27,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-03",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.39%20ลงวันที่%202%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 39/2569 ลว. 2 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๔.๒๗",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-16.64; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-04",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -20.71,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-04",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.40%20ลงวันที่%203%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 40/2569 ลว. 3 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒๐.๗๑",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-22.22; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-05",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -18.1,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-05",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.41%20ลงวันที่%204%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 41/2569 ลว. 4 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๘.๑๐",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-19.61; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-08",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -18.54,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-08",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.42%20ลงวันที่%207%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 42/2569 ลว. 7 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๘.๕๔",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-20.09; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-09",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -15,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-09",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.43%20ลงวันที่%208%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 43/2569 ลว. 8 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๕.๐๐",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-17.03; premium=+1.50; ตรงกับโครงสร้างราคา สกนช. 9 เม.ย. (H-DIESEL B7 OIL FUND -15) | ผู้ตรวจ: ข้อ3=ข้อ4; matches xlsx 9 Apr OIL FUND -15"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-10",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -6.41,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-10",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.%2044%20ลงวันที่%209%20เมษายน%20%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 44/2569 ลว. 9 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๖.๔๑",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-9.58; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-04-10",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 3.42,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-10",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.%2044%20ลงวันที่%209%20เมษายน%20%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 44/2569 ลว. 9 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๓.๔๒ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+9.66; gsh91=+3.42; e20=+0.23; e85=+4.92 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-11",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -7.85,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-11",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.45%20ลงวันที่%2010%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 45/2569 ลว. 10 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๗.๘๕",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-13.19; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-04-11",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 2.84,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-11",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.45%20ลงวันที่%2010%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 45/2569 ลว. 10 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๒.๘๔ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+9.66; gsh91=+2.84; e20=-2.26; e85=+2.21 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-15",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -5.89,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.46%20ลงวันที่%2014%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 46/2569 ลว. 14 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๕.๘๙",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-11.67; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-16",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -2.87,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-16",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.47%20ลงวันที่%2015%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 47/2569 ลว. 15 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒.๘๗",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-9.06; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-04-16",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 3.8,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-16",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.47%20ลงวันที่%2015%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 47/2569 ลว. 15 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๓.๘๐ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+11.12; gsh91=+3.80; e20=-1.46; e85=+2.48 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-17",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -2.83,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-17",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.48%20ลงวันที่%2016%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 48/2569 ลว. 16 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒.๘๓",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-9.21; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-04-17",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 4.03,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-17",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.48%20ลงวันที่%2016%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 48/2569 ลว. 16 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๔.๐๓ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+11.41; gsh91=+4.03; e20=-1.26; e85=+2.20 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-21",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -1.76,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-21",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.49%20ลงวันที่%2020%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 49/2569 ลว. 20 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑.๗๖",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-8.49; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-04-21",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 3.51,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-21",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.49%20ลงวันที่%2020%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 49/2569 ลว. 20 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๓.๕๑ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22 · สุ่มเปิดแหล่งซ้ำโดย agent หลัก 2026-11-22 ตรง",
+  "notes": "benzene=+10.85; gsh91=+3.51; e20=-1.71; e85=+2.06 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-22",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -0.53,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-22",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.50%20ลงวันที่%2021%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 50/2569 ลว. 21 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๐.๕๓",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-7.41; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-04-22",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 3.8,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-22",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.50%20ลงวันที่%2021%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 50/2569 ลว. 21 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๓.๘๐ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+11.16; gsh91=+3.80; e20=-1.45; e85=+2.14 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-23",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -2.32,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-23",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.51%20ลงวันที่%2022%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 51/2569 ลว. 22 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒.๓๒",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-8.97; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-04-23",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 3.13,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-23",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.51%20ลงวันที่%2022%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 51/2569 ลว. 22 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๓.๑๓ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+10.42; gsh91=+3.13; e20=-2.05; e85=+1.94 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-24",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -2.23,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-24",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.52%20ลงวันที่%2023%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 52/2569 ลว. 23 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒.๒๓",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-8.68; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-04-24",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 2.55,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-24",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.52%20ลงวันที่%2023%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 52/2569 ลว. 23 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๒.๕๕ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+9.79; gsh91=+2.55; e20=-2.56; e85=+1.79 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-28",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -2.88,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-28",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.53%20ลงวันที่%2027%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 53/2569 ลว. 27 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒.๘๘",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-9.05; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-04-28",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 2.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-28",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.53%20ลงวันที่%2027%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 53/2569 ลว. 27 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๒.๐๕ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+9.23; gsh91=+2.05; e20=-3.01; e85=+1.65 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-29",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -2.2,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-29",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.54%20ลงวันที่%2028%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 54/2569 ลว. 28 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒.๒๐",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-8.45; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-04-29",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 2.09,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-29",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.54%20ลงวันที่%2028%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 54/2569 ลว. 28 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๒.๐๙ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+9.28; gsh91=+2.09; e20=-2.98; e85=+1.67 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-04-30",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -2.18,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-30",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.55%20ลงวันที่%2029%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 55/2569 ลว. 29 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒.๑๘",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-8.44; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-04-30",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 1.76,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-30",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.55%20ลงวันที่%2029%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 55/2569 ลว. 29 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๑.๗๖ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+8.92; gsh91=+1.76; e20=-3.26; e85=+1.58 | ผู้ตรวจ: ข้อ3=ข้อ4; gsh95 1.76 also unchanged in 56/2569 (eff 1 May)"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-05-01",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -3.12,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.56%20ลงวันที่%2030%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 56/2569 ลว. 30 เม.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๓.๑๒",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-9.18; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-05-05",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -1.32,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-05",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.58%20ลงวันที่%204%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 58/2569 ลว. 4 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑.๓๒",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-7.44; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-05-05",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 2.08,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-05",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.58%20ลงวันที่%204%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 58/2569 ลว. 4 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๒.๐๘ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+9.24; gsh91=+2.08; e20=-2.96; e85=+1.83 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-05-06",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -0.19,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-06",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.59%20ลงวันที่%205%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 59/2569 ลว. 5 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๐.๑๙",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-6.46; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-05-06",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 1.82,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-06",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.59%20ลงวันที่%205%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 59/2569 ลว. 5 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๑.๘๒ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+8.96; gsh91=+1.82; e20=-3.18; e85=+1.76 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.levy.2026-05-07",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": 0.54,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-07",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.60%20ลงวันที่%206%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 60/2569 ลว. 6 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” ๐.๕๔ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-5.82; premium=+2.04 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-05-07",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 2.17,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-07",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.60%20ลงวันที่%206%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 60/2569 ลว. 6 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๒.๑๗ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+9.34; gsh91=+2.17; e20=-2.88; e85=+1.85 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.levy.2026-05-08",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": 1.17,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-08",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.61%20ลงวันที่%207%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 61/2569 ลว. 7 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” ๑.๑๗ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-5.38; premium=+2.67 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-05-08",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 2.58,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-08",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.61%20ลงวันที่%207%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 61/2569 ลว. 7 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๒.๕๘ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+9.87; gsh91=+2.58; e20=-2.61; e85=+1.39 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-05-10",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -0.87,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-10",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.62%20ลงวันที่%208%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 62/2569 ลว. 8 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๐.๘๗",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-7.42; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4; dated 8 May, effective 10 May"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-05-10",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 3.31,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-10",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.62%20ลงวันที่%208%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 62/2569 ลว. 8 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๓.๓๑ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+10.68; gsh91=+3.31; e20=-1.95; e85=+1.59 | ผู้ตรวจ: ข้อ3=ข้อ4; dated 8 May, effective 10 May"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-05-12",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -1.4,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-12",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.63%20ลงวันที่%2011%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 63/2569 ลว. 11 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑.๔๐",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-7.84; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-05-12",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 2.8,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-12",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.63%20ลงวันที่%2011%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 63/2569 ลว. 11 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๒.๘๐ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+10.12; gsh91=+2.80; e20=-2.40; e85=+1.45 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-05-14",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -1.8,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-14",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.64%20ลงวันที่%2013%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 64/2569 ลว. 13 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑.๘๐",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-8.01; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-05-14",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 2.76,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-14",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.64%20ลงวันที่%2013%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 64/2569 ลว. 13 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๒.๗๖ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+9.92; gsh91=+2.76; e20=-2.28; e85=+2.52 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-05-15",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -1.65,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-15",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.65%20ลงวันที่%2014%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 65/2569 ลว. 14 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑.๖๕",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-7.87; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-05-15",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 2.39,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-15",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.65%20ลงวันที่%2014%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 65/2569 ลว. 14 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๒.๓๙ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+9.52; gsh91=+2.39; e20=-2.60; e85=+2.42 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-05-20",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -4.81,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-20",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.66%20ลงวันที่%2019%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 66/2569 ลว. 19 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๔.๘๑",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-11.05; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-05-20",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 2.36,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-20",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.66%20ลงวันที่%2019%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 66/2569 ลว. 19 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๒.๓๖ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+9.46; gsh91=+2.36; e20=-2.50; e85=+3.00 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-05-21",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -4.7,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-21",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.67%20ลงวันที่%2020%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 67/2569 ลว. 20 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๔.๗๐",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-10.95; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-05-21",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 2.82,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-21",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.67%20ลงวันที่%2020%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 67/2569 ลว. 20 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๒.๘๒ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+9.97; gsh91=+2.82; e20=-2.08; e85=+3.13 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-05-22",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -3.53,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-22",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.68%20ลงวันที่%2021%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 68/2569 ลว. 21 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๓.๕๓",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-9.93; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-05-22",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 4.01,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-22",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.68%20ลงวันที่%2021%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 68/2569 ลว. 21 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๔.๐๑ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+11.28; gsh91=+4.01; e20=-1.03; e85=+3.46 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-05-24",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -2.68,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-24",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.69%20ลงวันที่%2022%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 69/2569 ลว. 22 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒.๖๘",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-9.19; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4; dated 22 May, effective 24 May"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-05-24",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 4.71,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-24",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.69%20ลงวันที่%2022%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 69/2569 ลว. 22 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๔.๗๑ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+12.04; gsh91=+4.71; e20=-0.41; e85=+3.65 | ผู้ตรวจ: ข้อ3=ข้อ4; dated 22 May, effective 24 May"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-05-26",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -1.97,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-26",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.70%20ลงวันที่%2025%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 70/2569 ลว. 25 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑.๙๗",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22 · สุ่มเปิดแหล่งซ้ำโดย agent หลัก 2026-11-22 ตรง",
+  "notes": "B20=-7.73; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-05-26",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 4.77,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-26",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.70%20ลงวันที่%2025%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 70/2569 ลว. 25 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๔.๗๗ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+12.16; gsh91=+4.77; e20=+0.14; e85=+3.82 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-05-27",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -1.5,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.71%20ลงวันที่%2026%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 71/2569 ลว. 26 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑.๕๐",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-7.33; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-05-27",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 4.9,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.71%20ลงวันที่%2026%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 71/2569 ลว. 26 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๔.๙๐ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+12.31; gsh91=+4.90; e20=+0.26; e85=+3.86 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-05-29",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -1.22,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-29",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.72%20ลงวันที่%2028%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 72/2569 ลว. 28 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑.๒๒",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-7.08; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-05-29",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 4.94,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-29",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.72%20ลงวันที่%2028%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 72/2569 ลว. 28 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๔.๙๔ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+12.41; gsh91=+4.94; e20=+0.88; e85=+4.04 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-05-30",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -1.68,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-30",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.75%20ลงวันที่%2029%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 75/2569 ลว. 29 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑.๖๘",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-7.08; premium=+1.50; ลงวันที่เดียวกับ 76/2569 แต่มีผลคนละวัน (30 และ 31 พ.ค.) | ผู้ตรวจ: ข้อ3=ข้อ4; 75/2569 cancels 72/2569"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-05-30",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 4.28,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-30",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.75%20ลงวันที่%2029%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 75/2569 ลว. 29 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๔.๒๘ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+11.76; gsh91=+4.28; e20=+0.88; e85=+4.04 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-05-31",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -1,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.76%20ลงวันที่%2029%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 76/2569 ลว. 29 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑.๐๐",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-6.49; premium=+1.50; ตรงกับโครงสร้างราคา สกนช. ณ 31 พ.ค. (OIL FUND -1) | ผู้ตรวจ: ข้อ3=ข้อ4; dated 29 May, effective 31 May; matches xlsx 31 May OIL FUND -1"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-05-31",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 5.2,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.76%20ลงวันที่%2029%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 76/2569 ลว. 29 พ.ค. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๕.๒๐ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+12.76; gsh91=+5.20; e20=+1.69; e85=+4.30 | ผู้ตรวจ: ข้อ3=ข้อ4; matches xlsx 31 May GASOHOL95 E10 OIL FUND 5.20"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-06-03",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -1.91,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-03",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.78%20ลงวันที่%202%20มิถุนายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 78/2569 ลว. 2 มิ.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑.๙๑",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-7.26; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-06-03",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 5.07,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-03",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.78%20ลงวันที่%202%20มิถุนายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 78/2569 ลว. 2 มิ.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๕.๐๗ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+12.62; gsh91=+5.07; e20=+1.58; e85=+4.26 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-06-04",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -2.74,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-04",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.79%20ลงวันที่%203%20มิถุนายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 79/2569 ลว. 3 มิ.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒.๗๔",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-7.88; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-06-04",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 4.89,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-04",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.79%20ลงวันที่%203%20มิถุนายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 79/2569 ลว. 3 มิ.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๔.๘๙ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+12.38; gsh91=+4.89; e20=+1.45; e85=+4.48 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-06-05",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -2.84,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-05",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.80%20ลงวันที่%204%20มิถุนายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 80/2569 ลว. 4 มิ.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒.๘๔",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-7.96; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-06-05",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 5.02,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-05",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.80%20ลงวันที่%204%20มิถุนายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 80/2569 ลว. 4 มิ.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๕.๐๒ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+12.53; gsh91=+5.02; e20=+1.58; e85=+4.52 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-06-06",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -3.49,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-06",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.81%20ลงวันที่%205%20มิถุนายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 81/2569 ลว. 5 มิ.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๓.๔๙",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-8.61; premium=+1.50 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-06-06",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 4.37,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-06",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.81%20ลงวันที่%205%20มิถุนายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 81/2569 ลว. 5 มิ.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๔.๓๗ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+11.88; gsh91=+4.37; e20=+0.92; e85=+3.86 | ผู้ตรวจ: ข้อ3=ข้อ4"
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-06-07",
+  "label": "อัตรากองทุนฯ ดีเซล B7",
+  "value": -1.96,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-07",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.82%20ลงวันที่%205%20มิถุนายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 82/2569 ลว. 5 มิ.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑.๙๖",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B20=-7.29; premium=+1.50; ตรงกับโครงสร้างราคา สกนช. ณ 7 มิ.ย. (OIL FUND -1.96) | ผู้ตรวจ: ข้อ3=ข้อ4; dated 5 Jun, effective 7 Jun; matches xlsx 7 Jun OIL FUND -1.96"
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-06-07",
+  "label": "อัตรากองทุนฯ แก๊สโซฮอล 95",
+  "value": 4.88,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-07",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.82%20ลงวันที่%205%20มิถุนายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 82/2569 ลว. 5 มิ.ย. 2569",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๔.๘๘ -",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "benzene=+12.44; gsh91=+4.88; e20=+1.38; e85=+4.01 | ผู้ตรวจ: ข้อ3=ข้อ4; matches xlsx 7 Jun GASOHOL95 E10 OIL FUND 4.88"
+ },
+ {
+  "id": "rate.lpg.compensation.2026-01-06",
+  "label": "อัตราเงินชดเชยกองทุนฯ ก๊าซปิโตรเลียมเหลวที่จำหน่ายเพื่อใช้เป็นเชื้อเพลิง (ข้อ 5)",
+  "value": -0.2208,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-01-06",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.1%20ลงวันที่%205%20มกราคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 1/2569 ลว. 5 ม.ค. 2569 (ก๊าซปิโตรเลียมเหลว)",
+   "kind": "primary"
+  },
+  "evidence": "ข้อ ๕ ให้กำหนดอัตราเงินชดเชยของกองทุนสำหรับก๊าซปิโตรเลียมเหลวที่จำหน่ายเพื่อใช้ เป็นเชื้อเพลิง กิโลกรัมละ ๐.๒๒๐๘ บาท",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "BASELINE in force on 1 Feb, until 2 ก.พ. 2569 (ยกเลิกโดย 6/2569); sign: - = เงินชดเชยจากกองทุน | ผู้ตรวจ: 1/2569 cancels 95/2568; cancelled by 6/2569 eff 3 Feb, so in force through 2 Feb. ข้อ 7 export refund = same 0.2208"
+ },
+ {
+  "id": "rate.lpg_gasplant.levy.2026-01-06",
+  "label": "อัตราเงินส่งเข้ากองทุนฯ LPG จากโรงแยกก๊าซธรรมชาติ (ข้อ 3)",
+  "value": 4.6389,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-01-06",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.1%20ลงวันที่%205%20มกราคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 1/2569 ลว. 5 ม.ค. 2569 (ก๊าซปิโตรเลียมเหลว)",
+   "kind": "primary"
+  },
+  "evidence": "ข้อ ๓ ให้กำหนดอัตราเงินส่งเข้ากองทุนสำหรับก๊าซปิโตรเลียมเหลวที่ผลิตในราชอาณาจักร โดยโรงแยกก๊าซธรรมชาติ ที่จำหน่ายเพื่อใช้เป็นเชื้อเพลิง กิโลกรัมละ ๔.๖๓๘๙ บาท",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "BASELINE; ข้อ 4 (โรงแยกก๊าซ บ.ยูเอซี โกลบอล) levy=3.2387; ข้อ 6 (โรงแยกก๊าซ บ.ปตท.สผ.สยาม) levy=5.4049; ข้อ 3 ไม่รวมสองโรงนี้ | ผู้ตรวจ: Notes confirmed: ข้อ 4 = 3.2387, ข้อ 6 = 5.4049; ข้อ 3 excludes the two named plants"
+ },
+ {
+  "id": "rate.lpg.compensation.2026-02-03",
+  "label": "อัตราเงินชดเชยกองทุนฯ ก๊าซปิโตรเลียมเหลวที่จำหน่ายเพื่อใช้เป็นเชื้อเพลิง (ข้อ 5)",
+  "value": -0.7901,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-02-03",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.6%20ลงวันที่%202%20กุมภาพันธ์%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 6/2569 ลว. 2 ก.พ. 2569 (ก๊าซปิโตรเลียมเหลว)",
+   "kind": "primary"
+  },
+  "evidence": "ข้อ ๕ ให้กำหนดอัตราเงินชดเชยของกองทุนสำหรับก๊าซปิโตรเลียมเหลวที่จำหน่ายเพื่อใช้ เป็นเชื้อเพลิง กิโลกรัมละ ๐.๗๙๐๑ บาท",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "sign: - = เงินชดเชยจากกองทุน | ผู้ตรวจ: 6/2569 dated 2 Feb, cancels 1/2569"
+ },
+ {
+  "id": "rate.lpg_gasplant.levy.2026-02-03",
+  "label": "อัตราเงินส่งเข้ากองทุนฯ LPG จากโรงแยกก๊าซธรรมชาติ (ข้อ 3)",
+  "value": 5.0513,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-02-03",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.6%20ลงวันที่%202%20กุมภาพันธ์%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 6/2569 ลว. 2 ก.พ. 2569 (ก๊าซปิโตรเลียมเหลว)",
+   "kind": "primary"
+  },
+  "evidence": "ข้อ ๓ ให้กำหนดอัตราเงินส่งเข้ากองทุนสำหรับก๊าซปิโตรเลียมเหลวที่ผลิตในราชอาณาจักร โดยโรงแยกก๊าซธรรมชาติ ที่จำหน่ายเพื่อใช้เป็นเชื้อเพลิง กิโลกรัมละ ๕.๐๕๑๓ บาท",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ข้อ 4 (บ.ยูเอซี โกลบอล) levy=2.0187; ข้อ 6 (บ.ปตท.สผ.สยาม) levy=3.6156 | ผู้ตรวจ: Notes confirmed: ข้อ 4 = 2.0187, ข้อ 6 = 3.6156"
+ },
+ {
+  "id": "rate.lpg.compensation.2026-03-03",
+  "label": "อัตราเงินชดเชยกองทุนฯ ก๊าซปิโตรเลียมเหลวที่จำหน่ายเพื่อใช้เป็นเชื้อเพลิง (ข้อ 5)",
+  "value": -1.1753,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-03-03",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.11%20ลงวันที่%202%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 11/2569 ลว. 2 มี.ค. 2569 (ก๊าซปิโตรเลียมเหลว)",
+   "kind": "primary"
+  },
+  "evidence": "ข้อ ๕ ให้กำหนดอัตราเงินชดเชยของกองทุนสำหรับก๊าซปิโตรเลียมเหลวที่จำหน่ายเพื่อใช้ เป็นเชื้อเพลิง กิโลกรัมละ ๑.๑๗๕๓ บาท",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "sign: - = เงินชดเชย; ฉบับ 35/2569 (ลว. 31 มี.ค. มีผล 1 เม.ย. 2569) ออกใหม่ด้วยอัตราเดิมทุกข้อ หลังประกาศหลักเกณฑ์การคำนวณฉบับ 34/2569 (ลว. 31 มี.ค. 2569 เป็นภาพสแกน) | ผู้ตรวจ: 11/2569 cancels 6/2569. I opened 35/2569 (dated 31 Mar, eff 1 Apr, cancels 11): identical 5.4365/2.4039/1.1753/3.6156 - note confirmed"
+ },
+ {
+  "id": "rate.lpg_gasplant.levy.2026-03-03",
+  "label": "อัตราเงินส่งเข้ากองทุนฯ LPG จากโรงแยกก๊าซธรรมชาติ (ข้อ 3)",
+  "value": 5.4365,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-03-03",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.11%20ลงวันที่%202%20มีนาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 11/2569 ลว. 2 มี.ค. 2569 (ก๊าซปิโตรเลียมเหลว)",
+   "kind": "primary"
+  },
+  "evidence": "ข้อ ๓ ให้กำหนดอัตราเงินส่งเข้ากองทุนสำหรับก๊าซปิโตรเลียมเหลวที่ผลิตในราชอาณาจักร โดยโรงแยกก๊าซธรรมชาติ ที่จำหน่ายเพื่อใช้เป็นเชื้อเพลิง กิโลกรัมละ ๕.๔๓๖๕ บาท",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ข้อ 4 (บ.ยูเอซี โกลบอล) levy=2.4039; ข้อ 6 (บ.ปตท.สผ.สยาม) levy=3.6156 | ผู้ตรวจ: Notes confirmed: ข้อ 4 = 2.4039, ข้อ 6 = 3.6156"
+ },
+ {
+  "id": "rate.lpg.compensation.2026-04-02",
+  "label": "อัตราเงินชดเชยกองทุนฯ ก๊าซปิโตรเลียมเหลวที่จำหน่ายเพื่อใช้เป็นเชื้อเพลิง (ข้อ 5)",
+  "value": -9.8851,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-04-02",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.37%20ลงวันที่%201%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 37/2569 ลว. 1 เม.ย. 2569 (ก๊าซปิโตรเลียมเหลว)",
+   "kind": "primary"
+  },
+  "evidence": "ข้อ ๕ ให้กำหนดอัตราเงินชดเชยของกองทุนสำหรับก๊าซปิโตรเลียมเหลวที่จำหน่ายเพื่อใช้ เป็นเชื้อเพลิง กิโลกรัมละ ๙.๘๘๕๑ บาท",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "sign: - = เงินชดเชย; ชดเชยและเงินส่งเข้าข้อ 3/4 เพิ่มพร้อมกันหลังหลักเกณฑ์ใหม่ 34/2569 (สูตร: อัตราเงิน = ราคานำเข้า - (ต้นทุนโรงแยกก๊าซ + กรอบราคาสำหรับกำกับการแข่งขัน)); ยังไม่ได้คำนวณผลสุทธิ | ผู้ตรวจ: 37/2569 dated 1 Apr, cancels 35/2569. Criteria 34/2569 not opened"
+ },
+ {
+  "id": "rate.lpg_gasplant.levy.2026-04-02",
+  "label": "อัตราเงินส่งเข้ากองทุนฯ LPG จากโรงแยกก๊าซธรรมชาติ (ข้อ 3)",
+  "value": 14.1463,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-04-02",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.37%20ลงวันที่%201%20เมษายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 37/2569 ลว. 1 เม.ย. 2569 (ก๊าซปิโตรเลียมเหลว)",
+   "kind": "primary"
+  },
+  "evidence": "ข้อ ๓ ให้กำหนดอัตราเงินส่งเข้ากองทุนสำหรับก๊าซปิโตรเลียมเหลวที่ผลิตในราชอาณาจักร โดยโรงแยกก๊าซธรรมชาติ ที่จำหน่ายเพื่อใช้เป็นเชื้อเพลิง กิโลกรัมละ ๑๔.๑๔๖๓ บาท",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ข้อ 4 (บ.ยูเอซี โกลบอล) levy=11.1137; ข้อ 6 (บ.ปตท.สผ.สยาม) levy=3.6156 | ผู้ตรวจ: Notes confirmed: ข้อ 4 = 11.1137, ข้อ 6 = 3.6156"
+ },
+ {
+  "id": "rate.lpg.compensation.2026-05-02",
+  "label": "อัตราเงินชดเชยกองทุนฯ ก๊าซปิโตรเลียมเหลวที่จำหน่ายเพื่อใช้เป็นเชื้อเพลิง (ข้อ 5)",
+  "value": -11.3043,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-05-02",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.57%20ลงวันที่%201%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 57/2569 ลว. 1 พ.ค. 2569 (ก๊าซปิโตรเลียมเหลว)",
+   "kind": "primary"
+  },
+  "evidence": "ข้อ ๕ ให้กำหนดอัตราเงินชดเชยของกองทุนสำหรับก๊าซปิโตรเลียมเหลวที่จำหน่ายเพื่อใช้ เป็นเชื้อเพลิง กิโลกรัมละ ๑๑.๓๐๔๓ บาท",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "sign: - = เงินชดเชย; ฉบับ 74/2569 (ลว. 29 พ.ค. มีผล 1 มิ.ย. 2569) ออกใหม่ด้วยอัตราเดิมทุกข้อ หลังหลักเกณฑ์ฉบับ 73/2569 (ลว. 29 พ.ค. 2569 เป็นภาพสแกน) | ผู้ตรวจ: 57/2569 cancels 37/2569. I opened 74/2569 (dated 29 May, eff 1 Jun, cancels 57): identical rates - note confirmed"
+ },
+ {
+  "id": "rate.lpg_gasplant.levy.2026-05-02",
+  "label": "อัตราเงินส่งเข้ากองทุนฯ LPG จากโรงแยกก๊าซธรรมชาติ (ข้อ 3)",
+  "value": 15.2407,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-05-02",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.57%20ลงวันที่%201%20พฤษภาคม%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 57/2569 ลว. 1 พ.ค. 2569 (ก๊าซปิโตรเลียมเหลว)",
+   "kind": "primary"
+  },
+  "evidence": "ข้อ ๓ ให้กำหนดอัตราเงินส่งเข้ากองทุนสำหรับก๊าซปิโตรเลียมเหลวที่ผลิตในราชอาณาจักร โดยโรงแยกก๊าซธรรมชาติ ที่จำหน่ายเพื่อใช้เป็นเชื้อเพลิง กิโลกรัมละ ๑๕.๒๔๐๗ บาท",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ข้อ 4 (บ.ยูเอซี โกลบอล) levy=12.8230; ข้อ 6 (บ.ปตท.สผ.สยาม) levy=3.9057 | ผู้ตรวจ: Notes confirmed: ข้อ 4 = 12.8230, ข้อ 6 = 3.9057"
+ },
+ {
+  "id": "rate.lpg.compensation.2026-06-03",
+  "label": "อัตราเงินชดเชยกองทุนฯ ก๊าซปิโตรเลียมเหลวที่จำหน่ายเพื่อใช้เป็นเชื้อเพลิง (ข้อ 5)",
+  "value": -13.2483,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-06-03",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/2290/ประกาศ%20ฉ.77%20ลงวันที่%202%20มิถุนายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 77/2569 ลว. 2 มิ.ย. 2569 (ก๊าซปิโตรเลียมเหลว)",
+   "kind": "primary"
+  },
+  "evidence": "ข้อ ๕ ให้กำหนดอัตราเงินชดเชยของกองทุนสำหรับก๊าซปิโตรเลียมเหลวที่จำหน่ายเพื่อใช้ เป็นเชื้อเพลิง กิโลกรัมละ ๑๓.๒๔๘๓ บาท",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "sign: - = เงินชดเชย | ผู้ตรวจ: 77/2569 dated 2 Jun, cancels 74/2569"
+ },
+ {
+  "id": "rate.lpg_gasplant.levy.2026-06-03",
+  "label": "อัตราเงินส่งเข้ากองทุนฯ LPG จากโรงแยกก๊าซธรรมชาติ (ข้อ 3)",
+  "value": 17.1847,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-06-03",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/2290/ประกาศ%20ฉ.77%20ลงวันที่%202%20มิถุนายน%202569.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 77/2569 ลว. 2 มิ.ย. 2569 (ก๊าซปิโตรเลียมเหลว)",
+   "kind": "primary"
+  },
+  "evidence": "ข้อ ๓ ให้กำหนดอัตราเงินส่งเข้ากองทุนสำหรับก๊าซปิโตรเลียมเหลวที่ผลิตในราชอาณาจักร โดยโรงแยกก๊าซธรรมชาติ ที่จำหน่ายเพื่อใช้เป็นเชื้อเพลิง กิโลกรัมละ ๑๗.๑๘๔๗ บาท",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ข้อ 4 (บ.ยูเอซี โกลบอล) levy=14.7670; ข้อ 6 (บ.ปตท.สผ.สยาม) levy=3.9057 | ผู้ตรวจ: Notes confirmed: ข้อ 4 = 14.7670, ข้อ 6 = 3.9057"
+ },
+ {
+  "id": "policy.oilfund.retail_price_threshold.nepc_framework",
+  "label": "เกณฑ์ราคาขายปลีกที่เกินกว่าระดับราคาที่เหมาะสม ตามกรอบนโยบาย กพช. ข้อ 3.2.1 (1) ข. ที่อ้างในประกาศ กบน.",
+  "value": 30,
+  "unit": "บาทต่อลิตร",
+  "asOf": "2026-01-30",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/ประกาศ%20ฉ.5%20ลงวันที่%2030%20มกราคม%202568.pdf",
+   "publisher": "สกนช.",
+   "title": "ประกาศ กบน. 5/2569 ลว. 30 ม.ค. 2569 (อารัมภบท)",
+   "kind": "primary"
+  },
+  "evidence": "ข้อ ๓.๒.๑ (๑) \"ข. เหตุการณ์ที่ทำให้ราคาน้ำมันขายปลีกในประเทศปรับตัวสูง ขึ้น อยู่ในระดับที่เกินกว่าระดับราคาที่เหมาะสม มากกว่า ๓๐ บาทต่อลิตร\"",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "เป็นเงื่อนไขในกรอบนโยบายของ กพช. ที่ให้ กบน. ใช้กองทุนได้ ไม่ใช่เพดานราคา; อารัมภบทเหมือนกันทุกฉบับน้ำมัน 93/2568-88/2569 (เทียบข้อความแล้ว); พาดหัว Thai PBS 16 มี.ค. 2569 'ตรึงราคาน้ำมันดีเซลไม่เกิน 30 บ./ลิตร' (https://www.thaipbs.or.th/news/content/503418) ยกข้อความนี้ในเนื้อข่าว จึงอาจมาจากข้อนี้หรือจากการตรึง 29.94 (ยังไม่ยืนยัน) | ผู้ตรวจ: Preamble of 5/2569 (dated 30 Jan 2569). Same sentence is in all 69 oil issues I opened (5-82 plus 36). LPG issues quote a different clause 3.2.1 (2) instead (e.g. 15-kg cylinder > 363 baht). It is the NEPC framework as quoted by กบน.; the NEPC resolution itself was not opened. It is a trigger for using the fund, not a price cap"
+ },
+ {
+  "id": "policy.diesel.retail_cap.2026-03-03",
+  "label": "ตรึงราคาขายปลีกดีเซลที่ 29.94 บาท/ลิตร 15 วัน",
+  "value": 29.94,
+  "unit": "baht per liter",
+  "asOf": "2026-03-03",
+  "period": "2026-03-03/2026-03-17",
+  "source": {
+   "url": "https://thailand.prd.go.th/en/content/category/detail/id/2078/iid/481923",
+   "publisher": "กรมประชาสัมพันธ์ (thailand.prd.go.th)",
+   "title": "PM Orders Diesel Price Fixed at 29.94 Baht Per Liter for 15 Days, Effective Immediately (04/03/2026)",
+   "kind": "secondary"
+  },
+  "evidence": "In a Facebook post, he announced that the Ministry of Energy and relevant agencies had decided to cap diesel prices at 29.94 baht per liter for 15 days, effective immediately.",
+  "status": "secondary-only",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตัดสิน: นายกรัฐมนตรีสั่งการ (โพสต์ 3 มี.ค. 2569) และที่ประชุม กบน. มีมติตรึง 29.94 บาท 15 วัน เพิ่มชดเชยดีเซล 2.77 บาท/ลิตร (ฐานเศรษฐกิจ 3 มี.ค. 2569 https://www.thansettakij.com/economy/energy/652922 ข่าว); ประกาศ กบน. 13/2569 มีผล 4 มี.ค. ชดเชย B7 0.74->3.51 (+2.77) ตรงกับข่าว; ไม่พบมติ ครม./กพช.; ไทยรัฐ 9 มี.ค. ว่านายกฯ ประกาศ 28 ก.พ. ขัดกับแหล่งอื่น; หน้า PRD เป็นข่าวรัฐบาล ไม่ใช่ตัวมติ; ครบ 15 วัน 17 มี.ค. ตาม InfoQuest 16 มี.ค. | ผู้ตรวจ: Value and 15 days match. But the page is a news item from the Government Public Relations Dept (dated 04/03/2026) relaying the PM's Facebook post. It is not the decision document or the data owner (กบน./สกนช.), so kind should be secondary. The page does not show 3 Mar; 3 Mar comes from ฐานเศรษฐกิจ (03 มี.ค. 69), which says pumps sell at 29.94 from 'พรุ่งนี้' (4 Mar). 13/2569 (eff 4 Mar) gives only the fund rate, not the retail price"
+ },
+ {
+  "id": "policy.diesel.retail_cap.2026-03-18",
+  "label": "ปรับเพดานราคาขายปลีกดีเซลจากไม่เกิน 30 เป็น 33 บาท/ลิตร แบบทยอย (ขั้นแรก +0.50 บาท 18 มี.ค.)",
+  "value": 33,
+  "unit": "baht per litre",
+  "asOf": "2026-03-18",
+  "source": {
+   "url": "https://www.nationthailand.com/business/economy/40063923",
+   "publisher": "Nation Thailand",
+   "title": "Fuel prices to rise from March 18 as diesel and petrol adjusted (2026-03-17)",
+   "kind": "secondary"
+  },
+  "evidence": "For diesel, the government will raise the price cap from no more than 30 baht per litre to 33 baht per litre, a ceiling similar to those of neighbouring countries such as Malaysia.",
+  "status": "secondary-only",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตัดสินตามข่าว: รัฐบาล ประกาศโดย รมว.พลังงาน หลังประชุมศูนย์ติดตามสถานการณ์ตะวันออกกลาง และรองนายกฯ/รมว.คมนาคม ยืนยันเพดาน 33 (https://www.nationthailand.com/news/policy/40063895); ไทยรัฐ 18 มี.ค. (https://www.thairath.co.th/newspaper/2920768): พยายามตรึงดีเซลไม่ให้เกิน 33 บาทต่อลิตร แต่ทยอยขึ้น; ประกาศ กบน. 23/2569 มีผล 18 มี.ค. ลดชดเชย B7 20.36->19.86 (0.50) สอดคล้อง; ไม่พบเอกสารต้นทาง | ผู้ตรวจ: Nation, 17 Mar 2026; first +50 satang on 18 Mar. Nation 40063895 says the cap was raised 'from the previous 29.94 baht', so '30' is rounded. Thairath 18 Mar also says ตรึงไม่ให้เกิน 33 แต่ทยอยขึ้น. kind=secondary is labelled honestly; no primary source found"
+ },
+ {
+  "id": "policy.diesel.retail_price_at_ceiling.2026-03-24",
+  "label": "กบน. มีมติขยับราคาขายปลีกดีเซลขึ้นสู่เพดาน 33 บาท/ลิตร มีผล 24 มี.ค. 2569",
+  "value": 33,
+  "unit": "บาทต่อลิตร",
+  "asOf": "2026-03-24",
+  "source": {
+   "url": "https://www.pptvhd36.com/wealth/economic/271595",
+   "publisher": "PPTV Online",
+   "title": "ความจำเป็นต้องขยับดีเซลแตะ 33 บาท/ลิตร เมื่อกองทุนแบกอ่วม 70,000 ล้าน/เดือน (24 มี.ค. 2569)",
+   "kind": "secondary"
+  },
+  "evidence": "ผลจากการประชุมคณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) ในวันนี้ ที่ประชุมได้มีมติ และมีความจำเป็นต้องตัดสินใจปรับราคาดีเซลขึ้นสู่ระดับเพดาน 33 บาทต่อลิตร",
+  "status": "secondary-only",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ให้ข่าว: ผู้อำนวยการสำนักนโยบายและแผน สกนช.; ประกาศ กบน. 27/2569 (ลว. 23 มี.ค. มีผล 24 มี.ค.) ชดเชย B7 24.09; ไม่พบข่าวประชาสัมพันธ์ของ สกนช. เรื่องนี้บน offo.or.th | ผู้ตรวจ: PPTV, published 24 มี.ค. 2569. The meeting was 'วันนี้', i.e. 23 Mar, which fits 27/2569 (dated 23 Mar, eff 24 Mar). The speaker is an สกนช. official but the outlet is news. OFFO node 2109 'ขยับลดการอุดหนุนราคาน้ำมัน' is an image infographic that I could not read"
+ },
+ {
+  "id": "policy.diesel.retail_cap_ended.2026-03-24",
+  "label": "รัฐบาลเลิกตรึงดีเซลที่ 33 บาท/ลิตร ปล่อยตามตลาดโลก",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-03-24",
+  "source": {
+   "url": "https://www.thaipbs.or.th/news/content/503779",
+   "publisher": "Thai PBS",
+   "title": "นายกฯ ยอมรับเลิกตรึงดีเซลกระทบ ปชช. (25 มี.ค. 2569)",
+   "kind": "secondary"
+  },
+  "evidence": "ยืนยันว่ารัฐบาลจะไม่มีการตรึงราคาน้ำมันดีเซลไว้ที่ลิตรละ 33 บาทอีกต่อไป โดยจะปล่อยให้ราคาเคลื่อนไหวอย่างอิสระตามกลไกตลาดโลก",
+  "status": "secondary-only",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตัดสิน: นายกรัฐมนตรี กล่าวเมื่อ 24 มี.ค. 2569 (ตามข่าว); ต่อมา 26 มี.ค. ราคาขายปลีกขึ้น 6 บาททั้งเบนซินและดีเซลตามมติ กบน. (ฐานเศรษฐกิจ 28 มี.ค.); ประกาศ 29/2569 มีผล 26 มี.ค. ลดชดเชย B7 26.99->19.12; Nation 31 มี.ค. (https://www.nationthailand.com/news/general/40064460) ดีเซล 38.94->40.74 บาท | ผู้ตรวจ: Thai PBS, 25 มี.ค. 69; the article dates the statement 'เมื่อวานนี้ (24 มี.ค.69)'. News only"
+ },
+ {
+  "id": "policy.diesel.retail_cap.2026-03-28",
+  "label": "ข่าวพาดหัว 'ยืดราคาน้ำมันดีเซลไม่เกิน 33 บาท' (ขัดกับแหล่งอื่น)",
+  "value": 33,
+  "unit": "บาทต่อลิตร",
+  "asOf": "2026-03-28",
+  "source": {
+   "url": "https://www.thansettakij.com/economy/energy/655135",
+   "publisher": "ฐานเศรษฐกิจ",
+   "title": "รัฐอุ้มดีเซลเพิ่มเป็น 16.67 บาท ยืดราคาน้ำมันดีเซลไม่เกิน 33 บาท (28 มี.ค. 2569)",
+   "kind": "secondary"
+  },
+  "evidence": "การปรับเพิ่มเงินอุดหนุนดังกล่าวมีขึ้นเพื่อตรึงราคาขายปลีกน้ำมันดีเซลไม่ให้เกิน 33 บาทต่อลิตร",
+  "status": "conflict",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ขัดกับ: ข่าวเดียวกันระบุราคาขึ้น 6 บาทเมื่อ 26 มี.ค.; Thai PBS อ้างนายกฯ 24 มี.ค. ว่าจะไม่ตรึงที่ 33 อีก; Nation 31 มี.ค. ว่าดีเซล 38.94 ก่อนขึ้นเป็น 40.74; ค่าชดเชย 16.67 ตรงกับประกาศ 31/2569 (มีผล 28 มี.ค.) แต่คำว่าไม่เกิน 33 ไม่น่าถูก ห้ามใช้ | ผู้ตรวจ: The quote is accurate, but the claim is contradicted: the same article says prices rose 6 baht on 26 Mar, and Nation 31 Mar says diesel went from 38.94 to 40.74. The article also says the 16.02 subsidy was 'วันที่ 26 มี.ค.', but per 30/2569 16.02 took effect 27 Mar (26 Mar was 19.12). Keep conflict status; do not use"
+ },
+ {
+  "id": "price.retail.diesel_b7.bangkok.2026-04-09",
+  "label": "ราคาขายปลีกดีเซล B7 กรุงเทพฯ ตามโครงสร้างราคาหลังประชุม กบน. 8 เม.ย. 2569",
+  "value": 48.4,
+  "unit": "บาท/ลิตร (UNIT:BAHT/LITRE)",
+  "asOf": "2026-04-09",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/โครงสร้างราคา%20-%20ประจำวันที่_8_4_69_1.xlsx",
+   "publisher": "สกนช.",
+   "title": "โครงสร้างราคาน้ำมัน วันที่ 9 เม.ย. (หลังประชุม กบน. เมื่อวันที่ 8 เม.ย.)",
+   "kind": "primary"
+  },
+  "evidence": "H-DIESEL B7 | 50.5729 | 6.9200 | 0.6920 | -15 | 0.0500 | 43.2349 | 3.0264 | 46.2613 | 1.9987 | 0.1399 | 48.4000",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "เซลล์ในแผ่นงาน 'หลังปรับ' ต่อกันด้วย |; OIL FUND -15 ตรงกับประกาศ 43/2569; B20 ขายปลีก 43.40; แสดงว่าไม่มีเพดาน 33 แล้วในเดือน เม.ย. | ผู้ตรวจ: สกนช. xlsx, sheet 'หลังปรับ', header says BANGKOK. B20 43.40 confirmed. The sheet also has a stale 'H-DIESEL B 20' row (32.94) and a second sheet dated 27 มีนาคม 2568: ignore both"
+ },
+ {
+  "id": "price.retail.diesel_b7.bangkok.2026-05-31",
+  "label": "ราคาขายปลีกดีเซล B7 กรุงเทพฯ ตามโครงสร้างราคา ณ 31 พ.ค. 2569",
+  "value": 40.7,
+  "unit": "บาท/ลิตร (UNIT:BAHT/LITRE)",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/อัตราเงินกองทุนน้ำมันฯ%20ตามโครงสร้างราคา-31พฤษภาคม69%20(ปรกาศ29พ.ค.).xlsx",
+   "publisher": "สกนช.",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 31 พ.ค.69 (หลังประชุม กบน. เมื่อวันที่ 29 พ.ค.69)",
+   "kind": "primary"
+  },
+  "evidence": "H-DIESEL B7 | 30.0588 | 6.9200 | 0.6920 | -1 | 0.0500 | 36.7208 | 2.5705 | 39.2913 | 1.3165 | 0.0922 | 40.7000",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "OIL FUND -1 ตรงกับประกาศ 76/2569; B20 ขายปลีก 35.20; แก๊สโซฮอล 95 ขายปลีก 42.90 | ผู้ตรวจ: B20 35.20 and GSH95 42.90 confirmed. The main sheet does not say 'Bangkok' (only the stale 2568 second sheet does), so the Bangkok label is by convention"
+ },
+ {
+  "id": "price.retail.diesel_b7.bangkok.2026-06-07",
+  "label": "ราคาขายปลีกดีเซล B7 กรุงเทพฯ ตามโครงสร้างราคา ณ 7 มิ.ย. 2569",
+  "value": 40.8,
+  "unit": "บาท/ลิตร (UNIT:BAHT/LITRE)",
+  "asOf": "2026-06-07",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/อัตราเงินกองทุนน้ำมันฯ%20ตามโครงสร้างราคา%20ณ-7มิถุนายน69%20(ประกาศ5มิ.ย.).xlsx",
+   "publisher": "สกนช.",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 7 มิ.ย.69 (หลังประชุม กบน. เมื่อวันที่ 5 มิ.ย.69)",
+   "kind": "primary"
+  },
+  "evidence": "H-DIESEL B7 | 31.9600 | 6.9200 | 0.6920 | -1.9600 | 0.0500 | 37.6620 | 2.6363 | 40.2983 | 0.4689 | 0.0328 | 40.8000",
+  "status": "verified",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "OIL FUND -1.96 ตรงกับประกาศ 82/2569; B20 ขายปลีก 35.30; แก๊สโซฮอล 95 ขายปลีก 42.60 | ผู้ตรวจ: B20 35.30 and GSH95 42.60 confirmed. As above, the main sheet does not say 'Bangkok'"
+ },
+ {
+  "id": "policy.diesel.ex_refinery_price_cut.2026-04-24",
+  "label": "กบง. ปรับลดราคา ณ โรงกลั่น ดีเซลหมุนเร็ว B0 B7 B20 ช่วง 24 เม.ย.-9 พ.ค. 2569",
+  "value": 5,
+  "unit": "บาทต่อลิตร",
+  "asOf": "2026-04-24",
+  "period": "2026-04-24/2026-05-09",
+  "source": {
+   "url": "https://www.pptvhd36.com/wealth/economic/273904",
+   "publisher": "PPTV Online",
+   "title": "ปรับลดราคา ณ โรงกลั่นดีเซล เป็น 5 บาท/ลิตร ตั้งแต่ 24 เม.ย. 69 (23 เม.ย. 2569)",
+   "kind": "secondary"
+  },
+  "evidence": "ช่วงวันที่ 24 เมษายน 2569 ถึงวันที่ 9 พฤษภาคม 2569 ปรับลด 5.00 บาทต่อลิตร",
+  "status": "secondary-only",
+  "checkedBy": "verify:rates (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตัดสิน: กบง. (ยกเลิกประกาศ กบง. ลว. 8 เม.ย. 2569 ที่ลด 2.00 บาท มีผล 9 เม.ย.); ช่วงถัดไป 10-19 พ.ค. 2569 ลด 3.00 บาทต่อลิตร (ข่าวเดียวกัน); เป็นมาตรการราคาหน้าโรงกลั่น ไม่ใช่อัตรากองทุน; ยังไม่ได้เทียบราชกิจจานุเบกษา | ผู้ตรวจ: PPTV, 23 เม.ย. 2569: a กบง. resolution covering B0/B7/B20, which cancels the กบง. notice of 8 Apr (-2.00, eff 9 Apr). The next period, 10-19 May, is -3.00. No primary source (กบง. notice, Royal Gazette or EPPO) was found or checked"
+ }
+]

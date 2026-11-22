@@ -1,0 +1,1066 @@
+[
+ {
+  "id": "law.oil_fund_act_2562.gazette",
+  "label": "พ.ร.บ.กองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ ประกาศในราชกิจจานุเบกษา",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "พระราชบัญญัติ กองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ ... ให้ไว้ ณ วันที่ ๒๔ พฤษภาคม พ.ศ. ๒๕๖๒ ... เล่ม ๑๓๖ ตอนที่ ๖๙ ก ราชกิจจานุเบกษา ๒๗ พฤษภาคม ๒๕๖๒",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Gazette text (text layer maps ำ as ้า; restored after checking the page image); ... = omitted. Royal assent 24 May 2019; published 27 May 2019. The OCS law database lists the Act as in force (state 01) with no amending act; the only subordinate instrument listed under it is the 2565 royal decree on the s.26 ceilings. | ผู้ตรวจ: Gazette scan hosted by OFFO. 19-page PDF. The text layer renders ำ as ้า. Primary label is correct."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s2",
+  "label": "วันใช้บังคับ (พ้น ๑๒๐ วันนับแต่วันประกาศ)",
+  "value": 120,
+  "unit": "วัน",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "มาตรา ๒ พระราชบัญญัตินี้ให้ใช้บังคับเมื่อพ้นกำหนดหนึ่งร้อยยี่สิบวันนับแต่วันประกาศในราชกิจจานุเบกษาเป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Computed effective date: 2019-09-24 (27 May 2562 + 120 days). Consistent with the 2569 NEPC framework saying the s.55 period ends 24 Sep 2569 (3+2+2 years). EPPO's summary of the 18 Sep 2569 resolution misstates it as '24 พฤษภาคม 2562'. | ผู้ตรวจ: I recomputed the effective date as 24 Sep 2019 and it matches. EPPO record 24325 does say '(มีผลบังคับใช้เมื่อวันที่ 24 พฤษภาคม 2562)', which is an EPPO error, as the researcher said."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s3.crisis_definition",
+  "label": "นิยาม วิกฤตการณ์ด้านน้ำมันเชื้อเพลิง (อ้างแผนรองรับวิกฤตฯ)",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "“วิกฤตการณ์ด้านน้ำมันเชื้อเพลิง” หมายความว่า สถานการณ์ที่ราคาน้ำมันเชื้อเพลิงมีการปรับราคาขึ้นอย่างรวดเร็วหรือผันผวนอันอาจเกิดผลกระทบต่อการดำรงชีพของประชาชน หรือสถานการณ์ที่น้ำมันเชื้อเพลิงอาจขาดแคลนและไม่เพียงพอต่อการใช้ภายในประเทศ ทั้งนี้ ตามที่กำหนดในแผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิง",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Section 3. The Act leaves the numeric crisis thresholds to the crisis plan (see policy.* records). | ผู้ตรวจ: Section 3 text matches."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s3.fuel_definition",
+  "label": "นิยาม น้ำมันเชื้อเพลิง รวม LPG และ NGV",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "“น้ำมันเชื้อเพลิง” หมายความว่า น้ำมันเบนซิน น้ำมันก๊าด น้ำมันดีเซล น้ำมันเตา ... และให้หมายความรวมถึงก๊าซปิโตรเลียมเหลว ก๊าซธรรมชาติสำหรับยานยนต์ หรือน้ำมันเชื้อเพลิงที่ได้จากสิ่งอื่นใดตามที่รัฐมนตรีประกาศกำหนด",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Section 3. LPG and NGV fall in the same statutory fund. The full Act text has no rule on separate oil/LPG accounts or on a minimum/negative balance; account separation is a policy rule (see policy.crisis_plan_* records). | ผู้ตรวจ: Section 3. I grepped the Act and found no rule on separate accounts or on a negative balance. 'บัญชี' appears only in accounting and audit contexts."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s5",
+  "label": "วัตถุประสงค์ของกองทุนน้ำมันเชื้อเพลิง",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "มาตรา ๕ ให้จัดตั้งกองทุนขึ้นกองทุนหนึ่ง เรียกว่า “กองทุนน้ำมันเชื้อเพลิง” ในสำนักงานกองทุนน้ำมันเชื้อเพลิง มีวัตถุประสงค์เพื่อรักษาเสถียรภาพระดับราคาน้ำมันเชื้อเพลิงในประเทศให้อยู่ในระดับที่เหมาะสมในกรณีที่เกิดวิกฤตการณ์ด้านน้ำมันเชื้อเพลิง",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Gazette text."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s5.p2",
+  "label": "การดำเนินงานอยู่ภายใต้กรอบนโยบายที่ กพช. กำหนด",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "การดำเนินงานตามวัตถุประสงค์ตามวรรคหนึ่งให้อยู่ภายใต้กรอบนโยบายการบริหารกองทุนตามที่คณะกรรมการนโยบายพลังงานแห่งชาติกำหนด",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Section 5 para 2: the legal hook for the กพช. policy framework (see policy.nepc_framework_* records)."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s6",
+  "label": "แหล่งเงินของกองทุน (รวมเงินอุดหนุนรัฐบาล และเงินกู้ตามมาตรา ๒๖)",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "มาตรา ๖ กองทุนประกอบด้วยเงินและทรัพย์สิน ดังต่อไปนี้ ... (๒) เงินอุดหนุนที่รัฐบาลอาจจัดสรรให้ในกรณีที่มีเหตุฉุกเฉินและจำเป็น (๓) เงินและเงินเพิ่มที่ส่งเข้ากองทุนตามมาตรา ๒๗ มาตรา ๓๒ และมาตรา ๓๔ (๔) เงินกู้ตามมาตรา ๒๖",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Gazette text; ... = omitted. Section 7: fund revenue is not remitted to the Treasury. | ผู้ตรวจ: Section 7, 'รายได้ของกองทุนไม่ต้องนำส่งคลังเป็นรายได้แผ่นดิน', is also confirmed."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s8",
+  "label": "การใช้จ่ายเงินกองทุน (๒ กิจการ)",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "มาตรา ๘ เงินกองทุนให้ใช้จ่ายได้เพื่อกิจการ ดังต่อไปนี้ (๑) ค่าใช้จ่ายตามวัตถุประสงค์ตามมาตรา ๕ (๒) ค่าใช้จ่ายในการดำเนินงานกองทุนหรือการบริหารกองทุนและกิจการอื่นที่เกี่ยวกับหรือเกี่ยวเนื่องกับการจัดการกิจการของกองทุน",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Gazette text."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s9",
+  "label": "องค์ประกอบ กบน.",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "มาตรา ๙ ... (๑) รัฐมนตรีว่าการกระทรวงพลังงาน เป็นประธานกรรมการ (๒) ปลัดกระทรวงพลังงาน เป็นรองประธานกรรมการ (๓) กรรมการโดยตำแหน่ง ... (๔) กรรมการผู้ทรงคุณวุฒิ จำนวนสี่คน ซึ่งคณะรัฐมนตรีแต่งตั้ง ... ให้ผู้อำนวยการเป็นกรรมการและเลขานุการ",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Gazette text; ... = omitted. Ex-officio (3): Permanent Secretaries of Finance, Transport, Industry; Secretary-General of the Council of State; Directors-General of Internal Trade, Energy Business, Comptroller General; Director of EPPO (8). Experts need finance and oil-business expertise, at least one each. Derived count (not stated in the Act): 1+1+8+4+1 = 15 members. | ผู้ตรวจ: There are 8 ex-officio members, and the derived total of 15 is correct. The Act itself does not state a total."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s11",
+  "label": "วาระกรรมการผู้ทรงคุณวุฒิ กบน.",
+  "value": 4,
+  "unit": "ปี",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "มาตรา ๑๑ กรรมการผู้ทรงคุณวุฒิมีวาระการดำรงตำแหน่งคราวละสี่ปี ... อาจได้รับแต่งตั้งอีกได้แต่จะดำรงตำแหน่งติดต่อกันเกินสองวาระไม่ได้",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22 · สุ่มเปิดแหล่งซ้ำโดย agent หลัก 2026-11-22 ตรง",
+  "notes": "Gazette text; ... = omitted. Maximum two consecutive terms. | ผู้ตรวจ: The limit of two consecutive terms matches."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s14.1",
+  "label": "กบน. เสนอแผนรองรับวิกฤตฯ ผ่าน กพช. ให้ ครม. เห็นชอบ",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "(๑) เสนอแผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิงและแผนยุทธศาสตร์กองทุนน้ำมันเชื้อเพลิงต่อคณะกรรมการนโยบายพลังงานแห่งชาติ เพื่อนำเสนอคณะรัฐมนตรีให้ความเห็นชอบ",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Section 14(1). Section 14(3): กบน. sets fund-management rules consistent with the กพช. policy."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s14.4",
+  "label": "อำนาจ กบน. กำหนดอัตราเงินส่งเข้ากองทุน/อัตราชดเชย (รายงาน กพช. เพื่อทราบ)",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "(๔) กำหนดหลักเกณฑ์และวิธีการส่งเงินเข้ากองทุนหรือได้รับเงินชดเชยและกำหนดอัตราเงินส่งเข้ากองทุนตามมาตรา ๒๗ อัตราเงินชดเชยตามมาตรา ๒๙ ... โดยอาจกำหนดตามประเภท การใช้ และแหล่งที่มาของน้ำมันเชื้อเพลิง ก็ได้ ทั้งนี้ ให้คณะกรรมการรายงานการดำเนินการดังกล่าวต่อคณะกรรมการนโยบายพลังงานแห่งชาติเพื่อทราบ",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Gazette text; ... = omitted (also covers refund rates s.31 and compensation-refund rates s.32). Rates are set by กบน. announcement; กพช. is only informed ('เพื่อทราบ'), not asked to approve. | ผู้ตรวจ: The OCS memo 618/2569 footnote reproduces the same s.14 text."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s14.5",
+  "label": "กบน. อนุมัติการจ่ายเงินกองทุนตามแผนรองรับวิกฤตฯ",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "(๕) อนุมัติการจ่ายเงินกองทุนเพื่อดำเนินการตามแผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิงเพื่อรักษาเสถียรภาพระดับราคาน้ำมันเชื้อเพลิงในประเทศให้อยู่ในระดับที่เหมาะสมตามมาตรา ๕",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Gazette text."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s14.6",
+  "label": "กบน. ให้ความเห็นชอบการกู้ยืมเงินของ สกนช.",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "(๖) ให้ความเห็นชอบการกู้ยืมเงินของสำนักงานตามมาตรา ๒๖",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Section 19(3) gives OFFO itself the power to borrow under s.26. | ผู้ตรวจ: Section 19(3), 'กู้ยืมเงินตามมาตรา ๒๖', is also confirmed."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s14.delegation",
+  "label": "ประธาน กบน. มอบอำนาจลงนามประกาศอัตราให้ผู้อำนวยการ สกนช. ได้",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "การออกประกาศตาม (๔) ประธานกรรมการอาจมอบอำนาจให้ผู้อำนวยการเป็นผู้ลงนามในประกาศแทนก็ได้",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Last paragraph of s.14."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s15",
+  "label": "องค์ประชุมและการลงมติของ กบน.",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "มาตรา ๑๕ การประชุมคณะกรรมการต้องมีกรรมการมาประชุมไม่น้อยกว่ากึ่งหนึ่งของจำนวนกรรมการทั้งหมดจึงจะเป็นองค์ประชุม ... การวินิจฉัยชี้ขาดของที่ประชุมให้ถือเสียงข้างมาก ... ถ้าคะแนนเสียงเท่ากันให้ประธานในที่ประชุมออกเสียงเพิ่มขึ้นอีกเสียงหนึ่งเป็นเสียงชี้ขาด",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Gazette text; ... = omitted. If both chair and vice-chair are absent the meeting is postponed. | ผู้ตรวจ: The casting vote for the chair is confirmed."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s26.p1",
+  "label": "เพดานเงินกองทุนรวมเงินกู้ (มาตรา ๒๖ วรรคหนึ่ง)",
+  "value": 40000,
+  "unit": "ล้านบาท",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "มาตรา ๒๖ กองทุนต้องมีจำนวนเงินเพียงพอเพื่อใช้ในการบริหารจัดการกองทุนอย่างมีประสิทธิภาพ ซึ่งเมื่อรวมกับเงินกู้ตามวรรคสองแล้วต้องไม่เกินจำนวนสี่หมื่นล้านบาท",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Source wording 'สี่หมื่นล้านบาท'. A cap on fund money plus loans; the Act sets no floor on a negative balance. Temporarily raised to 170,000 million by RD 2565 (lapsed after one year). In force at these original values in Feb-Jun 2569 (no later RD found). | ผู้ตรวจ: I did not independently check the claim that no royal decree after 2565 changed this ceiling. A web search found none."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s26.p2",
+  "label": "เพดานวงเงินกู้ของ สกนช. และผู้อนุมัติ (มาตรา ๒๖ วรรคสอง)",
+  "value": 20000,
+  "unit": "ล้านบาท",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "เมื่อกองทุนมีจำนวนเงินไม่เพียงพอเพื่อดำเนินงานตามวัตถุประสงค์ของกองทุนตามมาตรา ๕ ให้สำนักงานโดยความเห็นชอบของคณะกรรมการและโดยอนุมัติของคณะรัฐมนตรีมีอำนาจกู้ยืมเงินเป็นจำนวนไม่เกินสองหมื่นล้านบาท ทั้งนี้ ตามหลักเกณฑ์ที่คณะรัฐมนตรีกำหนด",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Source wording 'สองหมื่นล้านบาท'. Approval chain: กบน. consent (s.14(6)) then cabinet approval, under cabinet-set criteria. Raised to 30,000 million by RD 2564, then 150,000 million by RD 2565 (lapsed after one year)."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s26.p3",
+  "label": "เปลี่ยนกรอบวงเงิน/วงเงินกู้โดยตราพระราชกฤษฎีกา",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "การเปลี่ยนแปลงกรอบวงเงินตามวรรคหนึ่งและกรอบวงเงินกู้ตามวรรคสองให้สอดคล้องกับสถานการณ์ทางเศรษฐกิจ ให้กระทำได้โดยการตราพระราชกฤษฎีกา",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "A royal decree is a cabinet instrument; no parliamentary vote needed."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s27",
+  "label": "ผู้มีหน้าที่ส่งเงินเข้ากองทุนตามอัตราที่ กบน. ประกาศ",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "มาตรา ๒๗ ให้บุคคลดังต่อไปนี้มีหน้าที่ส่งเงินเข้ากองทุนตามอัตราที่คณะกรรมการประกาศกำหนด (๑) ... ผู้ผลิตและจำหน่ายน้ำมันเชื้อเพลิงซึ่งเป็นโรงกลั่น ... (๒) ... ผู้นำเข้าน้ำมันเชื้อเพลิง ... (๓) กรณีก๊าซปิโตรเลียมเหลวจากการแยกก๊าซธรรมชาติ ...",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Gazette text; ... = omitted. Paid via the Excise Department (refiners), Customs Department (importers) and Department of Mineral Fuels (LPG from gas separation). Section 34: late-payment surcharge 1.5%/month if self-reported, 3%/month if detected, capped at the amount due. | ผู้ตรวจ: The section 34 surcharge rates of 1.5%/month and 3%/month are confirmed."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s29",
+  "label": "สิทธิได้รับเงินชดเชยตามอัตราที่ กบน. ประกาศ; ผอ.สกนช. สั่งจ่าย",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "มาตรา ๒๙ เพื่อดำเนินการตามวัตถุประสงค์ตามมาตรา ๕ ให้บุคคลดังต่อไปนี้มีสิทธิได้รับเงินชดเชยจากกองทุนตามอัตราที่คณะกรรมการประกาศกำหนด และให้ผู้อำนวยการเป็นผู้สั่งจ่ายเงินชดเชยให้แก่ผู้มีสิทธิได้รับเงินชดเชย",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Gazette text. Claims must be filed within three years. | ผู้ตรวจ: The three-year claim window ('ภายในสามปีนับแต่วันที่มีสิทธิ') is confirmed."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s55.1",
+  "label": "ระยะเวลาจ่ายเงินชดเชยน้ำมันผสมเชื้อเพลิงชีวภาพ (บทเฉพาะกาล)",
+  "value": 3,
+  "unit": "ปี",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "มาตรา ๕๕ ในกรณีที่มีการจ่ายเงินชดเชยให้แก่น้ำมันเชื้อเพลิงที่มีส่วนผสมของเชื้อเพลิงชีวภาพอยู่ก่อนวันที่พระราชบัญญัตินี้ใช้บังคับ ให้ใช้จ่ายเงินกองทุนเพื่อการดำเนินการดังกล่าวต่อไปได้เป็นระยะเวลาสามปีนับแต่วันที่พระราชบัญญัตินี้ใช้บังคับ",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "The only statutory time limit on a subsidy in the Act. Base period 2019-09-24 to 2022-09-24 (computed)."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s55.2",
+  "label": "ต้องออกประกาศลดการจ่ายเงินชดเชยเชื้อเพลิงชีวภาพทุกรอบหนึ่งปี",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "ให้คณะกรรมการดำเนินการออกประกาศกำหนดหลักเกณฑ์ วิธีการ เงื่อนไข และมาตรการ เพื่อลดการจ่ายเงินชดเชยทุกรอบระยะเวลาหนึ่งปี",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Section 55 para 2; the announcement goes via กพช. to the cabinet for approval."
+ },
+ {
+  "id": "law.oil_fund_act_2562.s55.3",
+  "label": "ครม. ขยายเวลาได้ไม่เกิน ๒ ครั้ง ครั้งละไม่เกิน ๒ ปี",
+  "value": 2,
+  "unit": "ปี (ต่อครั้ง, ไม่เกินสองครั้ง)",
+  "asOf": "2019-05-27",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/phrb_kngthunnamman_2562.pdf",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ราชกิจจานุเบกษา เล่ม ๑๓๖ ตอนที่ ๖๙ ก)",
+   "kind": "primary"
+  },
+  "evidence": "ในกรณีที่มีความจำเป็นต้องดำเนินการตามวรรคหนึ่งต่อไป ให้คณะรัฐมนตรีโดยคำแนะนำของคณะกรรมการนโยบายพลังงานแห่งชาติมีอำนาจขยายระยะเวลาดำเนินการตามวรรคหนึ่งได้อีกไม่เกินสองครั้ง ครั้งละไม่เกินสองปี",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Both extensions were used (cabinet 20 Sep 2565 and 17 Sep 2567); see cabinet.* records. Period ended 24 Sep 2569."
+ },
+ {
+  "id": "law.rd_loan_ceiling_2564.s3",
+  "label": "พ.ร.ฎ. ๒๕๖๔ ขยายกรอบวงเงินกู้ เป็นไม่เกินสามหมื่นล้านบาท",
+  "value": 30000,
+  "unit": "ล้านบาท",
+  "asOf": "2021-11-29",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/regulations/add/%E0%B8%9E%E0%B8%A3%E0%B8%8E.%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A%E0%B8%A7%E0%B8%87%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%B9%E0%B9%89.PDF",
+   "publisher": "ราชกิจจานุเบกษา (สำเนาบนเว็บไซต์ สกนช.)",
+   "title": "พระราชกฤษฎีกาเปลี่ยนแปลงกรอบวงเงินกู้เพื่อรักษาเสถียรภาพระดับราคาน้ำมันเชื้อเพลิงในประเทศ พ.ศ. ๒๕๖๔ (เล่ม ๑๓๘ ตอนที่ ๘๐ ก)",
+   "kind": "primary"
+  },
+  "evidence": "มาตรา ๓ ให้เปลี่ยนแปลงกรอบวงเงินกู้เพื่อรักษาเสถียรภาพระดับราคาน้ำมันเชื้อเพลิงในประเทศเป็นจำนวนไม่เกินสามหมื่นล้านบาท ... เล่ม ๑๓๘ ตอนที่ ๘๐ ก ราชกิจจานุเบกษา ๒๙ พฤศจิกายน ๒๕๖๔",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Source wording 'สามหมื่นล้านบาท'. Issued under s.26 para 3; in force the day after publication; repealed by RD 2565 s.3. No sunset clause. | ผู้ตรวจ: Royal assent was 27 Nov 2564. The decree takes effect the day after publication (s.2)."
+ },
+ {
+  "id": "law.rd_fund_loan_ceiling_2565.s4",
+  "label": "พ.ร.ฎ. ๒๕๖๕ ขยายกรอบวงเงินกองทุน (มาตรา ๒๖ วรรคหนึ่ง)",
+  "value": 170000,
+  "unit": "ล้านบาท",
+  "asOf": "2022-10-06",
+  "source": {
+   "url": "https://www.ocs.go.th/searchlaw/indexs/download/eyJ1dWlkIjoiMDNiY2U0ODktMDg2Yy00YjE1LTkwYzAtMzc2YzA4MTNlMzQ2IiwiZmlsZW5hbWUiOiLguIEwMTg4IOC4nuC4o-C4sOC4o-C4suC4iuC4geC4pOC4qeC4juC4teC4geC4siAyNTY1LTYy4LiBLTQucGRmIn0.DN6oGoyiM3jHv0kPF0-21DocG7WW0eJAyvWROP1cOjE",
+   "publisher": "ราชกิจจานุเบกษา (ฐานข้อมูลกฎหมาย สำนักงานคณะกรรมการกฤษฎีกา)",
+   "title": "พระราชกฤษฎีกาเปลี่ยนแปลงกรอบวงเงินกองทุนและกรอบวงเงินกู้เพื่อรักษาเสถียรภาพระดับราคาน้ำมันเชื้อเพลิงในประเทศ พ.ศ. ๒๕๖๕ (เล่ม ๑๓๙ ตอนที่ ๖๒ ก)",
+   "kind": "primary"
+  },
+  "evidence": "มาตรา ๔ ให้เปลี่ยนแปลงกรอบวงเงินกองทุนตามมาตรา ๒๖ วรรคหนึ่ง เป็นจำนวนไม่เกินหนึ่งแสนเจ็ดหมื่นล้านบาท",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Source wording 'หนึ่งแสนเจ็ดหมื่นล้านบาท'. Gazette 6 Oct 2565; in force the following day (s.2); repealed RD 2564 (s.3). | ผู้ตรวจ: Gazette vol.139 part 62 Kor, 6 Oct 2565, royal assent 5 Oct 2565. Section 3 repeals RD 2564. The OCS host needed the missing GlobalSign intermediate certificate before the download would verify."
+ },
+ {
+  "id": "law.rd_fund_loan_ceiling_2565.s5",
+  "label": "พ.ร.ฎ. ๒๕๖๕ ขยายกรอบวงเงินกู้ (มาตรา ๒๖ วรรคสอง)",
+  "value": 150000,
+  "unit": "ล้านบาท",
+  "asOf": "2022-10-06",
+  "source": {
+   "url": "https://www.ocs.go.th/searchlaw/indexs/download/eyJ1dWlkIjoiMDNiY2U0ODktMDg2Yy00YjE1LTkwYzAtMzc2YzA4MTNlMzQ2IiwiZmlsZW5hbWUiOiLguIEwMTg4IOC4nuC4o-C4sOC4o-C4suC4iuC4geC4pOC4qeC4juC4teC4geC4siAyNTY1LTYy4LiBLTQucGRmIn0.DN6oGoyiM3jHv0kPF0-21DocG7WW0eJAyvWROP1cOjE",
+   "publisher": "ราชกิจจานุเบกษา (ฐานข้อมูลกฎหมาย สำนักงานคณะกรรมการกฤษฎีกา)",
+   "title": "พระราชกฤษฎีกาเปลี่ยนแปลงกรอบวงเงินกองทุนและกรอบวงเงินกู้เพื่อรักษาเสถียรภาพระดับราคาน้ำมันเชื้อเพลิงในประเทศ พ.ศ. ๒๕๖๕ (เล่ม ๑๓๙ ตอนที่ ๖๒ ก)",
+   "kind": "primary"
+  },
+  "evidence": "มาตรา ๕ ให้เปลี่ยนแปลงกรอบวงเงินกู้ตามมาตรา ๒๖ วรรคสอง เป็นจำนวนไม่เกินหนึ่งแสนห้าหมื่นล้านบาท",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Source wording 'หนึ่งแสนห้าหมื่นล้านบาท'."
+ },
+ {
+  "id": "law.rd_fund_loan_ceiling_2565.s6.p1",
+  "label": "พ.ร.ฎ. ๒๕๖๕ สิ้นผลเมื่อครบหนึ่งปี",
+  "value": 1,
+  "unit": "ปี",
+  "asOf": "2022-10-06",
+  "source": {
+   "url": "https://www.ocs.go.th/searchlaw/indexs/download/eyJ1dWlkIjoiMDNiY2U0ODktMDg2Yy00YjE1LTkwYzAtMzc2YzA4MTNlMzQ2IiwiZmlsZW5hbWUiOiLguIEwMTg4IOC4nuC4o-C4sOC4o-C4suC4iuC4geC4pOC4qeC4juC4teC4geC4siAyNTY1LTYy4LiBLTQucGRmIn0.DN6oGoyiM3jHv0kPF0-21DocG7WW0eJAyvWROP1cOjE",
+   "publisher": "ราชกิจจานุเบกษา (ฐานข้อมูลกฎหมาย สำนักงานคณะกรรมการกฤษฎีกา)",
+   "title": "พระราชกฤษฎีกาเปลี่ยนแปลงกรอบวงเงินกองทุนและกรอบวงเงินกู้เพื่อรักษาเสถียรภาพระดับราคาน้ำมันเชื้อเพลิงในประเทศ พ.ศ. ๒๕๖๕ (เล่ม ๑๓๙ ตอนที่ ๖๒ ก)",
+   "kind": "primary"
+  },
+  "evidence": "มาตรา ๖ เมื่อครบกำหนดหนึ่งปีนับแต่วันที่พระราชกฤษฎีกานี้ใช้บังคับ ให้พระราชกฤษฎีกานี้เป็นอันยกเลิก แต่การยกเลิกดังกล่าวไม่กระทบถึงการกู้เงินและการค้ำประกันที่ได้กระทำไปก่อนวันที่พระราชกฤษฎีกานี้ยกเลิก",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Computed lapse: about 2023-10-07. After lapse the original s.26 ceilings (40,000 / 20,000 million baht) apply again. No later RD under s.26 para 3 found in the OCS law database (searched 2026-11-22). | ผู้ตรวจ: I did not verify the claim that no later RD exists."
+ },
+ {
+  "id": "law.rd_fund_loan_ceiling_2565.s6.p2",
+  "label": "เงินกู้ที่คลังค้ำประกันตาม พ.ร.ก. ๒๕๖๕ ไม่นับรวมในกรอบมาตรา ๒๖ หลัง พ.ร.ฎ. สิ้นผล",
+  "value": null,
+  "unit": "",
+  "asOf": "2022-10-06",
+  "source": {
+   "url": "https://www.ocs.go.th/searchlaw/indexs/download/eyJ1dWlkIjoiMDNiY2U0ODktMDg2Yy00YjE1LTkwYzAtMzc2YzA4MTNlMzQ2IiwiZmlsZW5hbWUiOiLguIEwMTg4IOC4nuC4o-C4sOC4o-C4suC4iuC4geC4pOC4qeC4juC4teC4geC4siAyNTY1LTYy4LiBLTQucGRmIn0.DN6oGoyiM3jHv0kPF0-21DocG7WW0eJAyvWROP1cOjE",
+   "publisher": "ราชกิจจานุเบกษา (ฐานข้อมูลกฎหมาย สำนักงานคณะกรรมการกฤษฎีกา)",
+   "title": "พระราชกฤษฎีกาเปลี่ยนแปลงกรอบวงเงินกองทุนและกรอบวงเงินกู้เพื่อรักษาเสถียรภาพระดับราคาน้ำมันเชื้อเพลิงในประเทศ พ.ศ. ๒๕๖๕ (เล่ม ๑๓๙ ตอนที่ ๖๒ ก)",
+   "kind": "primary"
+  },
+  "evidence": "เมื่อพระราชกฤษฎีกายกเลิกแล้ว ให้กรอบวงเงินกองทุนและกรอบวงเงินกู้เป็นไปตามมาตรา ๒๖ แต่มิให้นำจำนวนเงินกู้ที่กระทรวงการคลังค้ำประกันตามพระราชกำหนดผ่อนผันให้กระทรวงการคลังค้ำประกันการชำระหนี้ของสำนักงานกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๕ นับรวมเข้ากับกรอบวงเงินกองทุนและกรอบวงเงินกู้ตามมาตรา ๒๖ ดังกล่าว",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Section 6 para 2. Gazette text."
+ },
+ {
+  "id": "law.ed_mof_guarantee_2565.s3",
+  "label": "พ.ร.ก. ๒๕๖๕ ให้คลังค้ำประกันหนี้ สกนช. วงเงินรวม",
+  "value": 150000,
+  "unit": "ล้านบาท",
+  "asOf": "2022-10-06",
+  "source": {
+   "url": "https://www.ocs.go.th/searchlaw/indexs/download/eyJ1dWlkIjoiY2MyYzUwYWEtOTViZS00N2ZjLWJlN2MtOTViZmUyMWJhYjc3IiwiZmlsZW5hbWUiOiLguJwwMDA1IOC4nuC4o-C4sOC4o-C4suC4iuC4geC4s-C4q-C4meC4lCAyNTY1LTYy4LiBLTFfbWVyZ2VkMDEucGRmIn0.SKwSnUHstHLPAJL7InjNlHL1nJDTxOV2HwTELrecjjk",
+   "publisher": "ราชกิจจานุเบกษา (ฐานข้อมูลกฎหมาย สำนักงานคณะกรรมการกฤษฎีกา)",
+   "title": "พระราชกำหนดผ่อนผันให้กระทรวงการคลังค้ำประกันการชำระหนี้ของสำนักงานกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๕ (เล่ม ๑๓๙ ตอนที่ ๖๒ ก)",
+   "kind": "primary"
+  },
+  "evidence": "การค้ำประกันตามวรรคหนึ่งให้กระทำได้เฉพาะที่ลงนามในหนังสือหรือสัญญาค้ำประกันภายในระยะเวลาหนึ่งปีนับแต่วันที่พระราชกำหนดนี้ใช้บังคับ และต้องมีวงเงินรวมไม่เกินหนึ่งแสนห้าหมื่นล้านบาท",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Source wording 'หนึ่งแสนห้าหมื่นล้านบาท'. Para 1: when the cabinet finds an oil crisis and OFFO urgently needs to borrow, MOF with cabinet approval may guarantee, disapplying s.19 para 2 of the Public Debt Management Act 2548. In force on publication 6 Oct 2565. Approved by the House 9 Nov 2565 and the Senate 14 Nov 2565 (PM's Office announcement, gazette vol.139 part 72 Kor, 15 Nov 2565). | ผู้ตรวจ: In force on publication (s.2). Approval by the House on 9 Nov 2565 and the Senate on 14 Nov 2565 is confirmed in the same PDF (vol.139 part 72 Kor, 15 Nov 2565)."
+ },
+ {
+  "id": "law.ed_mof_borrowing_energy_crisis_2569.s3",
+  "label": "พ.ร.ก. ๒๕๖๙ ให้กระทรวงการคลังกู้เงินแก้ผลกระทบวิกฤตพลังงาน วงเงินรวม",
+  "value": 400000,
+  "unit": "ล้านบาท",
+  "asOf": "2026-05-09",
+  "source": {
+   "url": "https://www.ocs.go.th/searchlaw/indexs/download/eyJ1dWlkIjoiNGIzYzgxZjctMGU3MC00OTI2LTk3NjktM2E3ZmRjZDJmMGY1IiwiZmlsZW5hbWUiOiLguKswMDY4IOC4nuC4o-C4sOC4o-C4suC4iuC4geC4s-C4q-C4meC4lCAyNTY5LTMw4LiBLTEt4Lit4LiZ4Li44Lih4Lix4LiV4Li0LnBkZiJ9.0H1YOMC5r3AKHK8HWTAJjj9mZuMsZ0_oeT4kHBL5eO0",
+   "publisher": "ราชกิจจานุเบกษา (ฐานข้อมูลกฎหมาย สำนักงานคณะกรรมการกฤษฎีกา)",
+   "title": "พระราชกำหนดให้อำนาจกระทรวงการคลังกู้เงินเพื่อแก้ไขปัญหาผลกระทบจากสถานการณ์วิกฤตด้านพลังงานและสร้างการเปลี่ยนผ่านด้านพลังงานของประเทศ พ.ศ. ๒๕๖๙ (เล่ม ๑๔๓ ตอนที่ ๓๐ ก)",
+   "kind": "primary"
+  },
+  "evidence": "ให้กระทรวงการคลังโดยอนุมัติคณะรัฐมนตรีมีอำนาจกู้เงินบาทหรือเงินตราต่างประเทศ หรือออกตราสารหนี้ ในนามรัฐบาลแห่งราชอาณาจักรไทยมีมูลค่ารวมกันไม่เกินสี่แสนล้านบาท โดยต้องลงนามในสัญญากู้เงินหรือออกตราสารหนี้ภายในวันที่ ๓๐ กันยายน พ.ศ. ๒๕๗๐",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Section 3, read from page images (PDF text layer unusable). Source wording 'สี่แสนล้านบาท'. Gazette 9 May 2569, in force on publication. Schedule: 200,000 million for relief to people/farmers/businesses + 200,000 million for energy transition. The decree text does not mention the Oil Fund or the Oil Fund Act, so it does not change the s.26 ceilings. Parliament approved it (House 26 Aug 2569, Senate 31 Aug 2569; gazette vol.143 part 54 Kor, 8 Sep 2569). Whether any proceeds went to the fund was not checked. | ผู้ตรวจ: I read this from the page images. Vol.143 part 30 Kor, 9 May 2569, in force on publication. The schedule is 200,000 + 200,000 million baht. Parliament approved it on 26 Aug and 31 Aug 2569 (vol.143 part 54 Kor, 8 Sep 2569). The decree does not mention the Oil Fund."
+ },
+ {
+  "id": "ocs.opinion_618_2569.kbn_no_retail_price_power",
+  "label": "กฤษฎีกา: กบน. ไม่มีอำนาจกำหนดราคาขายปลีก/สั่งผู้ค้าคืนเงิน",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-06-23",
+  "source": {
+   "url": "https://www.ocs.go.th/searchlaw/indexs/download/eyJ1dWlkIjoiNTg1ZDYxOTktYjEzZS00Nzk5LTk5MzgtYmEzMDk1YmVjZjQyIiwiZmlsZW5hbWUiOiLguYDguKPguLfguYjguK3guIfguYDguKrguKPguYfguIjguJfguLXguYggNjE4XzI1Njlfc2lnbi5wZGYifQ.NwEYlMKOwAzFnaIq0dL8AvtLyBqAbB8V5SqqgkwGsxc",
+   "publisher": "สำนักงานคณะกรรมการกฤษฎีกา",
+   "title": "บันทึกสำนักงานคณะกรรมการกฤษฎีกา เรื่องเสร็จที่ ๖๑๘/๒๕๖๙ เรื่อง หน้าที่และอำนาจของ กบน. ในการสั่งคืนเงินจากการปรับขึ้นราคาน้ำมันเชื้อเพลิง และการจ่ายเงินชดเชยของกองทุนน้ำมันเชื้อเพลิง",
+   "kind": "primary"
+  },
+  "evidence": "ตามมาตรา ๑๔ แห่งพระราชบัญญัติกองทุนน้ำมันเชื้อเพลิงฯ ก็มิได้กำหนดให้ กบน. มีหน้าที่และอำนาจกำหนดราคาขายปลีกน้ำมันเชื้อเพลิงได้ ... กบน. จึงไม่มีอำนาจสั่งให้ผู้ค้าน้ำมันทั้งสองรายคืนเงินให้แก่ประชาชนผู้เข้าใช้บริการที่สถานีบริการน้ำมันในช่วงเวลาดังกล่าวได้",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Scanned memo (June 2569, sent with a letter of 23 Jun 2569), read from page images. Council of State Committee 5 opinion on two traders raising retail prices on 3 Mar 2569. Trader names are anonymised in the memo. | ผู้ตรวจ: Scanned memo, read from images, p.4. Memo dated June 2569; footnote: sent with letter นร ๐๙๐๙/๕๑ of 23 Jun 2569."
+ },
+ {
+  "id": "ocs.opinion_618_2569.no_withholding_compensation",
+  "label": "กฤษฎีกา: ผอ.สกนช. ต้องสั่งจ่ายเงินชดเชยตามอัตราที่ กบน. ประกาศ งดจ่ายไม่ได้",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-06-23",
+  "source": {
+   "url": "https://www.ocs.go.th/searchlaw/indexs/download/eyJ1dWlkIjoiNTg1ZDYxOTktYjEzZS00Nzk5LTk5MzgtYmEzMDk1YmVjZjQyIiwiZmlsZW5hbWUiOiLguYDguKPguLfguYjguK3guIfguYDguKrguKPguYfguIjguJfguLXguYggNjE4XzI1Njlfc2lnbi5wZGYifQ.NwEYlMKOwAzFnaIq0dL8AvtLyBqAbB8V5SqqgkwGsxc",
+   "publisher": "สำนักงานคณะกรรมการกฤษฎีกา",
+   "title": "บันทึกสำนักงานคณะกรรมการกฤษฎีกา เรื่องเสร็จที่ ๖๑๘/๒๕๖๙ เรื่อง หน้าที่และอำนาจของ กบน. ในการสั่งคืนเงินจากการปรับขึ้นราคาน้ำมันเชื้อเพลิง และการจ่ายเงินชดเชยของกองทุนน้ำมันเชื้อเพลิง",
+   "kind": "primary"
+  },
+  "evidence": "เมื่อไม่มีบทบัญญัติหรือเงื่อนไขใดภายใต้พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิงฯ กำหนดให้ผู้อำนวยการ สกนช. สามารถงดจ่ายเงินชดเชยแก่ผู้มีสิทธิได้รับเงินชดเชยรายใดได้ ... ผู้อำนวยการ สกนช. ย่อมมีหน้าที่สั่งจ่ายเงินชดเชยให้แก่ผู้ค้าน้ำมันทั้งสองราย และไม่สามารถงดจ่ายเงินชดเชยดังกล่าวได้",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Read from page images. The memo adds that กบน. should set compensation criteria/conditions consistent with the s.5 objective. | ผู้ตรวจ: p.5. On p.6 the memo advises กบน. to set compensation criteria consistent with s.5."
+ },
+ {
+  "id": "ocs.opinion_618_2569.retail_price_power_kbng",
+  "label": "อำนาจกำหนดราคาขายปลีกอยู่ที่ กบง. ตามคำสั่งนายกฯ ที่ ๑๕/๒๕๖๒; วันที่ ๓ มี.ค. ๒๕๖๙ ไม่มีการควบคุมราคาขายปลีก",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-03-03",
+  "source": {
+   "url": "https://www.ocs.go.th/searchlaw/indexs/download/eyJ1dWlkIjoiNTg1ZDYxOTktYjEzZS00Nzk5LTk5MzgtYmEzMDk1YmVjZjQyIiwiZmlsZW5hbWUiOiLguYDguKPguLfguYjguK3guIfguYDguKrguKPguYfguIjguJfguLXguYggNjE4XzI1Njlfc2lnbi5wZGYifQ.NwEYlMKOwAzFnaIq0dL8AvtLyBqAbB8V5SqqgkwGsxc",
+   "publisher": "สำนักงานคณะกรรมการกฤษฎีกา",
+   "title": "บันทึกสำนักงานคณะกรรมการกฤษฎีกา เรื่องเสร็จที่ ๖๑๘/๒๕๖๙ เรื่อง หน้าที่และอำนาจของ กบน. ในการสั่งคืนเงินจากการปรับขึ้นราคาน้ำมันเชื้อเพลิง และการจ่ายเงินชดเชยของกองทุนน้ำมันเชื้อเพลิง",
+   "kind": "primary"
+  },
+  "evidence": "คณะกรรมการบริหารนโยบายพลังงาน (กบง.) ซึ่งมีหน้าที่และอำนาจกำหนดราคาขายปลีกน้ำมันเชื้อเพลิงตามข้อ ๓ (๔) แห่งคำสั่งนายกรัฐมนตรี ที่ ๑๕/๒๕๖๒ ... มิได้กำหนดให้ควบคุมราคาขายปลีกไว้",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Read from page images. Facts stated to the Council of State by EPPO and OFFO representatives. The memo also says EPPO's published price structure is a reference/suggested price, not a government-controlled price. | ผู้ตรวจ: p.3. These facts were stated by EPPO and OFFO representatives. The memo also says the EPPO price structure is only a suggested price."
+ },
+ {
+  "id": "ocs.opinion_618_2569.kbn_announcement_12_2569",
+  "label": "ประกาศ กบน. ฉบับที่ ๑๒ พ.ศ. ๒๕๖๙ (อัตราเงินส่งเข้า/ชดเชย) ลงวันที่ ๒ มี.ค. ๒๕๖๙ มีผล ๓ มี.ค. ๒๕๖๙",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.ocs.go.th/searchlaw/indexs/download/eyJ1dWlkIjoiNTg1ZDYxOTktYjEzZS00Nzk5LTk5MzgtYmEzMDk1YmVjZjQyIiwiZmlsZW5hbWUiOiLguYDguKPguLfguYjguK3guIfguYDguKrguKPguYfguIjguJfguLXguYggNjE4XzI1Njlfc2lnbi5wZGYifQ.NwEYlMKOwAzFnaIq0dL8AvtLyBqAbB8V5SqqgkwGsxc",
+   "publisher": "สำนักงานคณะกรรมการกฤษฎีกา",
+   "title": "บันทึกสำนักงานคณะกรรมการกฤษฎีกา เรื่องเสร็จที่ ๖๑๘/๒๕๖๙ เรื่อง หน้าที่และอำนาจของ กบน. ในการสั่งคืนเงินจากการปรับขึ้นราคาน้ำมันเชื้อเพลิง และการจ่ายเงินชดเชยของกองทุนน้ำมันเชื้อเพลิง",
+   "kind": "primary"
+  },
+  "evidence": "ซึ่งในวันที่ ๒ มีนาคม ๒๕๖๙ กบน. ได้ออกประกาศคณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง ฉบับที่ ๑๒ พ.ศ. ๒๕๖๙ เรื่อง การกำหนดอัตราเงินส่งเข้ากองทุน อัตราเงินชดเชย อัตราเงินคืนจากกองทุน และอัตราเงินชดเชยคืนกองทุนสำหรับน้ำมันเชื้อเพลิง โดยมีผลตั้งแต่วันที่ ๓ มีนาคม ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Read from page images. The rates themselves are not in the memo. | ผู้ตรวจ: p.2. The memo does not give the rates."
+ },
+ {
+  "id": "ocs.opinion_618_2569.kbn_meeting_25_2569",
+  "label": "การประชุม กบน. ครั้งที่ ๒๕/๒๕๖๙ (ครั้งที่ ๕๔๖) วันที่ ๒๓ มี.ค. ๒๕๖๙",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-03-23",
+  "source": {
+   "url": "https://www.ocs.go.th/searchlaw/indexs/download/eyJ1dWlkIjoiNTg1ZDYxOTktYjEzZS00Nzk5LTk5MzgtYmEzMDk1YmVjZjQyIiwiZmlsZW5hbWUiOiLguYDguKPguLfguYjguK3guIfguYDguKrguKPguYfguIjguJfguLXguYggNjE4XzI1Njlfc2lnbi5wZGYifQ.NwEYlMKOwAzFnaIq0dL8AvtLyBqAbB8V5SqqgkwGsxc",
+   "publisher": "สำนักงานคณะกรรมการกฤษฎีกา",
+   "title": "บันทึกสำนักงานคณะกรรมการกฤษฎีกา เรื่องเสร็จที่ ๖๑๘/๒๕๖๙ เรื่อง หน้าที่และอำนาจของ กบน. ในการสั่งคืนเงินจากการปรับขึ้นราคาน้ำมันเชื้อเพลิง และการจ่ายเงินชดเชยของกองทุนน้ำมันเชื้อเพลิง",
+   "kind": "primary"
+  },
+  "evidence": "ในการประชุมคณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) ครั้งที่ ๒๕/๒๕๖๙ (ครั้งที่ ๕๔๖) เมื่อวันที่ ๒๓ มีนาคม ๒๕๖๙",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Read from page images. At this meeting กบน. ordered compensation for the two traders' 2-3 Mar 2569 sales to be held pending legal advice. | ผู้ตรวจ: p.2, resolution (3): hold compensation for sales on 2–3 Mar 2569 by the two traders."
+ },
+ {
+  "id": "policy.nepc_framework_2562.approval",
+  "label": "กพช. เห็นชอบกรอบนโยบายการบริหารกองทุนน้ำมันเชื้อเพลิง (ฉบับแรก)",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-09-11",
+  "source": {
+   "url": "https://reso.eppo.go.th/main",
+   "publisher": "สำนักงานนโยบายและแผนพลังงาน (ระบบสืบค้นมติ กพช./กบง.)",
+   "title": "มติ กพช. ครั้งที่ 1/2562 (ครั้งที่ 148) วันที่ 11 ก.ย. 2562 เรื่อง กรอบนโยบายการบริหารกองทุนน้ำมันเชื้อเพลิง ภายใต้พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. 2562",
+   "kind": "primary"
+  },
+  "evidence": "มติของที่ประชุม 1. เห็นชอบกรอบนโยบายการบริหารกองทุนน้ำมันเชื้อเพลิง",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO resolutions DB record 2317 (opened with the site's 'รายละเอียด' action). The s.5 para 2 policy framework in force during the game window; replaced by the framework approved 18 Sep 2569. | ผู้ตรวจ: EPPO record 2317, fetched through the site's Livewire 'view' action. The sourceUrl is the generic search page, so it cannot be cited as a stable link to the record."
+ },
+ {
+  "id": "policy.nepc_framework_2562.diesel_crisis_threshold",
+  "label": "เกณฑ์วิกฤต (กรอบนโยบาย ๒๕๖๒): ราคาขายปลีกดีเซลเกินระดับเหมาะสม",
+  "value": 30,
+  "unit": "บาทต่อลิตร",
+  "asOf": "2019-09-11",
+  "source": {
+   "url": "https://reso.eppo.go.th/main",
+   "publisher": "สำนักงานนโยบายและแผนพลังงาน (ระบบสืบค้นมติ กพช./กบง.)",
+   "title": "มติ กพช. ครั้งที่ 1/2562 (ครั้งที่ 148) วันที่ 11 ก.ย. 2562 เรื่อง กรอบนโยบายการบริหารกองทุนน้ำมันเชื้อเพลิง ภายใต้พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. 2562",
+   "kind": "primary"
+  },
+  "evidence": "มีเหตุการณ์ที่ทำให้ราคาน้ำมันดีเซลขายปลีกในประเทศปรับตัวสูงขึ้น อยู่ในระดับที่เกินกว่าระดับราคาที่เหมาะสม มากกว่า 30 บาทต่อลิตร",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO record 2317. Other oil trigger in the same item: crude up >5 USD/bbl in 1 week and domestic retail up >1 baht/litre in 1 week. The 2563-2567 crisis plan used the same 30 baht/litre diesel trigger. | ผู้ตรวจ: Record 2317. The other triggers are crude above 5 USD/bbl in 1 week, which also raises retail above 1 baht/l in 1 week, as the researcher said."
+ },
+ {
+  "id": "policy.nepc_framework_2562.lpg_crisis_threshold",
+  "label": "เกณฑ์วิกฤต (กรอบนโยบาย ๒๕๖๒): ราคาขายปลีก LPG ถัง 15 กก. เกินระดับเหมาะสม",
+  "value": 363,
+  "unit": "บาท (ถัง 15 กิโลกรัม)",
+  "asOf": "2019-09-11",
+  "source": {
+   "url": "https://reso.eppo.go.th/main",
+   "publisher": "สำนักงานนโยบายและแผนพลังงาน (ระบบสืบค้นมติ กพช./กบง.)",
+   "title": "มติ กพช. ครั้งที่ 1/2562 (ครั้งที่ 148) วันที่ 11 ก.ย. 2562 เรื่อง กรอบนโยบายการบริหารกองทุนน้ำมันเชื้อเพลิง ภายใต้พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. 2562",
+   "kind": "primary"
+  },
+  "evidence": "มีเหตุการณ์ที่ทำให้ราคาขายปลีกก๊าซปิโตรเลียมเหลวในประเทศปรับตัวสูงขึ้นอยู่ในระดับที่เกินกว่าระดับราคาที่เหมาะสมสำหรับถัง 15 กิโลกรัม มากกว่า 363 บาท",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO record 2317. Raised to 423 baht in the 2569-2572 crisis plan. | ผู้ตรวจ: Record 2317. The researcher did not list two other LPG triggers: world LPG price change above 35 USD/t on average over 2 weeks, and domestic retail change above 1 baht/kg over 2 weeks."
+ },
+ {
+  "id": "policy.nepc_framework_2562.no_cross_subsidy",
+  "label": "วินัยการชดเชย (กรอบนโยบาย ๒๕๖๒): มาตรการระยะสั้น ไม่อุดหนุนข้ามกลุ่ม",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-09-11",
+  "source": {
+   "url": "https://reso.eppo.go.th/main",
+   "publisher": "สำนักงานนโยบายและแผนพลังงาน (ระบบสืบค้นมติ กพช./กบง.)",
+   "title": "มติ กพช. ครั้งที่ 1/2562 (ครั้งที่ 148) วันที่ 11 ก.ย. 2562 เรื่อง กรอบนโยบายการบริหารกองทุนน้ำมันเชื้อเพลิง ภายใต้พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. 2562",
+   "kind": "primary"
+  },
+  "evidence": "(2) เป็นมาตรการระยะสั้น และ คงหลักการสะท้อนมูลค่าที่แท้จริง หลีกเลี่ยงการกระทบต่อกลไกตลาดเสรี (3) คำนึงถึงภาวะความผันผวนของราคาต้นทุนที่แท้จริง แนวโน้มตลาดโลก หลีกเลี่ยงการชดเชยเพื่อช่วยเหลือกลุ่มใดกลุ่มหนึ่ง ไม่ควรอุดหนนราคาน้ำมันเชื้อเพลิงข้ามกลุ่ม (Cross Subsidies)",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO record 2317. 'อุดหนน' is a typo in the source, kept verbatim. | ผู้ตรวจ: The typo 'อุดหนน' is in the source."
+ },
+ {
+  "id": "policy.nepc_framework_2562.lpg_requires_framework",
+  "label": "ความเห็นกฤษฎีกา (สรุปในมติ กพช.): ชดเชย LPG ต้องมีกรอบนโยบาย กพช.; ชดเชยเชื้อเพลิงชีวภาพอยู่ใต้มาตรา ๕๕",
+  "value": null,
+  "unit": "",
+  "asOf": "2019-09-11",
+  "source": {
+   "url": "https://reso.eppo.go.th/main",
+   "publisher": "สำนักงานนโยบายและแผนพลังงาน (ระบบสืบค้นมติ กพช./กบง.)",
+   "title": "มติ กพช. ครั้งที่ 1/2562 (ครั้งที่ 148) วันที่ 11 ก.ย. 2562 เรื่อง กรอบนโยบายการบริหารกองทุนน้ำมันเชื้อเพลิง ภายใต้พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. 2562",
+   "kind": "primary"
+  },
+  "evidence": "มีการบัญญัติไว้เป็นการเฉพาะในมาตรา 55 จึงไม่ต้องอยู่ภายใต้กรอบนโยบายการบริหารกองทุนฯ ... ถ้ายังไม่มีการกำหนดกรอบนโยบายการบริหารกองทุนฯ โดย กพช. ก็ไม่สามารถดำเนินการจ่ายเงินชดเชยให้แก่น้ำมันเชื้อเพลิงในส่วนของก๊าซปิโตรเลียมเหลวได้",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO record 2317: EPPO's summary of Council of State (Committee 5) advice; the underlying OCS memo was not opened. | ผู้ตรวจ: This is EPPO's government summary of Council of State advice, not the OCS memo itself. The memo was not opened."
+ },
+ {
+  "id": "policy.crisis_plan_2563_2567.separate_accounts",
+  "label": "แผนรองรับวิกฤตฯ ๒๕๖๓-๒๕๖๗: แยกบัญชีฐานะกองทุนตามกลุ่มน้ำมันเชื้อเพลิง",
+  "value": null,
+  "unit": "",
+  "asOf": "2020-03-19",
+  "period": "2020-2024",
+  "source": {
+   "url": "https://reso.eppo.go.th/main",
+   "publisher": "สำนักงานนโยบายและแผนพลังงาน (ระบบสืบค้นมติ กพช./กบง.)",
+   "title": "มติ กพช. ครั้งที่ 1/2563 (ครั้งที่ 150) วันที่ 19 มี.ค. 2563 เรื่อง แผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิงและแผนยุทธศาสตร์กองทุนน้ำมันเชื้อเพลิง",
+   "kind": "primary"
+  },
+  "evidence": "ดำเนินการโดยจัดทำฐานะกองทุนน้ำมันฯ ให้แยกบัญชีตามกลุ่มน้ำมันเชื้อเพลิง มีกรอบความต่างของราคา (Band Width) ระหว่างราคาเชื้อเพลิงหลักของกลุ่มน้ำมันดีเซล และกลุ่มน้ำมันเบนซิน",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO record 2296. Cabinet approved the plan on 20 Oct 2563 (stated in EPPO record 24325). The 2569 plan's comparison table names the old groups as diesel, gasoline and LPG. Latest cabinet-approved plan before Sep 2569; whether it was formally extended past 2567 was not found. | ผู้ตรวจ: EPPO record 2296 (กพช. 1/2563 (150), 19 Mar 2563). Record 24325 confirms cabinet approval on 20 Oct 2563."
+ },
+ {
+  "id": "policy.crisis_plan_2563_2567.borrow_between_accounts",
+  "label": "แผนฯ ๒๕๖๓-๒๕๖๗: บัญชีใดติดลบให้ยืมจากบัญชีอื่น; ใกล้ติดลบเริ่ม Exit Strategy และกู้เงิน",
+  "value": null,
+  "unit": "",
+  "asOf": "2020-03-19",
+  "period": "2020-2024",
+  "source": {
+   "url": "https://reso.eppo.go.th/main",
+   "publisher": "สำนักงานนโยบายและแผนพลังงาน (ระบบสืบค้นมติ กพช./กบง.)",
+   "title": "มติ กพช. ครั้งที่ 1/2563 (ครั้งที่ 150) วันที่ 19 มี.ค. 2563 เรื่อง แผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิงและแผนยุทธศาสตร์กองทุนน้ำมันเชื้อเพลิง",
+   "kind": "primary"
+  },
+  "evidence": "กรณีบัญชีน้ำมันเชื้อเพลิงใดเริ่มติดลบ ให้ยืมเงินจากบัญชีน้ำมันเชื้อเพลิงชนิดอื่น และหารือเรื่องการปรับลดภาษีสรรพสามิต กรณีฐานะกองทุนน้ำมันฯ ใกล้ติดลบ ... ให้เริ่มกลยุทธ์การถอนกองทุนน้ำมันฯ (Exit Strategy) โดยปรับลดการช่วยเหลือลงครึ่งหนึ่ง ... และเริ่มกู้เงิน",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO record 2296. The 'cut support by half' wording was replaced in the 2nd revision (9 Mar 2565) by an exit-strategy clause tied to nearing the s.26 loan ceiling. | ผู้ตรวจ: Record 2296. Record 2231 confirms that revision 2 rewrote item 4) so that it is tied to s.26 para 2/3."
+ },
+ {
+  "id": "policy.crisis_plan_2563_2567.stop_compensation_threshold",
+  "label": "แผนฯ ๒๕๖๓-๒๕๖๗ (ฉบับเดิม): ฐานะกองทุนติดลบถึงระดับนี้ให้หยุดชดเชย",
+  "value": -20000,
+  "unit": "ล้านบาท",
+  "asOf": "2020-03-19",
+  "period": "2020-2024",
+  "source": {
+   "url": "https://reso.eppo.go.th/main",
+   "publisher": "สำนักงานนโยบายและแผนพลังงาน (ระบบสืบค้นมติ กพช./กบง.)",
+   "title": "มติ กพช. ครั้งที่ 1/2563 (ครั้งที่ 150) วันที่ 19 มี.ค. 2563 เรื่อง แผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิงและแผนยุทธศาสตร์กองทุนน้ำมันเชื้อเพลิง",
+   "kind": "primary"
+  },
+  "evidence": "และกรณีฐานะกองทุนน้ำมันฯ ติดลบ 20,000 ล้านบาท ให้หยุดการชดเชย",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO record 2296. Amended by กพช. 5 Nov 2564 (record 2251) to '-20,000 or the amount in an RD under s.26 para 3', then deleted by the 2nd revision (กพช. 9 Mar 2565; cabinet 15 Mar 2565). Not in force during 2569. | ผู้ตรวจ: Record 2296. Record 2251 (กพช. 3/2564, 5 Nov 2564) confirms the amendment to '-20,000 or per RD under s.26 para 3'."
+ },
+ {
+  "id": "policy.crisis_plan_2563_2567.rev2.stop_rule_deleted",
+  "label": "แผนฯ ฉบับปรับปรุงครั้งที่ ๒: ตัดเกณฑ์หยุดชดเชยเมื่อติดลบ ๒๐,๐๐๐ ล้านบาท",
+  "value": null,
+  "unit": "",
+  "asOf": "2022-03-09",
+  "source": {
+   "url": "https://reso.eppo.go.th/main",
+   "publisher": "สำนักงานนโยบายและแผนพลังงาน (ระบบสืบค้นมติ กพช./กบง.)",
+   "title": "มติ กพช. ครั้งที่ 2/2565 (ครั้งที่ 157) วันที่ 9 มี.ค. 2565 เรื่อง ทบทวนแผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิง พ.ศ. 2563 - 2567",
+   "kind": "primary"
+  },
+  "evidence": "(3) ขอตัดข้อ 5 5) จากเดิม “5) กรณีฐานะกองทุนน้ำมันเชื้อเพลิงติดลบ 20,000 ล้านบาท หรือติดลบตามจำนวนที่กำหนดใน พระราชกฤษฎีกา ตามมาตรา 26 วรรคสาม แห่งพระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. 2562 ให้กองทุนน้ำมันเชื้อเพลิง หยุดการชดเชย” เป็น ตัดข้อ 5) ออก",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO record 2231. Cabinet approved on 15 Mar 2565 (stated in EPPO record 24325). The 1st revision (กพช. 5 Nov 2564) had removed the 20,000 million loan figure from item 4. | ผู้ตรวจ: Record 2231 (กพช. 2/2565 (157), 9 Mar 2565). Record 24325 confirms cabinet approval on 15 Mar 2565."
+ },
+ {
+  "id": "cabinet.2022-09-20.s55_extension",
+  "label": "ครม. ขยายเวลาชดเชยเชื้อเพลิงชีวภาพ (มาตรา ๕๕) ครั้งที่ ๑ ถึง ๒๔ ก.ย. ๒๕๖๗",
+  "value": null,
+  "unit": "",
+  "asOf": "2022-09-20",
+  "source": {
+   "url": "https://reso.eppo.go.th/main",
+   "publisher": "สำนักงานนโยบายและแผนพลังงาน (ระบบสืบค้นมติ กพช./กบง.)",
+   "title": "มติ กพช. ครั้งที่ 3/2569 (ครั้งที่ 177) วันที่ 18 ก.ย. 2569 เรื่อง กรอบนโยบายการบริหารกองทุนน้ำมันเชื้อเพลิงฯ แผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิง พ.ศ. 2569 - 2572 และแผนยุทธศาสตร์กองทุนน้ำมันเชื้อเพลิง พ.ศ. 2569 - 2572",
+   "kind": "primary"
+  },
+  "evidence": "เมื่อวันที่ 20 กันยายน 2565 ครม. มีมติเห็นชอบตามที่ พน. เสนอการขยายระยะเวลาดำเนินการจ่ายเงินชดเชยให้แก่น้ำมันเชื้อเพลิงที่มีส่วนผสมของเชื้อเพลิงชีวภาพออกไปสองปี จนถึงวันที่ 24 กันยายน 2567",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO record 24325 (background section). The cabinet resolution text itself was not opened (thaigov.go.th blocked). | ผู้ตรวจ: Record 24325 background. This is EPPO's official account of a cabinet resolution; the cabinet text itself was not opened (thaigov.go.th returned 403)."
+ },
+ {
+  "id": "cabinet.2024-09-17.s55_extension",
+  "label": "ครม. ขยายเวลาชดเชยเชื้อเพลิงชีวภาพ (มาตรา ๕๕) ครั้งที่ ๒ ถึง ๒๔ ก.ย. ๒๕๖๙",
+  "value": null,
+  "unit": "",
+  "asOf": "2024-09-17",
+  "source": {
+   "url": "https://reso.eppo.go.th/main",
+   "publisher": "สำนักงานนโยบายและแผนพลังงาน (ระบบสืบค้นมติ กพช./กบง.)",
+   "title": "มติ กพช. ครั้งที่ 3/2569 (ครั้งที่ 177) วันที่ 18 ก.ย. 2569 เรื่อง กรอบนโยบายการบริหารกองทุนน้ำมันเชื้อเพลิงฯ แผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิง พ.ศ. 2569 - 2572 และแผนยุทธศาสตร์กองทุนน้ำมันเชื้อเพลิง พ.ศ. 2569 - 2572",
+   "kind": "primary"
+  },
+  "evidence": "โดยเมื่อวันที่ 17 กันยายน 2567 ครม. มีมติเห็นชอบตามที่ พน. เสนอการขยายระยะเวลาดำเนินการจ่ายเงินชดเชยให้แก่น้ำมันเชื้อเพลิงที่มีส่วนผสมของเชื้อเพลิงชีวภาพออกไปสองปี จนถึงวันที่ 24 กันยายน 2569",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO record 24325. This used the second and last extension allowed by s.55 para 3. | ผู้ตรวจ: Same caveat as the 2022 record: an EPPO summary of the cabinet resolution."
+ },
+ {
+  "id": "ocs.opinion_2024-09-26.post_s55_rates",
+  "label": "ความเห็นกฤษฎีกา (๒๖ ก.ย. ๒๕๖๗): หลังมาตรา ๕๕ สิ้นสุด กบน. กำหนดอัตราน้ำมันผสมเชื้อเพลิงชีวภาพได้ตามมาตรา ๑๔ (๔)",
+  "value": null,
+  "unit": "",
+  "asOf": "2024-09-26",
+  "source": {
+   "url": "https://reso.eppo.go.th/main",
+   "publisher": "สำนักงานนโยบายและแผนพลังงาน (ระบบสืบค้นมติ กพช./กบง.)",
+   "title": "มติ กพช. ครั้งที่ 3/2569 (ครั้งที่ 177) วันที่ 18 ก.ย. 2569 เรื่อง กรอบนโยบายการบริหารกองทุนน้ำมันเชื้อเพลิงฯ แผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิง พ.ศ. 2569 - 2572 และแผนยุทธศาสตร์กองทุนน้ำมันเชื้อเพลิง พ.ศ. 2569 - 2572",
+   "kind": "primary"
+  },
+  "evidence": "เมื่อระยะเวลาตามบทเฉพาะกาลในมาตรา 55 สิ้นสุดลง การดำเนินการเกี่ยวกับน้ำมันเชื้อเพลิงที่มีส่วนผสมของเชื้อเพลิงชีวภาพ ... จึงเป็นหน้าที่และอำนาจของ กบน. ในการกำหนดหลักเกณฑ์และวิธีการส่งเงินเข้ากองทุนหรือได้รับเงินชดเชย และกำหนดอัตราเงินส่งเข้ากองทุน อัตราเงินชดเชย ...",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO record 24325 (EPPO summary). EPPO does not give the memo number; the OCS database lists เรื่องเสร็จที่ 1218/2567 on the same subject (title match only, not opened). | ผู้ตรวจ: This is EPPO's summary ('โดยสรุป'), not the OCS memo itself (possibly 1218/2567, not opened). Treat it as a government secondary account."
+ },
+ {
+  "id": "policy.nepc_framework_2569.approval",
+  "label": "กพช. เห็นชอบกรอบนโยบายการบริหารกองทุนฯ ฉบับใหม่ และแผนรองรับวิกฤตฯ ๒๕๖๙-๒๕๗๒",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-09-18",
+  "source": {
+   "url": "https://reso.eppo.go.th/main",
+   "publisher": "สำนักงานนโยบายและแผนพลังงาน (ระบบสืบค้นมติ กพช./กบง.)",
+   "title": "มติ กพช. ครั้งที่ 3/2569 (ครั้งที่ 177) วันที่ 18 ก.ย. 2569 เรื่อง กรอบนโยบายการบริหารกองทุนน้ำมันเชื้อเพลิงฯ แผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิง พ.ศ. 2569 - 2572 และแผนยุทธศาสตร์กองทุนน้ำมันเชื้อเพลิง พ.ศ. 2569 - 2572",
+   "kind": "primary"
+  },
+  "evidence": "1. เห็นชอบกรอบนโยบายการบริหารกองทุนน้ำมันเชื้อเพลิง ภายใต้พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. 2562 ... 2. เห็นชอบแผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิง พ.ศ. 2569 - 2572 ... และมอบหมายให้สำนักงานกองทุนน้ำมันเชื้อเพลิงนำเสนอคณะรัฐมนตรีให้ความเห็นชอบต่อไป",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO record 24325. กบน. approved the drafts on 7 Sep 2569. After the game window (15 Feb-7 Jun 2026); during the window the 2562 framework applied. | ผู้ตรวจ: Record 24325 (ครั้งที่ 3/2569 (177), Friday 18 Sep 2569). กบน. approved the drafts on 7 Sep 2569 (confirmed)."
+ },
+ {
+  "id": "policy.nepc_framework_2569.s55_end",
+  "label": "กรอบนโยบายฯ ๒๕๖๙: การชดเชยเชื้อเพลิงชีวภาพตามมาตรา ๕๕ สิ้นสุด ๒๔ ก.ย. ๒๕๖๙",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-09-24",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/add/00-%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A%E0%B8%99%E0%B9%82%E0%B8%A2%E0%B8%9A%E0%B8%B2%E0%B8%A2-%20%E0%B8%A0%E0%B8%B2%E0%B8%A2%E0%B9%83%E0%B8%95%E0%B9%89%20%E0%B8%9E%E0%B8%A3%E0%B8%9A.pdf",
+   "publisher": "สำนักงานกองทุนน้ำมันเชื้อเพลิง",
+   "title": "กรอบนโยบายการบริหารกองทุนน้ำมันเชื้อเพลิง ภายใต้พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ฉบับที่ กพช. เห็นชอบ ๑๘ ก.ย. ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "นอกจากนี้ ระยะเวลาการจ่ายเงินชดเชยให้แก่น้ำมันเชื้อเพลิงที่มีส่วนผสมของเชื้อเพลิงชีวภาพ ตามมาตรา ๕๕ แห่งพระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ จะสิ้นสุดลงในวันที่ ๒๔ กันยายน ๒๕๖๙",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Transcribed from page image (text layer drops ้). After this date biofuel blends are rated by กบน. under s.14(4) like other fuels. | ผู้ตรวจ: The OFFO PDF is undated, and its PDF metadata shows it was created 17 Sep 2026, a day before the กพช. meeting. Its approval status comes from EPPO record 24325, not from the document."
+ },
+ {
+  "id": "policy.nepc_framework_2569.normal_times_no_compensation",
+  "label": "กรอบนโยบายฯ ๒๕๖๙: ช่วงปกติปล่อยตามกลไกตลาด ไม่ชดเชย",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-09-18",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/add/00-%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A%E0%B8%99%E0%B9%82%E0%B8%A2%E0%B8%9A%E0%B8%B2%E0%B8%A2-%20%E0%B8%A0%E0%B8%B2%E0%B8%A2%E0%B9%83%E0%B8%95%E0%B9%89%20%E0%B8%9E%E0%B8%A3%E0%B8%9A.pdf",
+   "publisher": "สำนักงานกองทุนน้ำมันเชื้อเพลิง",
+   "title": "กรอบนโยบายการบริหารกองทุนน้ำมันเชื้อเพลิง ภายใต้พระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ (ฉบับที่ กพช. เห็นชอบ ๑๘ ก.ย. ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "ในช่วงสถานการณ์ปกติที่ราคาน้ำมันขายปลีกในประเทศไม่ได้ปรับตัวขึ้นรุนแรงเกินกว่าที่แผนรองรับวิกฤตฯ กำหนดไว้ รวมถึงราคาน้ำมันเชื้อเพลิงในตลาดโลกไม่ได้เกิดความผันผวน กองทุนน้ำมันเชื้อเพลิงจะปล่อยให้เป็นไปตามกลไกตลาดโดยไม่เข้าไปชดเชย",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Transcribed from text layer with tone marks restored. Item 2.3.3 of the same document: avoid cross-subsidies between fuel groups. | ผู้ตรวจ: Item 2, p.2. Item 2.3.3 (Cross Subsidies) is confirmed. The same caveat about the undated document applies."
+ },
+ {
+  "id": "policy.crisis_plan_2569_2572.separate_groups",
+  "label": "แผนฯ ๒๕๖๙-๒๕๗๒: แยกกลุ่มน้ำมัน และกลุ่ม LPG",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-09-18",
+  "period": "2026-2029",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/2562/01-%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%81%E0%B8%A4%E0%B8%95%E0%B8%AF-69-72.pdf",
+   "publisher": "สำนักงานกองทุนน้ำมันเชื้อเพลิง",
+   "title": "แผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๙ - ๒๕๗๒",
+   "kind": "primary"
+  },
+  "evidence": "๑. เพื่อเป็นการรักษาสภาพคล่องทางการเงินของฐานะกองทุนน้ำมันเชื้อเพลิงและให้มีจำนวนเงินเพียงพอในการบริหารจัดการกองทุนจึงทำการแยกชนิดน้ำมันเชื้อเพลิง ได้แก่ กลุ่มน้ำมันและกลุ่มก๊าซปิโตรเลียมเหลว เพื่อหลีกเลี่ยงการอุดหนุนราคาข้ามกลุ่มเชื้อเพลิง",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Transcribed from page image. Approved by กพช. 18 Sep 2569; the plan says it takes effect on cabinet approval (reported 22 Sep 2569). After the game window. | ผู้ตรวจ: p.2, from the page image. The plan says it takes effect once the cabinet approves it, which was reported for 22 Sep 2569."
+ },
+ {
+  "id": "policy.crisis_plan_2563_2567.three_accounts",
+  "label": "แผนฯ ๒๕๖๓-๒๕๖๗ (ฉบับเดิม ตามตารางเปรียบเทียบ): แยกบัญชีดีเซล เบนซิน LPG",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-09-18",
+  "period": "2020-2024",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/2562/01-%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%81%E0%B8%A4%E0%B8%95%E0%B8%AF-69-72.pdf",
+   "publisher": "สำนักงานกองทุนน้ำมันเชื้อเพลิง",
+   "title": "แผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๙ - ๒๕๗๒",
+   "kind": "primary"
+  },
+  "evidence": "๑. ฐานะกองทุนน้ำมันเชื้อเพลิงทำการแยกบัญชีตามกลุ่มน้ำมันเชื้อเพลิง ได้แก่ กลุ่มน้ำมันดีเซล กลุ่มน้ำมันเบนซิน และก๊าซปิโตรเลียมเหลว เพื่อหลีกเลี่ยงการอุดหนุนราคาข้ามกลุ่มเชื้อเพลิง",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Text layer drops ้; tone marks restored. Quoted from the 'old plan' column of the comparison table (p.11) of the 2569-2572 plan; it describes the 2563-2567 plan, the rule set relevant to Feb-Jun 2569. | ผู้ตรวจ: p.11, 'old plan' column of the comparison table (page image). asOf is the date of the 2569 comparison document; the rule itself dates from the 2563 plan."
+ },
+ {
+  "id": "policy.crisis_plan_2569_2572.oil_crisis_threshold",
+  "label": "แผนฯ ๒๕๖๙-๒๕๗๒ สถานการณ์ที่ ๑: ราคาขายปลีกดีเซล/เบนซินเกินระดับเหมาะสม",
+  "value": 30,
+  "unit": "บาทต่อลิตร",
+  "asOf": "2026-09-18",
+  "period": "2026-2029",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/2562/01-%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%81%E0%B8%A4%E0%B8%95%E0%B8%AF-69-72.pdf",
+   "publisher": "สำนักงานกองทุนน้ำมันเชื้อเพลิง",
+   "title": "แผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๙ - ๒๕๗๒",
+   "kind": "primary"
+  },
+  "evidence": "๑) กลุ่มน้ำมัน - มีเหตุการณ์ที่ทำให้ราคาขายปลีกในประเทศของเชื้อเพลิงหลักในกลุ่มน้ำมันดีเซลและกลุ่มน้ำมันเบนซินปรับตัวสูงขึ้นอยู่ในระดับที่เกินกว่าระดับราคาที่เหมาะสม คือ มากกว่า ๓๐ บาทต่อลิตร",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Tone marks restored from the page. After the game window. The old plan applied the 30 baht/litre trigger to the diesel group only; the new volatility trigger is >10 USD/bbl and >2 baht/litre within 1 week. | ผู้ตรวจ: p.3. The p.12 old column confirms the old trigger covered the diesel group only ('กลุ่มน้ำมันดีเซล ... มากกว่า ๓๐ บาท/ลิตร')."
+ },
+ {
+  "id": "policy.crisis_plan_2569_2572.lpg_crisis_threshold",
+  "label": "แผนฯ ๒๕๖๙-๒๕๗๒ สถานการณ์ที่ ๑: ราคาขายปลีก LPG ถัง ๑๕ กก.",
+  "value": 423,
+  "unit": "บาท (ถัง 15 กิโลกรัม)",
+  "asOf": "2026-09-18",
+  "period": "2026-2029",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/2562/01-%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%81%E0%B8%A4%E0%B8%95%E0%B8%AF-69-72.pdf",
+   "publisher": "สำนักงานกองทุนน้ำมันเชื้อเพลิง",
+   "title": "แผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๙ - ๒๕๗๒",
+   "kind": "primary"
+  },
+  "evidence": "ข. มีเหตุการณ์ที่ทำให้ราคาขายปลีกก๊าซปิโตรเลียมเหลวในประเทศปรับตัวสูงขึ้นอยู่ในระดับที่เกินกว่าระดับราคาที่เหมาะสมสำหรับถัง ๑๕ กิโลกรัม มากกว่า ๔๒๓ บาท",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Tone marks restored. After the game window. Old plan: 363 baht. | ผู้ตรวจ: p.3. p.12 confirms the old value was 363."
+ },
+ {
+  "id": "policy.crisis_plan_2569_2572.borrow_trigger",
+  "label": "แผนฯ ๒๕๖๙-๒๕๗๒: ฐานะใกล้ติดลบ เริ่มกู้ในวงเงินไม่เกินนี้ (หรือตาม พ.ร.ฎ.)",
+  "value": 20000,
+  "unit": "ล้านบาท",
+  "asOf": "2026-09-18",
+  "period": "2026-2029",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/2562/01-%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%81%E0%B8%A4%E0%B8%95%E0%B8%AF-69-72.pdf",
+   "publisher": "สำนักงานกองทุนน้ำมันเชื้อเพลิง",
+   "title": "แผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๙ - ๒๕๗๒",
+   "kind": "primary"
+  },
+  "evidence": "๓) กรณีฐานะกองทุนน้ำมันเชื้อเพลิงใกล้ติดลบให้เริ่มดำเนินการกู้เงินในวงเงินไม่เกิน ๒๐,๐๐๐ ล้านบาท หรือตามวรรคสาม ตามมาตรา ๒๖ แห่งพระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ เพื่อให้กองทุนน้ำมันเชื้อเพลิงไม่ขาดสภาพคล่อง",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Read from page image (p.5). After the game window. | ผู้ตรวจ: p.5 item 5.1. This item also covers consulting the Excise Dept on a tax cut and a plan to reduce compensation."
+ },
+ {
+  "id": "policy.crisis_plan_2569_2572.minus_20000_consult_cabinet",
+  "label": "แผนฯ ๒๕๖๙-๒๕๗๒: ฐานะติดลบถึงระดับนี้ ให้หารือ ครม. หาแนวทางเพิ่มสภาพคล่อง",
+  "value": -20000,
+  "unit": "ล้านบาท",
+  "asOf": "2026-09-18",
+  "period": "2026-2029",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/2562/01-%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%81%E0%B8%A4%E0%B8%95%E0%B8%AF-69-72.pdf",
+   "publisher": "สำนักงานกองทุนน้ำมันเชื้อเพลิง",
+   "title": "แผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๙ - ๒๕๗๒",
+   "kind": "primary"
+  },
+  "evidence": "๔) กรณีฐานะกองทุนน้ำมันเชื้อเพลิงติดลบ ๒๐,๐๐๐ ล้านบาท หรือติดลบตามจำนวนที่กำหนดในพระราชกฤษฎีกาตามมาตรา ๒๖ วรรคสาม แห่งพระราชบัญญัติกองทุนน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๒ ให้กองทุนน้ำมันเชื้อเพลิงดำเนินการหารือคณะรัฐมนตรี ในการหาแนวทางการเพิ่มสภาพคล่อง",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Read from page image (p.5). A consultation trigger, not a stop rule. After the game window. | ผู้ตรวจ: p.5. This is a trigger to consult the cabinet, not a rule to stop compensation."
+ },
+ {
+  "id": "policy.crisis_plan_2569_2572.half_drawdown_review",
+  "label": "แผนฯ ๒๕๖๙-๒๕๗๒: บัญชีลดลงกึ่งหนึ่งนับจากเริ่มชดเชย ให้เสนอ กบน. ทบทวน",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-09-18",
+  "period": "2026-2029",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/2562/01-%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%81%E0%B8%A4%E0%B8%95%E0%B8%AF-69-72.pdf",
+   "publisher": "สำนักงานกองทุนน้ำมันเชื้อเพลิง",
+   "title": "แผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิง พ.ศ. ๒๕๖๙ - ๒๕๗๒",
+   "kind": "primary"
+  },
+  "evidence": "๒) กรณีฐานะการเงินของบัญชีน้ำมันเชื้อเพลิงลดลงกึ่งหนึ่งของมูลค่านับตั้งแต่วันที่เริ่มการชดเชยวิกฤตน้ำมันเชื้อเพลิง ให้กองทุนน้ำมันเชื้อเพลิง เสนอคณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง เพื่อพิจารณาแนวทางการดำเนินการในการอุดหนุนอัตราเงินกองทุน",
+  "status": "verified",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Read from page image (p.5). After the game window. | ผู้ตรวจ: p.5 item 5.1 (applies when the fund balance is positive)."
+ },
+ {
+  "id": "cabinet.2026-09-22.crisis_plan_2569_2572",
+  "label": "ครม. เห็นชอบแผนรองรับวิกฤตฯ ๒๕๖๙-๒๕๗๒ (รายงานข่าว)",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-09-22",
+  "source": {
+   "url": "https://policywatch.thaipbs.or.th/article/economy-301",
+   "publisher": "Thai PBS Policy Watch",
+   "title": "ครม. เห็นชอบแผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิง พ.ศ. 2569–2572",
+   "kind": "secondary"
+  },
+  "evidence": "ที่ประชุมคณะรัฐมนตรี (ครม.) เมื่อ 22 ก.ย. มีมติเห็นชอบแผนรองรับวิกฤตการณ์ด้านน้ำมันเชื้อเพลิง พ.ศ. 2569–2572 และแผนยุทธศาสตร์กองทุนน้ำมันเชื้อเพลิง พ.ศ. 2569–2572 ตามมติคณะกรรมการนโยบายพลังงานแห่งชาติ (กพช.) และกระทรวงพลังงาน (พน.) เสนอ",
+  "status": "secondary-only",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Year inferred as 2569 from context (กพช. approved 18 Sep 2569). Cabinet text on thaigov.go.th not reachable. | ผู้ตรวจ: The news page shows a publication date of 24 ก.ย. 2569, which supports year 2569. It is correctly labeled secondary. The cabinet text on thaigov.go.th returned 403."
+ },
+ {
+  "id": "kbn.2026-04-10.loan_request",
+  "label": "กบน. มีมติเสนอ ครม. อนุมัติการกู้ยืมเงินของ สกนช. (๑๐ เม.ย. ๒๕๖๙)",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-04-10",
+  "source": {
+   "url": "https://ratchaburi.prd.go.th/th/content/category/detail/id/57/iid/498675",
+   "publisher": "สำนักงานประชาสัมพันธ์จังหวัดราชบุรี (กรมประชาสัมพันธ์)",
+   "title": "ครม. อนุมัติให้กองทุนน้ำมันเชื้อเพลิง กู้ยืมเงิน 2 หมื่นล้าน เสริมสภาพคล่อง พยุงราคาพลังงาน",
+   "kind": "secondary"
+  },
+  "evidence": "เมื่อวันที่ 10 เมษายน 2569 จึงได้ประชุม... (กบน.) โดยที่ประชุม มีมติเห็นชอบให้นำเสนอคณะรัฐมนตรีพิจารณาอนุมัติการกู้ยืมเงินของ สกนช. ... แผนการใช้จ่ายเงินกู้ 2 หมื่นล้านบาท ในช่วงเดือนมิถุนายน - สิงหาคม 2569 และแผนชำระหนี้เงินกู้ ในช่วงเดือนกรกฎาคม 2571 - สิงหาคม 2574",
+  "status": "secondary-only",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Government PR department page (published 29 Apr 2569) relaying the cabinet spokesperson; not the owner of the record. This is the s.14(6) consent step. Same facts in thestandard.co (28 Apr 2569). | ผู้ตรวจ: Provincial PR office page dated 29/04/2569 relaying the cabinet spokesperson. The repayment plan of Jul 2571 to Aug 2574 is confirmed. It is a government relay, not the record owner."
+ },
+ {
+  "id": "cabinet.2026-04-28.offo_loan_approval",
+  "label": "ครม. อนุมัติให้ สกนช. กู้ยืมเงิน (มาตรา ๒๖ วรรคสอง)",
+  "value": 2,
+  "unit": "หมื่นล้านบาท",
+  "asOf": "2026-04-28",
+  "source": {
+   "url": "https://ratchaburi.prd.go.th/th/content/category/detail/id/57/iid/498675",
+   "publisher": "สำนักงานประชาสัมพันธ์จังหวัดราชบุรี (กรมประชาสัมพันธ์)",
+   "title": "ครม. อนุมัติให้กองทุนน้ำมันเชื้อเพลิง กู้ยืมเงิน 2 หมื่นล้าน เสริมสภาพคล่อง พยุงราคาพลังงาน",
+   "kind": "secondary"
+  },
+  "evidence": "(28 เม.ย. 69) ที่ประชุมคณะรัฐมนตรี มีมติอนุมัติให้สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.) กู้ยืมเงินวงเงิน 2 หมื่นล้านบาท และให้ สกนช. ดำเนินการกู้เงินได้เมื่อคณะรัฐมนตรีอนุมัติแผนการบริหารหนี้สาธารณะด้วยแล้ว",
+  "status": "secondary-only",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "= 20,000 million baht, the full statutory loan ceiling of s.26 para 2 (no RD raising it found). Same page: fund balance about -53,000 million baht on 5 Apr 2569 and an estimated -62,617.87 million baht on 28 Apr 2569. thaigov.go.th not reachable. Loan signing date and lender not found. | ผู้ตรวจ: The value is right, but the unit 'หมื่นล้านบาท' is inconsistent with the other records, which use ล้านบาท. It should be 20000 ล้านบาท. The page's balance figures (about -53,000 million on 5 Apr; -62,617.87 million on 28 Apr) match."
+ },
+ {
+  "id": "plan.2026-03-31.rd_ed_150000_proposal",
+  "label": "ข้อเสนอกระทรวงการคลัง: พ.ร.ฎ. ขยายวงเงินกู้กองทุน + พ.ร.ก. ค้ำประกัน (ไม่พบว่าประกาศใช้)",
+  "value": 1.5,
+  "unit": "แสนล้านบาท",
+  "asOf": "2026-03-31",
+  "source": {
+   "url": "https://thestandard.co/oil-fund-loan-limit-expansion/",
+   "publisher": "THE STANDARD",
+   "title": "ปลัดคลัง เผยจ่อแก้กฎหมายขยาย วงเงินกู้ กองทุนน้ำมัน เป็น 1.5 แสนล้านบาท",
+   "kind": "secondary"
+  },
+  "evidence": "1.) ออกพระราชกฤษฎีกา (พ.ร.ฎ.) ขยายวงเงินให้กองทุนน้ำมันฯ สามารถกู้เงินเองได้เป็นวงเงิน 1.5 แสนล้านบาท เพิ่มจากเดิมที่ 4 หมื่นล้านบาท เป็นระยะเวลา 1 ปี ... 2.) ออกพระราชกำหนด (พ.ร.ก.) เปิดทางให้กระทรวงการคลังค้ำประกันเงินกู้ให้กับกองทุนน้ำมัน",
+  "status": "secondary-only",
+  "checkedBy": "verify:law (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Proposal only. bangkokbiznews (9 Apr 2569) also reported a planned 150,000 million baht guarantee decree. No 2569 RD under s.26 para 3 and no 2569 OFFO guarantee decree found in the OCS law database (searched 2026-11-22). The article calls 40,000 million (the s.26 para 1 fund+loan cap) the loan cap; the statutory loan cap is 20,000 million. | ผู้ตรวจ: datePublished is 2026-03-31. This is a proposal only, and the unit 'แสนล้านบาท' should be 150000 ล้านบาท for consistency. I did not open the bangkokbiznews article."
+ }
+]

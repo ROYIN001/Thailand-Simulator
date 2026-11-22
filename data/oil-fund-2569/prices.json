@@ -1,0 +1,3618 @@
+[
+ {
+  "id": "price.retail.benzin95.bkk.2026-02-16",
+  "label": "ราคาขายปลีก เบนซิน 95 กทม.",
+  "value": 39.14,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-02-16",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-2-16.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "เบนซิน 95 | ราคาขายปลีก | 39.14",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Checkpoint 15 Feb (Sun): no file for 14-15 Feb. The 13 Feb and 16 Feb files are identical for all grades. EPPO retail = price of the seller with the largest market share (sheet คำอธิบาย)."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-02-16",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 30.85,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-02-16",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-2-16.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 30.85",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "See the checkpoint note on price.retail.benzin95, same date."
+ },
+ {
+  "id": "price.retail.gasohol91.bkk.2026-02-16",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 91 กทม.",
+  "value": 30.48,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-02-16",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-2-16.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 91 | ราคาขายปลีก | 30.48",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "See the checkpoint note on price.retail.benzin95, same date."
+ },
+ {
+  "id": "price.retail.gasohol95_e20.bkk.2026-02-16",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E20 กทม.",
+  "value": 28.64,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-02-16",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-2-16.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี20 | ราคาขายปลีก | 28.64",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "See the checkpoint note on price.retail.benzin95, same date."
+ },
+ {
+  "id": "price.retail.gasohol95_e85.bkk.2026-02-16",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E85 กทม.",
+  "value": 26.59,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-02-16",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-2-16.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี85 | ราคาขายปลีก | 26.59",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "See the checkpoint note on price.retail.benzin95, same date."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-02-16",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 29.94,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-02-16",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-2-16.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 29.94",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "See the checkpoint note on price.retail.benzin95, same date. | ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.lpg.bkk.2026-02-16",
+  "label": "ราคาขายปลีก LPG กทม.",
+  "value": 25.87,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-02-16",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-2-16.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ก๊าซปิโตรเลียมเหลว (บาท/กิโลกรัม) | ราคาขายปลีก | 25.87",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "See the checkpoint note on price.retail.benzin95, same date. The LPG retail figure in the structure is 25.87 in every file from 4 Feb to 14 Jun 2026. | ผู้ตรวจ: Record is the displayed value; raw cell 25.866753."
+ },
+ {
+  "id": "price.retail.benzin95.bkk.2026-03-02",
+  "label": "ราคาขายปลีก เบนซิน 95 กทม.",
+  "value": 39.14,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "เบนซิน 95 | ราคาขายปลีก | 39.14",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Checkpoint 1 Mar (Sun): the 27 Feb and 2 Mar files are identical for all grades."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-03-02",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 30.55,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 30.55",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "See the checkpoint note on price.retail.benzin95, same date. ThaiPublica (secondary) also gives 30.55 for early March 2026."
+ },
+ {
+  "id": "price.retail.gasohol91.bkk.2026-03-02",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 91 กทม.",
+  "value": 30.18,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 91 | ราคาขายปลีก | 30.18",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "See the checkpoint note on price.retail.benzin95, same date."
+ },
+ {
+  "id": "price.retail.gasohol95_e20.bkk.2026-03-02",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E20 กทม.",
+  "value": 28.34,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี20 | ราคาขายปลีก | 28.34",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "See the checkpoint note on price.retail.benzin95, same date."
+ },
+ {
+  "id": "price.retail.gasohol95_e85.bkk.2026-03-02",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E85 กทม.",
+  "value": 26.29,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี85 | ราคาขายปลีก | 26.29",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "See the checkpoint note on price.retail.benzin95, same date."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-03-02",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 29.94,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 29.94",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "See the checkpoint note on price.retail.benzin95, same date. B7 was 29.94 in every file from 4 Feb to 17 Mar 2026. | ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.lpg.bkk.2026-03-02",
+  "label": "ราคาขายปลีก LPG กทม.",
+  "value": 25.87,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ก๊าซปิโตรเลียมเหลว (บาท/กิโลกรัม) | ราคาขายปลีก | 25.87",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "See the checkpoint note on price.retail.benzin95, same date. | ผู้ตรวจ: Record is the displayed value; raw cell 25.866753."
+ },
+ {
+  "id": "price.retail.benzin95.bkk.2026-03-16",
+  "label": "ราคาขายปลีก เบนซิน 95 กทม.",
+  "value": 39.64,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-16",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-16.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "เบนซิน 95 | ราคาขายปลีก | 39.64",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Checkpoint 15 Mar (Sun): the 13 Mar and 16 Mar files are identical. This matches the retail table (16 มี.ค. 69) in the EPPO weekly report for 9-15 Mar."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-03-16",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 31.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-16",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-16.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 31.05",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "See the checkpoint note on price.retail.benzin95, same date."
+ },
+ {
+  "id": "price.retail.gasohol91.bkk.2026-03-16",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 91 กทม.",
+  "value": 30.68,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-16",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-16.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 91 | ราคาขายปลีก | 30.68",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "See the checkpoint note on price.retail.benzin95, same date."
+ },
+ {
+  "id": "price.retail.gasohol95_e20.bkk.2026-03-16",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E20 กทม.",
+  "value": 27.84,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-16",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-16.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี20 | ราคาขายปลีก | 27.84",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "See the checkpoint note on price.retail.benzin95, same date."
+ },
+ {
+  "id": "price.retail.gasohol95_e85.bkk.2026-03-16",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E85 กทม.",
+  "value": 25.79,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-16",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-16.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี85 | ราคาขายปลีก | 25.79",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "See the checkpoint note on price.retail.benzin95, same date."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-03-16",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 29.94,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-16",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-16.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 29.94",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "See the checkpoint note on price.retail.benzin95, same date. | ผู้ตรวจ: Row has no B7 label; weekly report (16 มี.ค. 69 table) lists 'ดีเซล B7 29.94'."
+ },
+ {
+  "id": "price.retail.lpg.bkk.2026-03-16",
+  "label": "ราคาขายปลีก LPG กทม.",
+  "value": 25.87,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-03-16",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-16.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ก๊าซปิโตรเลียมเหลว (บาท/กิโลกรัม) | ราคาขายปลีก | 25.87",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "See the checkpoint note on price.retail.benzin95, same date. | ผู้ตรวจ: Record is the displayed value; raw cell 25.866753."
+ },
+ {
+  "id": "price.retail.benzin95.bkk.2026-04-01",
+  "label": "ราคาขายปลีก เบนซิน 95 กทม.",
+  "value": 50.64,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "เบนซิน 95 | ราคาขายปลีก | 50.64",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-04-01",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 42.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 42.05",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.gasohol91.bkk.2026-04-01",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 91 กทม.",
+  "value": 41.68,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 91 | ราคาขายปลีก | 41.68",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.gasohol95_e20.bkk.2026-04-01",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E20 กทม.",
+  "value": 37.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี20 | ราคาขายปลีก | 37.05",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.gasohol95_e85.bkk.2026-04-01",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E85 กทม.",
+  "value": 33.79,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี85 | ราคาขายปลีก | 33.79",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-04-01",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 40.74,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 40.74",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.diesel_b20.bkk.2026-04-01",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B20 กทม.",
+  "value": 35.74,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว บี20 | ราคาขายปลีก | 35.74",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.lpg.bkk.2026-04-01",
+  "label": "ราคาขายปลีก LPG กทม.",
+  "value": 25.87,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-04-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ก๊าซปิโตรเลียมเหลว (บาท/กิโลกรัม) | ราคาขายปลีก | 25.87",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Record is the displayed value; raw cell 25.866753."
+ },
+ {
+  "id": "price.retail.benzin95.bkk.2026-04-15",
+  "label": "ราคาขายปลีก เบนซิน 95 กทม.",
+  "value": 52.54,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "เบนซิน 95 | ราคาขายปลีก | 52.54",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-04-15",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 42.95,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 42.95",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.gasohol91.bkk.2026-04-15",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 91 กทม.",
+  "value": 42.58,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 91 | ราคาขายปลีก | 42.58",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.gasohol95_e20.bkk.2026-04-15",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E20 กทม.",
+  "value": 35.95,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี20 | ราคาขายปลีก | 35.95",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.gasohol95_e85.bkk.2026-04-15",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E85 กทม.",
+  "value": 31.89,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี85 | ราคาขายปลีก | 31.89",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-04-15",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 44.4,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 44.40",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.diesel_b20.bkk.2026-04-15",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B20 กทม.",
+  "value": 37.4,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว บี20 | ราคาขายปลีก | 37.40",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.lpg.bkk.2026-04-15",
+  "label": "ราคาขายปลีก LPG กทม.",
+  "value": 25.87,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ก๊าซปิโตรเลียมเหลว (บาท/กิโลกรัม) | ราคาขายปลีก | 25.87",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Record is the displayed value; raw cell 25.866753."
+ },
+ {
+  "id": "price.retail.benzin95.bkk.2026-05-01",
+  "label": "ราคาขายปลีก เบนซิน 95 กทม.",
+  "value": 52.89,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "เบนซิน 95 | ราคาขายปลีก | 52.89",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Also a change date. The 30 Apr file shows 52.04. | ผู้ตรวจ: 30 Apr file shows 52.04, as the note says."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-05-01",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 43.3,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 43.30",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Also a change date. The 30 Apr file shows 42.45. | ผู้ตรวจ: 30 Apr file shows 42.45, as the note says."
+ },
+ {
+  "id": "price.retail.gasohol91.bkk.2026-05-01",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 91 กทม.",
+  "value": 42.93,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 91 | ราคาขายปลีก | 42.93",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.gasohol95_e20.bkk.2026-05-01",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E20 กทม.",
+  "value": 36.3,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี20 | ราคาขายปลีก | 36.30",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.gasohol95_e85.bkk.2026-05-01",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E85 กทม.",
+  "value": 32.24,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี85 | ราคาขายปลีก | 32.24",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-05-01",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 40.8,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 40.80",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Also a change date. The 30 Apr file shows 40.20. | ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7. 30 Apr file shows 40.20."
+ },
+ {
+  "id": "price.retail.diesel_b20.bkk.2026-05-01",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B20 กทม.",
+  "value": 33.8,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว บี20 | ราคาขายปลีก | 33.80",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.lpg.bkk.2026-05-01",
+  "label": "ราคาขายปลีก LPG กทม.",
+  "value": 25.87,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-05-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ก๊าซปิโตรเลียมเหลว (บาท/กิโลกรัม) | ราคาขายปลีก | 25.87",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Record is the displayed value; raw cell 25.866753."
+ },
+ {
+  "id": "price.retail.benzin95.bkk.2026-05-15",
+  "label": "ราคาขายปลีก เบนซิน 95 กทม.",
+  "value": 53.64,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "เบนซิน 95 | ราคาขายปลีก | 53.64",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-05-15",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 44.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 44.05",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.gasohol91.bkk.2026-05-15",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 91 กทม.",
+  "value": 43.68,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 91 | ราคาขายปลีก | 43.68",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.gasohol95_e20.bkk.2026-05-15",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E20 กทม.",
+  "value": 37.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี20 | ราคาขายปลีก | 37.05",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.gasohol95_e85.bkk.2026-05-15",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E85 กทม.",
+  "value": 32.99,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี85 | ราคาขายปลีก | 32.99",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-05-15",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 41.45,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 41.45",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.diesel_b20.bkk.2026-05-15",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B20 กทม.",
+  "value": 34.45,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว บี20 | ราคาขายปลีก | 34.45",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.lpg.bkk.2026-05-15",
+  "label": "ราคาขายปลีก LPG กทม.",
+  "value": 25.87,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-05-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ก๊าซปิโตรเลียมเหลว (บาท/กิโลกรัม) | ราคาขายปลีก | 25.87",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Record is the displayed value; raw cell 25.866753."
+ },
+ {
+  "id": "price.retail.benzin95.bkk.2026-06-01",
+  "label": "ราคาขายปลีก เบนซิน 95 กทม.",
+  "value": 52.49,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-6-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "เบนซิน 95 | ราคาขายปลีก | 52.49",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-06-01",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 42.9,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-6-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 42.90",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.gasohol91.bkk.2026-06-01",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 91 กทม.",
+  "value": 42.53,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-6-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 91 | ราคาขายปลีก | 42.53",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.gasohol95_e20.bkk.2026-06-01",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E20 กทม.",
+  "value": 37.9,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-6-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี20 | ราคาขายปลีก | 37.90",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.gasohol95_e85.bkk.2026-06-01",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E85 กทม.",
+  "value": 33.84,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-6-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี85 | ราคาขายปลีก | 33.84",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-06-01",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 40.7,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-6-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 40.70",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.diesel_b20.bkk.2026-06-01",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B20 กทม.",
+  "value": 35.2,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-6-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว บี20 | ราคาขายปลีก | 35.20",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "price.retail.lpg.bkk.2026-06-01",
+  "label": "ราคาขายปลีก LPG กทม.",
+  "value": 25.87,
+  "unit": "บาท/กิโลกรัม",
+  "asOf": "2026-06-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-6-1.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ก๊าซปิโตรเลียมเหลว (บาท/กิโลกรัม) | ราคาขายปลีก | 25.87",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Record is the displayed value; raw cell 25.866753."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-02-18",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 30.55,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-02-18",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-2-18.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 30.55",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-02-17: 30.85. Every gasohol grade fell by 0.30; benzin 95 and B7 did not change. | ผู้ตรวจ: Change confirmed: 17 Feb file shows 30.85."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-03-10",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 31.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-10",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-10.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 31.05",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-03-09: 30.55. Same file: benzin 95 39.64, G91 30.68, E20 27.84, E85 25.79, B7 29.94. | ผู้ตรวจ: Change confirmed: 9 Mar file shows 30.55."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-03-18",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 32.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-18",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-18.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 32.05",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-03-17: 31.05. Same file: benzin 95 40.64, G91 31.68, E20 27.05, E85 23.79. | ผู้ตรวจ: Change confirmed: 17 Mar file shows 31.05."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-03-18",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 30.44,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-18",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-18.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 30.44",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-03-17: 29.94. This is the first B7 rise of 2026. | ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7. 17 Mar file shows 29.94."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-03-23",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 33.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-23",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-23.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 33.05",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-03-20: 32.05. There is no file for 21-22 Mar, so the change happened between 21 and 23 Mar; this is the first file that shows it. Same file: benzin 95 41.64, G91 32.68, E20 28.05, E85 24.79. | ผู้ตรวจ: 20 Mar file shows 32.05; no file for 21-22 Mar, so the actual change date may be earlier."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-03-23",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 31.14,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-23",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-23.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 31.14",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-03-20: 30.44. There is no file for 21-22 Mar; this is the first file that shows the change. | ผู้ตรวจ: Row has no B7 label. 20 Mar file shows 30.44; no file for 21-22 Mar."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-03-24",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 35.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-24",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-24.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 35.05",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-03-23: 33.05. Same file: benzin 95 43.64, G91 34.68, E20 30.05, E85 26.79."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-03-24",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 32.94,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-24",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-24.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 32.94",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-03-23: 31.14. | ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-03-26",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 41.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-26",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-26.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 41.05",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date: the 6-baht jump. Previous file 2026-03-25: 35.05. Same file: benzin 95 49.64, G91 40.68, E20 36.05, E85 32.79. Nation, 27 Mar (secondary), reports a 6-baht-per-litre rise. | ผู้ตรวจ: 25 Mar file shows 35.05."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-03-26",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 38.94,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-26",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-26.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 38.94",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date: the 6-baht jump. Previous file 2026-03-25: 32.94. | ผู้ตรวจ: Row has no B7 label. 25 Mar file shows 32.94."
+ },
+ {
+  "id": "price.retail.diesel_b20.bkk.2026-03-27",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B20 กทม.",
+  "value": 33.94,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-27",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-27.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว บี20 | ราคาขายปลีก | 33.94",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "First EPPO structure file with a B20 row; the row is absent from 4 Feb to 26 Mar. Later B20 changes: 31 Mar 35.74, 2 Apr 39.24, 3 Apr 42.74, 7 Apr 45.54, 9 Apr 43.40, 11 Apr 37.40, 20 Apr 35.90, 21 Apr 34.70, 24 Apr 33.20, 8 May 32.95, 13 May 33.75, 14 May 34.45, 19 May 35.20, 4 Jun 36.00, 6 Jun 35.30 (same EPPO file series). | ผู้ตรวจ: 26 Mar file has no B20 row. The B20 change list in the notes matches the files I read."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-03-31",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 42.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 42.05",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-03-30: 41.05."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-03-31",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 40.74,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 40.74",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-03-30: 38.94. | ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-04-02",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 43.25,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 43.25",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-04-01: 42.05."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-04-02",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 44.24,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 44.24",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-04-01: 40.74. | ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-04-03",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 43.95,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-03",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-3.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 43.95",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-04-02: 43.25. This is the G95 E10 peak in the window until 14 May."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-04-03",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 47.74,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-03",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-3.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 47.74",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-04-02: 44.24. | ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-04-07",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 50.54,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-07",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-7.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 50.54",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Peak B7 price in the window. Previous file 2026-04-03: 47.74. There are no files for 4-6 Apr; the retail table (6 เม.ย. 69) in the EPPO weekly report for 30 Mar-5 Apr already shows ดีเซล B7 50.54, so the change happened on 4, 5 or 6 Apr. | ผู้ตรวจ: No files for 4-6 Apr. Weekly report 30 Mar-5 Apr, table (6 เม.ย. 69): 'ดีเซล B7 50.54', so the change was on 4-6 Apr."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-04-09",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 48.4,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-09",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-9.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 48.40",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-04-08: 50.54. A 2-baht ex-refinery discount starts this day. Nation, 8 Apr (secondary), gives the same figures from 9 Apr: B7 48.40 and B20 43.40. | ผู้ตรวจ: Row has no B7 label. 8 Apr file shows 50.54."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-04-11",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 42.95,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-11",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-11.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 42.95",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date (Songkran cut). Previous file 2026-04-10: 43.95. Same file: G91 42.58, E20 35.95, E85 31.89; benzin 95 unchanged at 52.54."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-04-11",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 44.4,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-11",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-11.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 44.40",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date (Songkran cut). Previous file 2026-04-10: 48.40. | ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-04-20",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 42.45,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-20",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-20.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 42.45",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-04-16: 42.95. The 17-19 Apr files are 404, so the change happened between 17 and 20 Apr; this is the first file that shows it. Same file: benzin 95 52.04. | ผู้ตรวจ: 16 Apr file shows 42.95; no files for 17-19 Apr."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-04-20",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 42.9,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-20",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-20.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 42.90",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-04-16: 44.40. The 17-19 Apr files are 404; this is the first file that shows the change. | ผู้ตรวจ: Row has no B7 label. 16 Apr file shows 44.40; no files for 17-19 Apr."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-04-21",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 41.7,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-21",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-21.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 41.70",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-04-20: 42.90. | ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-04-24",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 40.2,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-24",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-24.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 40.20",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-04-23: 41.70. The ex-refinery discount goes to -5.0000 this day. | ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-05-08",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 42.45,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-08",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-8.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 42.45",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-05-07: 43.30."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-05-08",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 39.95,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-08",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-8.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 39.95",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-05-07: 40.80. This is the lowest B7 price after the crisis began, inside the window. | ผู้ตรวจ: Value confirmed. The note's claim 'lowest B7 price after the crisis began, inside the window' fails if the window runs to 14 Jun: pt-price-st-2026-6-13.xlsx and 6-14 show 39.80."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-05-13",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 43.35,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-13",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-13.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 43.35",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-05-12: 42.45."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-05-13",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 40.75,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-13",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-13.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 40.75",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-05-12: 39.95. | ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-05-14",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 44.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-14",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-14.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 44.05",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-05-13: 43.35."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-05-14",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 41.45,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-14",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-14.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 41.45",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-05-13: 40.75. | ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-05-19",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 44.9,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-19",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-19.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 44.90",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Peak G95 E10 price in the window. Previous file 2026-05-18: 44.05. Same file: benzin 95 54.49 (window peak), G91 44.53, E20 37.90, E85 33.84. | ผู้ตรวจ: Same file: เบนซิน 95 54.49, G91 44.53, E20 37.90, E85 33.84, as the note says."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-05-19",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 42.2,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-19",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-19.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 42.20",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-05-18: 41.45. | ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-05-26",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 44.3,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-26",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-26.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 44.30",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-05-25: 44.90."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-05-26",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 41.2,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-26",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-26.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 41.20",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-05-25: 42.20. | ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-05-29",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 43.6,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-29",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-29.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 43.60",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-05-28: 44.30. | ผู้ตรวจ: File is in the 2026/06 upload folder, as cited."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-05-30",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 42.9,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-30",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-30.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 42.90",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-05-29: 43.60."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-05-30",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 40.7,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-30",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-30.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 40.70",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-05-29: 41.20. | ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-06-04",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 43.3,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-04",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-6-4.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 43.30",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-06-03: 42.90."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-06-04",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 41.5,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-04",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-6-4.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 41.50",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-06-03: 40.70. | ผู้ตรวจ: Row has no B7 label; weekly report lists same price as ดีเซล B7."
+ },
+ {
+  "id": "price.retail.gasohol95_e10.bkk.2026-06-06",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10 กทม.",
+  "value": 42.6,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-06",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-6-6.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 42.60",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-06-05: 43.30. This price is still in effect on 7 Jun (file 2026-06-07). | ผู้ตรวจ: Same on 7-8 Jun; rose to 43.10 on 9 Jun (pt-price-st-2026-6-9.xlsx)."
+ },
+ {
+  "id": "price.retail.diesel_b7.bkk.2026-06-06",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7 กทม.",
+  "value": 40.8,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-06",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-6-6.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 40.80",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Change date. Previous file 2026-06-05: 41.50. This price is still in effect on 7 Jun (file 2026-06-07). | ผู้ตรวจ: Row has no B7 label. Same on 7-8 Jun; 41.30 on 9-10 Jun."
+ },
+ {
+  "id": "structure.diesel_b7.ex_refinery.2026-03-02",
+  "label": "ราคา ณ โรงกลั่น ดีเซลหมุนเร็ว B7",
+  "value": 18.9924,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคา ณ โรงกลั่น | 18.9924",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO says the ex-refinery price in the structure is computed by the กบง. formula and is not the actual trading cost. Retail for this date: price.retail.diesel_b7.bkk.2026-03-02. | ผู้ตรวจ: Record is the displayed value (fmt 0.0000); raw cell 18.99237."
+ },
+ {
+  "id": "structure.diesel_b7.excise.2026-03-02",
+  "label": "ภาษีสรรพสามิต ดีเซลหมุนเร็ว B7",
+  "value": 6.92,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ภาษีสรรพสามิต | 6.9200",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "B7 excise is 6.9200 in every EPPO file read (4 Feb-14 Jun 2026 and 20 Nov 2026). No B7 excise cut in the window."
+ },
+ {
+  "id": "structure.diesel_b7.municipal_tax.2026-03-02",
+  "label": "ภาษีเทศบาล ดีเซลหมุนเร็ว B7",
+  "value": 0.692,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ภาษีเทศบาล | 0.6920",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "This is 10% of excise (sheet คำอธิบาย)."
+ },
+ {
+  "id": "structure.diesel_b7.oil_fund.2026-03-02",
+  "label": "กองทุนน้ำมันฯ ดีเซลหมุนเร็ว B7",
+  "value": -0.74,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | กองทุนน้ำมันฯ | -0.7400",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Negative = compensation paid from the fund."
+ },
+ {
+  "id": "structure.diesel_b7.conservation_fund.2026-03-02",
+  "label": "กองทุนอนุรักษ์ ดีเซลหมุนเร็ว B7",
+  "value": 0.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | กองทุนอนุรักษ์ | 0.0500",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.diesel_b7.vat_wholesale.2026-03-02",
+  "label": "VAT ของราคาขายส่ง ดีเซลหมุนเร็ว B7",
+  "value": 1.814,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | VAT ของราคาขายส่ง | 1.8140",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "VAT is 7% of the wholesale price. | ผู้ตรวจ: Raw cell 1.8140080000000003."
+ },
+ {
+  "id": "structure.diesel_b7.marketing_margin.2026-03-02",
+  "label": "ค่าการตลาด ดีเซลหมุนเร็ว B7",
+  "value": 2.0669,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ค่าการตลาด | 2.0669",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO formula: retail/1.07 - wholesale (a computed value). | ผู้ตรวจ: Record is the displayed value; raw cell 2.0669158878504676."
+ },
+ {
+  "id": "structure.diesel_b7.vat_margin.2026-03-02",
+  "label": "VAT ของค่าการตลาด ดีเซลหมุนเร็ว B7",
+  "value": 0.1447,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | VAT ของค่าการตลาด | 0.1447",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Record is the displayed value; raw cell 0.14468411214953275."
+ },
+ {
+  "id": "structure.gasohol95_e10.ex_refinery.2026-03-02",
+  "label": "ราคา ณ โรงกลั่น แก๊สโซฮอล์ 95 E10",
+  "value": 16.8994,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคา ณ โรงกลั่น | 16.8994",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Computed by the กบง. formula, not the actual trading cost. Retail for this date: price.retail.gasohol95_e10.bkk.2026-03-02. | ผู้ตรวจ: Record is the displayed value; raw cell 16.899356."
+ },
+ {
+  "id": "structure.gasohol95_e10.excise.2026-03-02",
+  "label": "ภาษีสรรพสามิต แก๊สโซฮอล์ 95 E10",
+  "value": 6.75,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ภาษีสรรพสามิต | 6.7500",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Unchanged in every file from 4 Feb to 14 Jun 2026."
+ },
+ {
+  "id": "structure.gasohol95_e10.municipal_tax.2026-03-02",
+  "label": "ภาษีเทศบาล แก๊สโซฮอล์ 95 E10",
+  "value": 0.675,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ภาษีเทศบาล | 0.6750",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.gasohol95_e10.oil_fund.2026-03-02",
+  "label": "กองทุนน้ำมันฯ แก๊สโซฮอล์ 95 E10",
+  "value": 1.3,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | กองทุนน้ำมันฯ | 1.3000",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.gasohol95_e10.conservation_fund.2026-03-02",
+  "label": "กองทุนอนุรักษ์ แก๊สโซฮอล์ 95 E10",
+  "value": 0.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | กองทุนอนุรักษ์ | 0.0500",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.gasohol95_e10.vat_wholesale.2026-03-02",
+  "label": "VAT ของราคาขายส่ง แก๊สโซฮอล์ 95 E10",
+  "value": 1.7972,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | VAT ของราคาขายส่ง | 1.7972",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Record is the displayed value; raw cell 1.7972080000000001."
+ },
+ {
+  "id": "structure.gasohol95_e10.marketing_margin.2026-03-02",
+  "label": "ค่าการตลาด แก๊สโซฮอล์ 95 E10",
+  "value": 2.877,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ค่าการตลาด | 2.8770",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO formula: retail/1.07 - wholesale (a computed value). | ผู้ตรวจ: Record is the displayed value; raw cell 2.877009345794394."
+ },
+ {
+  "id": "structure.gasohol95_e10.vat_margin.2026-03-02",
+  "label": "VAT ของค่าการตลาด แก๊สโซฮอล์ 95 E10",
+  "value": 0.2014,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | VAT ของค่าการตลาด | 0.2014",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Record is the displayed value; raw cell 0.20139065420560762."
+ },
+ {
+  "id": "fx.thb_usd.eppo_structure.2026-03-02",
+  "label": "อัตราแลกเปลี่ยนในโครงสร้างราคา",
+  "value": 31.2575,
+  "unit": "บาท/ดอลลาร์",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-2.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "อัตราแลกเปลี่ยน | = | 31.2575 | BAHT/USD",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.diesel_b7.ex_refinery.2026-04-15",
+  "label": "ราคา ณ โรงกลั่น ดีเซลหมุนเร็ว B7",
+  "value": 39.7201,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคา ณ โรงกลั่น | 39.7201",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Computed by the กบง. formula, before the refinery discount (the discount is a separate column). Retail for this date: price.retail.diesel_b7.bkk.2026-04-15. | ผู้ตรวจ: Record is the displayed value; raw cell 39.7201246."
+ },
+ {
+  "id": "structure.diesel_b7.refinery_discount.2026-04-15",
+  "label": "ส่วนลดราคา ณ โรงกลั่น ดีเซลหมุนเร็ว B7",
+  "value": -2,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ส่วนลดราคา ณ โรงกลั่น | -2.0000",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "The discount column appears in the files from 9 Apr 2026."
+ },
+ {
+  "id": "structure.diesel_b7.excise.2026-04-15",
+  "label": "ภาษีสรรพสามิต ดีเซลหมุนเร็ว B7",
+  "value": 6.92,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ภาษีสรรพสามิต | 6.9200",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "No B7 excise cut in the window (see structure.diesel_b7.excise.2026-03-02)."
+ },
+ {
+  "id": "structure.diesel_b7.municipal_tax.2026-04-15",
+  "label": "ภาษีเทศบาล ดีเซลหมุนเร็ว B7",
+  "value": 0.692,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ภาษีเทศบาล | 0.6920",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.diesel_b7.oil_fund.2026-04-15",
+  "label": "กองทุนน้ำมันฯ ดีเซลหมุนเร็ว B7",
+  "value": -5.89,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | กองทุนน้ำมันฯ | -5.8900",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "For context, the same file series shows the B7 fund rate at -18.1000 on 7 Apr and -26.9900 on 25 Mar (largest compensation seen). | ผู้ตรวจ: Context in the note checked: -18.10 on 7 Apr and -26.99 on 25 Mar."
+ },
+ {
+  "id": "structure.diesel_b7.conservation_fund.2026-04-15",
+  "label": "กองทุนอนุรักษ์ ดีเซลหมุนเร็ว B7",
+  "value": 0.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | กองทุนอนุรักษ์ | 0.0500",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.diesel_b7.vat_wholesale.2026-04-15",
+  "label": "VAT ของราคาขายส่ง ดีเซลหมุนเร็ว B7",
+  "value": 2.7644,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | VAT ของราคาขายส่ง | 2.7644",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Record is the displayed value; raw cell 2.764447."
+ },
+ {
+  "id": "structure.diesel_b7.marketing_margin.2026-04-15",
+  "label": "ค่าการตลาด ดีเซลหมุนเร็ว B7",
+  "value": 2.0033,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ค่าการตลาด | 2.0033",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO formula: retail/1.07 - wholesale (a computed value). | ผู้ตรวจ: Record is the displayed value; raw cell 2.0032710280373793."
+ },
+ {
+  "id": "structure.diesel_b7.vat_margin.2026-04-15",
+  "label": "VAT ของค่าการตลาด ดีเซลหมุนเร็ว B7",
+  "value": 0.1402,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | VAT ของค่าการตลาด | 0.1402",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Record is the displayed value; raw cell 0.14022897196261658."
+ },
+ {
+  "id": "structure.gasohol95_e10.ex_refinery.2026-04-15",
+  "label": "ราคา ณ โรงกลั่น แก๊สโซฮอล์ 95 E10",
+  "value": 26.4341,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคา ณ โรงกลั่น | 26.4341",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Computed by the กบง. formula, not the actual trading cost. Retail for this date: price.retail.gasohol95_e10.bkk.2026-04-15. | ผู้ตรวจ: Record is the displayed value; raw cell 26.43411."
+ },
+ {
+  "id": "structure.gasohol95_e10.excise.2026-04-15",
+  "label": "ภาษีสรรพสามิต แก๊สโซฮอล์ 95 E10",
+  "value": 6.75,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ภาษีสรรพสามิต | 6.7500",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.gasohol95_e10.municipal_tax.2026-04-15",
+  "label": "ภาษีเทศบาล แก๊สโซฮอล์ 95 E10",
+  "value": 0.675,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ภาษีเทศบาล | 0.6750",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.gasohol95_e10.oil_fund.2026-04-15",
+  "label": "กองทุนน้ำมันฯ แก๊สโซฮอล์ 95 E10",
+  "value": 2.84,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | กองทุนน้ำมันฯ | 2.8400",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.gasohol95_e10.conservation_fund.2026-04-15",
+  "label": "กองทุนอนุรักษ์ แก๊สโซฮอล์ 95 E10",
+  "value": 0.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | กองทุนอนุรักษ์ | 0.0500",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.gasohol95_e10.vat_wholesale.2026-04-15",
+  "label": "VAT ของราคาขายส่ง แก๊สโซฮอล์ 95 E10",
+  "value": 2.5724,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | VAT ของราคาขายส่ง | 2.5724",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Record is the displayed value; raw cell 2.5724370000000003."
+ },
+ {
+  "id": "structure.gasohol95_e10.marketing_margin.2026-04-15",
+  "label": "ค่าการตลาด แก๊สโซฮอล์ 95 E10",
+  "value": 3.3911,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ค่าการตลาด | 3.3911",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO formula: retail/1.07 - wholesale (a computed value). | ผู้ตรวจ: Record is the displayed value; raw cell 3.391121495327105."
+ },
+ {
+  "id": "structure.gasohol95_e10.vat_margin.2026-04-15",
+  "label": "VAT ของค่าการตลาด แก๊สโซฮอล์ 95 E10",
+  "value": 0.2374,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | VAT ของค่าการตลาด | 0.2374",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Record is the displayed value; raw cell 0.2373785046728974."
+ },
+ {
+  "id": "fx.thb_usd.eppo_structure.2026-04-15",
+  "label": "อัตราแลกเปลี่ยนในโครงสร้างราคา",
+  "value": 32.2709,
+  "unit": "บาท/ดอลลาร์",
+  "asOf": "2026-04-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-15.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "อัตราแลกเปลี่ยน | = | 32.2709 | BAHT/USD",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.diesel_b7.ex_refinery.2026-05-31",
+  "label": "ราคา ณ โรงกลั่น ดีเซลหมุนเร็ว B7",
+  "value": 29.3745,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคา ณ โรงกลั่น | 29.3745",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Computed by the กบง. formula. There is no refinery discount from 20 May. | ผู้ตรวจ: Record is the displayed value; raw cell 29.374535799999997. There is no discount column value from 20 May."
+ },
+ {
+  "id": "structure.diesel_b7.excise.2026-05-31",
+  "label": "ภาษีสรรพสามิต ดีเซลหมุนเร็ว B7",
+  "value": 6.92,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ภาษีสรรพสามิต | 6.9200",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "No B7 excise cut in the window."
+ },
+ {
+  "id": "structure.diesel_b7.municipal_tax.2026-05-31",
+  "label": "ภาษีเทศบาล ดีเซลหมุนเร็ว B7",
+  "value": 0.692,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ภาษีเทศบาล | 0.6920",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.diesel_b7.oil_fund.2026-05-31",
+  "label": "กองทุนน้ำมันฯ ดีเซลหมุนเร็ว B7",
+  "value": -1,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | กองทุนน้ำมันฯ | -1.0000",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.diesel_b7.conservation_fund.2026-05-31",
+  "label": "กองทุนอนุรักษ์ ดีเซลหมุนเร็ว B7",
+  "value": 0.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | กองทุนอนุรักษ์ | 0.0500",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.diesel_b7.vat_wholesale.2026-05-31",
+  "label": "VAT ของราคาขายส่ง ดีเซลหมุนเร็ว B7",
+  "value": 2.5226,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | VAT ของราคาขายส่ง | 2.5226",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Record is the displayed value; raw cell 2.522555."
+ },
+ {
+  "id": "structure.diesel_b7.marketing_margin.2026-05-31",
+  "label": "ค่าการตลาด ดีเซลหมุนเร็ว B7",
+  "value": 2.0008,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ค่าการตลาด | 2.0008",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO formula: retail/1.07 - wholesale (a computed value). | ผู้ตรวจ: Record is the displayed value; raw cell 2.000841121495329."
+ },
+ {
+  "id": "structure.diesel_b7.vat_margin.2026-05-31",
+  "label": "VAT ของค่าการตลาด ดีเซลหมุนเร็ว B7",
+  "value": 0.1401,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | VAT ของค่าการตลาด | 0.1401",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Record is the displayed value; raw cell 0.14005887850467302."
+ },
+ {
+  "id": "structure.diesel_b7.retail.2026-05-31",
+  "label": "ราคาขายปลีก ดีเซลหมุนเร็ว B7",
+  "value": 40.7,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ราคาขายปลีก | 40.70",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.gasohol95_e10.ex_refinery.2026-05-31",
+  "label": "ราคา ณ โรงกลั่น แก๊สโซฮอล์ 95 E10",
+  "value": 24.0725,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคา ณ โรงกลั่น | 24.0725",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Computed by the กบง. formula, not the actual trading cost. | ผู้ตรวจ: Record is the displayed value; raw cell 24.072545."
+ },
+ {
+  "id": "structure.gasohol95_e10.excise.2026-05-31",
+  "label": "ภาษีสรรพสามิต แก๊สโซฮอล์ 95 E10",
+  "value": 6.75,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ภาษีสรรพสามิต | 6.7500",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.gasohol95_e10.municipal_tax.2026-05-31",
+  "label": "ภาษีเทศบาล แก๊สโซฮอล์ 95 E10",
+  "value": 0.675,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ภาษีเทศบาล | 0.6750",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.gasohol95_e10.oil_fund.2026-05-31",
+  "label": "กองทุนน้ำมันฯ แก๊สโซฮอล์ 95 E10",
+  "value": 5.2,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | กองทุนน้ำมันฯ | 5.2000",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.gasohol95_e10.conservation_fund.2026-05-31",
+  "label": "กองทุนอนุรักษ์ แก๊สโซฮอล์ 95 E10",
+  "value": 0.05,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | กองทุนอนุรักษ์ | 0.0500",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "structure.gasohol95_e10.vat_wholesale.2026-05-31",
+  "label": "VAT ของราคาขายส่ง แก๊สโซฮอล์ 95 E10",
+  "value": 2.5723,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | VAT ของราคาขายส่ง | 2.5723",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Record is the displayed value; raw cell 2.572325."
+ },
+ {
+  "id": "structure.gasohol95_e10.marketing_margin.2026-05-31",
+  "label": "ค่าการตลาด แก๊สโซฮอล์ 95 E10",
+  "value": 3.346,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ค่าการตลาด | 3.3460",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO formula: retail/1.07 - wholesale (a computed value). | ผู้ตรวจ: Record is the displayed value; raw cell 3.3459813084112127."
+ },
+ {
+  "id": "structure.gasohol95_e10.vat_margin.2026-05-31",
+  "label": "VAT ของค่าการตลาด แก๊สโซฮอล์ 95 E10",
+  "value": 0.2342,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | VAT ของค่าการตลาด | 0.2342",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Record is the displayed value; raw cell 0.23421869158878492."
+ },
+ {
+  "id": "structure.gasohol95_e10.retail.2026-05-31",
+  "label": "ราคาขายปลีก แก๊สโซฮอล์ 95 E10",
+  "value": 42.9,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี10 | ราคาขายปลีก | 42.90",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "fx.thb_usd.eppo_structure.2026-05-31",
+  "label": "อัตราแลกเปลี่ยนในโครงสร้างราคา",
+  "value": 32.7462,
+  "unit": "บาท/ดอลลาร์",
+  "asOf": "2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/pt-price-st-2026-5-31.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "อัตราแลกเปลี่ยน | = | 32.7462 | BAHT/USD",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "rate.excise.diesel_b20.2026-03-27",
+  "label": "ภาษีสรรพสามิต ดีเซลหมุนเร็ว B20",
+  "value": 5.953,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-27",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-3-27.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว บี20 | ภาษีสรรพสามิต | 5.9530",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22 · สุ่มเปิดแหล่งซ้ำโดย agent หลัก 2026-11-22 ตรง",
+  "notes": "Same in every file from 27 Mar to 14 Jun 2026. | ผู้ตรวจ: Same 5.953 in every later file I read up to 14 Jun, and still on 27 Oct."
+ },
+ {
+  "id": "rate.excise.diesel_b20.2026-11-20",
+  "label": "ภาษีสรรพสามิต ดีเซลหมุนเร็ว B20",
+  "value": 0.431,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-20",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/11/pt-price-st-2026-11-20.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว บี20 | ภาษีสรรพสามิต | 0.4310",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Outside the window. This is the rate after the B20/E20 excise cut that took effect on 28 Oct 2026 (see rate.excise.diesel_b20.cut.2026-10-28). | ผู้ตรวจ: First shown in pt-price-st-2026-10-28.xlsx (27 Oct file: 5.953)."
+ },
+ {
+  "id": "rate.excise.gasohol95_e20.2026-11-20",
+  "label": "ภาษีสรรพสามิต แก๊สโซฮอล์ 95 E20",
+  "value": 0.358,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-20",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/11/pt-price-st-2026-11-20.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "แก๊สโซฮอล์ 95 อี20 | ภาษีสรรพสามิต | 0.3580",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Outside the window. E20 excise was 6.0000 in every file from 4 Feb to 14 Jun 2026. | ผู้ตรวจ: First shown in pt-price-st-2026-10-28.xlsx (27 Oct file: 6.0)."
+ },
+ {
+  "id": "rate.excise.diesel_b7.2026-11-20",
+  "label": "ภาษีสรรพสามิต ดีเซลหมุนเร็ว B7",
+  "value": 6.92,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-20",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/11/pt-price-st-2026-11-20.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ภาษีสรรพสามิต | 6.9200",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Outside the window. Confirms the B7 excise is still 6.9200, so there was no B7 diesel excise cut in 2026 up to 20 Nov. | ผู้ตรวจ: Only spot files were read, so 'no B7 cut up to 20 Nov' rests on the files I read (Feb-Jun, 26-29 Oct, 20 Nov), all 6.92."
+ },
+ {
+  "id": "rate.excise.diesel_b20.cut.2026-10-28",
+  "label": "ภาษีสรรพสามิต ดีเซล B20 หลังลด (มติ ครม. 27 ต.ค. 69)",
+  "value": 0.431,
+  "unit": "บาทต่อลิตร",
+  "asOf": "2026-10-28",
+  "period": "2026-10-28/2027-01-27",
+  "source": {
+   "url": "https://thaipublica.org/2026/10/excise-dept-b20-e20-fuel-tax-cut-3-months/",
+   "publisher": "ThaiPublica",
+   "title": "ครม.เคาะลดภาษีน้ำมัน 3 เดือน ดึงราคาเบนซิน E20 ลง 2.19 บาท-ดีเซล B20 ลง 3.69 บาท/ลิตร มีผลพรุ่งนี้",
+   "kind": "secondary"
+  },
+  "evidence": "ปรับลดอัตราภาษีสรรพสามิตสำหรับน้ำมันดีเซลที่มีส่วนผสมของไบโอดีเซลประเภท B20 จาก 5.953 บาทต่อลิตร เหลือ 0.431 บาทต่อลิตร และน้ำมันแก๊สโซฮอล์ประเภท E20 จาก 6.000 บาทต่อลิตร เหลือ 0.358 บาทต่อลิตร โดยมีระยะเวลา 3 เดือน ตั้งแต่วันที่ 28 ตุลาคม 2569 ถึง วันที่ 27 มกราคม 2570",
+  "status": "secondary-only",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "The article quotes the Excise Department director-general on the cabinet resolution of 27 Oct 2026. The 0.4310 rate itself is confirmed in the EPPO 20 Nov 2026 file (primary), but the 28 Oct effective date and the legal instrument rest on this news source only; the Royal Gazette entry was not found. B7 diesel was not cut. | ผู้ตรวจ: News source; value and dates match the article. Primary data for the rate and start date is EPPO https://www.eppo.go.th/wp-content/uploads/2026/10/pt-price-st-2026-10-28.xlsx: B20 excise 0.4310 (E20 0.3580), while the 2026-10-27 file still shows 5.9530/6.0000. I did not find the legal instrument (Royal Gazette) or a primary source for the 27 Jan 2027 end date."
+ },
+ {
+  "id": "price.refinery_discount.diesel_b7.2026-04-09",
+  "label": "ส่วนลดราคา ณ โรงกลั่น ดีเซลหมุนเร็ว B7",
+  "value": -2,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-09",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-9.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ส่วนลดราคา ณ โรงกลั่น | -2.0000",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "The 8 Apr file has no discount. The B20 row carries the same value. Nation, 8 Apr 2026 (secondary): กพช. (NEPC) ordered a 2-baht ex-refinery cut on diesel under the Emergency Decree on the Correction and Prevention of Oil Shortage B.E. 2516. | ผู้ตรวจ: 8 Apr file has no discount column; B20 row also -2."
+ },
+ {
+  "id": "price.refinery_discount.diesel_b7.2026-04-24",
+  "label": "ส่วนลดราคา ณ โรงกลั่น ดีเซลหมุนเร็ว B7",
+  "value": -5,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-24",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/pt-price-st-2026-4-24.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ส่วนลดราคา ณ โรงกลั่น | -5.0000",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "The 23 Apr file shows -2.0000. The B20 row carries the same value. | ผู้ตรวจ: 23 Apr file shows -2."
+ },
+ {
+  "id": "price.refinery_discount.diesel_b7.2026-05-10",
+  "label": "ส่วนลดราคา ณ โรงกลั่น ดีเซลหมุนเร็ว B7",
+  "value": -3,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-10",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/pt-price-st-2026-5-10.xlsx",
+   "publisher": "สนพ.",
+   "title": "โครงสร้างราคาน้ำมันเชื้อเพลิง (กทม.)",
+   "kind": "primary"
+  },
+  "evidence": "ดีเซลหมุนเร็ว | ส่วนลดราคา ณ โรงกลั่น | -3.0000",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "The 8 May file shows -5.0000 and there is no 9 May file. The 19 May file still shows -3.0000; from 20 May to 14 Jun the column is empty (no discount). The B20 row carries the same value. | ผู้ตรวจ: 8 May file -5; no 9 May file; 19 May -3; 20 May no discount. All checked."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-02-16",
+  "label": "ราคาน้ำมันดิบดูไบ เฉลี่ยรายสัปดาห์",
+  "value": 69.3,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-02-22",
+  "period": "2026-02-16/2026-02-22",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-02-16-22.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "านา้ มันดิบดูไบ และ เวสต์เท็กซัส เฉลี่ยอยู่ที่ระดับ $69.30 และ $65.",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output; the PDF font garbles some Thai vowels."
+ },
+ {
+  "id": "world.sg_gasoline95.weekly_avg.2026-02-16",
+  "label": "ราคาน้ำมันเบนซินออกเทน 95 ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 77.28,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-02-22",
+  "period": "2026-02-16/2026-02-22",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-02-16-22.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "ออกเทน 95, 92 และ 91 (Non Oxy) ราคาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $90.68/ เฉลี่ยอยู่ที่ระดับ $77.28",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "The page has two columns, so the diesel text runs into the gasoline text in extraction. The gasoline 95 value is the first of the three gasoline values (95, 92, 91) given as $77.28, $75.17 and $77.24."
+ },
+ {
+  "id": "world.sg_gasoil_10ppm.weekly_avg.2026-02-16",
+  "label": "ราคาน้ำมันดีเซล (10 PPM) ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 90.68,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-02-22",
+  "period": "2026-02-16/2026-02-22",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-02-16-22.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "คาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $90.68/ เฉลี่ยอ",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-02-23",
+  "label": "ราคาน้ำมันดิบดูไบ เฉลี่ยรายสัปดาห์",
+  "value": 70.48,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-03-01",
+  "period": "2026-02-23/2026-03-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-02-23-03-01.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "านา้ มันดิบดูไบ และ เวสต์เท็กซัส เฉลี่ยอยู่ที่ระดับ $70.48 และ $65.",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.sg_gasoline95.weekly_avg.2026-02-23",
+  "label": "ราคาน้ำมันเบนซินออกเทน 95 ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 81.28,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-03-01",
+  "period": "2026-02-23/2026-03-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-02-23-03-01.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "ออกเทน 95, 92 และ 91 (Non Oxy) เฉลี่ยอยู่ที่ระดับ $81.28",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.sg_gasoil_10ppm.weekly_avg.2026-02-23",
+  "label": "ราคาน้ำมันดีเซล (10 PPM) ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 92.47,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-03-01",
+  "period": "2026-02-23/2026-03-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-02-23-03-01.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "คาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $92.47/ บาร์เรล",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-03-02",
+  "label": "ราคาน้ำมันดิบดูไบ เฉลี่ยรายสัปดาห์",
+  "value": 88.98,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-03-08",
+  "period": "2026-03-02/2026-03-08",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-02-08.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "านา้ มันดิบดูไบ และ เวสต์เท็กซัส เฉลี่ยอยู่ที่ระดับ $88.98 และ $78.",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.sg_gasoline95.weekly_avg.2026-03-02",
+  "label": "ราคาน้ำมันเบนซินออกเทน 95 ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 105.62,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-03-08",
+  "period": "2026-03-02/2026-03-08",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-02-08.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "ออกเทน 95, 92 และ 91 (Non Oxy) เฉลี่ยอยู่ที่ระดับ $105.62",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22 · สุ่มเปิดแหล่งซ้ำโดย agent หลัก 2026-11-22 ตรง",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.sg_gasoil_10ppm.weekly_avg.2026-03-02",
+  "label": "ราคาน้ำมันดีเซล (10 PPM) ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 139.03,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-03-08",
+  "period": "2026-03-02/2026-03-08",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-02-08.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "คาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $139.03/ บาร์เรล",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-03-09",
+  "label": "ราคาน้ำมันดิบดูไบ เฉลี่ยรายสัปดาห์",
+  "value": 127.93,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-03-15",
+  "period": "2026-03-09/2026-03-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-09-15.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "านา้ มันดิบดูไบ และ เวสต์เท็กซัส เฉลี่ยอยู่ที่ระดับ $127.93 และ $91.",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.sg_gasoline95.weekly_avg.2026-03-09",
+  "label": "ราคาน้ำมันเบนซินออกเทน 95 ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 139.46,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-03-15",
+  "period": "2026-03-09/2026-03-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-09-15.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "ออกเทน 95, 92 และ 91 (Non Oxy) เฉลี่ยอยู่ที่ระดับ $139.46",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.sg_gasoil_10ppm.weekly_avg.2026-03-09",
+  "label": "ราคาน้ำมันดีเซล (10 PPM) ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 179.67,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-03-15",
+  "period": "2026-03-09/2026-03-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-09-15.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "คาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $179.67/ บาร์เรล",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-03-23",
+  "label": "ราคาน้ำมันดิบดูไบ เฉลี่ยรายสัปดาห์",
+  "value": 140.9,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-03-29",
+  "period": "2026-03-23/2026-03-29",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-23-29.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "านา้ มันดิบดูไบ และ เวสต์เท็กซัส เฉลี่ยอยู่ที่ระดับ $140.90 และ $93.",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output. The report says Dubai fell $17.52 from the previous week; the 16-22 Mar report itself returns 404. | ผู้ตรวจ: Value confirmed. Report says it fell $17.52, so the implied 16-22 Mar Dubai average is $158.42 (that report is 404). That is higher than any recorded week."
+ },
+ {
+  "id": "world.sg_gasoline95.weekly_avg.2026-03-23",
+  "label": "ราคาน้ำมันเบนซินออกเทน 95 ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 143.92,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-03-29",
+  "period": "2026-03-23/2026-03-29",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-23-29.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "ออกเทน 95, 92 และ 91 (Non Oxy) ราคาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $224.57/ เฉลี่ยอยู่ที่ระดับ $143.92",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Two-column page: the diesel text runs into the gasoline text in extraction. Gasoline 95 is the first of the three gasoline values ($143.92, $137.61, $141.28)."
+ },
+ {
+  "id": "world.sg_gasoil_10ppm.weekly_avg.2026-03-23",
+  "label": "ราคาน้ำมันดีเซล (10 PPM) ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 224.57,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-03-29",
+  "period": "2026-03-23/2026-03-29",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-23-29.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "คาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $224.57/ เฉลี่ยอ",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-03-30",
+  "label": "ราคาน้ำมันดิบดูไบ เฉลี่ยรายสัปดาห์",
+  "value": 117.47,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-04-05",
+  "period": "2026-03-30/2026-04-05",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-30-04-05.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "านา้ มันดิบดูไบ เฉลี่ยอยู่ที่ระดับ $117.47/บาร์เรล ",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.sg_gasoline95.weekly_avg.2026-03-30",
+  "label": "ราคาน้ำมันเบนซินออกเทน 95 ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 146.96,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-04-05",
+  "period": "2026-03-30/2026-04-05",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-30-04-05.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "ออกเทน 95, 92 และ 91 (Non Oxy) เฉลี่ยอยู่ที่ระดับ $146.96",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output. Highest weekly gasoline 95 average in the window. | ผู้ตรวจ: Value confirmed. The note's claim 'highest weekly gasoline 95 average in the window' is not supported. The 23-29 Mar report says G95 fell $13.67 from the 16-22 Mar week, implying about $157.59 that week (that report is 404)."
+ },
+ {
+  "id": "world.sg_gasoil_10ppm.weekly_avg.2026-03-30",
+  "label": "ราคาน้ำมันดีเซล (10 PPM) ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 257.47,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-04-05",
+  "period": "2026-03-30/2026-04-05",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-30-04-05.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "คาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $257.47/บาร์เรล ",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output. Highest weekly gasoil average in the window. | ผู้ตรวจ: Highest-week claim holds: the implied 16-22 Mar gasoil is 224.57-17.46 = $207.11."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-04-06",
+  "label": "ราคาน้ำมันดิบดูไบ เฉลี่ยรายสัปดาห์",
+  "value": 109.22,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-04-12",
+  "period": "2026-04-06/2026-04-12",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-04-06-12.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "านา้ มันดิบดูไบ และ เวสต์เท็กซัส เฉลี่ยอยู่ที่ระดับ $109.22 และ $102",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.sg_gasoline95.weekly_avg.2026-04-06",
+  "label": "ราคาน้ำมันเบนซินออกเทน 95 ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 138.57,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-04-12",
+  "period": "2026-04-06/2026-04-12",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-04-06-12.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "ออกเทน 95, 92 และ 91 (Non Oxy) ราคาน้ามันดีเซล เฉลี่ยอยู่ที่ระดับ $138.57",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Two-column page: the diesel heading runs into the gasoline text in extraction. Gasoline 95 is the first of $138.57, $131.74 and $135.71."
+ },
+ {
+  "id": "world.sg_gasoil_10ppm.weekly_avg.2026-04-06",
+  "label": "ราคาน้ำมันดีเซล (10 PPM) ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 229.51,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-04-12",
+  "period": "2026-04-06/2026-04-12",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-04-06-12.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "27.96/บาร์เรล (10 PPM) เฉลี่ยอยู่ที่ระดับ $229.51/บาร์เรล ",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-04-13",
+  "label": "ราคาน้ำมันดิบดูไบ เฉลี่ยรายสัปดาห์",
+  "value": 102.95,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-04-19",
+  "period": "2026-04-13/2026-04-19",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/situation-oilprice-2569-04-13-19.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "านา้ มันดิบดูไบ และ เวสต์เท็กซัส เฉลี่ยอยู่ที่ระดับ $102.95 และ $92.",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.sg_gasoline95.weekly_avg.2026-04-13",
+  "label": "ราคาน้ำมันเบนซินออกเทน 95 ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 128.13,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-04-19",
+  "period": "2026-04-13/2026-04-19",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/situation-oilprice-2569-04-13-19.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "ออกเทน 95, 92 และ 91 (Non Oxy) เฉลี่ยอยู่ที่ระดับ $128.13",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.sg_gasoil_10ppm.weekly_avg.2026-04-13",
+  "label": "ราคาน้ำมันดีเซล (10 PPM) ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 182.17,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-04-19",
+  "period": "2026-04-13/2026-04-19",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/situation-oilprice-2569-04-13-19.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "คาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $182.17/บาร์เรล ",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-04-20",
+  "label": "ราคาน้ำมันดิบดูไบ เฉลี่ยรายสัปดาห์",
+  "value": 101.04,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-04-26",
+  "period": "2026-04-20/2026-04-26",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/situation-oilprice-2569-04-20-26.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "านา้ มันดิบดูไบ เฉลี่ยอยู่ที่ระดับ $101.04/บาร์เรล ",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.sg_gasoline95.weekly_avg.2026-04-20",
+  "label": "ราคาน้ำมันเบนซินออกเทน 95 ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 127.92,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-04-26",
+  "period": "2026-04-20/2026-04-26",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/situation-oilprice-2569-04-20-26.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "ออกเทน 95, 92 และ 91 (Non Oxy) ราคาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $163.85/บาร์เรล เฉลี่ยอยู่ที่ระดับ $127.92",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Two-column page: the diesel text runs into the gasoline text in extraction. Gasoline 95 is the first of $127.92, $122.35 and $124.23."
+ },
+ {
+  "id": "world.sg_gasoil_10ppm.weekly_avg.2026-04-20",
+  "label": "ราคาน้ำมันดีเซล (10 PPM) ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 163.85,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-04-26",
+  "period": "2026-04-20/2026-04-26",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/situation-oilprice-2569-04-20-26.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "คาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $163.85/บาร์เรล ",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-04-27",
+  "label": "ราคาน้ำมันดิบดูไบ เฉลี่ยรายสัปดาห์",
+  "value": 107.52,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-05-03",
+  "period": "2026-04-27/2026-05-03",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/situation-oilprice-2569-04-27-05-03.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "านา้ มันดิบดูไบ และ เวสต์เท็กซัส เฉลี่ยอยู่ที่ระดับ $107.52 และ $102",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.sg_gasoline95.weekly_avg.2026-04-27",
+  "label": "ราคาน้ำมันเบนซินออกเทน 95 ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 134.06,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-05-03",
+  "period": "2026-04-27/2026-05-03",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/situation-oilprice-2569-04-27-05-03.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "ออกเทน 95, 92 และ 91 (Non Oxy) ราคาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $172.39/บาร์เรล เฉลี่ยอยู่ที่ระดับ $134.06",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Two-column page: the diesel text runs into the gasoline text in extraction. Gasoline 95 is the first of $134.06, $129.66 and $131.67."
+ },
+ {
+  "id": "world.sg_gasoil_10ppm.weekly_avg.2026-04-27",
+  "label": "ราคาน้ำมันดีเซล (10 PPM) ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 172.39,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-05-03",
+  "period": "2026-04-27/2026-05-03",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/situation-oilprice-2569-04-27-05-03.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "คาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $172.39/บาร์เรล ",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-05-04",
+  "label": "ราคาน้ำมันดิบดูไบ เฉลี่ยรายสัปดาห์",
+  "value": 101.62,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-05-10",
+  "period": "2026-05-04/2026-05-10",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/situation-oilprice-2569-05-04-10.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "านา้ มันดิบดูไบ และ เวสต์เท็กซัส เฉลี่ยอยู่ที่ระดับ $101.62 และ $98.",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.sg_gasoline95.weekly_avg.2026-05-04",
+  "label": "ราคาน้ำมันเบนซินออกเทน 95 ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 131.56,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-05-10",
+  "period": "2026-05-04/2026-05-10",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/situation-oilprice-2569-05-04-10.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "ออกเทน 95 เฉลี่ยอยู่ที่ระดับ $131.56",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.sg_gasoil_10ppm.weekly_avg.2026-05-04",
+  "label": "ราคาน้ำมันดีเซล (10 PPM) ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 156.29,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-05-10",
+  "period": "2026-05-04/2026-05-10",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/situation-oilprice-2569-05-04-10.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "คาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $156.29/บาร์เรล ",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-05-11",
+  "label": "ราคาน้ำมันดิบดูไบ เฉลี่ยรายสัปดาห์",
+  "value": 104.74,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-05-17",
+  "period": "2026-05-11/2026-05-17",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/situation-oilprice-2569-05-11-17.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "านา้ มันดิบดูไบ และ เวสต์เท็กซัส เฉลี่ยอยู่ที่ระดับ $104.74 และ $101",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.sg_gasoline95.weekly_avg.2026-05-11",
+  "label": "ราคาน้ำมันเบนซินออกเทน 95 ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 136.02,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-05-17",
+  "period": "2026-05-11/2026-05-17",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/situation-oilprice-2569-05-11-17.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "ออกเทน 95, 92 และ 91 (Non Oxy) ราคาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $161.27/บาร์เรล เฉลี่ยอยู่ที่ระดับ $136.02",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Two-column page: the diesel text runs into the gasoline text in extraction. Gasoline 95 is the first of $136.02, $133.01 and $134.81."
+ },
+ {
+  "id": "world.sg_gasoil_10ppm.weekly_avg.2026-05-11",
+  "label": "ราคาน้ำมันดีเซล (10 PPM) ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 161.27,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-05-17",
+  "period": "2026-05-11/2026-05-17",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/05/situation-oilprice-2569-05-11-17.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "คาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $161.27/บาร์เรล ",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-05-18",
+  "label": "ราคาน้ำมันดิบดูไบ เฉลี่ยรายสัปดาห์",
+  "value": 105.8,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-05-24",
+  "period": "2026-05-18/2026-05-24",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/07/situation-oilprice-2569-05-18-24.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "ำนำ้ มันดิบดูไบ และ เวสต์เท็กซัส เฉลี่ยอยู่ที่ระดับ $105.80 และ $103",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output; Thai glyphs are garbled in the extraction. | ผู้ตรวจ: PDF is in the 2026/07 upload folder, as cited."
+ },
+ {
+  "id": "world.sg_gasoline95.weekly_avg.2026-05-18",
+  "label": "ราคาน้ำมันเบนซินออกเทน 95 ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 135.71,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-05-24",
+  "period": "2026-05-18/2026-05-24",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/07/situation-oilprice-2569-05-18-24.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "ออกเทน 95 ทรงตัวอยู่ที่ระดับ $135.71",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "The source says the price was flat (ทรงตัว) at this level. | ผู้ตรวจ: The source says 'ทรงตัวอยู่ที่ระดับ' (flat at), not 'เฉลี่ยอยู่ที่ระดับ'. I read it as the weekly level."
+ },
+ {
+  "id": "world.sg_gasoil_10ppm.weekly_avg.2026-05-18",
+  "label": "ราคาน้ำมันดีเซล (10 PPM) ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 161.16,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-05-24",
+  "period": "2026-05-18/2026-05-24",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/07/situation-oilprice-2569-05-18-24.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "คาน้ามันดีเซล (10 PPM) ทรงตัวอยู่ที่ระดับ $161.16/บำร์เรล ",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "The source says the price was flat (ทรงตัว) at this level. | ผู้ตรวจ: The source says 'ทรงตัวอยู่ที่ระดับ' (flat at), not 'เฉลี่ยอยู่ที่ระดับ'. I read it as the weekly level."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-05-25",
+  "label": "ราคาน้ำมันดิบดูไบ เฉลี่ยรายสัปดาห์",
+  "value": 99.75,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-05-31",
+  "period": "2026-05-25/2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/situation-oilprice-2569-05-25-31.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "านา้ มันดิบดูไบ และ เวสต์เท็กซัส เฉลี่ยอยู่ที่ระดับ $99.75 และ $89.",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.sg_gasoline95.weekly_avg.2026-05-25",
+  "label": "ราคาน้ำมันเบนซินออกเทน 95 ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 120.73,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-05-31",
+  "period": "2026-05-25/2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/situation-oilprice-2569-05-25-31.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "ออกเทน 95, 92 และ 91 (Non Oxy) ราคาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $141.50/บาร์เรล เฉลี่ยอยู่ที่ระดับ $120.73",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Two-column page: the diesel text runs into the gasoline text in extraction. Gasoline 95 is the first of $120.73, $119.86 and $122.57."
+ },
+ {
+  "id": "world.sg_gasoil_10ppm.weekly_avg.2026-05-25",
+  "label": "ราคาน้ำมันดีเซล (10 PPM) ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 141.5,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-05-31",
+  "period": "2026-05-25/2026-05-31",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/situation-oilprice-2569-05-25-31.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "คาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $141.50/บาร์เรล ",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-06-01",
+  "label": "ราคาน้ำมันดิบดูไบ เฉลี่ยรายสัปดาห์",
+  "value": 94.24,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-06-07",
+  "period": "2026-06-01/2026-06-07",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/situation-oilprice-2569-06-01-07.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "านา้ มันดิบดูไบ เฉลี่ยอยู่ที่ระดับ $94.24/บาร์เรล ",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.sg_gasoline95.weekly_avg.2026-06-01",
+  "label": "ราคาน้ำมันเบนซินออกเทน 95 ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 117.67,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-06-07",
+  "period": "2026-06-01/2026-06-07",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/situation-oilprice-2569-06-01-07.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "ออกเทน 95, 92 และ 91 (Non Oxy) เฉลี่ยอยู่ที่ระดับ $117.67",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ },
+ {
+  "id": "world.sg_gasoil_10ppm.weekly_avg.2026-06-01",
+  "label": "ราคาน้ำมันดีเซล (10 PPM) ตลาดสิงคโปร์ เฉลี่ยรายสัปดาห์",
+  "value": 147.96,
+  "unit": "ดอลลาร์/บาร์เรล",
+  "asOf": "2026-06-07",
+  "period": "2026-06-01/2026-06-07",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/situation-oilprice-2569-06-01-07.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง (รายสัปดาห์)",
+   "kind": "primary"
+  },
+  "evidence": "คาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $147.96/ บาร์เรล",
+  "status": "verified",
+  "checkedBy": "verify:prices (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoted from pdftotext output."
+ }
+]

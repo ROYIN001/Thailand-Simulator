@@ -1,0 +1,2342 @@
+[
+ {
+  "id": "sales.doeb.benzine.2026-01",
+  "label": "เบนซิน (ULG95) ปริมาณจำหน่าย ม.ค. 2569",
+  "value": 11108.83157210797,
+  "unit": "พันลิตร",
+  "asOf": "2026-01-31",
+  "period": "2026-01",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/jan69/1ulg_Jan_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "1ulg_Jan_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันเบนซิน … | รวมทุกสาขา | ตั้งแต่เดือน มกราคม ถึง มกราคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 11108.83157210797",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.3583 ล้านลิตร/วัน (÷31). DOEB definition: volume Section-7 traders sold to customers/users (sales, not end use); sheet 'รวมทุกสาขา' = all sectors incl. sales to Section-10 traders (ม.10). น้ำมันเบนซิน = ULG 95 (file 1ulg). Evidence = sheet cell texts joined with ' | ' (… = omitted cells). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol91_e10.2026-01",
+  "label": "แก๊สโซฮอล์ 91 (E10) ปริมาณจำหน่าย ม.ค. 2569",
+  "value": 193555.902078595,
+  "unit": "พันลิตร",
+  "asOf": "2026-01-31",
+  "period": "2026-01",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/jan69/3gasohol91_Jan_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "3gasohol91_Jan_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 10 ออกเทน 91 … | รวมทุกสาขา | ตั้งแต่เดือน มกราคม ถึง มกราคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 193555.902078595",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈6.2437 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol95_e10.2026-01",
+  "label": "แก๊สโซฮอล์ 95 (E10) ปริมาณจำหน่าย ม.ค. 2569",
+  "value": 624317.2140201554,
+  "unit": "พันลิตร",
+  "asOf": "2026-01-31",
+  "period": "2026-01",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/jan69/4gasohol95_Jan_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "4gasohol95_Jan_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 10 ออกเทน 95 … | รวมทุกสาขา | ตั้งแต่เดือน มกราคม ถึง มกราคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 624317.2140201554",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈20.1393 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol95_e10_premium.2026-01",
+  "label": "แก๊สโซฮอล์ 95 ชนิดพิเศษ ปริมาณจำหน่าย ม.ค. 2569",
+  "value": 20396.160140533,
+  "unit": "พันลิตร",
+  "asOf": "2026-01-31",
+  "period": "2026-01",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/jan69/7gasohol95%20%28Premium%29_Jan_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "7gasohol95 (Premium)_Jan_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 10 ออกเทน 95 (ชนิดพิเศษ) … | รวมทุกสาขา | ตั้งแต่เดือน มกราคม ถึง มกราคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 20396.160140533",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.6579 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol_e20.2026-01",
+  "label": "แก๊สโซฮอล์ E20 ปริมาณจำหน่าย ม.ค. 2569",
+  "value": 151125.19315542933,
+  "unit": "พันลิตร",
+  "asOf": "2026-01-31",
+  "period": "2026-01",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/jan69/5gasohol%20E20_Jan_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "5gasohol E20_Jan_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 20 … | รวมทุกสาขา | ตั้งแต่เดือน มกราคม ถึง มกราคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 151125.19315542933",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22 · สุ่มเปิดแหล่งซ้ำโดย agent หลัก 2026-11-22 ตรง",
+  "notes": "Derived ≈4.8750 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol_e85.2026-01",
+  "label": "แก๊สโซฮอล์ E85 ปริมาณจำหน่าย ม.ค. 2569",
+  "value": 1564,
+  "unit": "พันลิตร",
+  "asOf": "2026-01-31",
+  "period": "2026-01",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/jan69/6gasohol%20E85_Jan_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "6gasohol E85_Jan_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 85 … | รวมทุกสาขา | ตั้งแต่เดือน มกราคม ถึง มกราคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 1564.0",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.0505 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.diesel_b7.2026-01",
+  "label": "ดีเซลหมุนเร็วธรรมดา (B7) ปริมาณจำหน่าย ม.ค. 2569",
+  "value": 2056407.3018650971,
+  "unit": "พันลิตร",
+  "asOf": "2026-01-31",
+  "period": "2026-01",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/jan69/11ado_Jan_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "11ado_Jan_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันดีเซลหมุนเร็วธรรมดา … | รวมทุกสาขา | ตั้งแต่เดือน มกราคม ถึง มกราคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 2056407.3018650971",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈66.3357 ล้านลิตร/วัน (÷31). ดีเซลหมุนเร็วธรรมดา = B7 (renamed 1 May 2567, DOEB footnote 11); excludes ชนิดพิเศษ, B20, base diesel. | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.diesel_b7_premium.2026-01",
+  "label": "ดีเซลหมุนเร็วธรรมดา ชนิดพิเศษ ปริมาณจำหน่าย ม.ค. 2569",
+  "value": 17973.85837588273,
+  "unit": "พันลิตร",
+  "asOf": "2026-01-31",
+  "period": "2026-01",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/jan69/13ado%28Premium%29_Jan_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "13ado(Premium)_Jan_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันดีเซลหมุนเร็วธรรมดา (ชนิดพิเศษ) … | รวมทุกสาขา | ตั้งแต่เดือน มกราคม ถึง มกราคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 17973.85837588273",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.5798 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.diesel_base_10ppm.2026-01",
+  "label": "ดีเซลพื้นฐาน 10 ppm ปริมาณจำหน่าย ม.ค. 2569",
+  "value": 71938.70621310174,
+  "unit": "พันลิตร",
+  "asOf": "2026-01-31",
+  "period": "2026-01",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/jan69/9base%20diesel%20%20%2810%20PPM%29%20_Jan_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "9base diesel  (10 PPM) _Jan_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันดีเซลพื้นฐาน (10 ppm) … | รวมทุกสาขา | ตั้งแต่เดือน มกราคม ถึง มกราคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 71938.70621310174",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈2.3206 ล้านลิตร/วัน (÷31). Base diesel = B0 (no B100); large share sold to ม.10 traders (32020 พันลิตร in Jan), partly for export. | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.total.2026-01",
+  "label": "LPG รวมทุกสาขา (ไม่รวมวัตถุดิบปิโตรเคมี) ปริมาณจำหน่าย ม.ค. 2569",
+  "value": 322510.03674999997,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-01-31",
+  "period": "2026-01",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/jan69/27lpg_Jan_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Jan_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมัน … | รวมทุกสาขา (ไม่รวมผู้ค้า มาตรา 10) | ตั้งแต่เดือน มกราคม ถึง มกราคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 322510.03674999997",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈10.4035 ล้านกก./วัน (÷31). Sheet 'รวมทุกสาขา'. Excludes LPG used as petrochemical feedstock (footnote 'ไม่รวมแอลพีจี ที่นำไปใช้เป็นวัตถุดิบในหน่วยอุตสาหกรรมปิโตรเคมี'). CAUTION: Jan file header cells say 'ปริมาณ /พันลิตร' and subtitle says 'ไม่รวมผู้ค้า มาตรา 10' (template labels), but its footnote says พันกิโลกรัม, other months say พันกิโลกรัม, EPPO Table 2.3-5 (thousand tons) matches, and total = non-ม.10 (303050.469) + ม.10 (19459.568). | ผู้ตรวจ: Sheet 'รวมทุกสาขา ' total matches. Header literally says พันลิตร (template error). kg is supported by EPPO T2.3-5 Jan and by the ม.10 sheet (labelled kg) being summed into this total. The footnote's kg refers only to the excluded feedstock (100,779 พันกก.). Subtitle says ไม่รวม ม.10, but the value = 303050.46875 + 19459.568 (ม.10)."
+ },
+ {
+  "id": "sales.doeb.lpg.household.2026-01",
+  "label": "LPG ครัวเรือน ปริมาณจำหน่าย ม.ค. 2569",
+  "value": 186962.984375,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-01-31",
+  "period": "2026-01",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/jan69/27lpg_Jan_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Jan_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมัน … | ร้านค้าน้ำมัน ร้านค้าก๊าซหุงต้ม โรงบรรจุก๊าซหุงต้ม | ตั้งแต่เดือน มกราคม ถึง มกราคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 186962.984375",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Sheet 'ครัวเรือน'. Derived ≈6.0311 ล้านกก./วัน (÷31). Jan header label พันลิตร is a template error; see sales.doeb.lpg.total.2026-01. EPPO COOKING Jan = 186.957 kt. | ผู้ตรวจ: ครัวเรือน sheet total matches. Header literally says พันลิตร (template error). kg is supported by EPPO T2.3-5 COOKING Jan = 186.957 kt."
+ },
+ {
+  "id": "sales.doeb.lpg.industry.2026-01",
+  "label": "LPG อุตสาหกรรม ปริมาณจำหน่าย ม.ค. 2569",
+  "value": 54659.765625,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-01-31",
+  "period": "2026-01",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/jan69/27lpg_Jan_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Jan_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมัน … | อุตสาหกรรม | ตั้งแต่เดือน มกราคม ถึง มกราคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 54659.765625",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Sheet 'อุตสาหกรรม'. Derived ≈1.7632 ล้านกก./วัน (÷31). Jan header label พันลิตร is a template error; see sales.doeb.lpg.total.2026-01. | ผู้ตรวจ: อุตสาหกรรม sheet total matches. Header literally says พันลิตร (template error); kg is the inferred unit, see lpg.total.2026-01."
+ },
+ {
+  "id": "sales.doeb.lpg.service_station.2026-01",
+  "label": "LPG สถานีบริการ (รถยนต์) ปริมาณจำหน่าย ม.ค. 2569",
+  "value": 61427.19140625,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-01-31",
+  "period": "2026-01",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/jan69/27lpg_Jan_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Jan_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมัน … | สถานีบริการ | ตั้งแต่เดือน มกราคม ถึง มกราคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 61427.19140625",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Sheet 'สถานีบริการ'. Derived ≈1.9815 ล้านกก./วัน (÷31). Jan header label พันลิตร is a template error; see sales.doeb.lpg.total.2026-01. EPPO AUTOMOBILE = สถานีบริการ + ม.10. | ผู้ตรวจ: สถานีบริการ sheet total matches. Header literally says พันลิตร (template error). kg is supported by EPPO AUTOMOBILE Jan 80.891 kt = 61427.19 + 19459.568."
+ },
+ {
+  "id": "sales.doeb.lpg.section10_traders.2026-01",
+  "label": "LPG จำหน่ายให้ผู้ค้า ม.10 ปริมาณจำหน่าย ม.ค. 2569",
+  "value": 19459.568,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-01-31",
+  "period": "2026-01",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/jan69/27lpg_Jan_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Jan_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | ม.10 | ตั้งแต่เดือน มกราคม ถึง เดือน มกราคม 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 19459.568",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Sheet 'ม.10'. Derived ≈0.6277 ล้านกก./วัน (÷31). Footnote: ม.10 = volume Section-10 traders bought from Section-7 traders for resale. | ผู้ตรวจ: ม.10 sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.benzine.2026-02",
+  "label": "เบนซิน (ULG95) ปริมาณจำหน่าย ก.พ. 2569",
+  "value": 11287.830585420132,
+  "unit": "พันลิตร",
+  "asOf": "2026-02-28",
+  "period": "2026-02",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/feb69/1ulg_Feb_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "1ulg_Feb_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันเบนซิน … | รวมทุกสาขา | ตั้งแต่เดือน กุมภาพันธ์ ถึง กุมภาพันธ์ 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 11287.830585420132",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.4031 ล้านลิตร/วัน (÷28). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol91_e10.2026-02",
+  "label": "แก๊สโซฮอล์ 91 (E10) ปริมาณจำหน่าย ก.พ. 2569",
+  "value": 179271.58421432972,
+  "unit": "พันลิตร",
+  "asOf": "2026-02-28",
+  "period": "2026-02",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/feb69/3gasohol91_Feb_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "3gasohol91_Feb_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 10 ออกเทน 91 … | รวมทุกสาขา | ตั้งแต่เดือน กุมภาพันธ์ ถึง กุมภาพันธ์ 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 179271.58421432972",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈6.4026 ล้านลิตร/วัน (÷28). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol95_e10.2026-02",
+  "label": "แก๊สโซฮอล์ 95 (E10) ปริมาณจำหน่าย ก.พ. 2569",
+  "value": 575243.0001796149,
+  "unit": "พันลิตร",
+  "asOf": "2026-02-28",
+  "period": "2026-02",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/feb69/4gasohol95_Feb_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "4gasohol95_Feb_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 10 ออกเทน 95 … | รวมทุกสาขา | ตั้งแต่เดือน กุมภาพันธ์ ถึง กุมภาพันธ์ 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 575243.0001796149",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈20.5444 ล้านลิตร/วัน (÷28). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol95_e10_premium.2026-02",
+  "label": "แก๊สโซฮอล์ 95 ชนิดพิเศษ ปริมาณจำหน่าย ก.พ. 2569",
+  "value": 19159.96875,
+  "unit": "พันลิตร",
+  "asOf": "2026-02-28",
+  "period": "2026-02",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/feb69/7gasohol95%20%28Premium%29_Feb_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "7gasohol95 (Premium)_Feb_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 10 ออกเทน 95 (ชนิดพิเศษ) … | รวมทุกสาขา | ตั้งแต่เดือน กุมภาพันธ์ ถึง กุมภาพันธ์ 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 19159.96875",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.6843 ล้านลิตร/วัน (÷28). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol_e20.2026-02",
+  "label": "แก๊สโซฮอล์ E20 ปริมาณจำหน่าย ก.พ. 2569",
+  "value": 141516.0693810489,
+  "unit": "พันลิตร",
+  "asOf": "2026-02-28",
+  "period": "2026-02",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/feb69/5gasohol%20E20_Feb_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "5gasohol E20_Feb_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 20 … | รวมทุกสาขา | ตั้งแต่เดือน กุมภาพันธ์ ถึง กุมภาพันธ์ 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 141516.0693810489",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈5.0541 ล้านลิตร/วัน (÷28). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol_e85.2026-02",
+  "label": "แก๊สโซฮอล์ E85 ปริมาณจำหน่าย ก.พ. 2569",
+  "value": 837,
+  "unit": "พันลิตร",
+  "asOf": "2026-02-28",
+  "period": "2026-02",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/feb69/6gasohol%20E85_Feb_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "6gasohol E85_Feb_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 85 … | รวมทุกสาขา | ตั้งแต่เดือน กุมภาพันธ์ ถึง กุมภาพันธ์ 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 837.0",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.0299 ล้านลิตร/วัน (÷28). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.diesel_b7.2026-02",
+  "label": "ดีเซลหมุนเร็วธรรมดา (B7) ปริมาณจำหน่าย ก.พ. 2569",
+  "value": 1902087.372590877,
+  "unit": "พันลิตร",
+  "asOf": "2026-02-28",
+  "period": "2026-02",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/feb69/11ado_Feb_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "11ado_Feb_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันดีเซลหมุนเร็วธรรมดา … | รวมทุกสาขา | ตั้งแต่เดือน กุมภาพันธ์ ถึง กุมภาพันธ์ 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 1902087.372590877",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈67.9317 ล้านลิตร/วัน (÷28). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.diesel_b7_premium.2026-02",
+  "label": "ดีเซลหมุนเร็วธรรมดา ชนิดพิเศษ ปริมาณจำหน่าย ก.พ. 2569",
+  "value": 16736.121016215533,
+  "unit": "พันลิตร",
+  "asOf": "2026-02-28",
+  "period": "2026-02",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/feb69/13ado%28Premium%29_Feb_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "13ado(Premium)_Feb_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันดีเซลหมุนเร็วธรรมดา (ชนิดพิเศษ) … | รวมทุกสาขา | ตั้งแต่เดือน กุมภาพันธ์ ถึง กุมภาพันธ์ 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 16736.121016215533",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.5977 ล้านลิตร/วัน (÷28). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.diesel_base_10ppm.2026-02",
+  "label": "ดีเซลพื้นฐาน 10 ppm ปริมาณจำหน่าย ก.พ. 2569",
+  "value": 53713.2301293388,
+  "unit": "พันลิตร",
+  "asOf": "2026-02-28",
+  "period": "2026-02",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/feb69/9base%20diesel%20%20%2810%20PPM%29%20_Feb_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "9base diesel  (10 PPM) _Feb_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันดีเซลพื้นฐาน (10 ppm) … | รวมทุกสาขา | ตั้งแต่เดือน กุมภาพันธ์ ถึง กุมภาพันธ์ 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 53713.2301293388",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈1.9183 ล้านลิตร/วัน (÷28). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.total.2026-02",
+  "label": "LPG รวมทุกสาขา (ไม่รวมวัตถุดิบปิโตรเคมี) ปริมาณจำหน่าย ก.พ. 2569",
+  "value": 294243.6125,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-02-28",
+  "period": "2026-02",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/feb69/27lpg_Feb_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Feb_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | รวมทุกสาขา | ตั้งแต่เดือน กุมภาพันธ์ ถึง กุมภาพันธ์ 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 294243.6125",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈10.5087 ล้านกก./วัน (÷28). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.household.2026-02",
+  "label": "LPG ครัวเรือน ปริมาณจำหน่าย ก.พ. 2569",
+  "value": 168579.28125,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-02-28",
+  "period": "2026-02",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/feb69/27lpg_Feb_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Feb_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | ร้านค้าน้ำมัน ร้านค้าก๊าซหุงต้ม โรงบรรจุก๊าซหุงต้ม | ตั้งแต่เดือน กุมภาพันธ์ ถึง กุมภาพันธ์ 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 168579.28125",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈6.0207 ล้านกก./วัน (÷28). | ผู้ตรวจ: ครัวเรือน sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.industry.2026-02",
+  "label": "LPG อุตสาหกรรม ปริมาณจำหน่าย ก.พ. 2569",
+  "value": 51337.01171875,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-02-28",
+  "period": "2026-02",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/feb69/27lpg_Feb_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Feb_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | อุตสาหกรรม | ตั้งแต่เดือน กุมภาพันธ์ ถึง กุมภาพันธ์ 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 51337.01171875",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈1.8335 ล้านกก./วัน (÷28). | ผู้ตรวจ: อุตสาหกรรม sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.service_station.2026-02",
+  "label": "LPG สถานีบริการ (รถยนต์) ปริมาณจำหน่าย ก.พ. 2569",
+  "value": 56217.02734375,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-02-28",
+  "period": "2026-02",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/feb69/27lpg_Feb_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Feb_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | สถานีบริการ | ตั้งแต่เดือน กุมภาพันธ์ ถึง กุมภาพันธ์ 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 56217.02734375",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈2.0078 ล้านกก./วัน (÷28). | ผู้ตรวจ: สถานีบริการ sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.section10_traders.2026-02",
+  "label": "LPG จำหน่ายให้ผู้ค้า ม.10 ปริมาณจำหน่าย ก.พ. 2569",
+  "value": 18110.300000000003,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-02-28",
+  "period": "2026-02",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/feb69/27lpg_Feb_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Feb_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | ม.10 | ตั้งแต่เดือน กุมภาพันธ์ ถึง เดือน กุมภาพันธ์ 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 18110.300000000003",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.6468 ล้านกก./วัน (÷28). | ผู้ตรวจ: ม.10 sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.benzine.2026-03",
+  "label": "เบนซิน (ULG95) ปริมาณจำหน่าย มี.ค. 2569",
+  "value": 12957.912764171138,
+  "unit": "พันลิตร",
+  "asOf": "2026-03-31",
+  "period": "2026-03",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/mar69/1ulg_Mar_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "1ulg_Mar_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันเบนซิน … | รวมทุกสาขา | ตั้งแต่เดือน มีนาคม ถึง มีนาคม 2569 | ปริมาณ/พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 12957.912764171138",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.4180 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol91_e10.2026-03",
+  "label": "แก๊สโซฮอล์ 91 (E10) ปริมาณจำหน่าย มี.ค. 2569",
+  "value": 214444.84975092672,
+  "unit": "พันลิตร",
+  "asOf": "2026-03-31",
+  "period": "2026-03",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/mar69/3gasohol91_Mar_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "3gasohol91_Mar_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 10 ออกเทน 91 … | รวมทุกสาขา | ตั้งแต่เดือน มีนาคม ถึง มีนาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 214444.84975092672",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈6.9176 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol95_e10.2026-03",
+  "label": "แก๊สโซฮอล์ 95 (E10) ปริมาณจำหน่าย มี.ค. 2569",
+  "value": 635215.5814224686,
+  "unit": "พันลิตร",
+  "asOf": "2026-03-31",
+  "period": "2026-03",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/mar69/4gasohol95_Mar_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "4gasohol95_Mar_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 10 ออกเทน 95 … | รวมทุกสาขา | ตั้งแต่เดือน มีนาคม ถึง มีนาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 635215.5814224686",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈20.4908 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol95_e10_premium.2026-03",
+  "label": "แก๊สโซฮอล์ 95 ชนิดพิเศษ ปริมาณจำหน่าย มี.ค. 2569",
+  "value": 26235.015625,
+  "unit": "พันลิตร",
+  "asOf": "2026-03-31",
+  "period": "2026-03",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/mar69/7gasohol95%20%28Premium%29_Mar_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "7gasohol95 (Premium)_Mar_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 10 ออกเทน 95 (ชนิดพิเศษ) … | รวมทุกสาขา | ตั้งแต่เดือน มีนาคม ถึง มีนาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 26235.015625",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.8463 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol_e20.2026-03",
+  "label": "แก๊สโซฮอล์ E20 ปริมาณจำหน่าย มี.ค. 2569",
+  "value": 168764.8770060502,
+  "unit": "พันลิตร",
+  "asOf": "2026-03-31",
+  "period": "2026-03",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/mar69/5gasohol%20E20_Mar_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "5gasohol E20_Mar_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 20 … | รวมทุกสาขา | ตั้งแต่เดือน มีนาคม ถึง มีนาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 168764.8770060502",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈5.4440 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol_e85.2026-03",
+  "label": "แก๊สโซฮอล์ E85 ปริมาณจำหน่าย มี.ค. 2569",
+  "value": 1079.998046875,
+  "unit": "พันลิตร",
+  "asOf": "2026-03-31",
+  "period": "2026-03",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/mar69/6gasohol%20E85_Mar_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "6gasohol E85_Mar_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 85 … | รวมทุกสาขา | ตั้งแต่เดือน มีนาคม ถึง มีนาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 1079.998046875",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.0348 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.diesel_b7.2026-03",
+  "label": "ดีเซลหมุนเร็วธรรมดา (B7) ปริมาณจำหน่าย มี.ค. 2569",
+  "value": 2487726.110464815,
+  "unit": "พันลิตร",
+  "asOf": "2026-03-31",
+  "period": "2026-03",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/mar69/11ado_Mar_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "11ado_Mar_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันดีเซลหมุนเร็วธรรมดา … | รวมทุกสาขา | ตั้งแต่เดือน มีนาคม ถึง มีนาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 2487726.110464815",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈80.2492 ล้านลิตร/วัน (÷31). March spike coincides with pre-price-rise buying reported by DOEB (Thai Post 19 May 2026). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.diesel_b7_premium.2026-03",
+  "label": "ดีเซลหมุนเร็วธรรมดา ชนิดพิเศษ ปริมาณจำหน่าย มี.ค. 2569",
+  "value": 28722.962470449507,
+  "unit": "พันลิตร",
+  "asOf": "2026-03-31",
+  "period": "2026-03",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/mar69/13ado%28Premium%29_Mar_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "13ado(Premium)_Mar_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันดีเซลหมุนเร็วธรรมดา (ชนิดพิเศษ) … | รวมทุกสาขา | ตั้งแต่เดือน มีนาคม ถึง มีนาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 28722.962470449507",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.9265 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.diesel_b20.2026-03",
+  "label": "ดีเซลหมุนเร็ว B20 ปริมาณจำหน่าย มี.ค. 2569",
+  "value": 252,
+  "unit": "พันลิตร",
+  "asOf": "2026-03-31",
+  "period": "2026-03",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/mar69/15ado%20B20_Mar_2006.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "15ado B20_Mar_2006.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันดีเซลหมุนเร็ว บี20 … | รวมทุกสาขา | ตั้งแต่เดือน มีนาคม ถึง มีนาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 252.0",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.0081 ล้านลิตร/วัน (÷31). File name says 2006 (DOEB typo); sheet period says มีนาคม 2569. No B20 file exists for Jan/Feb 2569 (see gaps). | ผู้ตรวจ: รวมทุกสาขา sheet total matches. The file name ends _2006.xls (a DOEB typo); the sheet's period line says 2569."
+ },
+ {
+  "id": "sales.doeb.diesel_base_10ppm.2026-03",
+  "label": "ดีเซลพื้นฐาน 10 ppm ปริมาณจำหน่าย มี.ค. 2569",
+  "value": 31654.99609375,
+  "unit": "พันลิตร",
+  "asOf": "2026-03-31",
+  "period": "2026-03",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/mar69/9base%20diesel%20%20%2810%20PPM%29%20_Mar_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "9base diesel  (10 PPM) _Mar_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันดีเซลพื้นฐาน (10 ppm) … | รวมทุกสาขา | ตั้งแต่เดือน มีนาคม ถึง มีนาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 31654.99609375",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈1.0211 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.total.2026-03",
+  "label": "LPG รวมทุกสาขา (ไม่รวมวัตถุดิบปิโตรเคมี) ปริมาณจำหน่าย มี.ค. 2569",
+  "value": 325665.09375,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-03-31",
+  "period": "2026-03",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/mar69/27lpg_Mar_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Mar_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | รวมทุกสาขา | ตั้งแต่เดือน มีนาคม ถึง มีนาคม 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 325665.09375",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈10.5053 ล้านกก./วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.household.2026-03",
+  "label": "LPG ครัวเรือน ปริมาณจำหน่าย มี.ค. 2569",
+  "value": 186700.34375,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-03-31",
+  "period": "2026-03",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/mar69/27lpg_Mar_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Mar_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | ร้านค้าน้ำมัน ร้านค้าก๊าซหุงต้ม โรงบรรจุก๊าซหุงต้ม | ตั้งแต่เดือน มีนาคม ถึง มีนาคม 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 186700.34375",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈6.0226 ล้านกก./วัน (÷31). | ผู้ตรวจ: ครัวเรือน sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.industry.2026-03",
+  "label": "LPG อุตสาหกรรม ปริมาณจำหน่าย มี.ค. 2569",
+  "value": 55939.01171875,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-03-31",
+  "period": "2026-03",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/mar69/27lpg_Mar_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Mar_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | อุตสาหกรรม | ตั้งแต่เดือน มีนาคม ถึง มีนาคม 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 55939.01171875",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈1.8045 ล้านกก./วัน (÷31). | ผู้ตรวจ: อุตสาหกรรม sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.service_station.2026-03",
+  "label": "LPG สถานีบริการ (รถยนต์) ปริมาณจำหน่าย มี.ค. 2569",
+  "value": 63335.77734375,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-03-31",
+  "period": "2026-03",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/mar69/27lpg_Mar_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Mar_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | สถานีบริการ | ตั้งแต่เดือน มีนาคม ถึง มีนาคม 2569 | ปริมาณ /พันโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 63335.77734375",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈2.0431 ล้านกก./วัน (÷31). Unit cell misspelt 'พันโลกรัม' in source. | ผู้ตรวจ: สถานีบริการ sheet total matches. The source misspells the unit cell as 'พันโลกรัม'."
+ },
+ {
+  "id": "sales.doeb.lpg.section10_traders.2026-03",
+  "label": "LPG จำหน่ายให้ผู้ค้า ม.10 ปริมาณจำหน่าย มี.ค. 2569",
+  "value": 19689,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-03-31",
+  "period": "2026-03",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/mar69/27lpg_Mar_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Mar_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | ม.10 | ตั้งแต่เดือน มีนาคม ถึง เดือน มีนาคม 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 19689.0",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.6351 ล้านกก./วัน (÷31). | ผู้ตรวจ: ม.10 sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.benzine.2026-04",
+  "label": "เบนซิน (ULG95) ปริมาณจำหน่าย เม.ย. 2569",
+  "value": 6544.906598029658,
+  "unit": "พันลิตร",
+  "asOf": "2026-04-30",
+  "period": "2026-04",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/apr69/1ulg_Apr_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "1ulg_Apr_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันเบนซิน … | รวมทุกสาขา | ตั้งแต่เดือน เมษายน ถึง เมษายน 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 6544.906598029658",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.2182 ล้านลิตร/วัน (÷30). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol91_e10.2026-04",
+  "label": "แก๊สโซฮอล์ 91 (E10) ปริมาณจำหน่าย เม.ย. 2569",
+  "value": 157331.58831202798,
+  "unit": "พันลิตร",
+  "asOf": "2026-04-30",
+  "period": "2026-04",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/apr69/3gasohol91_Apr_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "3gasohol91_Apr_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 10 ออกเทน 91 … | รวมทุกสาขา | ตั้งแต่เดือน เมษายน ถึง เมษายน 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 157331.58831202798",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈5.2444 ล้านลิตร/วัน (÷30). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol95_e10.2026-04",
+  "label": "แก๊สโซฮอล์ 95 (E10) ปริมาณจำหน่าย เม.ย. 2569",
+  "value": 512487.55890584365,
+  "unit": "พันลิตร",
+  "asOf": "2026-04-30",
+  "period": "2026-04",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/apr69/4gasohol95_Apr_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "4gasohol95_Apr_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 10 ออกเทน 95 … | รวมทุกสาขา | ตั้งแต่เดือน เมษายน ถึง เมษายน 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 512487.55890584365",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈17.0829 ล้านลิตร/วัน (÷30). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol95_e10_premium.2026-04",
+  "label": "แก๊สโซฮอล์ 95 ชนิดพิเศษ ปริมาณจำหน่าย เม.ย. 2569",
+  "value": 15814.533203125,
+  "unit": "พันลิตร",
+  "asOf": "2026-04-30",
+  "period": "2026-04",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/apr69/7gasohol95%20%28Premium%29_Apr_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "7gasohol95 (Premium)_Apr_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 10 ออกเทน 95 (ชนิดพิเศษ) … | รวมทุกสาขา | ตั้งแต่เดือน เมษายน ถึง เมษายน 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 15814.533203125",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.5272 ล้านลิตร/วัน (÷30). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol_e20.2026-04",
+  "label": "แก๊สโซฮอล์ E20 ปริมาณจำหน่าย เม.ย. 2569",
+  "value": 183502.328510385,
+  "unit": "พันลิตร",
+  "asOf": "2026-04-30",
+  "period": "2026-04",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/apr69/5gasohol%20E20_Apr_2006.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "5gasohol E20_Apr_2006.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 20 … | รวมทุกสาขา | ตั้งแต่เดือน เมษายน ถึง เมษายน 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 183502.328510385",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈6.1167 ล้านลิตร/วัน (÷30). File name says 2006 (DOEB typo); sheet period says เมษายน 2569. | ผู้ตรวจ: รวมทุกสาขา sheet total matches. The file name ends _2006.xls (a DOEB typo); the sheet's period line says 2569."
+ },
+ {
+  "id": "sales.doeb.gasohol_e85.2026-04",
+  "label": "แก๊สโซฮอล์ E85 ปริมาณจำหน่าย เม.ย. 2569",
+  "value": 1285.0740966796875,
+  "unit": "พันลิตร",
+  "asOf": "2026-04-30",
+  "period": "2026-04",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/apr69/6gasohol%20E85_Apr_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "6gasohol E85_Apr_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 85 … | รวมทุกสาขา | ตั้งแต่เดือน เมษายน ถึง เมษายน 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 1285.0740966796875",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.0428 ล้านลิตร/วัน (÷30). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.diesel_b7.2026-04",
+  "label": "ดีเซลหมุนเร็วธรรมดา (B7) ปริมาณจำหน่าย เม.ย. 2569",
+  "value": 1670694.1393150873,
+  "unit": "พันลิตร",
+  "asOf": "2026-04-30",
+  "period": "2026-04",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/apr69/11ado_Apr_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "11ado_Apr_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันดีเซลหมุนเร็วธรรมดา … | รวมทุกสาขา | ตั้งแต่เดือน เมษายน ถึง เมษายน 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 1670694.1393150873",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈55.6898 ล้านลิตร/วัน (÷30). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.diesel_b7_premium.2026-04",
+  "label": "ดีเซลหมุนเร็วธรรมดา ชนิดพิเศษ ปริมาณจำหน่าย เม.ย. 2569",
+  "value": 8052.472864218056,
+  "unit": "พันลิตร",
+  "asOf": "2026-04-30",
+  "period": "2026-04",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/apr69/13ado%28Premium%29_Apr_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "13ado(Premium)_Apr_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันดีเซลหมุนเร็วธรรมดา (ชนิดพิเศษ) … | รวมทุกสาขา | ตั้งแต่เดือน เมษายน ถึง เมษายน 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 8052.472864218056",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.2684 ล้านลิตร/วัน (÷30). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.diesel_b20.2026-04",
+  "label": "ดีเซลหมุนเร็ว B20 ปริมาณจำหน่าย เม.ย. 2569",
+  "value": 31140.425309054554,
+  "unit": "พันลิตร",
+  "asOf": "2026-04-30",
+  "period": "2026-04",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/apr69/15ado%20B20_Apr_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "15ado B20_Apr_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันดีเซลหมุนเร็ว บี20 … | รวมทุกสาขา | ตั้งแต่เดือน เมษายน ถึง เมษายน 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 31140.425309054554",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈1.0380 ล้านลิตร/วัน (÷30). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.diesel_base_10ppm.2026-04",
+  "label": "ดีเซลพื้นฐาน 10 ppm ปริมาณจำหน่าย เม.ย. 2569",
+  "value": 33576.03515625,
+  "unit": "พันลิตร",
+  "asOf": "2026-04-30",
+  "period": "2026-04",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/apr69/9base%20diesel%20%20%2810%20PPM%29%20_Apr_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "9base diesel  (10 PPM) _Apr_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันดีเซลพื้นฐาน (10 ppm) … | รวมทุกสาขา | ตั้งแต่เดือน เมษายน ถึง เมษายน 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 33576.03515625",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈1.1192 ล้านลิตร/วัน (÷30). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.total.2026-04",
+  "label": "LPG รวมทุกสาขา (ไม่รวมวัตถุดิบปิโตรเคมี) ปริมาณจำหน่าย เม.ย. 2569",
+  "value": 288792.2422670871,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-04-30",
+  "period": "2026-04",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/apr69/27lpg_Apr_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Apr_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | รวมทุกสาขา | ตั้งแต่เดือน เมษายน ถึง เมษายน 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 288792.2422670871",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈9.6264 ล้านกก./วัน (÷30). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.household.2026-04",
+  "label": "LPG ครัวเรือน ปริมาณจำหน่าย เม.ย. 2569",
+  "value": 162264.171875,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-04-30",
+  "period": "2026-04",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/apr69/27lpg_Apr_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Apr_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | ร้านค้าน้ำมัน ร้านค้าก๊าซหุงต้ม โรงบรรจุก๊าซหุงต้ม | ตั้งแต่เดือน เมษายน ถึง เมษายน 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 162264.171875",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈5.4088 ล้านกก./วัน (÷30). | ผู้ตรวจ: ครัวเรือน sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.industry.2026-04",
+  "label": "LPG อุตสาหกรรม ปริมาณจำหน่าย เม.ย. 2569",
+  "value": 47465.1015625,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-04-30",
+  "period": "2026-04",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/apr69/27lpg_Apr_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Apr_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | อุตสาหกรรม | ตั้งแต่เดือน เมษายน ถึง เมษายน 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 47465.1015625",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈1.5822 ล้านกก./วัน (÷30). | ผู้ตรวจ: อุตสาหกรรม sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.service_station.2026-04",
+  "label": "LPG สถานีบริการ (รถยนต์) ปริมาณจำหน่าย เม.ย. 2569",
+  "value": 61853.2890625,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-04-30",
+  "period": "2026-04",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/apr69/27lpg_Apr_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Apr_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | สถานีบริการ | ตั้งแต่เดือน เมษายน ถึง เมษายน 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 61853.2890625",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈2.0618 ล้านกก./วัน (÷30). | ผู้ตรวจ: สถานีบริการ sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.section10_traders.2026-04",
+  "label": "LPG จำหน่ายให้ผู้ค้า ม.10 ปริมาณจำหน่าย เม.ย. 2569",
+  "value": 17209.711017087102,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-04-30",
+  "period": "2026-04",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/apr69/27lpg_Apr_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_Apr_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | ม.10 | ตั้งแต่เดือน เมษายน ถึง เมษายน 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 17209.711017087102",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.5737 ล้านกก./วัน (÷30). | ผู้ตรวจ: ม.10 sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.benzine.2026-05",
+  "label": "เบนซิน (ULG95) ปริมาณจำหน่าย พ.ค. 2569",
+  "value": 7622.7135762330145,
+  "unit": "พันลิตร",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/may69/1ulg_May_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "1ulg_May_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันเบนซิน … | รวมทุกสาขา | ตั้งแต่เดือน พฤษภาคม ถึง พฤษภาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 7622.7135762330145",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.2459 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol91_e10.2026-05",
+  "label": "แก๊สโซฮอล์ 91 (E10) ปริมาณจำหน่าย พ.ค. 2569",
+  "value": 167745.33936779742,
+  "unit": "พันลิตร",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/may69/3gasohol91_May_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "3gasohol91_May_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 10 ออกเทน 91 … | รวมทุกสาขา | ตั้งแต่เดือน พฤษภาคม ถึง พฤษภาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 167745.33936779742",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈5.4111 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol95_e10.2026-05",
+  "label": "แก๊สโซฮอล์ 95 (E10) ปริมาณจำหน่าย พ.ค. 2569",
+  "value": 554059.2475265049,
+  "unit": "พันลิตร",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/may69/4gasohol95_May_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "4gasohol95_May_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 10 ออกเทน 95 … | รวมทุกสาขา | ตั้งแต่เดือน พฤษภาคม ถึง พฤษภาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 554059.2475265049",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈17.8729 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol95_e10_premium.2026-05",
+  "label": "แก๊สโซฮอล์ 95 ชนิดพิเศษ ปริมาณจำหน่าย พ.ค. 2569",
+  "value": 17154.55859375,
+  "unit": "พันลิตร",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/may69/7gasohol95%20%28Premium%29_May_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "7gasohol95 (Premium)_May_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 10 ออกเทน 95 (ชนิดพิเศษ) … | รวมทุกสาขา | ตั้งแต่เดือน พฤษภาคม ถึง พฤษภาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 17154.55859375",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.5534 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol_e20.2026-05",
+  "label": "แก๊สโซฮอล์ E20 ปริมาณจำหน่าย พ.ค. 2569",
+  "value": 199917.3618684886,
+  "unit": "พันลิตร",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/may69/5gasohol%20E20_May_2006.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "5gasohol E20_May_2006.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 20 … | รวมทุกสาขา | ตั้งแต่เดือน พฤษภาคม ถึง พฤษภาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 199917.3618684886",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈6.4489 ล้านลิตร/วัน (÷31). File name says 2006 (DOEB typo); sheet period says พฤษภาคม 2569. | ผู้ตรวจ: รวมทุกสาขา sheet total matches. The file name ends _2006.xls (a DOEB typo); the sheet's period line says 2569."
+ },
+ {
+  "id": "sales.doeb.gasohol_e85.2026-05",
+  "label": "แก๊สโซฮอล์ E85 ปริมาณจำหน่าย พ.ค. 2569",
+  "value": 1405,
+  "unit": "พันลิตร",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/may69/6gasohol%20E85_May_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "6gasohol E85_May_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันแก๊สโซฮอล์อี 85 … | รวมทุกสาขา | ตั้งแต่เดือน พฤษภาคม ถึง พฤษภาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 1405.0",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.0453 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.diesel_b7.2026-05",
+  "label": "ดีเซลหมุนเร็วธรรมดา (B7) ปริมาณจำหน่าย พ.ค. 2569",
+  "value": 1850633.9503658237,
+  "unit": "พันลิตร",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/may69/11ado_May_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "11ado_May_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันดีเซลหมุนเร็วธรรมดา … | รวมทุกสาขา | ตั้งแต่เดือน พฤษภาคม ถึง พฤษภาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 1850633.9503658237",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈59.6979 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.diesel_b7_premium.2026-05",
+  "label": "ดีเซลหมุนเร็วธรรมดา ชนิดพิเศษ ปริมาณจำหน่าย พ.ค. 2569",
+  "value": 9277.939453125,
+  "unit": "พันลิตร",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/may69/13ado%28Premium%29_May_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "13ado(Premium)_May_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันดีเซลหมุนเร็วธรรมดา (ชนิดพิเศษ) … | รวมทุกสาขา | ตั้งแต่เดือน พฤษภาคม ถึง พฤษภาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 9277.939453125",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.2993 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.diesel_b20.2026-05",
+  "label": "ดีเซลหมุนเร็ว B20 ปริมาณจำหน่าย พ.ค. 2569",
+  "value": 114139.79145802006,
+  "unit": "พันลิตร",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/may69/15ado%20B20_May_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "15ado B20_May_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันดีเซลหมุนเร็ว บี20 … | รวมทุกสาขา | ตั้งแต่เดือน พฤษภาคม ถึง พฤษภาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 114139.79145802006",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈3.6819 ล้านลิตร/วัน (÷31); matches the DOEB figure 3.68 reported in the news. | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.diesel_base_10ppm.2026-05",
+  "label": "ดีเซลพื้นฐาน 10 ppm ปริมาณจำหน่าย พ.ค. 2569",
+  "value": 30688.767578125,
+  "unit": "พันลิตร",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/may69/9base%20diesel%20%20%2810%20PPM%29%20_May_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "9base diesel  (10 PPM) _May_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ น้ำมันดีเซลพื้นฐาน (10 ppm) … | รวมทุกสาขา | ตั้งแต่เดือน พฤษภาคม ถึง พฤษภาคม 2569 | ปริมาณ /พันลิตร | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 30688.767578125",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.9900 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.total.2026-05",
+  "label": "LPG รวมทุกสาขา (ไม่รวมวัตถุดิบปิโตรเคมี) ปริมาณจำหน่าย พ.ค. 2569",
+  "value": 304886.3331273943,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/may69/27lpg_May_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_May_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | รวมทุกสาขา | ตั้งแต่เดือน พฤษภาคม ถึง พฤษภาคม 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 304886.3331273943",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈9.8350 ล้านกก./วัน (÷31). | ผู้ตรวจ: รวมทุกสาขา sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.household.2026-05",
+  "label": "LPG ครัวเรือน ปริมาณจำหน่าย พ.ค. 2569",
+  "value": 170583.734375,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/may69/27lpg_May_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_May_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | ร้านค้าน้ำมัน ร้านค้าก๊าซหุงต้ม โรงบรรจุก๊าซหุงต้ม | ตั้งแต่เดือน พฤษภาคม ถึง พฤษภาคม 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 170583.734375",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈5.5027 ล้านกก./วัน (÷31). | ผู้ตรวจ: ครัวเรือน sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.industry.2026-05",
+  "label": "LPG อุตสาหกรรม ปริมาณจำหน่าย พ.ค. 2569",
+  "value": 52770.71484375,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/may69/27lpg_May_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_May_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | อุตสาหกรรม | ตั้งแต่เดือน พฤษภาคม ถึง พฤษภาคม 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 52770.71484375",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈1.7023 ล้านกก./วัน (÷31). | ผู้ตรวจ: อุตสาหกรรม sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.service_station.2026-05",
+  "label": "LPG สถานีบริการ (รถยนต์) ปริมาณจำหน่าย พ.ค. 2569",
+  "value": 62546.765625,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/may69/27lpg_May_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_May_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | สถานีบริการ | ตั้งแต่เดือน พฤษภาคม ถึง พฤษภาคม 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 62546.765625",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈2.0176 ล้านกก./วัน (÷31). | ผู้ตรวจ: สถานีบริการ sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.lpg.section10_traders.2026-05",
+  "label": "LPG จำหน่ายให้ผู้ค้า ม.10 ปริมาณจำหน่าย พ.ค. 2569",
+  "value": 18985.08312739432,
+  "unit": "พันกิโลกรัม",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/oil_69/may69/27lpg_May_2026.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "27lpg_May_2026.xls",
+   "kind": "primary"
+  },
+  "evidence": "ตารางแสดงปริมาณ ก๊าซแอลพีจี … | ม.10 | ตั้งแต่เดือน พฤษภาคม ถึง พฤษภาคม 2569 | ปริมาณ /พันกิโลกรัม | ปริมาณรวมทั้งสิ้น | รวมทั้งสิ้น 18985.08312739432",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈0.6124 ล้านกก./วัน (÷31). | ผู้ตรวจ: ม.10 sheet total; matches."
+ },
+ {
+  "id": "sales.doeb.gasohol91_e10.avg_daily.2025",
+  "label": "แก๊สโซฮอล์ 91 (E10) เฉลี่ยต่อวัน 2568",
+  "value": 6.516210958904109,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/3Sale_month_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568 | ปริมาณ : ล้านลิตร | น้ำมันแก๊สโซฮอล์ อี 10 ออกเทน 91 | ... | รวม | ... | ต่อปี 2378.4169999999995 | ต่อวัน 6.516210958904109",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "DOEB 2568 monthly table, sheet 'การจำหน่ายรายเดือน', product 'รวม' row, column ต่อวัน (= ต่อปี ÷ 365). Sales by Section-7 traders (ปริมาณการจำหน่าย), not end use. | ผู้ตรวจ: Sheet 'การจำหน่ายรายเดือน', block row 'รวม', column ต่อวัน (= ต่อปี/365). DOEB is primary."
+ },
+ {
+  "id": "sales.doeb.gasohol95_e10.avg_daily.2025",
+  "label": "แก๊สโซฮอล์ 95 (E10) เฉลี่ยต่อวัน 2568",
+  "value": 19.080835616438357,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/3Sale_month_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568 | ปริมาณ : ล้านลิตร | น้ำมันแก๊สโซฮอล์ อี 10 ออกเทน 95 | ... | รวม | ... | ต่อปี 6964.505 | ต่อวัน 19.080835616438357",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same table/column as gasohol91 2568 record. Excludes ชนิดพิเศษ (separate row). | ผู้ตรวจ: Same table and column. DOEB is primary."
+ },
+ {
+  "id": "sales.doeb.gasohol95_e10_premium.avg_daily.2025",
+  "label": "แก๊สโซฮอล์ 95 ชนิดพิเศษ เฉลี่ยต่อวัน 2568",
+  "value": 0.61573698630137,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/3Sale_month_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568 | ปริมาณ : ล้านลิตร | น้ำมันแก๊สโซฮอล์ อี 10 ออกเทน 95 (ชนิดพิเศษ) | ... | รวม | ... | ต่อปี 224.74400000000006 | ต่อวัน 0.61573698630137",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same table/column as gasohol91 2568 record. | ผู้ตรวจ: Same table and column. DOEB is primary."
+ },
+ {
+  "id": "sales.doeb.gasohol_e20.avg_daily.2025",
+  "label": "แก๊สโซฮอล์ E20 เฉลี่ยต่อวัน 2568",
+  "value": 5.0646657534246575,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/3Sale_month_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568 | ปริมาณ : ล้านลิตร | น้ำมันแก๊สโซฮอล์ อี 20 | ... | รวม | ... | ต่อปี 1848.603 | ต่อวัน 5.0646657534246575",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same table/column as gasohol91 2568 record. | ผู้ตรวจ: Same table and column. DOEB is primary."
+ },
+ {
+  "id": "sales.doeb.gasohol_e85.avg_daily.2025",
+  "label": "แก๊สโซฮอล์ E85 เฉลี่ยต่อวัน 2568",
+  "value": 0.059567123287671234,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/3Sale_month_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568 | ปริมาณ : ล้านลิตร | น้ำมันแก๊สโซฮอล์ อี 85 | ... | รวม | ... | ต่อปี 21.742 | ต่อวัน 0.059567123287671234",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same table/column as gasohol91 2568 record. | ผู้ตรวจ: Same table and column. DOEB is primary."
+ },
+ {
+  "id": "sales.doeb.benzine.avg_daily.2025",
+  "label": "เบนซิน (ULG95) เฉลี่ยต่อวัน 2568",
+  "value": 0.3825232876712329,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/3Sale_month_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568 | ปริมาณ : ล้านลิตร | น้ำมันเบนซิน | ... | รวม | ... | ต่อปี 139.621 | ต่อวัน 0.3825232876712329",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same table/column as gasohol91 2568 record. เบนซิน ออกเทน 91 (121.189 Ml/yr, export/testing per DOEB footnote) is a separate row, not recorded. | ผู้ตรวจ: Same table and column. The separate row 'น้ำมันเบนซิน ออกเทน 91' (121.189 per year) is excluded, as claimed."
+ },
+ {
+  "id": "sales.doeb.diesel_b7.avg_daily.2025",
+  "label": "ดีเซลหมุนเร็วธรรมดา (B7) เฉลี่ยต่อวัน 2568",
+  "value": 64.46063287671232,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/3Sale_month_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568 | ปริมาณ : ล้านลิตร | น้ำมันดีเซลหมุนเร็วธรรมดา | ... | รวม | ... | ต่อปี 23528.131 | ต่อวัน 64.46063287671232",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same table/column as gasohol91 2568 record. 'น้ำมันดีเซลหมุนเร็วธรรมดา' = B7 since 1 May 2567 (DOEB footnote 11); excludes ชนิดพิเศษ row. | ผู้ตรวจ: Same table and column. The B7 rename note (footnote 11, 1 May 2567) is in 7Sale_Year_2568.xls, not in this file."
+ },
+ {
+  "id": "sales.doeb.diesel_b7_premium.avg_daily.2025",
+  "label": "ดีเซลหมุนเร็วธรรมดา ชนิดพิเศษ เฉลี่ยต่อวัน 2568",
+  "value": 0.5631479452054794,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/3Sale_month_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568 | ปริมาณ : ล้านลิตร | น้ำมันดีเซลหมุนเร็วธรรมดา (ชนิดพิเศษ) | ... | รวม | ... | ต่อปี 205.549 | ต่อวัน 0.5631479452054794",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same table/column as gasohol91 2568 record. | ผู้ตรวจ: Same table and column. DOEB is primary."
+ },
+ {
+  "id": "sales.doeb.diesel_b20.avg_daily.2025",
+  "label": "ดีเซลหมุนเร็ว B20 เฉลี่ยต่อวัน 2568",
+  "value": 0.011257534246575341,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/3Sale_month_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568 | ปริมาณ : ล้านลิตร | น้ำมันดีเซลหมุนเร็ว บี20 | ... | รวม | ... | ต่อปี 4.109 | ต่อวัน 0.011257534246575341",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same table/column as gasohol91 2568 record. B20 sales were nearly nil in 2568 (4.109 ล้านลิตร for the year, of which 4.084 in January). | ผู้ตรวจ: Same table and column. Confirmed that 4.084 of the 4.109 was sold in January."
+ },
+ {
+  "id": "sales.doeb.diesel_base_10ppm.avg_daily.2025",
+  "label": "ดีเซลพื้นฐาน 10 ppm เฉลี่ยต่อวัน 2568",
+  "value": 1.89666301369863,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/3Sale_month_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568 | ปริมาณ : ล้านลิตร | น้ำมันดีเซลพื้นฐาน (10 ppm) | ... | รวม | ... | ต่อปี 692.282 | ต่อวัน 1.89666301369863",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same table/column as gasohol91 2568 record. Footnote: ดีเซลพื้นฐาน = diesel without B100 blend. | ผู้ตรวจ: Same table and column. DOEB is primary."
+ },
+ {
+  "id": "sales.doeb.lpg.total.avg_daily.2025",
+  "label": "LPG รวมทุกสาขา (ไม่รวมวัตถุดิบปิโตรเคมี) เฉลี่ยต่อวัน 2568",
+  "value": 10.226232876712329,
+  "unit": "ล้าน กก./วัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/3Sale_month_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568 | ปริมาณ : ล้านลิตร | แอลพีจี (ล้าน กก.) | ... | รวม | ... | ต่อปี 3732.575 | ต่อวัน 10.226232876712329",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same table/column as gasohol91 2568 record. Row label gives ล้าน กก.; excludes LPG used as petrochemical feedstock (footnote 1/). = ก๊าซหุงต้ม + อุตสาหกรรม + รถยนต์ + ม.10 rows. | ผู้ตรวจ: Same table and column. Checked that it equals 2130.974 + 643.432 + 744.152 + 214.017."
+ },
+ {
+  "id": "sales.doeb.lpg.household.avg_daily.2025",
+  "label": "LPG ครัวเรือน (ก๊าซหุงต้ม) เฉลี่ยต่อวัน 2568",
+  "value": 5.838284931506848,
+  "unit": "ล้าน กก./วัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/3Sale_month_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568 | ปริมาณ : ล้านลิตร | แอลพีจี : ก๊าซหุงต้ม (ล้าน กก.) | ... | รวม | ... | ต่อปี 2130.974 | ต่อวัน 5.838284931506848",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same table/column as gasohol91 2568 record. | ผู้ตรวจ: Same table and column. DOEB is primary."
+ },
+ {
+  "id": "sales.doeb.lpg.industry.avg_daily.2025",
+  "label": "LPG อุตสาหกรรม เฉลี่ยต่อวัน 2568",
+  "value": 1.7628273972602742,
+  "unit": "ล้าน กก./วัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/3Sale_month_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568 | ปริมาณ : ล้านลิตร | แอลพีจี : ก๊าซอุตสาหกรรม (ล้าน กก.) | ... | รวม | ... | ต่อปี 643.4320000000001 | ต่อวัน 1.7628273972602742",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same table/column as gasohol91 2568 record. | ผู้ตรวจ: Same table and column. DOEB is primary."
+ },
+ {
+  "id": "sales.doeb.lpg.automobile.avg_daily.2025",
+  "label": "LPG ก๊าซรถยนต์ เฉลี่ยต่อวัน 2568",
+  "value": 2.038772602739726,
+  "unit": "ล้าน กก./วัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/3Sale_month_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568 | ปริมาณ : ล้านลิตร | แอลพีจี: ก๊าซรถยนต์ (ล้าน กก.) | ... | รวม | ... | ต่อปี 744.152 | ต่อวัน 2.038772602739726",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same table/column as gasohol91 2568 record. Equivalent to the 2569 files' 'สถานีบริการ' sheet. | ผู้ตรวจ: Same table and column. DOEB is primary."
+ },
+ {
+  "id": "sales.doeb.lpg.section10_traders.avg_daily.2025",
+  "label": "LPG จำหน่ายให้ผู้ค้า ม.10 เฉลี่ยต่อวัน 2568",
+  "value": 0.5863479452054794,
+  "unit": "ล้าน กก./วัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/3Sale_month_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568 | ปริมาณ : ล้านลิตร | แอลพีจี : จำหน่ายให้ ผู้ค้ามาตรา 10 (ล้าน กก.) | ... | รวม | ... | ต่อปี 214.017 | ต่อวัน 0.5863479452054794",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same table/column as gasohol91 2568 record. | ผู้ตรวจ: Same table and column. DOEB is primary."
+ },
+ {
+  "id": "sales.doeb.total_all.avg_daily.2025",
+  "label": "รวมปริมาณการจำหน่ายทั้งสิ้น เฉลี่ยต่อวัน 2568",
+  "value": 142.40355819381026,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/3Sale_month_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "ปริมาณการจำหน่ายน้ำมันเชื้อเพลิงเป็นรายเดือน ปี 2568 | ปริมาณ : ล้านลิตร | รวมปริมาณการจำหน่ายทั้งสิ้น 1/ | ... | รวมทั้งสิ้น | ... | ต่อปี 51977.29874074074 | ต่อวัน 142.40355819381026",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Footnote 1/: 'ไม่รวมความต้องการใช้ก๊าซปิโตรเลียมเหลว ที่โรงกลั่นนำไปใช้เป็นวัตถุดิบในอุตสาหกรรมปิโตรเคมี และไม่รวมการจำหน่าย ยางมะตอย, NGV , ก๊าซธรรมชาติ (NG), ก๊าซธรรมชาติเหลว (LNG)'. Includes jet fuel and fuel oil; LPG converted from kg to litres (fractional values). | ผู้ตรวจ: Same table, row 326. The footnote 1/ text matches the researcher's quote."
+ },
+ {
+  "id": "sales.doeb.gasoline_group.annual.2025",
+  "label": "กลุ่มน้ำมันเบนซิน ทั้งปี 2568",
+  "value": 11698.821,
+  "unit": "ล้านลิตร",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/7Sale_Year_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ความต้องการใช้น้ำมันเชื้อเพลิง ปี 2564 - 2568",
+   "kind": "primary"
+  },
+  "evidence": "ความต้องการใช้น้ำมันเชื้อเพลิง ปี 2564 - 2568 | ปริมาณ/ล้านลิตร | กลุ่มน้ำมันเบนซิน | ... | ปี 2568 11698.821",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Sheet 'การจำหน่ายเปรียบเทียบ5ปี', col ปี 2568. Derived ≈32.0516 ล้านลิตร/วัน (÷365). Includes gasohols, เบนซิน ออกเทน 87,91,92 (export/testing) and เบนซิน. CAUTION: the gasohol 91/95/E20/E85 sub-rows in this sheet repeat identical values for 2564-2568 (apparent spreadsheet error); use the monthly table for the product split. Title says 'ความต้องการใช้' but data are DOEB sales. | ผู้ตรวจ: Sheet 'การจำหน่ายเปรียบเทียบ5ปี', column ปี 2568. Confirmed that the gasohol sub-rows repeat the same values for 2564–2568 (e.g. 2518.357)."
+ },
+ {
+  "id": "sales.doeb.diesel_group.annual.2025",
+  "label": "กลุ่มน้ำมันดีเซล ทั้งปี 2568",
+  "value": 24454.745999999992,
+  "unit": "ล้านลิตร",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/7Sale_Year_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ความต้องการใช้น้ำมันเชื้อเพลิง ปี 2564 - 2568",
+   "kind": "primary"
+  },
+  "evidence": "ความต้องการใช้น้ำมันเชื้อเพลิง ปี 2564 - 2568 | ปริมาณ/ล้านลิตร | กลุ่มน้ำมันเดีเซล | ... | ปี 2568 24454.745999999992",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Sheet 'การจำหน่ายเปรียบเทียบ5ปี', col ปี 2568. Derived ≈66.9993 ล้านลิตร/วัน (÷365). Sum of ดีเซลหมุนเร็วธรรมดา (incl. ชนิดพิเศษ), B20, B10, ดีเซลพื้นฐาน (10 ppm, 50 ppm, กำมะถันสูง) and ดีเซลเขตต่อเนื่อง (น้ำมันเขียว). Row label in source: 'กลุ่มน้ำมันดีเซล'. | ผู้ตรวจ: The researcher's evidence misspells the row label as 'กลุ่มน้ำมันเดีเซล'; the source reads 'กลุ่มน้ำมันดีเซล'. Checked the sum 23733.68 + 4.109 + 0 + 693.796 + 23.161."
+ },
+ {
+  "id": "sales.doeb.diesel_b7_incl_premium.annual.2025",
+  "label": "ดีเซลหมุนเร็วธรรมดา รวมชนิดพิเศษ ทั้งปี 2568",
+  "value": 23733.679999999993,
+  "unit": "ล้านลิตร",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.doeb.go.th/info/data/datadistribution/compare/7Sale_Year_2568.xls",
+   "publisher": "กรมธุรกิจพลังงาน",
+   "title": "ความต้องการใช้น้ำมันเชื้อเพลิง ปี 2564 - 2568",
+   "kind": "primary"
+  },
+  "evidence": "ความต้องการใช้น้ำมันเชื้อเพลิง ปี 2564 - 2568 | ปริมาณ/ล้านลิตร | น้ำมันดีเซลหมุนเร็วธรรมดา | ... | ปี 2568 23733.679999999993",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Sheet 'การจำหน่ายเปรียบเทียบ5ปี', col ปี 2568. Derived ≈65.0238 ล้านลิตร/วัน. Footnote 5: 'ปริมาณน้ำมันดีเซลหมุนเร็วธรรมดา รวมปริมาณน้ำมันดีเซลหมุนเร็วธรรมดา (ชนิดพิเศษ)'. | ผู้ตรวจ: Sheet 'การจำหน่ายเปรียบเทียบ5ปี', column ปี 2568. DOEB is primary."
+ },
+ {
+  "id": "sales.eppo.gasoline.2026-01",
+  "label": "กลุ่มเบนซิน/แก๊สโซฮอล์ จำหน่าย 2026-01",
+  "value": 1002.0770000000003,
+  "unit": "ล้านลิตร (MILLION LITRES)",
+  "asOf": "2026-01-31",
+  "period": "2026-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_03.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-3 SALES OF PETROLEUM PRODUCTS",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-3 | SALES OF PETROLEUM PRODUCTS | UNIT : MILLION LITRES | 2026 | Jan | GASOLINE | 1002.0770000000003",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Source: DOEB, compiled by EPPO (file saved 12 Nov 2026, data to Sep 2026). Derived ≈32.3251 ล้านลิตร/วัน (÷31). GASOLINE = REGULAR + PREMIUM; equals DOEB product sum excl. เบนซิน ออกเทน 91 (export/testing) within ~0.01 Ml/month. | ผู้ตรวจ: EPPO is a government compiler of DOEB data; accepted as primary. The file at this URL now holds data to Sep 2026."
+ },
+ {
+  "id": "sales.eppo.gasoline.2026-02",
+  "label": "กลุ่มเบนซิน/แก๊สโซฮอล์ จำหน่าย 2026-02",
+  "value": 927.3009999999997,
+  "unit": "ล้านลิตร (MILLION LITRES)",
+  "asOf": "2026-02-28",
+  "period": "2026-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_03.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-3 SALES OF PETROLEUM PRODUCTS",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-3 | SALES OF PETROLEUM PRODUCTS | UNIT : MILLION LITRES | 2026 | Feb | GASOLINE | 927.3009999999997",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈33.1179 ล้านลิตร/วัน (÷28). | ผู้ตรวจ: EPPO compiler of DOEB data; accepted as primary."
+ },
+ {
+  "id": "sales.eppo.gasoline.2026-03",
+  "label": "กลุ่มเบนซิน/แก๊สโซฮอล์ จำหน่าย 2026-03",
+  "value": 1058.6939999999997,
+  "unit": "ล้านลิตร (MILLION LITRES)",
+  "asOf": "2026-03-31",
+  "period": "2026-03",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_03.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-3 SALES OF PETROLEUM PRODUCTS",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-3 | SALES OF PETROLEUM PRODUCTS | UNIT : MILLION LITRES | 2026 | Mar | GASOLINE | 1058.6939999999997",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈34.1514 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: EPPO compiler of DOEB data; accepted as primary."
+ },
+ {
+  "id": "sales.eppo.gasoline.2026-04",
+  "label": "กลุ่มเบนซิน/แก๊สโซฮอล์ จำหน่าย 2026-04",
+  "value": 876.9609999999999,
+  "unit": "ล้านลิตร (MILLION LITRES)",
+  "asOf": "2026-04-30",
+  "period": "2026-04",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_03.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-3 SALES OF PETROLEUM PRODUCTS",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-3 | SALES OF PETROLEUM PRODUCTS | UNIT : MILLION LITRES | 2026 | Apr | GASOLINE | 876.9609999999999",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈29.2320 ล้านลิตร/วัน (÷30). | ผู้ตรวจ: EPPO compiler of DOEB data; accepted as primary."
+ },
+ {
+  "id": "sales.eppo.gasoline.2026-05",
+  "label": "กลุ่มเบนซิน/แก๊สโซฮอล์ จำหน่าย 2026-05",
+  "value": 947.9039999999999,
+  "unit": "ล้านลิตร (MILLION LITRES)",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_03.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-3 SALES OF PETROLEUM PRODUCTS",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-3 | SALES OF PETROLEUM PRODUCTS | UNIT : MILLION LITRES | 2026 | May | GASOLINE | 947.9039999999999",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈30.5775 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: EPPO compiler of DOEB data; accepted as primary."
+ },
+ {
+  "id": "sales.eppo.gasoline.annual.2025",
+  "label": "กลุ่มเบนซิน/แก๊สโซฮอล์ จำหน่ายทั้งปี 2568",
+  "value": 11576.296000000004,
+  "unit": "ล้านลิตร (MILLION LITRES)",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_03.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-3 SALES OF PETROLEUM PRODUCTS",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-3 | SALES OF PETROLEUM PRODUCTS | UNIT : MILLION LITRES | 2025 | GASOLINE | 11576.296000000004",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈31.7159 ล้านลิตร/วัน (÷365). Differs from DOEB 'กลุ่มน้ำมันเบนซิน' 11698.821 mainly by เบนซิน ออกเทน 91 (121.189). | ผู้ตรวจ: Column '2025' is the full year, not '9 MONTH 2025' (8630.655)."
+ },
+ {
+  "id": "sales.eppo.diesel.2026-01",
+  "label": "ดีเซลรวม จำหน่าย 2026-01",
+  "value": 2148.0229999999997,
+  "unit": "ล้านลิตร (MILLION LITRES)",
+  "asOf": "2026-01-31",
+  "period": "2026-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_03.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-3 SALES OF PETROLEUM PRODUCTS",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-3 | SALES OF PETROLEUM PRODUCTS | UNIT : MILLION LITRES | 2026 | Jan | DIESEL | 2148.0229999999997",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈69.2911 ล้านลิตร/วัน (÷31). DIESEL = HSD (LSD 0); ~1-3 Ml/month above DOEB B7+premium+B20+base+high-sulphur files (likely incl. contiguous-zone diesel). | ผู้ตรวจ: EPPO compiler of DOEB data; accepted as primary."
+ },
+ {
+  "id": "sales.eppo.diesel.2026-02",
+  "label": "ดีเซลรวม จำหน่าย 2026-02",
+  "value": 1975.521,
+  "unit": "ล้านลิตร (MILLION LITRES)",
+  "asOf": "2026-02-28",
+  "period": "2026-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_03.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-3 SALES OF PETROLEUM PRODUCTS",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-3 | SALES OF PETROLEUM PRODUCTS | UNIT : MILLION LITRES | 2026 | Feb | DIESEL | 1975.521",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈70.5543 ล้านลิตร/วัน (÷28). | ผู้ตรวจ: EPPO compiler of DOEB data; accepted as primary."
+ },
+ {
+  "id": "sales.eppo.diesel.2026-03",
+  "label": "ดีเซลรวม จำหน่าย 2026-03",
+  "value": 2550.6559999999995,
+  "unit": "ล้านลิตร (MILLION LITRES)",
+  "asOf": "2026-03-31",
+  "period": "2026-03",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_03.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-3 SALES OF PETROLEUM PRODUCTS",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-3 | SALES OF PETROLEUM PRODUCTS | UNIT : MILLION LITRES | 2026 | Mar | DIESEL | 2550.6559999999995",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈82.2792 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: EPPO compiler of DOEB data; accepted as primary."
+ },
+ {
+  "id": "sales.eppo.diesel.2026-04",
+  "label": "ดีเซลรวม จำหน่าย 2026-04",
+  "value": 1744.792,
+  "unit": "ล้านลิตร (MILLION LITRES)",
+  "asOf": "2026-04-30",
+  "period": "2026-04",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_03.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-3 SALES OF PETROLEUM PRODUCTS",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-3 | SALES OF PETROLEUM PRODUCTS | UNIT : MILLION LITRES | 2026 | Apr | DIESEL | 1744.792",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈58.1597 ล้านลิตร/วัน (÷30). | ผู้ตรวจ: EPPO compiler of DOEB data; accepted as primary."
+ },
+ {
+  "id": "sales.eppo.diesel.2026-05",
+  "label": "ดีเซลรวม จำหน่าย 2026-05",
+  "value": 2006.7299999999996,
+  "unit": "ล้านลิตร (MILLION LITRES)",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_03.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-3 SALES OF PETROLEUM PRODUCTS",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-3 | SALES OF PETROLEUM PRODUCTS | UNIT : MILLION LITRES | 2026 | May | DIESEL | 2006.7299999999996",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈64.7332 ล้านลิตร/วัน (÷31). | ผู้ตรวจ: EPPO compiler of DOEB data; accepted as primary."
+ },
+ {
+  "id": "sales.eppo.diesel.annual.2025",
+  "label": "ดีเซลรวม จำหน่ายทั้งปี 2568",
+  "value": 24460.414000000008,
+  "unit": "ล้านลิตร (MILLION LITRES)",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_03.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-3 SALES OF PETROLEUM PRODUCTS",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-3 | SALES OF PETROLEUM PRODUCTS | UNIT : MILLION LITRES | 2025 | DIESEL | 24460.414000000008",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈67.0148 ล้านลิตร/วัน (÷365). DOEB 'กลุ่มน้ำมันดีเซล' 2568 = 24454.746 (diff 5.668). | ผู้ตรวจ: EPPO compiler of DOEB data; accepted as primary."
+ },
+ {
+  "id": "sales.eppo.lpg.petrochem_feedstock.annual.2025",
+  "label": "LPG โพรเพน บิวเทน วัตถุดิบปิโตรเคมี (PETRO. INDUSTRIES) ทั้งปี 2568",
+  "value": 2815.557999999999,
+  "unit": "พันตัน (THOUSAND TONS)",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_05.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-5 Consumption of LPG, Propane and Butane by Sector",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-5 | Consumption of LPG, Propane and Butane by Sector | UNIT : THOUSAND TONS | 2025 | FEED STOCK | PETRO. INDUSTRIES | 2815.557999999999",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈7.7139 พันตัน/วัน (÷365). Monthly 2026 PETRO. INDUSTRIES: Jan 222.631, Feb 216.722, Mar 226.957, Apr 243.264, May 246.819 kt (same table, not separate records). | ผู้ตรวจ: The monthly figures quoted in the researcher's notes also match. EPPO compiler of DOEB data; accepted as primary."
+ },
+ {
+  "id": "sales.eppo.lpg.grand_total.2026-01",
+  "label": "LPG โพรเพน บิวเทน รวมทั้งสิ้น (GRAND TOTAL) 2026-01",
+  "value": 550.167,
+  "unit": "พันตัน (THOUSAND TONS)",
+  "asOf": "2026-01-31",
+  "period": "2026-01",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_05.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-5 Consumption of LPG, Propane and Butane by Sector",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-5 | Consumption of LPG, Propane and Butane by Sector | UNIT : THOUSAND TONS | 2026 | Jan | GRAND TOTAL | 550.167",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈17.7473 พันตัน/วัน (÷31). Includes petrochemical feedstock and own use (DOEB 27lpg totals exclude feedstock). Title says 'Consumption' but data are DOEB sales. EPPO AUTOMOBILE = DOEB สถานีบริการ + ม.10. | ผู้ตรวจ: EPPO compiler of DOEB data; accepted as primary. The file at this URL now holds data to Sep 2026."
+ },
+ {
+  "id": "sales.eppo.lpg.grand_total.2026-02",
+  "label": "LPG โพรเพน บิวเทน รวมทั้งสิ้น (GRAND TOTAL) 2026-02",
+  "value": 515.033,
+  "unit": "พันตัน (THOUSAND TONS)",
+  "asOf": "2026-02-28",
+  "period": "2026-02",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_05.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-5 Consumption of LPG, Propane and Butane by Sector",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-5 | Consumption of LPG, Propane and Butane by Sector | UNIT : THOUSAND TONS | 2026 | Feb | GRAND TOTAL | 515.033",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈18.3940 พันตัน/วัน (÷28). | ผู้ตรวจ: EPPO compiler of DOEB data; accepted as primary."
+ },
+ {
+  "id": "sales.eppo.lpg.grand_total.2026-03",
+  "label": "LPG โพรเพน บิวเทน รวมทั้งสิ้น (GRAND TOTAL) 2026-03",
+  "value": 556.147,
+  "unit": "พันตัน (THOUSAND TONS)",
+  "asOf": "2026-03-31",
+  "period": "2026-03",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_05.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-5 Consumption of LPG, Propane and Butane by Sector",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-5 | Consumption of LPG, Propane and Butane by Sector | UNIT : THOUSAND TONS | 2026 | Mar | GRAND TOTAL | 556.147",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈17.9402 พันตัน/วัน (÷31). | ผู้ตรวจ: EPPO compiler of DOEB data; accepted as primary."
+ },
+ {
+  "id": "sales.eppo.lpg.grand_total.2026-04",
+  "label": "LPG โพรเพน บิวเทน รวมทั้งสิ้น (GRAND TOTAL) 2026-04",
+  "value": 534.649,
+  "unit": "พันตัน (THOUSAND TONS)",
+  "asOf": "2026-04-30",
+  "period": "2026-04",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_05.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-5 Consumption of LPG, Propane and Butane by Sector",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-5 | Consumption of LPG, Propane and Butane by Sector | UNIT : THOUSAND TONS | 2026 | Apr | GRAND TOTAL | 534.649",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈17.8216 พันตัน/วัน (÷30). | ผู้ตรวจ: EPPO compiler of DOEB data; accepted as primary."
+ },
+ {
+  "id": "sales.eppo.lpg.grand_total.2026-05",
+  "label": "LPG โพรเพน บิวเทน รวมทั้งสิ้น (GRAND TOTAL) 2026-05",
+  "value": 554.565,
+  "unit": "พันตัน (THOUSAND TONS)",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_05.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-5 Consumption of LPG, Propane and Butane by Sector",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-5 | Consumption of LPG, Propane and Butane by Sector | UNIT : THOUSAND TONS | 2026 | May | GRAND TOTAL | 554.565",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈17.8892 พันตัน/วัน (÷31). | ผู้ตรวจ: EPPO compiler of DOEB data; accepted as primary."
+ },
+ {
+  "id": "sales.eppo.lpg.grand_total.annual.2025",
+  "label": "LPG โพรเพน บิวเทน รวมทั้งสิ้น (GRAND TOTAL) ทั้งปี 2568",
+  "value": 6633.423999999999,
+  "unit": "พันตัน (THOUSAND TONS)",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/T02_03_05.xls",
+   "publisher": "สนพ. (ที่มาข้อมูล: ธพ.)",
+   "title": "TABLE 2.3-5 Consumption of LPG, Propane and Butane by Sector",
+   "kind": "primary"
+  },
+  "evidence": "TABLE 2.3-5 | Consumption of LPG, Propane and Butane by Sector | UNIT : THOUSAND TONS | 2025 | GRAND TOTAL | 6633.423999999999",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Derived ≈18.1738 พันตัน/วัน (÷365). 2025 sectors in same table: COOKING 2130.974, INDUSTRY 652.6, AUTOMOBILE 958.169, PETRO. INDUSTRIES 2815.558, OWN USED 76.123 kt. | ผู้ตรวจ: The sector values in the researcher's notes also match."
+ },
+ {
+  "id": "use.eppo.report.diesel.avg_daily.2025",
+  "label": "ดีเซล ปริมาณการใช้เฉลี่ย ปี 2568",
+  "value": 67,
+  "unit": "ล้านลิตรต่อวัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/EnergySituation_2025Y.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์พลังงาน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "•น้ำมันดีเซล ปริมาณการใช้เฉลี่ย ในปี 2568 อยู่ที่ 67.0 ล้านลิตรต่อวัน ลดลงร้อยละ 2.8",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO text; consistent with Table 2.3-3 DIESEL 2025 ÷ 365. | ผู้ตรวจ: EPPO report 'สถานการณ์พลังงาน ปี 2568', p.2 (pdftotext). Government source."
+ },
+ {
+  "id": "use.eppo.report.gasoline.avg_daily.2025",
+  "label": "เบนซินและแก๊สโซฮอล ปริมาณการใช้เฉลี่ย ปี 2568",
+  "value": 31.7,
+  "unit": "ล้านลิตรต่อวัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/EnergySituation_2025Y.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์พลังงาน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันเบนซิน และแก๊สโซฮอล ปริมาณการใช้เฉลี่ย ปี 2568 อยู่ที่ 31.7 ล้านลิตรต่อวัน",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "EPPO text; consistent with Table 2.3-3 GASOLINE 2025 ÷ 365. | ผู้ตรวจ: EPPO report, government source."
+ },
+ {
+  "id": "use.eppo.report.lpg_excl_feedstock.avg_daily.2025",
+  "label": "LPG (ไม่รวมวัตถุดิบปิโตรเคมี) ปริมาณการใช้ ปี 2568",
+  "value": 19.4,
+  "unit": "ล้านลิตรต่อวัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/EnergySituation_2025Y.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์พลังงาน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "การใช้น้ามันส้าเร็จรูป หน่วย: ล้านลิตรต่อวัน … LPG** 18.6 19.0 19.1 19.4 14 … ** ไม่รวมการใช้ LPG ที่ใช้เป็นวัตถุดิบในอุตสาหกรรมปิโตรเคมี",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Table row, column 2568 (columns 2565 2566 2567 2568 สัดส่วน). LPG expressed in litres by EPPO. Quote from pdftotext (Thai glyphs garbled by the extractor). | ผู้ตรวจ: EPPO report table, column 2568. Government source."
+ },
+ {
+  "id": "use.eppo.report.oil_products_total.avg_daily.2025",
+  "label": "น้ำมันสำเร็จรูป รวม ปริมาณการใช้ ปี 2568",
+  "value": 140.9,
+  "unit": "ล้านลิตรต่อวัน",
+  "asOf": "2025-12-31",
+  "period": "2025",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/EnergySituation_2025Y.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์พลังงาน ปี 2568",
+   "kind": "primary"
+  },
+  "evidence": "การใช้น้ามันสาเร็จรู ปปี 2568 อยู่ที่ระดับ 140.9 ล้านลิตรต่อวัน",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Covers gasoline, diesel, jet+kerosene, fuel oil and LPG excl. petrochemical feedstock (table in same report). Quote from pdftotext. | ผู้ตรวจ: The table row also reads 'ปริมาณการใช้ 137.5 138.4 140.6 140.9 100'. Government source."
+ },
+ {
+  "id": "use.eppo.report.diesel.avg_daily.2026-q1",
+  "label": "ดีเซล ปริมาณการใช้ ม.ค.–มี.ค. 2569",
+  "value": 74.2,
+  "unit": "ล้านลิตรต่อวัน",
+  "asOf": "2026-03-31",
+  "period": "2026-01/2026-03",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/Q1_2569.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์พลังงาน (รายไตรมาส) 3 เดือนแรกของปี 2569",
+   "kind": "primary"
+  },
+  "evidence": "▪ น้้ามันดีเซล ในช่วง 3 เดือนแรกของปี 2569 การใช้น้ามันดีเซล อยู่ที่ 74.2 ล้านลิตรต่อวัน เพิ่มขึ้น ร้อยละ 5.1",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "= Table 2.3-3 DIESEL Jan–Mar 2026 (6674.2 Ml) ÷ 90. Quote from pdftotext reading-order extraction (glyph/spacing artefacts are the extractor's). | ผู้ตรวจ: EPPO Q1 report. Checked that (2148.023 + 1975.521 + 2550.656) / 90 = 74.16."
+ },
+ {
+  "id": "use.eppo.report.gasoline.avg_daily.2026-q1",
+  "label": "กลุ่มเบนซิน ปริมาณการใช้ ม.ค.–มี.ค. 2569",
+  "value": 33.2,
+  "unit": "ล้านลิตรต่อวัน",
+  "asOf": "2026-03-31",
+  "period": "2026-01/2026-03",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/Q1_2569.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์พลังงาน (รายไตรมาส) 3 เดือนแรกของปี 2569",
+   "kind": "primary"
+  },
+  "evidence": "▪ น้้ า มั น กลุ่ ม เบนซิ น ในช่ ว ง 3 เดื อ นแรก ของปี 2569 การใช้ น้ า มั น กลุ่ ม เบนซิ น อยู่ ที่ 33.2 ล้านลิตรต่อวัน เพิ่มขึ้นร้อยละ 6.3",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "= Table 2.3-3 GASOLINE Jan–Mar ÷ 90. Quote from pdftotext reading-order extraction. | ผู้ตรวจ: EPPO Q1 report, government source."
+ },
+ {
+  "id": "use.eppo.report.lpg_incl_feedstock.avg_daily.2026-q1",
+  "label": "LPG โพรเพน บิวเทน ปริมาณการใช้ ม.ค.–มี.ค. 2569",
+  "value": 18,
+  "unit": "พันตันต่อวัน",
+  "asOf": "2026-03-31",
+  "period": "2026-01/2026-03",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/Q1_2569.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์พลังงาน (รายไตรมาส) 3 เดือนแรกของปี 2569",
+   "kind": "primary"
+  },
+  "evidence": "(LPG โพรเพน และบิวเทน) ในช่วง 3 เดือนแรกของปี 2569 การใช้ LPG อยู่ที่ 18.0 พันตันต่อวัน เพิ่มขึ้นร้อยละ 4.2 โดยการใช้ LPG เป็นวัตถุดิบในอุตสาหกรรมปิโตรเคมี",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Includes petrochemical feedstock (report: share ร้อยละ 41); = Table 2.3-5 GRAND TOTAL Jan–Mar (1621.347 kt) ÷ 90. Quote from pdftotext reading-order extraction. | ผู้ตรวจ: EPPO Q1 report. Checked that 1621.347 / 90 = 18.01."
+ },
+ {
+  "id": "use.eppo.report.oil_products_total.avg_daily.2026-q1",
+  "label": "น้ำมันสำเร็จรูป รวม ปริมาณการใช้ ม.ค.–มี.ค. 2569",
+  "value": 153.5,
+  "unit": "ล้านลิตรต่อวัน",
+  "asOf": "2026-03-31",
+  "period": "2026-01/2026-03",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/Q1_2569.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์พลังงาน (รายไตรมาส) 3 เดือนแรกของปี 2569",
+   "kind": "primary"
+  },
+  "evidence": "▪ ภาพรวมน้้ามันส้าเร็จรูป ในช่วง 3 เดือนแรก ของปี 2569 พบว่า การใช้น้ามันส้าเร็จรูป อยู่ที่ 153.5 ล้านลิตรต่อวัน เพิ่มขึ้น ร้อยละ 4.9",
+  "status": "verified",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Scope not restated; chart note excludes LPG used as petrochemical feedstock. Quote from pdftotext reading-order extraction. | ผู้ตรวจ: The chart footnote reads '** ไม่รวม LPG ที่ใช้เป็นวัตถุดิบในอุตสาหกรรมปิโตรเคมี'. Government source."
+ },
+ {
+  "id": "sales.news.doeb.total.avg_daily.2026-q1",
+  "label": "การใช้น้ำมันเชื้อเพลิงเฉลี่ย ม.ค.–มี.ค. 2569 (ธพ. ผ่านข่าว)",
+  "value": 166.77,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2026-03-31",
+  "period": "2026-01/2026-03",
+  "source": {
+   "url": "https://www.thaipost.net/economy-news/999220/",
+   "publisher": "ไทยโพสต์ (อ้างอธิบดี ธพ.)",
+   "title": "ธพ. เปิดสถานการณ์การใช้น้ำมันเชื้อเพลิงไตรมาสที่ 1 ของปี 2569",
+   "kind": "secondary"
+  },
+  "evidence": "เปิดเผยภาพรวมการใช้น้ำมันเชื้อเพลิงเฉลี่ยเดือนม.ค - มี.ค. 2569 ว่าปริมาณการใช้อยู่ที่ 166.77 ล้านลิตร/วัน เพิ่มขึ้น 5.3% เมื่อเทียบกับช่วงเดียวกันของปีก่อน",
+  "status": "secondary-only",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Published 2026-05-19. Scope not defined in article; appears to include LPG incl. petrochemical feedstock (17.84 ล้านกก./วัน) and NGV, so not comparable with DOEB file totals. | ผู้ตรวจ: Thai Post news, published 2026-05-19, quoting the DOEB director-general. The value matches. The headline (og:title) is 'ธพ.เปิด Q1/69 ปริมาณการใช้น้ำมันภาพรวมโต 5.3%'; the record's title is the article's subhead."
+ },
+ {
+  "id": "sales.news.doeb.gasoline_group.avg_daily.2026-q1",
+  "label": "กลุ่มเบนซิน เฉลี่ย ม.ค.–มี.ค. 2569 (ข่าว)",
+  "value": 33.21,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2026-03-31",
+  "period": "2026-01/2026-03",
+  "source": {
+   "url": "https://www.thaipost.net/economy-news/999220/",
+   "publisher": "ไทยโพสต์ (อ้างอธิบดี ธพ.)",
+   "title": "ธพ. เปิดสถานการณ์การใช้น้ำมันเชื้อเพลิงไตรมาสที่ 1 ของปี 2569",
+   "kind": "secondary"
+  },
+  "evidence": "ปริมาณการใช้น้ำมันกลุ่มเบนซิน เฉลี่ยอยู่ที่ 33.21 ล้านลิตร/วัน เพิ่มขึ้น 6.4%",
+  "status": "secondary-only",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "DOEB file sum Jan–Mar excl. เบนซิน 91 = 2988.08 Ml ÷ 90 = 33.20. | ผู้ตรวจ: Thai Post news, published 2026-05-19. The value matches, but the source is news."
+ },
+ {
+  "id": "sales.news.doeb.gasohol95_incl_premium.avg_daily.2026-q1",
+  "label": "แก๊สโซฮอล์ 95 เฉลี่ย ม.ค.–มี.ค. 2569 (ข่าว)",
+  "value": 21.12,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2026-03-31",
+  "period": "2026-01/2026-03",
+  "source": {
+   "url": "https://www.thaipost.net/economy-news/999220/",
+   "publisher": "ไทยโพสต์ (อ้างอธิบดี ธพ.)",
+   "title": "ธพ. เปิดสถานการณ์การใช้น้ำมันเชื้อเพลิงไตรมาสที่ 1 ของปี 2569",
+   "kind": "secondary"
+  },
+  "evidence": "โดยน้ำมันแก๊สโซฮอล์ 95 มีปริมาณการใช้เพิ่มขึ้นมาอยู่ที่ 21.12 ล้านลิตร/วัน",
+  "status": "secondary-only",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches DOEB files gasohol95 + gasohol95 ชนิดพิเศษ Jan–Mar (1900.57 Ml ÷ 90 = 21.12). Same article: แก๊สโซฮอล์ 91 6.53, เบนซิน 0.39, E85 0.04 ล้านลิตร/วัน; E20 printed as '5.13 บาท/ลิตร' (unit typo; DOEB files give 5.13 ล้านลิตร/วัน). | ผู้ตรวจ: Thai Post news, published 2026-05-19. Confirmed that the article prints E20 as '5.13 บาท/ลิตร' (a unit typo)."
+ },
+ {
+  "id": "sales.news.doeb.diesel_hsd.avg_daily.2026-q1",
+  "label": "ดีเซลหมุนเร็ว เฉลี่ย ม.ค.–มี.ค. 2569 (ข่าว)",
+  "value": 72.33,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2026-03-31",
+  "period": "2026-01/2026-03",
+  "source": {
+   "url": "https://www.thaipost.net/economy-news/999220/",
+   "publisher": "ไทยโพสต์ (อ้างอธิบดี ธพ.)",
+   "title": "ธพ. เปิดสถานการณ์การใช้น้ำมันเชื้อเพลิงไตรมาสที่ 1 ของปี 2569",
+   "kind": "secondary"
+  },
+  "evidence": "ปริมาณการใช้น้ำมันดีเซลหมุนเร็ว เฉลี่ยอยู่ที่ 72.33 ล้านลิตร/วัน เพิ่มขึ้น 5.7% โดยเป็นการเพิ่มขึ้นของน้ำมันดีเซลหมุนเร็วธรรมดาที่ 72.33 ล้านลิตร/วัน",
+  "status": "secondary-only",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches DOEB files B7 + B7 ชนิดพิเศษ (+B20 0.252 Ml) Jan–Mar ÷ 90; excludes base diesel. Same article: B20 0.003 ล้านลิตร/วัน, B20 sales resumed after a pause since Dec 2568. | ผู้ตรวจ: Thai Post news, published 2026-05-19. Confirmed in the article: B20 at 0.003 and a pause since ธ.ค. 2568."
+ },
+ {
+  "id": "sales.news.doeb.lpg_incl_feedstock.avg_daily.2026-q1",
+  "label": "LPG เฉลี่ย ม.ค.–มี.ค. 2569 (ข่าว)",
+  "value": 17.84,
+  "unit": "ล้านกก./วัน",
+  "asOf": "2026-03-31",
+  "period": "2026-01/2026-03",
+  "source": {
+   "url": "https://www.thaipost.net/economy-news/999220/",
+   "publisher": "ไทยโพสต์ (อ้างอธิบดี ธพ.)",
+   "title": "ธพ. เปิดสถานการณ์การใช้น้ำมันเชื้อเพลิงไตรมาสที่ 1 ของปี 2569",
+   "kind": "secondary"
+  },
+  "evidence": "ส่วนปริมาณการใช้ LPG เฉลี่ยอยู่ที่ 17.84 ล้านกก./วัน เพิ่มขึ้น 3.7% ซึ่งเป็นผลมาจากการใช้ภาคปิโตรเคมี ที่เพิ่มขึ้นมาอยู่ที่ 7.34 ล้านกก./วัน ภาคครัวเรือนเพิ่มขึ้นมาอยู่ที่ 6.10 ล้านกก./วัน ขณะที่ภาคขนส่งลดลงมาอยู่ที่ 2.27 ล้านกก./วัน",
+  "status": "secondary-only",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Includes petrochemical feedstock; same article: industry 2.129 ล้านกก./วัน. Differs from EPPO 18.0 พันตัน/วัน (scope difference not explained). | ผู้ตรวจ: Thai Post news, published 2026-05-19. The industry figure of 2.129 also matches the article."
+ },
+ {
+  "id": "sales.news.doeb.total.avg_daily.2026-05",
+  "label": "การจำหน่ายน้ำมันเชื้อเพลิง พ.ค. 2569 (ข่าว)",
+  "value": 148.39,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.thaipost.net/economy-news/1064879/",
+   "publisher": "ไทยโพสต์ (อ้างอธิบดี ธพ.)",
+   "title": "ธพ. เผยสถานการณ์การจำหน่ายน้ำมันเชื้อเพลิงรอบเดือนพ.ค. 69",
+   "kind": "secondary"
+  },
+  "evidence": "ภาพรวมการจำหน่ายน้ำมันเชื้อเพลิงของประเทศในเดือนพ.ค. 2569 อยู่ที่ 148.39 ล้านลิตร/วัน ลดลง 4.2% เมื่อเทียบกับเดือนเดียวกันของปีก่อน แต่เพิ่มขึ้น 4.3% จากเดือนก่อนหน้า",
+  "status": "secondary-only",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Published 2026-09-07. Scope not defined in article. | ผู้ตรวจ: Thai Post news, published 2026-09-07, quoting the DOEB director-general. The headline (og:title) is 'ธพ.เผยภาพรวมงวด พ.ค. 69 น้ำมันเชื้อเพลิงยอดขายหด 4.2%'."
+ },
+ {
+  "id": "sales.news.doeb.gasoline_group.avg_daily.2026-05",
+  "label": "กลุ่มเบนซิน พ.ค. 2569 (ข่าว)",
+  "value": 30.58,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.thaipost.net/economy-news/1064879/",
+   "publisher": "ไทยโพสต์ (อ้างอธิบดี ธพ.)",
+   "title": "ธพ. เผยสถานการณ์การจำหน่ายน้ำมันเชื้อเพลิงรอบเดือนพ.ค. 69",
+   "kind": "secondary"
+  },
+  "evidence": "น้ำมันกลุ่มเบนซิน มีปริมาณการจำหน่ายอยู่ที่ 30.58 ล้านลิตร/วัน ลดลง 3.2% เมื่อเทียบกับเดือนเดียวกันของปีก่อน",
+  "status": "secondary-only",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "= DOEB May files sum excl. เบนซิน 91 (947.904 Ml ÷ 31 = 30.578) and = EPPO GASOLINE May ÷ 31. | ผู้ตรวจ: Thai Post news, published 2026-09-07. The primary equivalent is EPPO GASOLINE May 947.904 / 31."
+ },
+ {
+  "id": "sales.news.doeb.gasohol_e20.avg_daily.2026-05",
+  "label": "แก๊สโซฮอล์ E20 พ.ค. 2569 (ข่าว)",
+  "value": 6.45,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.thaipost.net/economy-news/1064879/",
+   "publisher": "ไทยโพสต์ (อ้างอธิบดี ธพ.)",
+   "title": "ธพ. เผยสถานการณ์การจำหน่ายน้ำมันเชื้อเพลิงรอบเดือนพ.ค. 69",
+   "kind": "secondary"
+  },
+  "evidence": "ขณะที่น้ำมันแก๊สโซฮอล์อี 20 มีการจำหน่ายเพิ่มขึ้นอย่างต่อเนื่อง โดยมีปริมาณการจำหน่าย 6.45 ล้านลิตร/วัน เพิ่มขึ้น 26.9%",
+  "status": "secondary-only",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "= DOEB May E20 file 199917.36 พันลิตร ÷ 31. | ผู้ตรวจ: Thai Post news, published 2026-09-07. The primary equivalent is the DOEB May E20 file, 199917.36 / 31."
+ },
+ {
+  "id": "sales.news.doeb.diesel_hsd_group.avg_daily.2026-05",
+  "label": "กลุ่มดีเซลหมุนเร็ว พ.ค. 2569 (ข่าว)",
+  "value": 63.68,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.thaipost.net/economy-news/1064879/",
+   "publisher": "ไทยโพสต์ (อ้างอธิบดี ธพ.)",
+   "title": "ธพ. เผยสถานการณ์การจำหน่ายน้ำมันเชื้อเพลิงรอบเดือนพ.ค. 69",
+   "kind": "secondary"
+  },
+  "evidence": "ขณะที่น้ำมันกลุ่มดีเซลหมุนเร็ว มีปริมาณการจำหน่ายอยู่ที่ 63.68 ล้านลิตร/วัน ลดลง 5.0%",
+  "status": "secondary-only",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "= DOEB May files B7 + B7 ชนิดพิเศษ + B20 (1974.05 Ml ÷ 31 = 63.68); excludes base diesel. | ผู้ตรวจ: Thai Post news, published 2026-09-07. The value matches, but the source is news."
+ },
+ {
+  "id": "sales.news.doeb.diesel_b20.avg_daily.2026-05",
+  "label": "ดีเซลหมุนเร็ว B20 พ.ค. 2569 (ข่าว)",
+  "value": 3.68,
+  "unit": "ล้านลิตร/วัน",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.thaipost.net/economy-news/1064879/",
+   "publisher": "ไทยโพสต์ (อ้างอธิบดี ธพ.)",
+   "title": "ธพ. เผยสถานการณ์การจำหน่ายน้ำมันเชื้อเพลิงรอบเดือนพ.ค. 69",
+   "kind": "secondary"
+  },
+  "evidence": "ทำให้ปริมาณการจำหน่ายน้ำมันดีเซลหมุนเร็วบี 20 เพิ่มขึ้นมาอยู่ที่ 3.68 ล้านลิตร/วัน จากเดือนเม.ย. 2569",
+  "status": "secondary-only",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "= DOEB May B20 file 114139.79 พันลิตร ÷ 31. Article: 802 stations sold B20 as of May 2569. | ผู้ตรวจ: Thai Post news, published 2026-09-07. The article also confirms 802 B20 stations. The primary equivalent is the DOEB May B20 file, 114139.79 / 31."
+ },
+ {
+  "id": "sales.news.doeb.lpg.avg_daily.2026-05",
+  "label": "LPG พ.ค. 2569 (ข่าว)",
+  "value": 17.76,
+  "unit": "ล้านกก./วัน",
+  "asOf": "2026-05-31",
+  "period": "2026-05",
+  "source": {
+   "url": "https://www.thaipost.net/economy-news/1064879/",
+   "publisher": "ไทยโพสต์ (อ้างอธิบดี ธพ.)",
+   "title": "ธพ. เผยสถานการณ์การจำหน่ายน้ำมันเชื้อเพลิงรอบเดือนพ.ค. 69",
+   "kind": "secondary"
+  },
+  "evidence": "ด้านก๊าซปิโตรเลียมเหลว (LPG) มีปริมาณการจำหน่ายอยู่ที่ 17.76 ล้านกก./วัน ลดลง 1.2% เมื่อเทียบกับเดือนเดียวกันของปีก่อน",
+  "status": "secondary-only",
+  "checkedBy": "verify:consumption (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Scope not stated; far above DOEB 27lpg May (9.83 ล้านกก./วัน excl. feedstock), so it likely includes petrochemical feedstock (EPPO GRAND TOTAL May = 17.89 kt/day). | ผู้ตรวจ: Thai Post news, published 2026-09-07. The article does not state the scope."
+ }
+]

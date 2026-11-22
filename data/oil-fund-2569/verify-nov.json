@@ -1,0 +1,631 @@
+[
+ {
+  "id": "rate.benzin.levy.2026-11-19",
+  "label": "อัตราเงินส่งเข้ากองทุน น้ำมันเบนซิน",
+  "value": 11.37,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.194%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2018%20%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศคณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง ฉบับที่ ๑๙๔ พ.ศ. ๒๕๖๙ เรื่อง การกำหนดอัตราเงินส่งเข้ากองทุน อัตราเงินชดเชย อัตราเงินคืนจากกองทุน และอัตราเงินชดเชยคืนกองทุนสำหรับน้ำมันเชื้อเพลิง (ประกาศ ณ วันที่ ๑๘ พฤศจิกายน ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันเบนซิน ” ๑๑.๓๗ - ... ทั้งนี้ ตั้งแต่วันที่ ๑๙ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value 11.37. Table columns: ชนิดของน้ำมันเชื้อเพลิง | หน่วย บาท/ลิตร | อัตราเงินส่งเข้ากองทุน | อัตราเงินชดเชย; same rate for domestic (ข้อ ๓) and imported (ข้อ ๔). Superseded from 2026-11-20 by ฉบับที่ ๑๙๕ (11.44). | ผู้ตรวจ: PDF opened (signed by สกนช., 2026-11-18 19:28 +07). Same 11.37 in ข้อ ๓ (domestic) and ข้อ ๔ (imported). Government primary source."
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-11-19",
+  "label": "อัตราเงินส่งเข้ากองทุน น้ำมันแก๊สโซฮอล ๙๕",
+  "value": 3.3,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.194%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2018%20%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๙๔ พ.ศ. ๒๕๖๙ (ประกาศ ณ วันที่ ๑๘ พฤศจิกายน ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๓.๓๐ - ... ทั้งนี้ ตั้งแต่วันที่ ๑๙ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22 · สุ่มเปิดแหล่งซ้ำโดย agent หลัก 2026-11-22 ตรง",
+  "notes": "Matches project value 3.30. Superseded from 2026-11-20 by ฉบับที่ ๑๙๕ (3.37). | ผู้ตรวจ: Value is in the อัตราเงินส่งเข้ากองทุน column. Same in ข้อ ๓ and ข้อ ๔."
+ },
+ {
+  "id": "rate.gasohol91.levy.2026-11-19",
+  "label": "อัตราเงินส่งเข้ากองทุน น้ำมันแก๊สโซฮอล ๙๑",
+  "value": 3.3,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.194%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2018%20%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๙๔ พ.ศ. ๒๕๖๙ (ประกาศ ณ วันที่ ๑๘ พฤศจิกายน ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๑ ” ๓.๓๐ - ... ทั้งนี้ ตั้งแต่วันที่ ๑๙ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value 3.30. Superseded from 2026-11-20 by ฉบับที่ ๑๙๕ (3.37). | ผู้ตรวจ: Levy column. Same in ข้อ ๓ and ข้อ ๔."
+ },
+ {
+  "id": "rate.gasohol_e20.levy.2026-11-19",
+  "label": "อัตราเงินส่งเข้ากองทุน น้ำมันแก๊สโซฮอล E๒๐",
+  "value": 2.5,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.194%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2018%20%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๙๔ พ.ศ. ๒๕๖๙ (ประกาศ ณ วันที่ ๑๘ พฤศจิกายน ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล E๒๐ ” ๒.๕๐ - ... ทั้งนี้ ตั้งแต่วันที่ ๑๙ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value 2.50. Superseded from 2026-11-20 by ฉบับที่ ๑๙๕ (2.56). | ผู้ตรวจ: Levy column. Same in ข้อ ๓ and ข้อ ๔."
+ },
+ {
+  "id": "rate.gasohol_e85.compensation.2026-11-19",
+  "label": "อัตราเงินชดเชย น้ำมันแก๊สโซฮอล E๘๕",
+  "value": 0.57,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.194%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2018%20%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๙๔ พ.ศ. ๒๕๖๙ (ประกาศ ณ วันที่ ๑๘ พฤศจิกายน ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล E๘๕ ” - ๐.๕๗ ... ทั้งนี้ ตั้งแต่วันที่ ๑๙ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value 0.57 (value in the อัตราเงินชดเชย column; shown as -0.57 in the OIL FUND column of the price structure). Superseded from 2026-11-20 by ฉบับที่ ๑๙๕ (0.55). | ผู้ตรวจ: Value in the อัตราเงินชดเชย column (levy column is '-'). The OFFO 19 Nov price structure shows OIL FUND -0.57 for E85, which is consistent."
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-11-19",
+  "label": "อัตราเงินชดเชย น้ำมันดีเซลหมุนเร็วธรรมดา (B7)",
+  "value": 1.28,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.194%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2018%20%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๙๔ พ.ศ. ๒๕๖๙ (ประกาศ ณ วันที่ ๑๘ พฤศจิกายน ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑.๒๘ ... ทั้งนี้ ตั้งแต่วันที่ ๑๙ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value 1.28. The announcement names the fuel น้ำมันดีเซลหมุนเร็วธรรมดา (the price structure labels it H-DIESEL B7). Superseded from 2026-11-20 by ฉบับที่ ๑๙๕ (0.87). | ผู้ตรวจ: Compensation column. The announcement calls the fuel น้ำมันดีเซลหมุนเร็วธรรมดา, not 'B7'. The B7 mapping comes from the price structures (H-DIESEL B7, -1.28), so the label is fine."
+ },
+ {
+  "id": "rate.diesel_b20.compensation.2026-11-19",
+  "label": "อัตราเงินชดเชย น้ำมันดีเซลหมุนเร็ว B๒๐",
+  "value": 1.42,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.194%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2018%20%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๙๔ พ.ศ. ๒๕๖๙ (ประกาศ ณ วันที่ ๑๘ พฤศจิกายน ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็ว B๒๐ ” - ๑.๔๒ ... ทั้งนี้ ตั้งแต่วันที่ ๑๙ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value 1.42. Superseded from 2026-11-20 by ฉบับที่ ๑๙๕ (1.06). | ผู้ตรวจ: Compensation column. Same in ข้อ ๓ and ข้อ ๔."
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-11-18",
+  "label": "อัตราเงินชดเชย น้ำมันดีเซลหมุนเร็วธรรมดา (B7)",
+  "value": 2.06,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-18",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.193%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2017%20%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๙๓ พ.ศ. ๒๕๖๙ (ประกาศ ณ วันที่ ๑๗ พฤศจิกายน ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒.๐๖ ... ทั้งนี้ ตั้งแต่วันที่ ๑๘ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value 2.06 (in effect 18 Nov only). Same announcement: B20 compensation 2.09, เบนซิน levy 11.46, แก๊สโซฮอล 95/91 levy 3.45, E20 levy 2.70, E85 compensation 0.71. | ผู้ตรวจ: Confirmed. The researcher's side figures in the same announcement also match: เบนซิน 11.46, แก๊สโซฮอล 95/91 3.45, E20 2.70, E85 compensation 0.71, B20 compensation 2.09."
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-11-13",
+  "label": "อัตราเงินชดเชย น้ำมันดีเซลหมุนเร็วธรรมดา (B7)",
+  "value": 2.28,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-13",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.190%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2012%20%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๙๐ พ.ศ. ๒๕๖๙ (ประกาศ ณ วันที่ ๑๒ พฤศจิกายน ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒.๒๘ ... ทั้งนี้ ตั้งแต่วันที่ ๑๓ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value 2.28. In effect 13–14 Nov: ฉบับที่ ๑๙๑ (ประกาศ 13 Nov) set 2.68 from 15 Nov, ฉบับที่ ๑๙๒ set 2.73 from 17 Nov, then 2.06 from 18 Nov. So the full sequence is 2.28 (13 Nov) → 2.68 (15 Nov) → 2.73 (17 Nov) → 2.06 (18 Nov) → 1.28 (19 Nov) → 0.87 (20 Nov). | ผู้ตรวจ: Confirmed. I also opened ฉ.191 (ประกาศ 13 Nov: B7 −2.68, B20 −3.36, from 15 Nov) and ฉ.192 (ประกาศ 16 Nov: B7 −2.73, B20 −3.32, from 17 Nov). They support the researcher's sequence, so 2.28 was in effect on 13–14 Nov."
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-11-01",
+  "label": "อัตราเงินชดเชย น้ำมันดีเซลหมุนเร็วธรรมดา (B7)",
+  "value": 3.9,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.%20181%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2030%20%E0%B8%95%E0%B8%B8%E0%B8%A5%E0%B8%B2%E0%B8%84%E0%B8%A1%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๘๑ พ.ศ. ๒๕๖๙ (ลงวันที่ ๓๐ ตุลาคม ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๓.๙๐ ... ทั้งนี้ ตั้งแต่วันที่ ๑ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value 3.90. Same announcement: B20 compensation 5.82, เบนซิน levy 7.81, แก๊สโซฮอล 95/91 levy 0.35, E20 levy 0.22, E85 compensation 1.32. The news source (siamnews 56391) gives the same figures. | ผู้ตรวจ: Confirmed. The same announcement also gives B20 5.82, เบนซิน levy 7.81, 95/91 levy 0.35, E20 levy 0.22 and E85 compensation 1.32, all as the researcher stated."
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-09-17",
+  "label": "อัตราเงินชดเชย น้ำมันดีเซลหมุนเร็วธรรมดา (B7)",
+  "value": 9.22,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-09-17",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.149%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2016%20%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%A2%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๔๙ พ.ศ. ๒๕๖๙ (ลงวันที่ ๑๖ กันยายน ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๙.๒๒ ... น้ำมันดีเซลหมุนเร็ว B๒๐ ” - ๑๒.๗๖ ... ทั้งนี้ ตั้งแต่วันที่ ๑๗ กันยายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value 9.22 (in effect 17 Sep only; ฉบับที่ ๑๕๐ set 8.62 from 18 Sep). Same announcement: B20 compensation 12.76, แก๊สโซฮอล 95/91 compensation 4.74, E20 compensation 7.79, E85 compensation 2.68, เบนซิน levy 1.86, which matches thansettakij 669507. | ผู้ตรวจ: Confirmed. The same announcement has compensation (not levy) for แก๊สโซฮอล 95/91 4.74, E20 7.79 and E85 2.68, and a เบนซิน levy of 1.86. I did not open ฉ.150, so the claim that 9.22 was in force for 17 Sep only is unchecked."
+ },
+ {
+  "id": "rate.benzin.levy.2026-11-20",
+  "label": "อัตราเงินส่งเข้ากองทุน น้ำมันเบนซิน",
+  "value": 11.44,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-20",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.195%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2019%20%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๙๕ พ.ศ. ๒๕๖๙ (ประกาศ ณ วันที่ ๑๙ พฤศจิกายน ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันเบนซิน ” ๑๑.๔๔ - ... ทั้งนี้ ตั้งแต่วันที่ ๒๐ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Not in the project. This announcement cancels ฉบับที่ ๑๙๔ and is the latest oil-rate announcement listed on offo.or.th when fetched on 2026-11-22. Retail prices were unchanged on 20 Nov (OFFO and EPPO structures for 20 Nov). | ผู้ตรวจ: Confirmed. The OFFO announcement listing (fetched 2026-11-22) still shows ฉ.195 (ประกาศ 19 Nov) as the newest entry. The EPPO 20 Nov structure shows OIL FUND 11.44 for ULG95 with retail unchanged at 47.63."
+ },
+ {
+  "id": "rate.gasohol95.levy.2026-11-20",
+  "label": "อัตราเงินส่งเข้ากองทุน น้ำมันแก๊สโซฮอล ๙๕",
+  "value": 3.37,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-20",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.195%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2019%20%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๙๕ พ.ศ. ๒๕๖๙ (ประกาศ ณ วันที่ ๑๙ พฤศจิกายน ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๕ ” ๓.๓๗ - ... ทั้งนี้ ตั้งแต่วันที่ ๒๐ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Not in the project. Supersedes 3.30. แก๊สโซฮอล ๙๑ is also 3.37 in the same announcement. | ผู้ตรวจ: Same in ข้อ ๓ and ข้อ ๔. The EPPO 20 Nov structure shows OIL FUND 3.37 with retail still 38.14."
+ },
+ {
+  "id": "rate.gasohol91.levy.2026-11-20",
+  "label": "อัตราเงินส่งเข้ากองทุน น้ำมันแก๊สโซฮอล ๙๑",
+  "value": 3.37,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-20",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.195%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2019%20%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๙๕ พ.ศ. ๒๕๖๙ (ประกาศ ณ วันที่ ๑๙ พฤศจิกายน ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล ๙๑ ” ๓.๓๗ - ... ทั้งนี้ ตั้งแต่วันที่ ๒๐ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Not in the project. Supersedes 3.30. | ผู้ตรวจ: Same in ข้อ ๓ and ข้อ ๔."
+ },
+ {
+  "id": "rate.gasohol_e20.levy.2026-11-20",
+  "label": "อัตราเงินส่งเข้ากองทุน น้ำมันแก๊สโซฮอล E๒๐",
+  "value": 2.56,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-20",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.195%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2019%20%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๙๕ พ.ศ. ๒๕๖๙ (ประกาศ ณ วันที่ ๑๙ พฤศจิกายน ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล E๒๐ ” ๒.๕๖ - ... ทั้งนี้ ตั้งแต่วันที่ ๒๐ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Not in the project. Supersedes 2.50. | ผู้ตรวจ: Same in ข้อ ๓ and ข้อ ๔."
+ },
+ {
+  "id": "rate.gasohol_e85.compensation.2026-11-20",
+  "label": "อัตราเงินชดเชย น้ำมันแก๊สโซฮอล E๘๕",
+  "value": 0.55,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-20",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.195%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2019%20%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๙๕ พ.ศ. ๒๕๖๙ (ประกาศ ณ วันที่ ๑๙ พฤศจิกายน ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันแก๊สโซฮอล E๘๕ ” - ๐.๕๕ ... ทั้งนี้ ตั้งแต่วันที่ ๒๐ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Not in the project. Supersedes 0.57. | ผู้ตรวจ: Compensation column. The EPPO 20 Nov structure shows OIL FUND −0.55."
+ },
+ {
+  "id": "rate.diesel_b7.compensation.2026-11-20",
+  "label": "อัตราเงินชดเชย น้ำมันดีเซลหมุนเร็วธรรมดา (B7)",
+  "value": 0.87,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-20",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.195%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2019%20%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๙๕ พ.ศ. ๒๕๖๙ (ประกาศ ณ วันที่ ๑๙ พฤศจิกายน ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๐.๘๗ ... ทั้งนี้ ตั้งแต่วันที่ ๒๐ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Not in the project. Supersedes 1.28. | ผู้ตรวจ: Compensation column. The EPPO 20 Nov structure (H-DIESEL) shows OIL FUND −0.87 with retail 39.99."
+ },
+ {
+  "id": "rate.diesel_b20.compensation.2026-11-20",
+  "label": "อัตราเงินชดเชย น้ำมันดีเซลหมุนเร็ว B๒๐",
+  "value": 1.06,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-20",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.195%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2019%20%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๙๕ พ.ศ. ๒๕๖๙ (ประกาศ ณ วันที่ ๑๙ พฤศจิกายน ๒๕๖๙)",
+   "kind": "primary"
+  },
+  "evidence": "น้ำมันดีเซลหมุนเร็ว B๒๐ ” - ๑.๐๖ ... ทั้งนี้ ตั้งแต่วันที่ ๒๐ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Not in the project. Supersedes 1.42. | ผู้ตรวจ: Compensation column. The EPPO 20 Nov structure shows OIL FUND −1.06 with retail 33.50."
+ },
+ {
+  "id": "price.retail.benzin.2026-11-19",
+  "label": "ราคาขายปลีก น้ำมันเบนซิน (ULG) กรุงเทพฯ",
+  "value": 47.63,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AF%20%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%20%E0%B8%93-19%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%9969%20%28%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A818%E0%B8%9E.%E0%B8%A2.%29.xlsx",
+   "publisher": "สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.)",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 19 พ.ย.69 (หลังประชุม กบน. เมื่อวันที่ 18 พ.ย.69) [xlsx]",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 19 พ.ย.69 (หลังประชุม กบน. เมื่อวันที่ 18 พ.ย.69) | UNIT:BAHT/LITRE ... RETAIL | ULG | 21.2461 | | 7.5000 | 0.7500 | 11.3700 | 0.0500 | 40.9161 | 2.8641 | 43.7802 | 3.5979 | 0.2519 | 47.63",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value 47.63. A Bangkok retail price structure. The EPPO structure for 19 Nov (pt-price-st-2026-11-19.xlsx, row ULG95 (Premium)) also shows 47.63; EPPO says its structure is for reference and is not a government-set price. Unchanged on 20 Nov. | ผู้ตรวจ: OFFO xlsx opened. The sheet tab is named 'อัตราเงินกองทุนฯ ณ 18 พ.ย.69', but the header says the structure is for 19 Nov. The EPPO 19 Nov xlsx (ULG95 (Premium)) also shows 47.63. EPPO states retail prices are set by the operators, and the structure quotes the operator with the largest market share. So this is a government-published reference price for Bangkok, not a price the government sets."
+ },
+ {
+  "id": "price.retail.gasohol95.2026-11-19",
+  "label": "ราคาขายปลีก น้ำมันแก๊สโซฮอล ๙๕ (E10) กรุงเทพฯ",
+  "value": 38.14,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AF%20%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%20%E0%B8%93-19%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%9969%20%28%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A818%E0%B8%9E.%E0%B8%A2.%29.xlsx",
+   "publisher": "สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.)",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 19 พ.ย.69 (หลังประชุม กบน. เมื่อวันที่ 18 พ.ย.69) [xlsx]",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 19 พ.ย.69 ... RETAIL | GASOHOL95 E10 | 21.5219 | | 6.7500 | 0.6750 | 3.3000 | 0.0500 | 32.2969 | 2.2608 | 34.5577 | 3.3479 | 0.2344 | 38.14",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value 38.14. The EPPO 19 Nov structure also shows 38.14. Unchanged on 20 Nov. | ผู้ตรวจ: Confirmed against the OFFO xlsx. The EPPO 19 Nov xlsx also shows 38.14. Same caveat as the other retail records: a reference retail price, Bangkok."
+ },
+ {
+  "id": "price.retail.gasohol91.2026-11-19",
+  "label": "ราคาขายปลีก น้ำมันแก๊สโซฮอล ๙๑ กรุงเทพฯ",
+  "value": 37.77,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AF%20%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%20%E0%B8%93-19%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%9969%20%28%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A818%E0%B8%9E.%E0%B8%A2.%29.xlsx",
+   "publisher": "สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.)",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 19 พ.ย.69 (หลังประชุม กบน. เมื่อวันที่ 18 พ.ย.69) [xlsx]",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 19 พ.ย.69 ... RETAIL | GASOHOL91 | 21.1014 | | 6.7500 | 0.6750 | 3.3000 | 0.0500 | 31.8764 | 2.2313 | 34.1077 | 3.4227 | 0.2396 | 37.77",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value 37.77. The EPPO 19 Nov structure also shows 37.77. | ผู้ตรวจ: Confirmed against the OFFO xlsx. The EPPO 19 Nov xlsx also shows 37.77."
+ },
+ {
+  "id": "price.retail.gasohol_e20.2026-11-19",
+  "label": "ราคาขายปลีก น้ำมันแก๊สโซฮอล E๒๐ กรุงเทพฯ",
+  "value": 30.1,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AF%20%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%20%E0%B8%93-19%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%9969%20%28%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A818%E0%B8%9E.%E0%B8%A2.%29.xlsx",
+   "publisher": "สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.)",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 19 พ.ย.69 (หลังประชุม กบน. เมื่อวันที่ 18 พ.ย.69) [xlsx]",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 19 พ.ย.69 ... RETAIL | GASOHOL95 E20 | 21.5870 | | 0.3580 | 0.0358 | 2.5000 | 0.0500 | 24.5308 | 1.7172 | 26.2480 | 3.6000 | 0.2520 | 30.10",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value 30.10. The EPPO 19 Nov structure also shows 30.10. The low excise of 0.358 reflects the temporary excise cut on E20, which this task did not verify. | ผู้ตรวจ: Confirmed against the OFFO xlsx. The EPPO 19 Nov xlsx also shows 30.10. The excise of 0.358 is as shown; I did not verify the reason for the E20 excise cut."
+ },
+ {
+  "id": "price.retail.gasohol_e85.2026-11-19",
+  "label": "ราคาขายปลีก น้ำมันแก๊สโซฮอล E๘๕ กรุงเทพฯ",
+  "value": 30.63,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AF%20%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%20%E0%B8%93-19%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%9969%20%28%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A818%E0%B8%9E.%E0%B8%A2.%29.xlsx",
+   "publisher": "สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.)",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 19 พ.ย.69 (หลังประชุม กบน. เมื่อวันที่ 18 พ.ย.69) [xlsx]",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 19 พ.ย.69 ... RETAIL | GASOHOL95 E85 | 24.3061 | | 1.1250 | 0.1125 | -0.5700 | 0.0500 | 25.0236 | 1.7517 | 26.7753 | 3.6025 | 0.2522 | 30.63",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value 30.63. The EPPO 19 Nov structure also shows 30.63. E85 is priced above E20 here because of the E20 excise cut. | ผู้ตรวจ: Confirmed against the OFFO xlsx. The EPPO 19 Nov xlsx also shows 30.63. E85 retail was also 30.63 on 17 and 20 Nov (EPPO)."
+ },
+ {
+  "id": "price.retail.diesel_b7.2026-11-19",
+  "label": "ราคาขายปลีก น้ำมันดีเซลหมุนเร็ว B7 กรุงเทพฯ",
+  "value": 39.99,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AF%20%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%20%E0%B8%93-19%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%9969%20%28%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A818%E0%B8%9E.%E0%B8%A2.%29.xlsx",
+   "publisher": "สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.)",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 19 พ.ย.69 (หลังประชุม กบน. เมื่อวันที่ 18 พ.ย.69) [xlsx]",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 19 พ.ย.69 ... DISCOUNT ... RETAIL | H-DIESEL B7 | 30.9921 | -2.0000 | 6.9200 | 0.6920 | -1.2800 | 0.0500 | 35.3741 | 2.4762 | 37.8503 | 1.9997 | 0.1400 | 39.99",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value 39.99. The EPPO 19 Nov structure (row H-DIESEL) also shows 39.99. Retail was already 39.99 on 18 Nov (OFFO structure ณ 18 พ.ย.) and 40.79 on 15 and 17 Nov. The OFFO sheet also has a stale row 'H-DIESEL B 20' (32.94) copied from a 27 มีนาคม 2568 sheet; ignore it. | ผู้ตรวจ: Confirmed against the OFFO xlsx. The EPPO 19 Nov xlsx (row 'H-DIESEL ') also shows 39.99. EPPO 17 Nov showed 40.79. I did not open the OFFO 18 Nov structure, so the claim that retail was already 39.99 on 18 Nov is unchecked."
+ },
+ {
+  "id": "price.retail.diesel_b20.2026-11-19",
+  "label": "ราคาขายปลีก น้ำมันดีเซลหมุนเร็ว B20 กรุงเทพฯ",
+  "value": 33.5,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AF%20%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%20%E0%B8%93-19%E0%B8%9E%E0%B8%A4%E0%B8%A8%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%9969%20%28%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A818%E0%B8%9E.%E0%B8%A2.%29.xlsx",
+   "publisher": "สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.)",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 19 พ.ย.69 (หลังประชุม กบน. เมื่อวันที่ 18 พ.ย.69) [xlsx]",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 19 พ.ย.69 ... RETAIL | H-DIESEL B20 | 32.2026 | -2.0000 | 0.4310 | 0.0431 | -1.4200 | 0.0500 | 29.3067 | 2.0515 | 31.3582 | 2.0017 | 0.1401 | 33.50",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value 33.50. The EPPO 19 Nov structure (row H-DIESEL  B20) also shows 33.50. It was 33.50 throughout 15–20 Nov. | ผู้ตรวจ: Confirmed against the OFFO xlsx. The same sheet also has a stale row B12='H-DIESEL B 20' (N12=32.94, OIL FUND 0.87), copied from a sheet dated '27 มีนาคม 2568'. Do not read that row. The EPPO 17, 19 and 20 Nov xlsx all show 33.5 for B20."
+ },
+ {
+  "id": "fund.position.total.2026-11-01",
+  "label": "ประมาณการฐานะกองทุนน้ำมันฯ สุทธิ (รวม)",
+  "value": -107203,
+  "unit": "ล้านบาท",
+  "asOf": "2026-11-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-11-01.pdf",
+   "publisher": "สำนักการเงินและบัญชี สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.)",
+   "title": "ประมาณการฐานะกองทุนน้ำมันฯ สิ้นสุด ณ วันที่ 1 พ.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "ประมาณการฐานะกองทุนน้ำมันฯ ล้านบาท สิ้นสุด ณ วันที่ 1 พ.ย. 69 น้ำมัน LPG รวม ... ฐานะกองทุน สุทธิ -65,344 -41,859 -107,203 - -107,203",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value −107,203. Total assets 33,786; total liabilities 140,989. | ผู้ตรวจ: Confirmed. The statement is prepared by สำนักการเงินและบัญชี สกนช. Assets of 33,786 minus liabilities of 140,989 gives −107,203, so the statement is internally consistent. It is labelled ประมาณการ, an estimate, not audited accounts."
+ },
+ {
+  "id": "fund.position.oil.2026-11-01",
+  "label": "ประมาณการฐานะกองทุนน้ำมันฯ สุทธิ บัญชีน้ำมัน",
+  "value": -65344,
+  "unit": "ล้านบาท",
+  "asOf": "2026-11-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-11-01.pdf",
+   "publisher": "สำนักการเงินและบัญชี สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.)",
+   "title": "ประมาณการฐานะกองทุนน้ำมันฯ สิ้นสุด ณ วันที่ 1 พ.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 1 พ.ย. 69 น้ำมัน LPG รวม ... ฐานะกองทุน สุทธิ -65,344 -41,859 -107,203",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value −65,344. | ผู้ตรวจ: Oil column. 31,961 − 97,305 = −65,344."
+ },
+ {
+  "id": "fund.position.lpg.2026-11-01",
+  "label": "ประมาณการฐานะกองทุนน้ำมันฯ สุทธิ บัญชี LPG",
+  "value": -41859,
+  "unit": "ล้านบาท",
+  "asOf": "2026-11-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-11-01.pdf",
+   "publisher": "สำนักการเงินและบัญชี สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.)",
+   "title": "ประมาณการฐานะกองทุนน้ำมันฯ สิ้นสุด ณ วันที่ 1 พ.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 1 พ.ย. 69 น้ำมัน LPG รวม ... ฐานะกองทุน สุทธิ -65,344 -41,859 -107,203",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value −41,859. | ผู้ตรวจ: LPG column. 1,825 − 43,684 = −41,859."
+ },
+ {
+  "id": "fund.liabilities.loans.2026-11-01",
+  "label": "เจ้าหนี้ เงินกู้ยืม (รวมบัญชีน้ำมันและ LPG)",
+  "value": 36803,
+  "unit": "ล้านบาท",
+  "asOf": "2026-11-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-11-01.pdf",
+   "publisher": "สำนักการเงินและบัญชี สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.)",
+   "title": "ประมาณการฐานะกองทุนน้ำมันฯ สิ้นสุด ณ วันที่ 1 พ.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "เจ้าหนี้ เงินกู้ยืม 29,545 7,258 36,803 36,803 ... หนี้สินรวม 97,305 43,684 140,989 - 140,989",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "CONFLICT with the project value 'loans 125,333'. The 1 Nov statement shows loans payable of 36,803 (oil 29,545 + LPG 7,258). No line in it equals 125,333. Other liabilities: compensation payable to oil traders 67,657; LPG compensation payable 13,473; transfer from oil account 22,953; total liabilities 140,989. I could not read the news article where 125,333 presumably appeared (Matichon, blocked), so what it measures is unknown. Do not use 125,333 until checked. On 15 Nov loans were 36,247. The PDF text layer splits Thai glyphs ('เงินกูย้ ืม'); the quote is the normalised reading. | ผู้ตรวจ: The record's value of 36,803 is correct (oil 29,545 + LPG 7,258). I agree with the conflict flag: no line in the 1 Nov statement equals the project's 125,333. The 8 Nov, 15 Nov and 13 Sep statements have no such line either: loans there are 36,664, 36,247 and 28,748 (+10,000 in a separate loan column). The text layer reads 'เงินกูย้ ืม', meaning เงินกู้ยืม."
+ },
+ {
+  "id": "fund.position.total.2026-11-08",
+  "label": "ประมาณการฐานะกองทุนน้ำมันฯ สุทธิ (รวม)",
+  "value": -108082,
+  "unit": "ล้านบาท",
+  "asOf": "2026-11-08",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-11-08.pdf",
+   "publisher": "สำนักการเงินและบัญชี สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.)",
+   "title": "ประมาณการฐานะกองทุนน้ำมันฯ สิ้นสุด ณ วันที่ 8 พ.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 8 พ.ย. 69 น้ำมัน LPG รวม ... ฐานะกองทุน สุทธิ -65,696 -42,386 -108,082 - -108,082",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Not in the project; it fills the week between 1 and 15 Nov. Oil −65,696; LPG −42,386. | ผู้ตรวจ: Confirmed. Oil −65,696 and LPG −42,386 as the researcher stated. Loans 36,664."
+ },
+ {
+  "id": "fund.position.total.2026-11-15",
+  "label": "ประมาณการฐานะกองทุนน้ำมันฯ สุทธิ (รวม)",
+  "value": -108864,
+  "unit": "ล้านบาท",
+  "asOf": "2026-11-15",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-11-15.pdf",
+   "publisher": "สำนักการเงินและบัญชี สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.)",
+   "title": "ประมาณการฐานะกองทุนน้ำมันฯ สิ้นสุด ณ วันที่ 15 พ.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "ประมาณการฐานะกองทุนน้ำมันฯ ล้านบาท สิ้นสุด ณ วันที่ 15 พ.ย. 69 น้ำมัน LPG รวม ... ฐานะกองทุน สุทธิ -66,124 -42,740 -108,864 - -108,864",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value −108,864. This was the latest weekly statement on offo.or.th when fetched on 22 Nov. Bangkok Insight (19 Nov) cites the same figure as 'ติดลบประมาณ 108,864 ล้านบาท'. Total assets 34,391; liabilities 143,255; loans 36,247. | ผู้ตรวจ: Confirmed. Assets 34,391, liabilities 143,255 and loans 36,247 also match the researcher's notes. Bangkok Insight (19 Nov) quotes the same −108,864."
+ },
+ {
+  "id": "fund.position.oil.2026-11-15",
+  "label": "ประมาณการฐานะกองทุนน้ำมันฯ สุทธิ บัญชีน้ำมัน",
+  "value": -66124,
+  "unit": "ล้านบาท",
+  "asOf": "2026-11-15",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-11-15.pdf",
+   "publisher": "สำนักการเงินและบัญชี สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.)",
+   "title": "ประมาณการฐานะกองทุนน้ำมันฯ สิ้นสุด ณ วันที่ 15 พ.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 15 พ.ย. 69 น้ำมัน LPG รวม ... ฐานะกองทุน สุทธิ -66,124 -42,740 -108,864",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Not in the project (it has only the total for 15 Nov). | ผู้ตรวจ: Oil column. 32,573 − 98,697 = −66,124."
+ },
+ {
+  "id": "fund.position.lpg.2026-11-15",
+  "label": "ประมาณการฐานะกองทุนน้ำมันฯ สุทธิ บัญชี LPG",
+  "value": -42740,
+  "unit": "ล้านบาท",
+  "asOf": "2026-11-15",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-11-15.pdf",
+   "publisher": "สำนักการเงินและบัญชี สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.)",
+   "title": "ประมาณการฐานะกองทุนน้ำมันฯ สิ้นสุด ณ วันที่ 15 พ.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "สิ้นสุด ณ วันที่ 15 พ.ย. 69 น้ำมัน LPG รวม ... ฐานะกองทุน สุทธิ -66,124 -42,740 -108,864",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Not in the project. | ผู้ตรวจ: LPG column. 1,818 − 44,558 = −42,740."
+ },
+ {
+  "id": "fund.position.total.2026-09-13",
+  "label": "ประมาณการฐานะกองทุนน้ำมันฯ สุทธิ (รวม)",
+  "value": -87072,
+  "unit": "ล้านบาท",
+  "asOf": "2026-09-13",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/estimate/files/%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%20%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%99%E0%B8%9E%2069-09-13.pdf",
+   "publisher": "สำนักการเงินและบัญชี สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.)",
+   "title": "ประมาณการฐานะกองทุนน้ำมันฯ สิ้นสุด ณ วันที่ 13 ก.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "สินสุด ณ วันที่ 13 ก.ย. 69 น้ามัน LPG รวม เงินเรื่ยไร ** เงินกู้ ฐานะกองทุน รวม ... ฐานะกองทุน สุทธิ -47,176 -39,896 -87,072 - - -87,072",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Matches project value −87,072. Oil −47,176; LPG −39,896. This statement has an extra 'เงินกู้' column: a further 10,000 loan sits in both assets and liabilities (loans 28,748 + 10,000 = 38,748), so it does not change the net position. thansettakij 669507 gives the same figures. The quote keeps the PDF text-layer typos ('สินสุด', 'น้ามัน'). | ผู้ตรวจ: Confirmed (oil −47,176, LPG −39,896). This statement has an extra เงินกู้ column: the 10,000 sits both in assets (กรมบัญชีกลาง deposit 8,500 + 10,000 = 18,500) and in liabilities, so the net is unchanged. Total liabilities are 123,774 without that column and 133,774 with it. The quote keeps the PDF text-layer typos."
+ },
+ {
+  "id": "fund.spending.daily.2026-11-19",
+  "label": "รายจ่ายกองทุนน้ำมันเชื้อเพลิงต่อวัน (ประมาณ)",
+  "value": 32.46,
+  "unit": "ล้านบาท/วัน",
+  "asOf": "2026-11-19",
+  "source": {
+   "url": "https://www.thebangkokinsight.com/news/business/economics/1722089/",
+   "publisher": "The Bangkok Insight",
+   "title": "กบน. เคาะลดราคาน้ำมันกลุ่มเบนซิน 70 สต. ส่วนกองทุนยังติดลบทะลุแสนล้าน! (19 พฤศจิกายน 2569)",
+   "kind": "secondary"
+  },
+  "evidence": "ซึ่งปัจจุบันกองทุนน้ำมันเชื้อเพลิงมีรายจ่ายประมาณที่วันละ 32.46 ล้านบาท และประมาณการฐานะกองทุนน้ำมันฯ ติดลบประมาณ 108,864 ล้านบาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Only a news source has this. No primary source found: offo.or.th has no press release for 18–19 Nov, and the rate announcements and price structures do not state daily spending. The figure is probably from a กบน./สกนช. press release I could not locate. Same article: rates effective 19 Nov and retail prices, all of which match the primary records above. | ผู้ตรวจ: The article opened (published 2026-11-19T07:33+07:00) and quotes the value exactly as recorded. It is news, so kind=secondary is correct. I did not find a primary source. The other figures in the same article (levies 11.37/3.30/3.30/2.50, retail 47.63/38.14/37.77/30.10, position −108,864) match the primary documents. Do not use the value in the game until a primary source is found."
+ },
+ {
+  "id": "price.exrefinery.diesel_b7.2026-11-17",
+  "label": "ราคา ณ โรงกลั่น ดีเซลหมุนเร็ว (B7)",
+  "value": 33.1866,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-17",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/11/pt-price-st-2026-11-17.xlsx",
+   "publisher": "สำนักงานนโยบายและแผนพลังงาน (สนพ.)",
+   "title": "โครงสร้างราคาน้ำมัน (PRICE STRUCTURE OF PETROLEUM PRODUCT IN BANGKOK) 17 พ.ย. 2569 [xlsx]",
+   "kind": "primary"
+  },
+  "evidence": "หน่วย: บาท/ลิตร | ราคา ณ โรงกลั่น | ส่วนลดราคา ณ โรงกลั่น | ... | ราคาขายปลีก ; ดีเซลหมุนเร็ว | 33.1866 | -2.0000 | 6.9200 | 0.6920 | -2.7300 | 0.0500 | 36.1186 | 2.5283 | 38.6469 | 2.0029 | 0.1402 | 40.79",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "CONFLICT with the project value 33.18. The primary value is 33.1866 (the raw cell holds 33.1866316, shown to 4 decimals), which rounds to 33.19; 33.18 looks like truncation. The OFFO structure ณ 17 พ.ย.69 shows the same 33.1866. The ex-refinery price is listed before a separate 'ส่วนลดราคา ณ โรงกลั่น' of −2 บาท/ลิตร, so the effective ex-refinery price is about 31.19. Ex-refinery diesel B7 on 19 Nov was 30.9921 (EPPO and OFFO), with the same −2 discount. | ผู้ตรวจ: The record's value of 33.1866 matches: the raw cell is 33.1866316, which rounds to 33.19 at 2 dp. I agree with the conflict against the project's 33.18. EPPO says its ex-refinery figure is calculated by กบง. rules and is 'มิใช่ต้นทุนราคาซื้อขายจริงของผู้ประกอบการ'. The −2 discount is a separate column. EPPO is a government source."
+ },
+ {
+  "id": "price.exrefinery_discount.diesel_b7.2026-11-17",
+  "label": "ส่วนลดราคา ณ โรงกลั่น ดีเซลหมุนเร็ว (B7)",
+  "value": -2,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-11-17",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/11/pt-price-st-2026-11-17.xlsx",
+   "publisher": "สำนักงานนโยบายและแผนพลังงาน (สนพ.)",
+   "title": "โครงสร้างราคาน้ำมัน 17 พ.ย. 2569 [xlsx]",
+   "kind": "primary"
+  },
+  "evidence": "ราคา ณ โรงกลั่น | ส่วนลดราคา ณ โรงกลั่น ; ดีเซลหมุนเร็ว | 33.1866 | -2.0000 ; ดีเซลหมุนเร็ว บี20 | 34.1058 | -2.0000",
+  "status": "verified",
+  "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Not in the project. Context for the ex-refinery figure: a −2 discount appears on diesel B7 and B20 in every OFFO/EPPO structure from 15 to 20 Nov. Neither file says what the discount is for, and this task did not check. | ผู้ตรวจ: Confirmed in the EPPO 17 Nov xlsx. The same −2 is on B7 and B20 in EPPO 19 and 20 Nov and in OFFO 19 Nov. I did not check 15 Nov. Neither file says what the discount is for."
+ }
+]

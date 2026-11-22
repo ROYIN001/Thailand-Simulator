@@ -1,0 +1,1169 @@
+[
+ {
+  "id": "event.geopolitics.us_israel_strike_iran.2026-02-27",
+  "label": "สหรัฐฯ และอิสราเอลโจมตีอิหร่าน (จุดเริ่มวิกฤต 2569)",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-02-27",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-02-23-03-01.pdf",
+   "publisher": "สำนักงานนโยบายและแผนพลังงาน (สนพ.)",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง ตลาดโลก 23 ก.พ. – 1 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "เมื่อวันที่ 27 ก.พ. 69 สหรัฐฯ และอิสราเอลได้ปฏิบัติการโจมตีอิหร่านด้วยขีปนาวุธ และเกิดเหตุระเบิดในกรุงเตหะรานและหลายเมือง",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Text from pdftotext (glyph ำ renders as า in this PDF). Same report's outlook paragraph says the large US-Israel attack came 'ในช่วงต้นเดือน มี.ค.' — internal inconsistency. Cabinet spokesperson (ch3plus 28 Apr) and OFFO (ch3plus 15 Jun) say the conflict began 'ตั้งแต่ปลายเดือน ก.พ. 2569'. No foreign/primary military source checked. | ผู้ตรวจ: EPPO weekly 23 Feb–1 Mar (primary, govt). The outlook paragraph of the same PDF says the large US-Israel attack came 'ในช่วงต้นเดือน มี.ค.', so the report contradicts itself. The ch3 article of 28 Apr also says the conflict 'เริ่มมาตั้งแต่ปลายเดือน ก.พ. 2569'."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-02-22",
+  "label": "ราคาน้ำมันดิบดูไบเฉลี่ยรายสัปดาห์ ก่อนวิกฤต (16–22 ก.พ. 69)",
+  "value": 69.3,
+  "unit": "$/บาร์เรล",
+  "asOf": "2026-02-22",
+  "period": "2026-02-16..2026-02-22",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-02-16-22.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง ตลาดโลก 16 – 22 ก.พ. 69",
+   "kind": "primary"
+  },
+  "evidence": "ราคานา้ มันดิบดูไบ และ เวสต์เท็กซัส เฉลี่ยอยู่ที่ระดับ $69.30 และ $65.09/บาร์เรล",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Pre-crisis baseline. pdftotext glyph artifacts kept verbatim. | ผู้ตรวจ: Dubai crude, weekly average, $/bbl. Matches."
+ },
+ {
+  "id": "world.sg_gasoil_10ppm.weekly_avg.2026-02-22",
+  "label": "ราคาดีเซล (10 PPM) ตลาดสิงคโปร์เฉลี่ยรายสัปดาห์ ก่อนวิกฤต (16–22 ก.พ. 69)",
+  "value": 90.68,
+  "unit": "$/บาร์เรล",
+  "asOf": "2026-02-22",
+  "period": "2026-02-16..2026-02-22",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-02-16-22.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง ตลาดโลก 16 – 22 ก.พ. 69",
+   "kind": "primary"
+  },
+  "evidence": "ราคาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $90.68/",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Baseline; unit text continues on next line ('บาร์เรล'). | ผู้ตรวจ: Under the heading 'นา้ มันสาเร็จรูปตลาดสิงคโปร์' in the 16–22 Feb report. Matches."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-03-15",
+  "label": "ราคาน้ำมันดิบดูไบเฉลี่ยรายสัปดาห์ (9–15 มี.ค. 69)",
+  "value": 127.93,
+  "unit": "$/บาร์เรล",
+  "asOf": "2026-03-15",
+  "period": "2026-03-09..2026-03-15",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-09-15.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง ตลาดโลก 9 – 15 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "ราคานา้ มันดิบดูไบ และ เวสต์เท็กซัส เฉลี่ยอยู่ที่ระดับ $127.93 และ $91.98/บาร์เรล",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same report: Singapore 10ppm diesel weekly avg $179.67/bbl; Hormuz closure and US strike on Kharg Island cited. | ผู้ตรวจ: The same report gives the Singapore 10ppm diesel weekly average as $179.67. Matches."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-03-29",
+  "label": "ราคาน้ำมันดิบดูไบเฉลี่ยรายสัปดาห์ (23–29 มี.ค. 69)",
+  "value": 140.9,
+  "unit": "$/บาร์เรล",
+  "asOf": "2026-03-29",
+  "period": "2026-03-23..2026-03-29",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-23-29.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง ตลาดโลก 23 - 29 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "ราคานา้ มันดิบดูไบ และ เวสต์เท็กซัส เฉลี่ยอยู่ที่ระดับ $140.90 และ $93.68/บาร์เรล ปรับตัวลดลงจากสัปดาห์ก่อนหน้า",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Report says Dubai fell $17.52 from prior week, implying 16–22 Mar avg ≈ $158.42 (computed, not stated; the 16–22 Mar report returned 404). So the weekly Dubai peak was most likely 16–22 Mar. | ผู้ตรวจ: Week 23–29 Mar. The implied 16–22 Mar average of 158.42 (140.90+17.52) is arithmetically correct but is not stated in any source."
+ },
+ {
+  "id": "world.sg_gasoil_10ppm.weekly_avg.2026-03-29",
+  "label": "ราคาดีเซล (10 PPM) สิงคโปร์เฉลี่ยรายสัปดาห์ (23–29 มี.ค. 69)",
+  "value": 224.57,
+  "unit": "$/บาร์เรล",
+  "asOf": "2026-03-29",
+  "period": "2026-03-23..2026-03-29",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-23-29.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง ตลาดโลก 23 - 29 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "ราคาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $224.57/ … ปรับตัวเพิ่มขึ้นจากสัปดาห์ก่อนหน้า $17.46/บาร์เรล",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Two-column PDF layout; pieces joined with … | ผู้ตรวจ: Singapore market section of the 23–29 Mar report. Matches."
+ },
+ {
+  "id": "world.sg_gasoil_10ppm.weekly_avg.2026-04-05",
+  "label": "ราคาดีเซล (10 PPM) สิงคโปร์เฉลี่ยรายสัปดาห์สูงสุดในช่วงวิกฤต (30 มี.ค.–5 เม.ย. 69)",
+  "value": 257.47,
+  "unit": "$/บาร์เรล",
+  "asOf": "2026-04-05",
+  "period": "2026-03-30..2026-04-05",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-30-04-05.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง ตลาดโลก 30 มี.ค. – 5 เม.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "ราคาน้ามันดีเซล (10 PPM) เฉลี่ยอยู่ที่ระดับ $257.47/บาร์เรล ปรับตัวเพิ่มขึ้นจากสัปดาห์ก่อนหน้า $32.90/บาร์เรล",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Highest weekly avg among the 2569 weekly reports retrieved (16–22 Mar report missing; its diesel avg implied ≈ $207.11, lower). Same week Dubai avg $117.47. | ผู้ตรวจ: Value and week (30 Mar–5 Apr) match. The Dubai average that week was $117.47. The label's 'highest in the crisis' claim was not checked against every weekly report; I only saw weeks up to 29 Mar and 1–7 Jun ($147.96)."
+ },
+ {
+  "id": "world.sg_gasoil.daily.2026-04-08",
+  "label": "ราคาดีเซลสิงคโปร์ ณ 8 เม.ย. 69 (อ้างในโครงสร้างราคา สกนช.)",
+  "value": 255.36,
+  "unit": "$ (ต่อบาร์เรล)",
+  "asOf": "2026-04-08",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%20-%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88_8_4_69_1.xlsx",
+   "publisher": "สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.)",
+   "title": "โครงสร้างราคาน้ำมัน วันที่ 9 เม.ย. (หลังประชุม กบน. เมื่อวันที่ 8 เม.ย.)",
+   "kind": "primary"
+  },
+  "evidence": "8 เมษายน 2569 (ดีแซล 255.36$)",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Header cell of OFFO xlsx (typo ดีแซล in source); unit '$' as written, per-barrel implied, market not named in cell. | ผู้ตรวจ: Header cell of the OFFO xlsx (typo 'ดีแซล' is in the source). Neither sheet names the market or says per barrel. 'Singapore' and '/bbl' are inferences, though consistent with the EPPO weekly $257.47."
+ },
+ {
+  "id": "world.dubai.weekly_avg.2026-06-07",
+  "label": "ราคาน้ำมันดิบดูไบเฉลี่ยรายสัปดาห์ ปลายช่วงฉาก (1–7 มิ.ย. 69)",
+  "value": 94.24,
+  "unit": "$/บาร์เรล",
+  "asOf": "2026-06-07",
+  "period": "2026-06-01..2026-06-07",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/06/situation-oilprice-2569-06-01-07.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง ตลาดโลก 1 – 7 มิ.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "ราคานา้ มันดิบดูไบ เฉลี่ยอยู่ที่ระดับ $94.24/บาร์เรล",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same report: Singapore 10ppm diesel weekly avg $147.96/bbl; B7 retail 40.80 on 8 Jun. | ผู้ตรวจ: The same report gives the Singapore 10ppm diesel average as $147.96 and B7 retail on 8 Jun as 40.80."
+ },
+ {
+  "id": "kbn.ann.2569-08.diesel_b7",
+  "label": "ประกาศ กบน. ฉ.8/2569: ดีเซล B7 เก็บเข้ากองทุน 0.15 บาท/ลิตร (มีผล 17 ก.พ. 69) ก่อนวิกฤต",
+  "value": 0.15,
+  "unit": "บาท/ลิตร (อัตราเงินส่งเข้ากองทุน)",
+  "asOf": "2026-02-16",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.8%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2016%20%E0%B8%81%E0%B8%B8%E0%B8%A1%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C%202569.pdf",
+   "publisher": "คณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๘ พ.ศ. ๒๕๖๙",
+   "kind": "primary"
+  },
+  "evidence": "ฉบับที่ ๘ พ.ศ. ๒๕๖๙ … น้ำมันดีเซลหมุนเร็วธรรมดา ” ๐.๑๕ - … ทั้งนี้ ตั้งแต่วันที่ ๑๗ กุมภาพันธ์ ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Table columns: อัตราเงินส่งเข้ากองทุน | อัตราเงินชดเชย (domestic-production table ข้อ ๓). asOf = announcement date. | ผู้ตรวจ: Levy column, domestic table ข้อ ๓. The source says 'ดีเซลหมุนเร็วธรรมดา'; mapping it to B7 is the usual convention."
+ },
+ {
+  "id": "kbn.meeting.2026-02-20",
+  "label": "กบน. 20 ก.พ. 69 เปลี่ยนดีเซลจากเก็บเข้า 0.15 เป็นชดเชย 0.30 บาท/ลิตร ตรึงขายปลีกราว 30 บาท",
+  "value": 0.3,
+  "unit": "บาท/ลิตร (อุดหนุน)",
+  "asOf": "2026-02-20",
+  "source": {
+   "url": "https://www.offo.or.th/th/node/2082",
+   "publisher": "สกนช.",
+   "title": "สั่งตรึงราคาน้ำมันดีเซลด่วน รับมือวิกฤตสหรัฐฯ-อิหร่าน",
+   "kind": "primary"
+  },
+  "evidence": "ที่ประชุม กบน. วันนี้ (20 ก.พ.2569) ได้มีมติเห็นชอบปรับลดอัตราเงินกองทุนน้ำมันเชื้อเพลิงสำหรับน้ำมันดีเซลลง 45 สตางค์ต่อลิตร จากเดิมที่จัดเก็บเข้ากองทุนฯ 15 สตางค์ต่อลิตร เปลี่ยนเป็นลดการจัดเก็บลงและปรับมาเป็นการอุดหนุนราคาดีเซลเพิ่มเป็น 30 สตางค์ ต่อลิตร",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Pre-emptive move on fear of US strike. Matches ประกาศ ฉ.9/2569 (B7 ชดเชย ๐.๓๐, effective 21 Feb). Same release: fund +1,772 ล้านบาท at 15 Feb 2569. | ผู้ตรวจ: OFFO's own news release, so primary. The same page gives fund net +1,772 ล้านบาท at 15 Feb 2569 and says the diesel cash flow moves from +10.80 to −18.72 ล้านบาท/day."
+ },
+ {
+  "id": "policy.pm.diesel_freeze_15d.2026-03-03",
+  "label": "นายกฯ สั่งตรึงดีเซล 29.94 บาท/ลิตร 15 วัน ตั้งแต่ 3 มี.ค. 69",
+  "value": 29.94,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-03",
+  "period": "2026-03-03..2026-03-17",
+  "source": {
+   "url": "https://www.infoquest.co.th/?p=573671",
+   "publisher": "สำนักข่าวอินโฟเควสท์",
+   "title": "ตรึงราคาดีเซล 15 วัน!! รัฐบาลใช้กลไกกองทุนพยุงราคา รับมือวิกฤตตอ.กลาง",
+   "kind": "secondary"
+  },
+  "evidence": "ประกาศตรึงราคาน้ำมันดีเซลในราคาลิตรละ 29.94 บาท เป็นเวลา 15 วัน นับตั้งแต่วันนที่ 3 มี.ค.เป็นต้นไป",
+  "status": "secondary-only",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Published 4 Mar 2026. Same article: กบน. raised diesel compensation 2.77 บาท/ลิตร for 4 Mar — matches primary ประกาศ ฉ.13 (๐.๗๔→๓.๕๑). Freeze end 17 Mar confirmed by Thai PBS 17 Mar. | ผู้ตรวจ: InfoQuest news (datePublished 2026-03-04), so not primary; the record already says secondary. The value is right. The +2.77 compensation in the same article matches primary ฉ.13 (3.51 from 4 Mar)."
+ },
+ {
+  "id": "kbn.ann.2569-13.diesel_b7",
+  "label": "ประกาศ กบน. ฉ.13/2569: ชดเชยดีเซล B7 3.51 บาท/ลิตร (มีผล 4 มี.ค. 69) เริ่มตรึง 29.94",
+  "value": 3.51,
+  "unit": "บาท/ลิตร (อัตราเงินชดเชย)",
+  "asOf": "2026-03-03",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.13%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%203%20%E0%B8%A1%E0%B8%B5%E0%B8%99%E0%B8%B2%E0%B8%84%E0%B8%A1%202569.pdf",
+   "publisher": "กบน. / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๓ พ.ศ. ๒๕๖๙",
+   "kind": "primary"
+  },
+  "evidence": "ฉบับที่ ๑๓ พ.ศ. ๒๕๖๙ … น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๓.๕๑ … ทั้งนี้ ตั้งแต่วันที่ ๔ มีนาคม ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Previous rate ๐.๗๔ (ฉ.10, 23 Feb; unchanged in ฉ.12, 2 Mar). | ผู้ตรวจ: Compensation column. Matches."
+ },
+ {
+  "id": "policy.pm_order.2-2569.2026-03-06",
+  "label": "คำสั่งนายกรัฐมนตรีที่ 2/2569 ระงับส่งออกน้ำมันเชื้อเพลิงชั่วคราว",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-03-06",
+  "source": {
+   "url": "https://ratchakitcha.soc.go.th/documents/108659.pdf",
+   "publisher": "ราชกิจจานุเบกษา",
+   "title": "คำสั่งนายกรัฐมนตรี ที่ ๒/๒๕๖๙ เรื่อง กำหนดมาตรการเพื่อแก้ไขและป้องกันภาวะการขาดแคลนน้ำมันเชื้อเพลิง (เล่ม ๑๔๓ ตอนพิเศษ ๕๘ ง)",
+   "kind": "primary"
+  },
+  "evidence": "ข้อ ๒ ให้ผู้ค้าน้ำมันตามกฎหมายว่าด้วยการค้าน้ำมันเชื้อเพลิงระงับการส่งออกไปนอกราชอาณาจักรซึ่งน้ำมันเชื้อเพลิงดังต่อไปนี้เป็นการชั่วคราวจนกว่าจะมีคำสั่งเปลี่ยนแปลง",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "PDF uses custom font encoding; text transcribed from rendered page image. Covers gasoline, gasohol, HSD, Jet A-1, LPG; exempts exports to Laos and Myanmar. Thairath (6 Mar) adds reserve 1.5% from 31 Mar and 3% from 30 Apr (not verified on page 2). | ผู้ตรวจ: Read from rendered gazette pages (เล่ม ๑๔๓ ตอนพิเศษ ๕๘ ง, 6 Mar 2569; signed 'สั่ง ณ วันที่ ๖ มีนาคม พ.ศ. ๒๕๖๙'). Page 2 ข้อ ๔ confirms reserves of 1.5% from 31 Mar and 3% from 30 Apr 2569."
+ },
+ {
+  "id": "kbn.ann.2569-18.diesel_b7",
+  "label": "ประกาศ กบน. ฉ.18/2569: ชดเชยดีเซล B7 16.97 บาท/ลิตร (มีผล 11 มี.ค. 69)",
+  "value": 16.97,
+  "unit": "บาท/ลิตร (อัตราเงินชดเชย)",
+  "asOf": "2026-03-10",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.18%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2010%20%20%E0%B8%A1%E0%B8%B5%E0%B8%99%E0%B8%B2%E0%B8%84%E0%B8%A1%202569.pdf",
+   "publisher": "กบน. / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๘ พ.ศ. ๒๕๖๙",
+   "kind": "primary"
+  },
+  "evidence": "ฉบับที่ ๑๘ พ.ศ. ๒๕๖๙ … น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๖.๙๗ … ทั้งนี้ ตั้งแต่วันที่ ๑๑ มีนาคม ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Intermediate steps: ฉ.14 ๖.๒๑ (5 Mar), ฉ.15 ๙.๕๗ (6 Mar), ฉ.16 ๑๑.๗๓ (7 Mar), ฉ.17 ๑๒.๗๓ (10 Mar). Full series: rates.json (rate.diesel_b7.*). | ผู้ตรวจ: Matches."
+ },
+ {
+  "id": "kbn.ann.2569-21.diesel_b7",
+  "label": "ประกาศ กบน. ฉ.21/2569: ชดเชยดีเซล B7 18.31 บาท/ลิตร (มีผล 14 มี.ค. 69)",
+  "value": 18.31,
+  "unit": "บาท/ลิตร (อัตราเงินชดเชย)",
+  "asOf": "2026-03-13",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.21%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2013%20%E0%B8%A1%E0%B8%B5%E0%B8%99%E0%B8%B2%E0%B8%84%E0%B8%A1%202569.pdf",
+   "publisher": "กบน. / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๒๑ พ.ศ. ๒๕๖๙",
+   "kind": "primary"
+  },
+  "evidence": "ฉบับที่ ๒๑ พ.ศ. ๒๕๖๙ … น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๘.๓๑ … ทั้งนี้ ตั้งแต่วันที่ ๑๔ มีนาคม ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Bangkokbiznews: fund −12,605 ล้านบาท at 15 Mar (oil +25,016, LPG −37,621), also shown in EPPO weekly 9–15 Mar. | ผู้ตรวจ: Matches. EPPO weekly 9–15 Mar also says the diesel fund rate is at -18.31 and gives fund net −12,605 ล้านบาท at 15 Mar."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.eppo.2026-03-16",
+  "label": "ราคาขายปลีกดีเซล B7 ยังตรึง 29.94 บาท/ลิตร (16 มี.ค. 69)",
+  "value": 29.94,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-16",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-09-15.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง ในประเทศ 9 – 15 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "ราคาขายปลีกนา้ มัน (16 มี.ค. 69) … ดีเซล B7 29.94 - 29.94 - 29.94 -",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Unchanged since at least 23 Feb (EPPO weekly 16–22 Feb also shows 29.94). Three columns = three retailers in the EPPO table. | ผู้ตรวจ: EPPO weekly 9–15 Mar, domestic page. Matches."
+ },
+ {
+  "id": "policy.sbk.diesel_ceiling_33.2026-03-17",
+  "label": "ศบก. ขยายเพดานดีเซล B7 เป็นไม่เกิน 33 บาท/ลิตร ขึ้น 0.50 บาท 18 มี.ค. 69",
+  "value": 33,
+  "unit": "บาท/ลิตร (เพดาน)",
+  "asOf": "2026-03-17",
+  "source": {
+   "url": "https://www.thaipbs.or.th/news/content/503466",
+   "publisher": "Thai PBS",
+   "title": "เริ่ม 18 มี.ค.ปรับขึ้นน้ำมันดีเซล 50 สต./ลิตร - แก๊สโซฮอล์ 95 ขึ้น 1 บาท/ลิตร",
+   "kind": "secondary"
+  },
+  "evidence": "จะขยับเพดานราคาน้ำมันดีเซล เป็นไม่เกิน 33 บาทต่อลิตร … เริ่มวันพรุ่งนี้ (18 มี.ค.) ปรับขึ้นน้ำมันดีเซล 50 สตางค์ต่อลิตร",
+  "status": "secondary-only",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Decision of ศูนย์บริหารและติดตามสถานการณ์การสู้รบในภูมิภาคตะวันออกกลาง (ศบก.) meeting 5/2569 (ThaiPublica). Implied retail 30.44 on 18 Mar (search snippet only, not opened). Same meeting: E10 +1, E20 −0.79. | ผู้ตรวจ: Thai PBS news (datePublished 2026-03-17), so not primary. The value and date are right."
+ },
+ {
+  "id": "policy.mof.excise_not_cut.2026-03-18",
+  "label": "คลังแจ้งยังลดภาษีสรรพสามิตน้ำมันไม่ได้ (รัฐบาลรักษาการ ม.169) เตรียม พ.ร.ก. ค้ำเงินกู้กองทุน",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-03-18",
+  "source": {
+   "url": "https://ch3plus.com/news/economy/morning/459299",
+   "publisher": "3Plus News (ช่อง 3)",
+   "title": "จ่อลดภาษีสรรพสามิต หากเกินขีดจำกัดกองทุนน้ำมัน",
+   "kind": "secondary"
+  },
+  "evidence": "วันนี้เรายังไม่สามารถลดภาษีสรรพสามิตได้ เพราะมีข้อจำกัดในรัฐธรรมนูญ มาตรา 169 ที่ไม่สามารถลดภาษีได้ ณ วันนี้",
+  "status": "secondary-only",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Finance minister statement (name omitted). Context: caretaker government until new cabinet. | ผู้ตรวจ: ch3plus news dated '18 มี.ค. 2569', so not primary. The content is right, including preparing a พ.ร.ก. to guarantee the oil fund's borrowing."
+ },
+ {
+  "id": "kbn.ann.2569-26.diesel_b7",
+  "label": "ประกาศ กบน. ฉ.26/2569: ชดเชยดีเซล B7 24.25 บาท/ลิตร (มีผล 21 มี.ค. 69)",
+  "value": 24.25,
+  "unit": "บาท/ลิตร (อัตราเงินชดเชย)",
+  "asOf": "2026-03-20",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.26%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2020%20%E0%B8%A1%E0%B8%B5%E0%B8%99%E0%B8%B2%E0%B8%84%E0%B8%A1%202569.pdf",
+   "publisher": "กบน. / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๒๖ พ.ศ. ๒๕๖๙",
+   "kind": "primary"
+  },
+  "evidence": "ฉบับที่ ๒๖ พ.ศ. ๒๕๖๙ … น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒๔.๒๕ … ทั้งนี้ ตั้งแต่วันที่ ๒๑ มีนาคม ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Matches."
+ },
+ {
+  "id": "policy.pm_order.3-2569.2026-03-20",
+  "label": "คำสั่งนายกรัฐมนตรีที่ 3/2569 มาตรการแก้ไขภาวะขาดแคลนน้ำมัน (รายงานสต็อก/ยอดขาย)",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-03-20",
+  "source": {
+   "url": "https://www.thairath.co.th/news/politic/2921473",
+   "publisher": "ไทยรัฐ",
+   "title": "คำสั่งนายกรัฐมนตรี ให้ผู้ค้าน้ำมันรายงานปริมาณน้ำมัน ยอดจำหน่าย",
+   "kind": "secondary"
+  },
+  "evidence": "คำสั่งนายกรัฐมนตรี ที่ 3/2569 เรื่อง กำหนดมาตรการเพื่อแก้ไขและป้องกันภาวะการขาดแคลนน้ำมันเชื้อเพลิง อันเนื่องมาจากความขัดแย้งในตะวันออกกลาง พ.ศ. 2569",
+  "status": "secondary-only",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Gazette PDF (documents/110270.pdf) not opened. Requires daily stock/sales reports at 18.00 and price-change reporting to DOEB. | ผู้ตรวจ: Thairath news (2026-03-20), so not primary. The gazette PDF the researcher named (documents/110270.pdf) is a different document; see missedImportant."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-03-21",
+  "label": "ดีเซล B7 ขึ้น 0.70 บาท เป็น 31.14 บาท/ลิตร (มีผล 21 มี.ค. 69)",
+  "value": 31.14,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-21",
+  "source": {
+   "url": "https://www.pptvhd36.com/wealth/economic/271391",
+   "publisher": "PPTV",
+   "title": "น้ำมันขึ้น! ดีเซล 70 สตางค์ เบนซิน ขึ้น 1 บาท มีผล 21 มี.ค.",
+   "kind": "secondary"
+  },
+  "evidence": "PTT Station ปรับราคาขายปลีกน้ำมันกลุ่มดีเซล เพิ่มขึ้น 0.70 บาทต่อลิตร … มีผล 21 มี.ค. 2569 เวลา 05.00 น. เป็นต้นไป … HSD = 31.14 บาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Retailer price excluding Bangkok local tax. Consistent with EPPO weekly 23–29 Mar (+7.80 vs prior report → 31.14 on 23 Mar). Followed กบน. ฉ.26. | ผู้ตรวจ: PPTV news, published 20 Mar 2569; this is one retailer's price. Consistent with primary EPPO: 38.94 on 30 Mar minus the +7.80 weekly change = 31.14."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-03-24",
+  "label": "ดีเซล B7 ขึ้น 1.80 บาท เป็น 32.94 บาท/ลิตร (มีผล 24 มี.ค. 69) หลัง กบน. 23 มี.ค.",
+  "value": 32.94,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-24",
+  "source": {
+   "url": "https://www.infoquest.co.th/2026/579263",
+   "publisher": "สำนักข่าวอินโฟเควสท์",
+   "title": "ดีเซลขยับขึ้นแตะ 33 บาท หลังกองทุนน้ำมันฯ ลดชดเชย",
+   "kind": "secondary"
+  },
+  "evidence": "ส่วนกลุ่มดีเซล เพิ่มขึ้น 1.80 บาทต่อลิตร มีผล 24 มี.ค. 2569 เวลา 05.00 น. เป็นต้นไป … – ดีเซล ลิตรละ 32.94 บาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quotes OFFO director of policy: กบน. 23 Mar decided to cut diesel compensation; Singapore diesel rose from 92 to 223 $/bbl; fund outflow nearly 2,400 ล้านบาท/day. Primary ฉ.27 shows B7 comp ๒๔.๐๙ (eff 24 Mar). Thai PBS same-day confirms 32.94. | ผู้ตรวจ: InfoQuest news (2026-03-24), so not primary. The value is right. The article also has the OFFO official's figures: Singapore diesel 92→223 $/bbl and an outflow of nearly 2,400 ล้านบาท/day."
+ },
+ {
+  "id": "kbn.ann.2569-28.diesel_b7",
+  "label": "ประกาศ กบน. ฉ.28/2569: ชดเชยดีเซล B7 สูงสุดของวิกฤต 26.99 บาท/ลิตร (มีผล 25 มี.ค. 69)",
+  "value": 26.99,
+  "unit": "บาท/ลิตร (อัตราเงินชดเชย)",
+  "asOf": "2026-03-24",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.28%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2024%20%E0%B8%A1%E0%B8%B5%E0%B8%99%E0%B8%B2%E0%B8%84%E0%B8%A1%202569.pdf",
+   "publisher": "กบน. / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๒๘ พ.ศ. ๒๕๖๙",
+   "kind": "primary"
+  },
+  "evidence": "ฉบับที่ ๒๘ พ.ศ. ๒๕๖๙ … น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒๖.๙๙ … ทั้งนี้ ตั้งแต่วันที่ ๒๕ มีนาคม ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Highest B7 compensation in ฉ.6–87/2569 parsed. | ผู้ตรวจ: The value matches. I could not verify 'highest of the crisis' because I did not open every announcement."
+ },
+ {
+  "id": "kbn.ann.2569-29.diesel_b7",
+  "label": "ประกาศ กบน. ฉ.29/2569: ลดชดเชยดีเซล B7 จาก 26.99 เหลือ 19.12 บาท/ลิตร (มีผล 26 มี.ค. 69)",
+  "value": 19.12,
+  "unit": "บาท/ลิตร (อัตราเงินชดเชย)",
+  "asOf": "2026-03-25",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.29%20%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2025%20%E0%B8%A1%E0%B8%B5%E0%B8%99%E0%B8%B2%E0%B8%84%E0%B8%A1%202569.pdf",
+   "publisher": "กบน. / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๒๙ พ.ศ. ๒๕๖๙",
+   "kind": "primary"
+  },
+  "evidence": "ฉบับที่ ๒๙ พ.ศ. ๒๕๖๙ … น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๙.๑๒ … ทั้งนี้ ตั้งแต่วันที่ ๒๖ มีนาคม ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Caused the +6 บาท retail jump of 26 Mar. Next: ฉ.30 ๑๖.๐๒ (27 Mar), ฉ.31 ๑๖.๖๗ (28 Mar). Thansettakij reported gasohol 95 compensation as 0.52 for ฉ.30 but the PDF says ๐.๕๖. | ผู้ตรวจ: Matches. The previous rate of 26.99 is confirmed by ฉ.28."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-03-26",
+  "label": "ดีเซล B7 ขึ้น 6 บาท เป็น 38.94 บาท/ลิตร สูงสุดเป็นประวัติการณ์ ณ ขณะนั้น (มีผล 26 มี.ค. 69)",
+  "value": 38.94,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-26",
+  "source": {
+   "url": "https://www.thansettakij.com/economy/energy/655036",
+   "publisher": "ฐานเศรษฐกิจ",
+   "title": "ปล่อยลอยตัวราคาน้ำมัน ‘กองทุน’ แบกไม่ไหว เล็งดึงภาษีสรรพสามิตช่วย 6 บาท",
+   "kind": "secondary"
+  },
+  "evidence": "ส่งผลให้ราคาน้ำมันขายปลีกน้ำมันทั้งกลุ่มดีเซลและกลุ่มเบนซินปรับเพิ่มขึ้น 6 บาทต่อลิตร มีผลตั้งแต่วันที่ 26 มีนาคม 2569 เป็นต้นมา ทำให้ราคาน้ำมันดีเซลในประเทศปรับเพิ่มขึ้นสูงสุดเป็นประวัติการณ์ที่ 38.94 บาทต่อลิตร",
+  "status": "secondary-only",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Level 38.94 confirmed by primary EPPO weekly on 30 Mar (separate record). Article also states unsubsidised diesel would be ~61 บาท/ลิตร (secondary). | ผู้ตรวจ: Thansettakij news (2026-03-27), so not primary. The level of 38.94 is confirmed by primary EPPO weekly (30 Mar)."
+ },
+ {
+  "id": "cabinet.relief_framework_7.2026-03-26",
+  "label": "ครม. 26 มี.ค. 69 เห็นชอบกรอบ 7 มาตรการรับมือราคาน้ำมัน (รวมศึกษาลดภาษีสรรพสามิต)",
+  "value": 7,
+  "unit": "มาตรการ",
+  "asOf": "2026-03-26",
+  "source": {
+   "url": "https://www.thansettakij.com/economy/energy/655036",
+   "publisher": "ฐานเศรษฐกิจ",
+   "title": "ปล่อยลอยตัวราคาน้ำมัน ‘กองทุน’ แบกไม่ไหว เล็งดึงภาษีสรรพสามิตช่วย 6 บาท",
+   "kind": "secondary"
+  },
+  "evidence": "เมื่อวันที่ 26 มีนาคม ที่ผ่านมา คณะรัฐมนตรี (ครม.) ได้มีมติเห็นชอบในกรอบ 7 มาตรการสำคัญ … 1.การปรับลดอัตราภาษีสรรพสามิตน้ำมัน โดยมอบหมายให้กระทรวงการคลังไปพิจารณารายละเอียด",
+  "status": "secondary-only",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quoting the MOF permanent secretary. Measures: excise study; welfare card 300→400 บาท/month for 1 month; transport aid; farmers; fishery B20; govt contractors; GSB soft loan 10,000 ล้านบาท. thaigov.go.th (primary) blocked. | ผู้ตรวจ: Thansettakij news quoting the MOF permanent secretary, so not primary. The content is right. Measure 2 (welfare card 300→400 บาท/month) is confirmed in the same text."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.eppo.2026-03-30",
+  "label": "ราคาขายปลีกดีเซล B7 38.94 บาท/ลิตร (30 มี.ค. 69) +7.80 จากสัปดาห์ก่อน",
+  "value": 38.94,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-30",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-23-29.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง ในประเทศ 23 – 29 มี.ค. 69",
+   "kind": "primary"
+  },
+  "evidence": "ราคาขายปลีกนา้ มัน (30 มี.ค. 69) … ดีเซล B7 38.94 7.80 38.94 7.50 38.94 7.80",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Weekly change 7.80 = 1.80 (24 Mar) + 6.00 (26 Mar). Fund net −42,148 ล้านบาท at 29 Mar in the same report. | ผู้ตรวจ: The middle retailer column shows +7.50 rather than +7.80. The same report gives fund net −42,148 ล้านบาท at 29 Mar."
+ },
+ {
+  "id": "kbn.ann.2569-32.diesel_b7",
+  "label": "ประกาศ กบน. ฉ.32/2569: เพิ่มชดเชยดีเซล B7 เป็น 18.76 บาท/ลิตร (มีผล 31 มี.ค. 69)",
+  "value": 18.76,
+  "unit": "บาท/ลิตร (อัตราเงินชดเชย)",
+  "asOf": "2026-03-30",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/2148/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.32%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2030%20%E0%B8%A1%E0%B8%B5%E0%B8%99%E0%B8%B2%E0%B8%84%E0%B8%A1%202569.pdf",
+   "publisher": "กบน. / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๓๒ พ.ศ. ๒๕๖๙",
+   "kind": "primary"
+  },
+  "evidence": "ฉบับที่ ๓๒ พ.ศ. ๒๕๖๙ … น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๘.๗๖ … ทั้งนี้ ตั้งแต่วันที่ ๓๑ มีนาคม ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Then ฉ.33 ๒๑.๘๙ (eff 1 Apr; ฉ.36 re-issued same B7 rate eff 1 Apr). | ผู้ตรวจ: Matches. From this announcement on, B20 has a separate rate (๒๑.๓๙)."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-03-31",
+  "label": "ดีเซล B7 ขึ้น 1.80 บาท เป็น 40.74 บาท/ลิตร (มีผล 31 มี.ค. 69)",
+  "value": 40.74,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-03-31",
+  "source": {
+   "url": "https://www.thairath.co.th/news/society/2923586",
+   "publisher": "ไทยรัฐ",
+   "title": "ประกาศขึ้นราคาน้ำมันดีเซล 1.80 บาทต่อลิตร มีผลตี 5 พรุ่งนี้ (31 มี.ค.69)",
+   "kind": "secondary"
+  },
+  "evidence": "ส่งผลให้ราคาขายปลีกน้ำมันดีเซลปรับขึ้น 1.80 บาทต่อลิตร จากราคาขายปลีก 38.94 บาทต่อลิตร ปรับเป็น 40.74 บาทต่อลิตร โดยมีผลตั้งแต่วันที่ 31 มีนาคม 2569 เป็นต้นไป",
+  "status": "secondary-only",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Article cites Gas Oil ≈238 $/bbl on 27 Mar (secondary). | ผู้ตรวจ: Thairath news (2026-03-30), so not primary. Consistent with the EPPO weekly change of +11.60 by 6 Apr."
+ },
+ {
+  "id": "policy.pm_order.5-2569.2026-04-01",
+  "label": "คำสั่งนายกรัฐมนตรีที่ 5/2569 ตั้ง คตร. ศึกษาต้นทุนราคาน้ำมัน",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-04-01",
+  "source": {
+   "url": "https://www.thaipost.net/hi-light/973236/",
+   "publisher": "ไทยโพสต์",
+   "title": "ราชกิจจาฯ เผยแพร่คำสั่งนายกรัฐมนตรี ที่ 5/2569",
+   "kind": "secondary"
+  },
+  "evidence": "เว็บไซต์ราชกิจจานุเบกษา เผยแพร่คำสั่งนายกรัฐมนตรี ที่ 5/2569 … (ฉบับที่ 3) โดยให้มีคณะกรรมการศึกษาความเหมาะสมในการกำหนดต้นทุนราคาน้ำมันเชื้อเพลิง (คตร.)",
+  "status": "secondary-only",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "คตร. findings (refining margin abnormal in Mar) underpinned กบง. refinery-price cut of 7 Apr (EPPO). Gazette not opened. | ผู้ตรวจ: ThaiPost news (2026-04-01), so not primary. asOf is the gazette publication date; the signing date was not checked."
+ },
+ {
+  "id": "kbn.ann.2569-38.diesel_b7",
+  "label": "ประกาศ กบน. ฉ.38/2569: ลดชดเชยดีเซล B7 เหลือ 17.78 บาท/ลิตร (มีผล 2 เม.ย. 69)",
+  "value": 17.78,
+  "unit": "บาท/ลิตร (อัตราเงินชดเชย)",
+  "asOf": "2026-04-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.38%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%201%20%E0%B9%80%E0%B8%A1%E0%B8%A9%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "กบน. / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๓๘ พ.ศ. ๒๕๖๙",
+   "kind": "primary"
+  },
+  "evidence": "ฉบับที่ ๓๘ พ.ศ. ๒๕๖๙ … น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๗.๗๘ … ทั้งนี้ ตั้งแต่วันที่ ๒ เมษายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "−4.11 from ๒๑.๘๙. | ผู้ตรวจ: Matches."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-04-02",
+  "label": "ดีเซล B7 ขึ้น 3.50 บาท เป็น 44.24 บาท/ลิตร (มีผล 2 เม.ย. 69)",
+  "value": 44.24,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-02",
+  "source": {
+   "url": "https://thaipublica.org/2026/04/thailand-diesel-price-hike-44-24-baht/",
+   "publisher": "ThaiPublica",
+   "title": "กบน.ลดชดเชย‘ดีเซล’พรุ่งนี้! หน้าปั๊มขาย 44.24 บาท/ลิตร",
+   "kind": "secondary"
+  },
+  "evidence": "ราคาขายปลีกน้ำมันดีเซลในประเทศปรับตัวสูงขึ้นเป็น 44.24 บาทต่อลิตร มีผลตั้งแต่วันที่ 2 เม.ย. เป็นต้นไป",
+  "status": "secondary-only",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Article: fund outflow cut from 1,804 to 1,471 ล้านบาท/day; Malaysia diesel ≈50.32 บาท. | ผู้ตรวจ: ThaiPublica news (2026-04-01), so not primary. The value is right. The 1,804→1,471 ล้านบาท/day outflow figure is also in the article."
+ },
+ {
+  "id": "kbn.ann.2569-39.diesel_b7",
+  "label": "ประกาศ กบน. ฉ.39/2569: ลดชดเชยดีเซล B7 เหลือ 14.27 บาท/ลิตร (มีผล 3 เม.ย. 69)",
+  "value": 14.27,
+  "unit": "บาท/ลิตร (อัตราเงินชดเชย)",
+  "asOf": "2026-04-02",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.39%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%202%20%E0%B9%80%E0%B8%A1%E0%B8%A9%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "กบน. / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๓๙ พ.ศ. ๒๕๖๙",
+   "kind": "primary"
+  },
+  "evidence": "ฉบับที่ ๓๙ พ.ศ. ๒๕๖๙ … น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๔.๒๗ … ทั้งนี้ ตั้งแต่วันที่ ๓ เมษายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Then ฉ.40 raised to ๒๐.๗๑ (eff 4 Apr) with retail unchanged. | ผู้ตรวจ: Matches."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-04-03",
+  "label": "ดีเซล B7 ขึ้น 3.50 บาท เป็น 47.74 บาท/ลิตร (มีผล 3 เม.ย. 69)",
+  "value": 47.74,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-03",
+  "source": {
+   "url": "https://en.thairath.co.th/news/society/2924311",
+   "publisher": "Thairath (English)",
+   "title": "Diesel Price Rises by 3.50 Baht to 47.74 Baht/Liter on 3 Apr 2026",
+   "kind": "secondary"
+  },
+  "evidence": "resulting in the retail diesel price at gas stations on 3 April 2026 rising by 3.50 baht to 47.74 baht per liter",
+  "status": "secondary-only",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Also stated in Thai PBS 4 Apr ('จาก 47.74 เป็น 50.54'). | ผู้ตรวจ: Thairath English news (2026-04-02), so not primary. Thai PBS 504273 also says 'จาก 47.74 เป็น 50.54'."
+ },
+ {
+  "id": "kbn.ann.2569-41.diesel_b7",
+  "label": "ประกาศ กบน. ฉ.41/2569: ลดชดเชยดีเซล B7 จาก 20.71 เหลือ 18.10 บาท/ลิตร (มีผล 5 เม.ย. 69)",
+  "value": 18.1,
+  "unit": "บาท/ลิตร (อัตราเงินชดเชย)",
+  "asOf": "2026-04-04",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.41%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%204%20%E0%B9%80%E0%B8%A1%E0%B8%A9%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "กบน. / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๔๑ พ.ศ. ๒๕๖๙",
+   "kind": "primary"
+  },
+  "evidence": "ฉบับที่ ๔๑ พ.ศ. ๒๕๖๙ … น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑๘.๑๐ … ทั้งนี้ ตั้งแต่วันที่ ๕ เมษายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Thai PBS/Thairath: outflow 1,708.75 → 1,496.72 ล้านบาท/day. | ผู้ตรวจ: The value matches. The 'from 20.71' (ฉ.40) in the label was not checked."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-04-05",
+  "label": "ดีเซล B7 ขึ้น 2.80 บาท เป็น 50.54 บาท/ลิตร จุดสูงสุดของฉาก (มีผล 5 เม.ย. 69)",
+  "value": 50.54,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-05",
+  "source": {
+   "url": "https://www.thaipbs.or.th/news/content/504273",
+   "publisher": "Thai PBS",
+   "title": "อัปเดตราคาน้ำมัน 5 เม.ย.หลังปรับขึ้นดีเซลลิตรละ 2.80 บาท",
+   "kind": "secondary"
+  },
+  "evidence": "ส่งผลให้ราคาขายปลีกน้ำมันดีเซล B7 สูงขึ้น 2.80 บาทต่อลิตร จาก 47.74 เป็น 50.54 บาทต่อลิตร … มีผลตั้งแต่วันที่ 5 เม.ย.ตั้งแต่เวลา 05.00 น.เป็นต้นไป",
+  "status": "secondary-only",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Level confirmed by primary EPPO weekly (6 Apr = 50.54, +11.60 vs 30 Mar). Highest B7 retail found in window. | ผู้ตรวจ: Thai PBS news (2026-04-04), so not primary. The level is confirmed by primary EPPO weekly (6 Apr = 50.54)."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.eppo.2026-04-06",
+  "label": "ราคาขายปลีกดีเซล B7 50.54 บาท/ลิตร (6 เม.ย. 69) +11.60 จากสัปดาห์ก่อน",
+  "value": 50.54,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-06",
+  "source": {
+   "url": "https://www.eppo.go.th/wp-content/uploads/2026/04/situation-oilprice-2569-03-30-04-05.pdf",
+   "publisher": "สนพ.",
+   "title": "สถานการณ์ราคาน้ำมันเชื้อเพลิง ในประเทศ 30 มี.ค. – 5 เม.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "ราคาขายปลีกนา้ มัน (6 เม.ย. 69) … ดีเซล B7 50.54 11.60 50.54 11.60 50.54 11.60",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "11.60 = 1.80 (31 Mar) + 3.50 (2 Apr) + 3.50 (3 Apr) + 2.80 (5 Apr). Fund net −53,226 ล้านบาท at 5 Apr in same report. | ผู้ตรวจ: The same report gives fund net −53,226 ล้านบาท at 5 Apr."
+ },
+ {
+  "id": "kbng.refinery_discount.diesel.2026-04-07",
+  "label": "กบง. 7 เม.ย. 69 ลดราคา ณ โรงกลั่นดีเซล B7/B20 ลง 2 บาท/ลิตร ครั้งแรก (มีผล 9 เม.ย.)",
+  "value": 2,
+  "unit": "บาท/ลิตร (ส่วนลดราคา ณ โรงกลั่น)",
+  "asOf": "2026-04-07",
+  "source": {
+   "url": "https://www.eppo.go.th/information-services/advertise/news-eppo/%e0%b8%9b%e0%b8%a3%e0%b8%b1%e0%b8%9a%e0%b9%82%e0%b8%84%e0%b8%a3%e0%b8%87%e0%b8%aa%e0%b8%a3%e0%b9%89%e0%b8%b2%e0%b8%87%e0%b8%99%e0%b9%89%e0%b8%b3%e0%b8%a1%e0%b8%b1%e0%b8%99%e0%b8%94%e0%b8%b5%e0%b9%80/",
+   "publisher": "สนพ.",
+   "title": "ปรับโครงสร้างน้ำมันดีเซลใหม่ ผ่านมติ กบง.",
+   "kind": "primary"
+  },
+  "evidence": "ที่ประชุม กบง. จึงมีมติให้ลดราคาหน้าโรงกลั่นสำหรับน้ำมันดีเซล บี7 และ บี20 ลง 2 บาทต่อลิตรเป็นครั้งแรก",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Under พ.ร.ก. แก้ไขและป้องกันภาวะการขาดแคลนน้ำมันเชื้อเพลิง 2516; effective 9 Apr per EPPO 24 Apr release. EPPO: full pass-through ≈ −2.14 บาท/ลิตร at pump (matches 50.54→48.40). | ผู้ตรวจ: EPPO release; the text says 'วันที่ 7 เมษายน 2569' (page published 8 Apr). The 9 Apr effective date is confirmed in the EPPO 23 Apr release. Pass-through of ~2.14 บาท/ลิตร is stated in the release."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-04-09",
+  "label": "ดีเซล B7 ลดเป็น 48.40 บาท/ลิตร (9 เม.ย. 69) หลัง กบน. 8 เม.ย. และส่วนลดโรงกลั่น",
+  "value": 48.4,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-09",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%20-%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88_8_4_69_1.xlsx",
+   "publisher": "สกนช.",
+   "title": "โครงสร้างราคาน้ำมัน วันที่ 9 เม.ย. (หลังประชุม กบน. เมื่อวันที่ 8 เม.ย.)",
+   "kind": "primary"
+  },
+  "evidence": "โครงสร้างราคาน้ำมัน วันที่ 9 เม.ย. (หลังประชุม กบน. เมื่อวันที่ 8 เม.ย.) | H-DIESEL B7 | RETAIL 48.4",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "xlsx cells joined with |. Same row: OIL FUND −15 (= ประกาศ ฉ.43 ชดเชย ๑๕.๐๐), excise 6.92. OFFO archive of these structures starts 8 Apr 2569. | ผู้ตรวจ: OFFO xlsx. In the same row, oil fund is −15 and excise 6.92."
+ },
+ {
+  "id": "kbn.ann.2569-44.diesel_b7",
+  "label": "ประกาศ กบน. ฉ.44/2569: ลดชดเชยดีเซล B7 จาก 15.00 เหลือ 6.41 บาท/ลิตร (มีผล 10 เม.ย. 69)",
+  "value": 6.41,
+  "unit": "บาท/ลิตร (อัตราเงินชดเชย)",
+  "asOf": "2026-04-09",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.%2044%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%209%20%E0%B9%80%E0%B8%A1%E0%B8%A9%E0%B8%B2%E0%B8%A2%E0%B8%99%20%202569.pdf",
+   "publisher": "กบน. / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๔๔ พ.ศ. ๒๕๖๙",
+   "kind": "primary"
+  },
+  "evidence": "ฉบับที่ ๔๔ พ.ศ. ๒๕๖๙ … น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๖.๔๑ … ทั้งนี้ ตั้งแต่วันที่ ๑๐ เมษายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Largest single-step cut (−8.59). Retail stayed 48.40 on 10 Apr (OFFO structure) because ex-refinery cost fell (50.57→41.98 บาท/ลิตร in the structure files). | ผู้ตรวจ: The value matches. The previous rate of 15.00 is consistent with the 9 Apr structure (oil fund −15)."
+ },
+ {
+  "id": "kbn.meeting.borrowing_proposal.2026-04-10",
+  "label": "กบน. 10 เม.ย. 69 มีมติเสนอ ครม. อนุมัติให้ สกนช. กู้ยืมเงิน",
+  "value": null,
+  "unit": "",
+  "asOf": "2026-04-10",
+  "source": {
+   "url": "https://ch3plus.com/news/political/morning/461899",
+   "publisher": "3Plus News (ช่อง 3)",
+   "title": "ครม.ไฟเขียว ให้ สกนช. กู้ 2 หมื่นล้านบาท เสริมสภาพคล่องกองทุนน้ำมัน",
+   "kind": "secondary"
+  },
+  "evidence": "ในการประชุมคณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.) เมื่อวันที่ 10 เมษายน ที่ผ่านมา ได้มีมติเห็นชอบให้นำเสนอคณะรัฐมนตรีพิจารณาอนุมัติการกู้ยืมเงินของ สกนช.",
+  "status": "secondary-only",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same meeting set ประกาศ ฉ.45 (B7 ชดเชย ๗.๘๕, eff 11 Apr) → retail 44.40 on 11 Apr (OFFO structure). | ผู้ตรวจ: ch3plus news dated 28 Apr 2569, so not primary. The content is right."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-04-11",
+  "label": "ดีเซล B7 ลด 4 บาท เป็น 44.40 บาท/ลิตร (11 เม.ย. 69)",
+  "value": 44.4,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-11",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%20-%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%A7%E0%B8%B1%E0%B8%99_10_4_69_SRB_Rev1.xlsx",
+   "publisher": "สกนช.",
+   "title": "โครงสร้างราคาน้ำมัน วันที่ 11 เม.ย.69 (หลังประชุม กบน. เมื่อวันที่ 10 เม.ย.69)",
+   "kind": "primary"
+  },
+  "evidence": "โครงสร้างราคาน้ำมัน วันที่ 11 เม.ย.69 (หลังประชุม กบน. เมื่อวันที่ 10 เม.ย.69) | H-DIESEL B7 | RETAIL 44.4",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Discount column −2 (refinery cut) visible from this file. EPPO weekly 13 Apr also shows 44.40 (−6.14 vs 6 Apr). | ผู้ตรวจ: In this file the DISCOUNT column is −2 and the oil fund −7.85."
+ },
+ {
+  "id": "cabinet.relief_central_budget.2026-04-11",
+  "label": "ครม. 11 เม.ย. 69 อนุมัติงบกลางกว่า 7,742 ล้านบาท ช่วยกลุ่มเปราะบาง ขนส่ง ค่าครองชีพ",
+  "value": 7742,
+  "unit": "ล้านบาท",
+  "asOf": "2026-04-11",
+  "source": {
+   "url": "https://www.thairath.co.th/news/politic/2926167",
+   "publisher": "ไทยรัฐ",
+   "title": "ครม. เคาะงบกลางกว่า 7.7 พันล้านบาท ดูแล 3 ด้าน",
+   "kind": "secondary"
+  },
+  "evidence": "ที่ประชุมคณะรัฐมนตรีในวันนี้ มีมติอนุมัติงบกลางกว่า 7,742 ล้านบาท แบ่งเป็น 3 ด้านดังนี้",
+  "status": "secondary-only",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Split: vulnerable 6,022.85 (incl. 1,322.85 per ครม. 26 Mar); transport 1,458 + 601 from road-safety fund; cost of living 260.60. Thansettakij 13 Apr: transport aid via PromptPay, registration 16–19 Apr. Spokesperson name omitted. thaigov.go.th not reachable. | ผู้ตรวจ: Thairath news (2026-04-11 13:41), so not primary. The source says 'กว่า 7,742', so it is a lower bound. 11 Apr 2026 is a Saturday, so this should be confirmed on thaigov.go.th."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-04-17",
+  "label": "ดีเซล B7 ลดเป็น 42.90 บาท/ลิตร (17 เม.ย. 69)",
+  "value": 42.9,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-17",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%20-%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%A7%E0%B8%B1%E0%B8%99_16_4_69_SRB_%E0%B8%81%E0%B8%9A%E0%B8%99.xlsx",
+   "publisher": "สกนช.",
+   "title": "โครงสร้างราคาน้ำมัน วันที่ 17 เม.ย.69 (หลังประชุม กบน. เมื่อวันที่ 16 เม.ย.69)",
+   "kind": "primary"
+  },
+  "evidence": "โครงสร้างราคาน้ำมัน วันที่ 17 เม.ย.69 (หลังประชุม กบน. เมื่อวันที่ 16 เม.ย.69) | H-DIESEL B7 | RETAIL 42.9",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Previous file (16 Apr) 44.4. | ผู้ตรวจ: Matches."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-04-21",
+  "label": "ดีเซล B7 ลดเป็น 41.70 บาท/ลิตร (21 เม.ย. 69)",
+  "value": 41.7,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-21",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AF%20%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B221%E0%B9%80%E0%B8%A1%E0%B8%A9%E0%B8%B2%E0%B8%A2%E0%B8%992569.xlsx",
+   "publisher": "สกนช.",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 21 เม.ย.69 (หลังประชุม กบน. เมื่อวันที่ 20 เม.ย.69)",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 21 เม.ย.69 (หลังประชุม กบน. เมื่อวันที่ 20 เม.ย.69) | H-DIESEL B7 | RETAIL 41.7",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Matches."
+ },
+ {
+  "id": "kbng.refinery_discount.diesel.2026-04-23",
+  "label": "กบง. 23 เม.ย. 69 เพิ่มส่วนลดราคา ณ โรงกลั่นดีเซลเป็น 5 บาท (24 เม.ย.–9 พ.ค.) และ 3 บาท (10–19 พ.ค.)",
+  "value": 5,
+  "unit": "บาท/ลิตร (ส่วนลดราคา ณ โรงกลั่น)",
+  "asOf": "2026-04-23",
+  "period": "2026-04-24..2026-05-19",
+  "source": {
+   "url": "https://www.eppo.go.th/information-services/advertise/news-eppo/%e0%b8%81%e0%b8%9a%e0%b8%87-%e0%b9%80%e0%b8%ab%e0%b9%87%e0%b8%99%e0%b8%8a%e0%b8%ad%e0%b8%9a%e0%b8%9b%e0%b8%a3%e0%b8%b1%e0%b8%9a%e0%b8%a5%e0%b8%94%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2-%e0%b8%93/",
+   "publisher": "สนพ.",
+   "title": "กบง. เห็นชอบปรับลดราคา ณ โรงกลั่นดีเซล 2 ระยะ เริ่ม 5 บาท/ลิตร ตั้งแต่ 24 เม.ย. 69",
+   "kind": "primary"
+  },
+  "evidence": "ช่วงวันที่ 24 เมษายน 2569 ถึงวันที่ 9 พฤษภาคม 2569 ปรับลด 5.00 บาทต่อลิตร และช่วงวันที่ 10 พฤษภาคม 2569 ถึงวันที่ 19 พฤษภาคม 2569 ปรับลด 3.00 บาทต่อลิตร",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Covers B0, B7, B20; cancels กบง. notice of 8 Apr. Basis: refiners' excess gain 3.43 บาท/ลิตร (1–16 Apr). OFFO structures show discount −5 from 24 Apr, −3 from 10 May, 0 on 20 May. | ผู้ตรวจ: EPPO release, meeting of 23 Apr 2569. It cancels the กบง. notice of 8 Apr; the excess gain was 3.43 บาท/ลิตร. The OFFO structures show discounts of −5 (24 Apr, 1 May, 8 May), −3 (14 May) and 0 (20 May)."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-04-24",
+  "label": "ดีเซล B7 ลดเป็น 40.20 บาท/ลิตร (24 เม.ย. 69) พร้อมส่วนลดโรงกลั่น 5 บาท",
+  "value": 40.2,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-04-24",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AF%20%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B224%E0%B9%80%E0%B8%A1%E0%B8%A9%E0%B8%B2%E0%B8%A2%E0%B8%992569.xlsx",
+   "publisher": "สกนช.",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 24 เม.ย.69 (หลังประชุม กบน. เมื่อวันที่ 23 เม.ย.69)",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 24 เม.ย.69 (หลังประชุม กบน. เมื่อวันที่ 23 เม.ย.69) | H-DIESEL B7 | RETAIL 40.2",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Discount column −5 in this file. | ผู้ตรวจ: The discount column is −5. Matches."
+ },
+ {
+  "id": "cabinet.offo_loan_20bn.2026-04-28",
+  "label": "ครม. 28 เม.ย. 69 อนุมัติให้ สกนช. กู้ยืมเงิน 2 หมื่นล้านบาท",
+  "value": 2,
+  "unit": "หมื่นล้านบาท",
+  "asOf": "2026-04-28",
+  "source": {
+   "url": "https://ch3plus.com/news/political/morning/461899",
+   "publisher": "3Plus News (ช่อง 3)",
+   "title": "ครม.ไฟเขียว ให้ สกนช. กู้ 2 หมื่นล้านบาท เสริมสภาพคล่องกองทุนน้ำมัน",
+   "kind": "secondary"
+  },
+  "evidence": "ที่ประชุมคณะรัฐมนตรีมีมติอนุมัติให้สำนักงานกองทุนน้ำมันเชื้อเพลิง (สกนช.) กู้ยืมเงินวงเงิน 2 หมื่นล้านบาท และ ให้ สกนช. ดำเนินการกู้เงินได้เมื่อคณะรัฐมนตรีอนุมัติแผนการบริหารหนี้สาธารณะด้วย",
+  "status": "secondary-only",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Spending plan Jun–Aug 69; repayment Jul 71–Aug 74; fund ≈ −5.3 หมื่นล้าน at 5 Apr with ≈5.6 หมื่นล้าน owed to traders. Same day (per EPPO) ครม. approved 'วาระแห่งชาติด้านพลังงาน' in principle. Spokesperson name omitted. | ผู้ตรวจ: ch3plus news dated '28 เม.ย. 2569', so not primary. Spending plan Jun–Aug 69 and repayment Jul 71–Aug 74 are both confirmed in the text."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-05-01",
+  "label": "ดีเซล B7 ขึ้นเป็น 40.80 บาท/ลิตร (1 พ.ค. 69)",
+  "value": 40.8,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AF%20%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2_1%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A12569.xlsx",
+   "publisher": "สกนช.",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 1 พ.ค.69 (หลังประชุม กบน. เมื่อวันที่ 30 เม.ย.69)",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 1 พ.ค.69 (หลังประชุม กบน. เมื่อวันที่ 30 เม.ย.69) | H-DIESEL B7 | RETAIL 40.8",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "+0.60 vs 30 Apr file (40.2). | ผู้ตรวจ: Matches."
+ },
+ {
+  "id": "cabinet.energy_loan_decree.2026-05-05",
+  "label": "ครม. 5 พ.ค. 69 เห็นชอบ พ.ร.ก. ให้คลังกู้เงิน 4 แสนล้านบาท แก้วิกฤตพลังงาน",
+  "value": 4,
+  "unit": "แสนล้านบาท",
+  "asOf": "2026-05-05",
+  "source": {
+   "url": "https://www.infoquest.co.th/?p=589957",
+   "publisher": "สำนักข่าวอินโฟเควสท์",
+   "title": "ครม.เห็นชอบ พ.ร.ก.กู้เงิน 4 แสนล้าน รับมือวิกฤตศก.-ปรับโครงสร้างพลังงาน",
+   "kind": "secondary"
+  },
+  "evidence": "ที่ประชุมคณะรัฐมนตรี (ครม.) วันนี้ ได้มีมติเห็นชอบให้กระทรวงการคลัง กู้เงินเพื่อแก้ไขปัญหาผลกระทบจากวิกฤตพลังงาน และการเปลี่ยนผ่านด้านพลังงานของประเทศ ด้วยการออก พ.ร.ก.ให้อำนาจกระทรวงการคลังกู้เงิน วงเงิน 4 แสนล้านบาท",
+  "status": "secondary-only",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Published 5 May 2026. Two parts of 200,000 ล้านบาท each: relief / energy transition. Reduced from 500,000 originally mentioned. | ผู้ตรวจ: InfoQuest news (2026-05-05), so not primary. The amount is confirmed by the primary gazette decree (record law.energy_loan_decree)."
+ },
+ {
+  "id": "kbn.ann.2569-60.diesel_b7",
+  "label": "ประกาศ กบน. ฉ.60/2569: ดีเซล B7 กลับเป็นเก็บเข้ากองทุน 0.54 บาท/ลิตร (มีผล 7 พ.ค. 69)",
+  "value": 0.54,
+  "unit": "บาท/ลิตร (อัตราเงินส่งเข้ากองทุน)",
+  "asOf": "2026-05-06",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.60%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%206%20%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A1%202569.pdf",
+   "publisher": "กบน. / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๖๐ พ.ศ. ๒๕๖๙",
+   "kind": "primary"
+  },
+  "evidence": "ฉบับที่ ๖๐ พ.ศ. ๒๕๖๙ … น้ำมันดีเซลหมุนเร็วธรรมดา ” ๐.๕๔ - … ทั้งนี้ ตั้งแต่วันที่ ๗ พฤษภาคม ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "First levy on B7 since 20 Feb. ฉ.61 levy ๑.๑๗ (8 May); ฉ.62 back to ชดเชย ๐.๘๗ (10 May) when refinery discount fell to 3. | ผู้ตรวจ: Levy column (a contribution, not compensation). B20 is still compensated at ๕.๘๒."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-05-08",
+  "label": "ดีเซล B7 ลดเป็น 39.95 บาท/ลิตร (8 พ.ค. 69)",
+  "value": 39.95,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-08",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AF%20%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2-8%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A12569%28%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A87%E0%B8%9E.%E0%B8%84.%29.xlsx",
+   "publisher": "สกนช.",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 8 พ.ค.69 (หลังประชุม กบน. เมื่อวันที่ 7 พ.ค.69)",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 8 พ.ค.69 (หลังประชุม กบน. เมื่อวันที่ 7 พ.ค.69) | H-DIESEL B7 | RETAIL 39.95",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "−0.85; lowest B7 retail between 5 Apr and 7 Jun. | ผู้ตรวจ: The oil fund is +1.17, a levy that matches the ฉ.61 note. Lowest B7 retail among the 14 structure files I opened (9 Apr–7 Jun)."
+ },
+ {
+  "id": "law.energy_loan_decree.2026-05-09",
+  "label": "พ.ร.ก. ให้อำนาจกระทรวงการคลังกู้เงินแก้วิกฤตพลังงาน พ.ศ. 2569 ประกาศราชกิจจาฯ (ไม่เกิน 4 แสนล้านบาท)",
+  "value": 4,
+  "unit": "แสนล้านบาท (ไม่เกิน)",
+  "asOf": "2026-05-09",
+  "source": {
+   "url": "https://ratchakitcha.soc.go.th/documents/114519.pdf",
+   "publisher": "ราชกิจจานุเบกษา",
+   "title": "พระราชกำหนดให้อำนาจกระทรวงการคลังกู้เงินเพื่อแก้ไขปัญหาผลกระทบจากสถานการณ์วิกฤตด้านพลังงานและสร้างการเปลี่ยนผ่านด้านพลังงานของประเทศ พ.ศ. ๒๕๖๙ (เล่ม ๑๔๓ ตอนที่ ๓๐ ก)",
+   "kind": "primary"
+  },
+  "evidence": "ให้กระทรวงการคลังโดยอนุมัติคณะรัฐมนตรีมีอำนาจกู้เงินบาทหรือเงินตราต่างประเทศ หรือออกตราสารหนี้ ในนามรัฐบาลแห่งราชอาณาจักรไทยมีมูลค่ารวมกันไม่เกินสี่แสนล้านบาท",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "PDF custom-encoded; transcribed from rendered page images (pages 1–2). In force from publication (มาตรา ๒); sign by 30 Sep 2570. Rendered page shows ให้ไว้ ณ วันที่ ๙ พฤษภาคม ๒๕๖๙, whereas Thairath reported 4 May (Thai digits ๔/๙ — checked at 200 dpi, reads ๙). Text says 'สี่แสนล้านบาท'; value 4 in unit แสนล้านบาท. | ผู้ตรวจ: Read from rendered pages (เล่ม ๑๔๓ ตอนที่ ๓๐ ก). A 300 dpi crop shows 'ให้ไว้ ณ วันที่ ๙ พฤษภาคม พ.ศ. ๒๕๖๙', and the header date is ๙ พฤษภาคม ๒๕๖๙; the digit is the same glyph as the last digit of ๒๕๖๙. In force from publication (มาตรา ๒); sign by 30 Sep 2570."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-05-14",
+  "label": "ดีเซล B7 ขึ้นเป็น 41.45 บาท/ลิตร (14 พ.ค. 69)",
+  "value": 41.45,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-14",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AF%20%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2-14%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A12569%28%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A813%E0%B8%9E.%E0%B8%84.%29_0.xlsx",
+   "publisher": "สกนช.",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 14 พ.ค.69 (หลังประชุม กบน. เมื่อวันที่ 13 พ.ค.69)",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 14 พ.ค.69 (หลังประชุม กบน. เมื่อวันที่ 13 พ.ค.69) | H-DIESEL B7 | RETAIL 41.45",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "+1.50. | ผู้ตรวจ: The discount is −3 in this file. Matches."
+ },
+ {
+  "id": "kbn.ann.2569-66.diesel_b7",
+  "label": "ประกาศ กบน. ฉ.66/2569: เพิ่มชดเชยดีเซล B7 เป็น 4.81 บาท/ลิตร เมื่อส่วนลดโรงกลั่นสิ้นสุด (มีผล 20 พ.ค. 69)",
+  "value": 4.81,
+  "unit": "บาท/ลิตร (อัตราเงินชดเชย)",
+  "asOf": "2026-05-19",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.66%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%2019%20%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A1%202569.pdf",
+   "publisher": "กบน. / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๖๖ พ.ศ. ๒๕๖๙",
+   "kind": "primary"
+  },
+  "evidence": "ฉบับที่ ๖๖ พ.ศ. ๒๕๖๙ … น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๔.๘๑ … ทั้งนี้ ตั้งแต่วันที่ ๒๐ พฤษภาคม ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "+3.16 from ๑.๖๕; OFFO structure of 20 May shows discount 0 (refinery cut ended 19 May). | ผู้ตรวจ: The value matches, and the 20 May structure shows oil fund −4.81 with discount 0. The 'from 1.65' in the notes was not checked (the 14 May structure shows −1.8)."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-05-20",
+  "label": "ดีเซล B7 ขึ้นเป็น 42.20 บาท/ลิตร (20 พ.ค. 69)",
+  "value": 42.2,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-20",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AF%20%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2-20%20%E0%B8%9E.%E0%B8%84.69%20%28%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A819%E0%B8%9E.%E0%B8%84.%29.xlsx",
+   "publisher": "สกนช.",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 20 พ.ค.69 (หลังประชุม กบน. เมื่อวันที่ 19 พ.ค.69)",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 20 พ.ค.69 (หลังประชุม กบน. เมื่อวันที่ 19 พ.ค.69) | H-DIESEL B7 | RETAIL 42.2",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "+0.75; highest B7 retail after mid-April. | ผู้ตรวจ: Matches."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-05-26",
+  "label": "ดีเซล B7 ลดเป็น 41.20 บาท/ลิตร (26 พ.ค. 69)",
+  "value": 41.2,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-26",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AF%20%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2-26%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A169%20%28%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A825%E0%B8%9E.%E0%B8%84.%29.xlsx",
+   "publisher": "สกนช.",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 26 พ.ค.69 (หลังประชุม กบน. เมื่อวันที่ 25 พ.ค.69)",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 26 พ.ค.69 (หลังประชุม กบน. เมื่อวันที่ 25 พ.ค.69) | H-DIESEL B7 | RETAIL 41.2",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "−1.00. | ผู้ตรวจ: Matches. The DISCOUNT column is gone from this file onward."
+ },
+ {
+  "id": "kbng.lpg_price_hold.2026-05-28",
+  "label": "กบง. 28 พ.ค. 69 คงราคา LPG ราว 423 บาท/ถัง 15 กก. ต่อ 1 มิ.ย.–31 ก.ค. 69",
+  "value": 423,
+  "unit": "บาท/ถัง 15 กิโลกรัม (ประมาณ)",
+  "asOf": "2026-05-28",
+  "period": "2026-06-01..2026-07-31",
+  "source": {
+   "url": "https://www.eppo.go.th/information-services/advertise/news-eppo/%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b8%8a%e0%b8%b8%e0%b8%a1-%e0%b8%81%e0%b8%9a%e0%b8%87-6/",
+   "publisher": "สนพ.",
+   "title": "กบง. ตรึงราคาก๊าซหุงต้ม ต่อ 2 เดือน คงสัดส่วนดีเซลบี7",
+   "kind": "primary"
+  },
+  "evidence": "ที่ประชุม กบง. จึงมีมติให้คงราคาขายส่งหน้าโรงกลั่นก๊าซ LPG ที่ 20.9179 บาทต่อกิโลกรัม เพื่อให้ราคาขายปลีก LPG อยู่ที่ประมาณ 423 บาทต่อถัง 15 กิโลกรัม ต่อไปอีก 2 เดือน โดยให้มีผลบังคับใช้ตั้งแต่วันที่ 1 มิถุนายน 2569 ถึงวันที่ 31 กรกฎาคม 2569",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Previous hold ended 31 May. Same release: import parity ≈918 $/t (19 May) ≈ 467 บาท/ถัง; LPG account −38,649 ล้านบาท; CP rose 542.50→775.00 $/t; B7 blend kept 14 Jun–13 Sep 2569. | ผู้ตรวจ: EPPO release, meeting of 28 May 2569. The import parity of 918 $/t ≈ 467 บาท/ถัง (19 May) is in the same text."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-05-30",
+  "label": "ดีเซล B7 ลดเป็น 40.70 บาท/ลิตร (30 พ.ค. 69)",
+  "value": 40.7,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-05-30",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AF%20%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2-30%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A169%20%28%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A829%E0%B8%9E.%E0%B8%84.%29.xlsx",
+   "publisher": "สกนช.",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 30 พ.ค.69 (หลังประชุม กบน. เมื่อวันที่ 29 พ.ค.69)",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 30 พ.ค.69 (หลังประชุม กบน. เมื่อวันที่ 29 พ.ค.69) | H-DIESEL B7 | RETAIL 40.7",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22 · สุ่มเปิดแหล่งซ้ำโดย agent หลัก 2026-11-22 ตรง",
+  "notes": "−0.50. | ผู้ตรวจ: Matches."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-06-04",
+  "label": "ดีเซล B7 ขึ้นเป็น 41.50 บาท/ลิตร (4 มิ.ย. 69)",
+  "value": 41.5,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-04",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AF%20%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2-4%E0%B8%A1%E0%B8%B4%E0%B8%96%E0%B8%B8%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%9969%20%28%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A83%E0%B8%A1%E0%B8%B4.%E0%B8%A2.%29.xlsx",
+   "publisher": "สกนช.",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 4 มิ.ย.69 (หลังประชุม กบน. เมื่อวันที่ 3 มิ.ย.69)",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 4 มิ.ย.69 (หลังประชุม กบน. เมื่อวันที่ 3 มิ.ย.69) | H-DIESEL B7 | RETAIL 41.5",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "+0.80. | ผู้ตรวจ: Matches."
+ },
+ {
+  "id": "kbn.ann.2569-82.diesel_b7",
+  "label": "ประกาศ กบน. ฉ.82/2569: ชดเชยดีเซล B7 1.96 บาท/ลิตร (มีผล 7 มิ.ย. 69) สิ้นช่วงฉาก",
+  "value": 1.96,
+  "unit": "บาท/ลิตร (อัตราเงินชดเชย)",
+  "asOf": "2026-06-05",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.82%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%205%20%E0%B8%A1%E0%B8%B4%E0%B8%96%E0%B8%B8%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "กบน. / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๘๒ พ.ศ. ๒๕๖๙",
+   "kind": "primary"
+  },
+  "evidence": "ฉบับที่ ๘๒ พ.ศ. ๒๕๖๙ … น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑.๙๖ … ทั้งนี้ ตั้งแต่วันที่ ๗ มิถุนายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Issued same day as ฉ.81 (๓.๔๙, eff 6 Jun). | ผู้ตรวจ: Matches. The 7 Jun structure shows oil fund −1.96."
+ },
+ {
+  "id": "price.diesel_b7.retail_bkk.2026-06-06",
+  "label": "ดีเซล B7 ลดเป็น 40.80 บาท/ลิตร (6 มิ.ย. 69) คงถึง 7 มิ.ย.",
+  "value": 40.8,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-06",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AF%20%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%20%E0%B8%93-6%E0%B8%A1%E0%B8%B4%E0%B8%96%E0%B8%B8%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%9969%20%28%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A85%E0%B8%A1%E0%B8%B4.%E0%B8%A2.%29.xlsx",
+   "publisher": "สกนช.",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 6 มิ.ย.69 (หลังประชุม กบน. เมื่อวันที่ 5 มิ.ย.69)",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 6 มิ.ย.69 (หลังประชุม กบน. เมื่อวันที่ 5 มิ.ย.69) | H-DIESEL B7 | RETAIL 40.8",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "−0.70; 7 Jun file also 40.8; EPPO weekly 8 Jun 40.80. | ผู้ตรวจ: The 7 Jun file is also 40.8, and EPPO weekly shows 40.80 on 8 Jun."
+ },
+ {
+  "id": "tax.excise.diesel_b7.2026-06-07",
+  "label": "ภาษีสรรพสามิตดีเซล B7 คงที่ 6.92 บาท/ลิตร ไม่มีการลดในช่วง 9 เม.ย.–7 มิ.ย. 69",
+  "value": 6.92,
+  "unit": "บาท/ลิตร",
+  "asOf": "2026-06-07",
+  "period": "2026-04-09..2026-06-07",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/price-structure-adlusted/%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AF%20%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%20%E0%B8%93-7%E0%B8%A1%E0%B8%B4%E0%B8%96%E0%B8%B8%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%9969%20%28%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A85%E0%B8%A1%E0%B8%B4.%E0%B8%A2.%29.xlsx",
+   "publisher": "สกนช.",
+   "title": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 7 มิ.ย.69 (หลังประชุม กบน. เมื่อวันที่ 5 มิ.ย.69)",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินกองทุนฯ ตามโครงสร้างราคาน้ำมัน ณ วันที่ 7 มิ.ย.69 (หลังประชุม กบน. เมื่อวันที่ 5 มิ.ย.69) | H-DIESEL B7 | EXCISE TAX 6.92 | RETAIL 40.8",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "All 47 OFFO structure files 9 Apr–13 Jul show B7 excise 6.92 (B20 5.953, E10 6.75). Excise cut was discussed (ครม. 26 Mar asked MOF to study; ch3 2 Apr 'คลังเบรกหั่นภาษีน้ำมัน') but not applied to B7 in this window. 1 Feb–8 Apr not verified from primary. | ผู้ตรวจ: EXCISE TAX column. I checked 14 OFFO structure files from 9 Apr to 7 Jun and all show B7 excise 6.92. I did not open all 47 files the researcher mentions."
+ },
+ {
+  "id": "kbn.lpg.ann.2569-11",
+  "label": "ประกาศ กบน. ฉ.11/2569: ชดเชย LPG 1.1753 บาท/กก. (มีผล 3 มี.ค. 69)",
+  "value": 1.1753,
+  "unit": "บาท/กิโลกรัม (อัตราเงินชดเชย)",
+  "asOf": "2026-03-02",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.11%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%202%20%E0%B8%A1%E0%B8%B5%E0%B8%99%E0%B8%B2%E0%B8%84%E0%B8%A1%202569.pdf",
+   "publisher": "กบน. / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๑๑ พ.ศ. ๒๕๖๙ (ก๊าซปิโตรเลียมเหลว)",
+   "kind": "primary"
+  },
+  "evidence": "ข้อ ๕ ให้กำหนดอัตราเงินชดเชยของกองทุนสำหรับก๊าซปิโตรเลียมเหลวที่จำหน่ายเพื่อใช้ เป็นเชื้อเพลิง กิโลกรัมละ ๑.๑๗๕๓ บาท … ทั้งนี้ ตั้งแต่วันที่ ๓ มีนาคม ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Previous ฉ.6 (eff 3 Feb) ๐.๗๙๐๑. ฉ.35 (eff 1 Apr) kept ๑.๑๗๕๓. | ผู้ตรวจ: ฉบับที่ ๑๑ พ.ศ. ๒๕๖๙ (LPG). Matches."
+ },
+ {
+  "id": "kbn.lpg.ann.2569-37",
+  "label": "ประกาศ กบน. ฉ.37/2569: ชดเชย LPG กระโดดเป็น 9.8851 บาท/กก. (มีผล 2 เม.ย. 69)",
+  "value": 9.8851,
+  "unit": "บาท/กิโลกรัม (อัตราเงินชดเชย)",
+  "asOf": "2026-04-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.37%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%201%20%E0%B9%80%E0%B8%A1%E0%B8%A9%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "กบน. / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๓๗ พ.ศ. ๒๕๖๙ (ก๊าซปิโตรเลียมเหลว)",
+   "kind": "primary"
+  },
+  "evidence": "ข้อ ๕ ให้กำหนดอัตราเงินชดเชยของกองทุนสำหรับก๊าซปิโตรเลียมเหลวที่จำหน่ายเพื่อใช้ เป็นเชื้อเพลิง กิโลกรัมละ ๙.๘๘๕๑ บาท … ทั้งนี้ ตั้งแต่วันที่ ๒ เมษายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Levy on gas-separation-plant LPG also rose to ๑๔.๑๔๖๓ บาท/กก. Follows ฉ.34 (31 Mar, LPG calculation criteria — scanned image, not read). | ผู้ตรวจ: ฉบับที่ ๓๗. Matches; it cancels the LPG announcement dated 31 Mar 2569."
+ },
+ {
+  "id": "kbn.lpg.ann.2569-57",
+  "label": "ประกาศ กบน. ฉ.57/2569: ชดเชย LPG 11.3043 บาท/กก. (มีผล 2 พ.ค. 69)",
+  "value": 11.3043,
+  "unit": "บาท/กิโลกรัม (อัตราเงินชดเชย)",
+  "asOf": "2026-05-01",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/add/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.57%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%201%20%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A1%202569.pdf",
+   "publisher": "กบน. / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๕๗ พ.ศ. ๒๕๖๙ (ก๊าซปิโตรเลียมเหลว)",
+   "kind": "primary"
+  },
+  "evidence": "ข้อ ๕ ให้กำหนดอัตราเงินชดเชยของกองทุนสำหรับก๊าซปิโตรเลียมเหลวที่จำหน่ายเพื่อใช้ เป็นเชื้อเพลิง กิโลกรัมละ ๑๑.๓๐๔๓ บาท … ทั้งนี้ ตั้งแต่วันที่ ๒ พฤษภาคม ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ฉ.74 (eff 1 Jun) kept ๑๑.๓๐๔๓. | ผู้ตรวจ: ฉบับที่ ๕๗. Matches."
+ },
+ {
+  "id": "kbn.lpg.ann.2569-77",
+  "label": "ประกาศ กบน. ฉ.77/2569: ชดเชย LPG 13.2483 บาท/กก. (มีผล 3 มิ.ย. 69)",
+  "value": 13.2483,
+  "unit": "บาท/กิโลกรัม (อัตราเงินชดเชย)",
+  "asOf": "2026-06-02",
+  "source": {
+   "url": "https://www.offo.or.th/sites/default/files/files/announcement/2290/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%20%E0%B8%89.77%20%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%202%20%E0%B8%A1%E0%B8%B4%E0%B8%96%E0%B8%B8%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%99%202569.pdf",
+   "publisher": "กบน. / สกนช.",
+   "title": "ประกาศ กบน. ฉบับที่ ๗๗ พ.ศ. ๒๕๖๙ (ก๊าซปิโตรเลียมเหลว)",
+   "kind": "primary"
+  },
+  "evidence": "ข้อ ๕ ให้กำหนดอัตราเงินชดเชยของกองทุนสำหรับก๊าซปิโตรเลียมเหลวที่จำหน่ายเพื่อใช้ เป็นเชื้อเพลิง กิโลกรัมละ ๑๓.๒๔๘๓ บาท … ทั้งนี้ ตั้งแต่วันที่ ๓ มิถุนายน ๒๕๖๙ เป็นต้นไป",
+  "status": "verified",
+  "checkedBy": "verify:timeline (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Consistent with กบง. 28 May decision to hold retail ≈423 บาท/15 กก. | ผู้ตรวจ: ฉบับที่ ๗๗. Matches; it cancels an LPG announcement dated 29 May 2569, which may be the ฉ.74 the researcher named (not checked)."
+ }
+]

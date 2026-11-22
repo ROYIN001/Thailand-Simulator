@@ -1,0 +1,1207 @@
+[
+ {
+  "id": "cpi.headline.yoy.2026-01",
+  "label": "อัตราเงินเฟ้อทั่วไป (YoY) มกราคม 2569",
+  "value": -0.66,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-02-05",
+  "period": "2026-01",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1770266951_3d2033e9e7834ba24eed.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมกราคม 2569 (ข่าว สนค. 5 กุมภาพันธ์ 2569)",
+   "kind": "primary"
+  },
+  "evidence": "ของไทย เดือนมกราคม 2569 เท่ากับ 99.91 เมื่อเทียบกับเดือนมกราคม 2568 ซึ่งเท่ากับ 100.57 ทาให้อัตราเงินเฟ้อ ทั่วไปลดลงร้อยละ 0.66 (YoY)",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Base year 2566 = 100. asOf is the release date. Quote is from pdftotext output joined across a line break; 'ทาให้' is an extraction artifact of 'ทำให้'. The release attributes the fall to energy (fuel and electricity) and says the MoM fuel drop came from 'การปรับลดอัตราเงินจัดเก็บเข้ากองทุนน้ำมันเชื้อเพลิง สำหรับน้ำมันดีเซล'. | ผู้ตรวจ: Opened the PDF myself (HTTP 200, application/pdf, 4 pages) and read it with pdftotext. The table row reads '100.00 99.91 100.57 -0.28 -0.66 -0.66'. The publisher is TPSO under the Ministry of Commerce, which owns Thai CPI, so kind=primary holds."
+ },
+ {
+  "id": "cpi.core.yoy.2026-01",
+  "label": "อัตราเงินเฟ้อพื้นฐาน (YoY) มกราคม 2569",
+  "value": 0.6,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-02-05",
+  "period": "2026-01",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1770266951_3d2033e9e7834ba24eed.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมกราคม 2569 (ข่าว สนค. 5 กุมภาพันธ์ 2569)",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินเฟ้อพื้นฐาน (อัตราเงินเฟ้อทั่วไป เมื่อหักอาหารสดและพลังงานออก) สูงขึ้นร้อยละ 0.60 (YoY)",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Core = headline CPI excluding fresh food and energy. | ผู้ตรวจ: The table row for core is '70.87 101.69 101.08 0.07 0.60 0.60'."
+ },
+ {
+  "id": "cpi.energy.yoy.2026-01",
+  "label": "ดัชนีกลุ่มพลังงาน อัตราการเปลี่ยนแปลง (YoY) มกราคม 2569",
+  "value": -8.41,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-02-05",
+  "period": "2026-01",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1770266951_3d2033e9e7834ba24eed.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมกราคม 2569 (ข่าว สนค. 5 กุมภาพันธ์ 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- พลังงาน 11.81 91.85 100.28 -1.16 -8.41 -8.41 92.93 -0.62 -6.98 -4.30",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Table row (pdftotext -layout, spaces collapsed) from 'ตารางแสดง ดัชนีราคาผู้บริโภคทั่วไปและอัตราการเปลี่ยนแปลง เดือนมกราคม 2569 (2566 = 100)'. Columns: weight (ม.ค. 69) | index ม.ค. 69 | index ม.ค. 68 | M/M | Y/Y | A/A | index ธ.ค. 68 | M/M | Y/Y | A/A. 'พลังงาน' is the energy group under 'กลุ่มอาหารสดและพลังงาน' (excluded from core); the release text describes the energy group as 'สินค้าในกลุ่มพลังงาน (ค่ากระแสไฟฟ้า น้ำมันเชื้อเพลิง)'. | ผู้ตรวจ: From the table '...เดือนมกราคม 2569 (2566 = 100)'. The columns are weight ม.ค. 69 | index ม.ค. 69 | index ม.ค. 68 | M/M | Y/Y | A/A | then Dec 68. The 5th column is Y/Y = -8.41."
+ },
+ {
+  "id": "cpi.energy.weight.2026-01",
+  "label": "สัดส่วนน้ำหนักกลุ่มพลังงาน มกราคม 2569",
+  "value": 11.81,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-02-05",
+  "period": "2026-01",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1770266951_3d2033e9e7834ba24eed.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมกราคม 2569 (ข่าว สนค. 5 กุมภาพันธ์ 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- พลังงาน 11.81 91.85 100.28 -1.16 -8.41 -8.41 92.93 -0.62 -6.98 -4.30",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "First column = สัดส่วนน้ำหนัก labelled 'ม.ค. 69' (the table states a weight for that month; weights differ month to month). Headline row weight = 100.00. | ผู้ตรวจ: The first column is headed 'สัดส่วนน้ำหนัก ม.ค. 69'. The headline row = 100.00."
+ },
+ {
+  "id": "cpi.fuel.yoy.2026-01",
+  "label": "ดัชนีน้ำมันเชื้อเพลิง อัตราการเปลี่ยนแปลง (YoY) มกราคม 2569",
+  "value": -10.13,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-02-05",
+  "period": "2026-01",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1770266951_3d2033e9e7834ba24eed.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมกราคม 2569 (ข่าว สนค. 5 กุมภาพันธ์ 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- น้้ามันเชื้อเพลิง 7.28 89.84 99.97 -1.78 -10.13 -10.13 91.47 -0.33 -8.89 -5.87",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Sub-item 'น้ำมันเชื้อเพลิง' under หมวดพาหนะการขนส่งและการสื่อสาร ('น้้ามัน' is a pdftotext glyph artifact). Column order as in cpi.energy.yoy.2026-01. | ผู้ตรวจ: This is the fuel sub-item under หมวดพาหนะการขนส่งและการสื่อสาร. 'น้้ามัน' is a glyph artifact of the text extraction."
+ },
+ {
+  "id": "cpi.fuel.weight.2026-01",
+  "label": "สัดส่วนน้ำหนักน้ำมันเชื้อเพลิง มกราคม 2569",
+  "value": 7.28,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-02-05",
+  "period": "2026-01",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1770266951_3d2033e9e7834ba24eed.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมกราคม 2569 (ข่าว สนค. 5 กุมภาพันธ์ 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- น้้ามันเชื้อเพลิง 7.28 89.84 99.97 -1.78 -10.13 -10.13 91.47 -0.33 -8.89 -5.87",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "First column = weight for ม.ค. 69. | ผู้ตรวจ: Weight column ม.ค. 69."
+ },
+ {
+  "id": "cpi.core.weight.2026-01",
+  "label": "สัดส่วนน้ำหนักดัชนีราคาผู้บริโภคพื้นฐาน มกราคม 2569",
+  "value": 70.87,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-02-05",
+  "period": "2026-01",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1770266951_3d2033e9e7834ba24eed.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมกราคม 2569 (ข่าว สนค. 5 กุมภาพันธ์ 2569)",
+   "kind": "primary"
+  },
+  "evidence": "ดัชนีราคาผูบ้ ริโภคพืน้ ฐาน * 70.87 101.69 101.08 0.07 0.60 0.60 101.62 -0.02 0.59 0.84",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Same table; 'กลุ่มอาหารสดและพลังงาน' row = 29.13 (17.32 fresh food + 11.81 energy). Glyph artifacts in 'ผูบ้ ริโภค…พืน้ ฐาน' are from extraction. | ผู้ตรวจ: The row 'กลุ่มอาหารสดและพลังงาน' = 29.13, and 70.87 + 29.13 = 100."
+ },
+ {
+  "id": "cpi.fresh_food.weight.2026-01",
+  "label": "สัดส่วนน้ำหนักกลุ่มอาหารสด มกราคม 2569",
+  "value": 17.32,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-02-05",
+  "period": "2026-01",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1770266951_3d2033e9e7834ba24eed.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมกราคม 2569 (ข่าว สนค. 5 กุมภาพันธ์ 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- อาหารสด 17.32 99.24 99.23 -1.06 0.01 0.01 100.30 0.77 1.19 -0.60",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Fresh-food YoY in this row = 0.01. | ผู้ตรวจ: Weight column ม.ค. 69."
+ },
+ {
+  "id": "cpi.headline.yoy.2026-02",
+  "label": "อัตราเงินเฟ้อทั่วไป (YoY) กุมภาพันธ์ 2569",
+  "value": -0.88,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-03-05",
+  "period": "2026-02",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1772684678_917bb7eaac0ef9b5aedb.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนกุมภาพันธ์ 2569 (ข่าว สนค. 5 มีนาคม 2569)",
+   "kind": "primary"
+  },
+  "evidence": "เผยว่า ดัชนีราคาผู้บริโภคทั่วไปของไทย เดือนกุมภาพันธ์ 2569 เท่ากับ 99.67 เมื่อเทียบกับเดือนกุมภาพันธ์ 2568 ซึ่งเท่ากับ 100.55 ทาให้อัตราเงินเฟ้อทั่วไปลดลงร้อยละ 0.88 (YoY)",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Release says fuel fell 'ตามการเพิ่มเงินชดเชยจากกองทุนน้ำมันเชื้อเพลิง ตามมติของคณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.)' (quote has extraction spacing artifacts in the PDF text). | ผู้ตรวจ: The PDF opens (HTTP 200). The release also names the fuel compensation from the oil fund 'ตามมติของคณะกรรมการบริหารกองทุนน้ำมันเชื้อเพลิง (กบน.)', as the researcher said."
+ },
+ {
+  "id": "cpi.core.yoy.2026-02",
+  "label": "อัตราเงินเฟ้อพื้นฐาน (YoY) กุมภาพันธ์ 2569",
+  "value": 0.56,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-03-05",
+  "period": "2026-02",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1772684678_917bb7eaac0ef9b5aedb.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนกุมภาพันธ์ 2569 (ข่าว สนค. 5 มีนาคม 2569)",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินเฟ้อพื้นฐาน (อัตราเงินเฟ้อทั่วไป เมื่อหักอาหารสดและพลังงานออก) สูงขึ้นร้อยละ 0.56 (YoY)",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "cpi.energy.yoy.2026-02",
+  "label": "ดัชนีกลุ่มพลังงาน อัตราการเปลี่ยนแปลง (YoY) กุมภาพันธ์ 2569",
+  "value": -8.29,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-03-05",
+  "period": "2026-02",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1772684678_917bb7eaac0ef9b5aedb.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนกุมภาพันธ์ 2569 (ข่าว สนค. 5 มีนาคม 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- พลังงาน 11.81 91.58 99.86 -0.29 -8.29 -8.34 91.85 -1.16 -8.41 -8.41",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Table '... เดือนกุมภาพันธ์ 2569 (2566 = 100)'. Columns: weight (ก.พ. 69) | index ก.พ. 69 | index ก.พ. 68 | M/M | Y/Y | A/A | index ม.ค. 69 | M/M | Y/Y | A/A. | ผู้ตรวจ: The table header columns are ก.พ. 69 | ก.พ. 68 | M/M | Y/Y | A/A, and Y/Y = -8.29."
+ },
+ {
+  "id": "cpi.energy.weight.2026-02",
+  "label": "สัดส่วนน้ำหนักกลุ่มพลังงาน กุมภาพันธ์ 2569",
+  "value": 11.81,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-03-05",
+  "period": "2026-02",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1772684678_917bb7eaac0ef9b5aedb.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนกุมภาพันธ์ 2569 (ข่าว สนค. 5 มีนาคม 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- พลังงาน 11.81 91.58 99.86 -0.29 -8.29 -8.34 91.85 -1.16 -8.41 -8.41",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Weight column labelled ก.พ. 69. | ผู้ตรวจ: Weight column ก.พ. 69."
+ },
+ {
+  "id": "cpi.fuel.yoy.2026-02",
+  "label": "ดัชนีน้ำมันเชื้อเพลิง อัตราการเปลี่ยนแปลง (YoY) กุมภาพันธ์ 2569",
+  "value": -9.96,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-03-05",
+  "period": "2026-02",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1772684678_917bb7eaac0ef9b5aedb.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนกุมภาพันธ์ 2569 (ข่าว สนค. 5 มีนาคม 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- น้้ามันเชื้อเพลิง 7.26 89.41 99.30 -0.48 -9.96 -10.05 89.84 -1.78 -10.13 -10.13",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Sub-item under หมวดพาหนะการขนส่งและการสื่อสาร."
+ },
+ {
+  "id": "cpi.fuel.weight.2026-02",
+  "label": "สัดส่วนน้ำหนักน้ำมันเชื้อเพลิง กุมภาพันธ์ 2569",
+  "value": 7.26,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-03-05",
+  "period": "2026-02",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1772684678_917bb7eaac0ef9b5aedb.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนกุมภาพันธ์ 2569 (ข่าว สนค. 5 มีนาคม 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- น้้ามันเชื้อเพลิง 7.26 89.41 99.30 -0.48 -9.96 -10.05 89.84 -1.78 -10.13 -10.13",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "ผู้ตรวจ: Weight column ก.พ. 69."
+ },
+ {
+  "id": "cpi.core.weight.2026-02",
+  "label": "สัดส่วนน้ำหนักดัชนีราคาผู้บริโภคพื้นฐาน กุมภาพันธ์ 2569",
+  "value": 71.13,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-03-05",
+  "period": "2026-02",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1772684678_917bb7eaac0ef9b5aedb.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนกุมภาพันธ์ 2569 (ข่าว สนค. 5 มีนาคม 2569)",
+   "kind": "primary"
+  },
+  "evidence": "ดัชนีราคาผูบ้ ริโภคพืน้ ฐาน * 71.13 101.82 101.25 0.13 0.56 0.58 101.69 0.07 0.60 0.60",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "กลุ่มอาหารสดและพลังงาน = 28.87. | ผู้ตรวจ: The fresh-food-and-energy row = 28.87."
+ },
+ {
+  "id": "cpi.fresh_food.weight.2026-02",
+  "label": "สัดส่วนน้ำหนักกลุ่มอาหารสด กุมภาพันธ์ 2569",
+  "value": 17.06,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-03-05",
+  "period": "2026-02",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1772684678_917bb7eaac0ef9b5aedb.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนกุมภาพันธ์ 2569 (ข่าว สนค. 5 มีนาคม 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- อาหารสด 17.06 97.56 98.72 -1.69 -1.18 -0.59 99.24 -1.06 0.01 0.01",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "cpi.headline.yoy.2026-03",
+  "label": "อัตราเงินเฟ้อทั่วไป (YoY) มีนาคม 2569",
+  "value": -0.08,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-04-07",
+  "period": "2026-03",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1775536840_6622fc14022394650587.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมีนาคม 2569 (ข่าว สนค. 7 เมษายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "ดัชนีราคาผูบ้ ริโภคทัว่ ไป 100.00 100.27 100.35 0.60 -0.08 -0.54 99.67 -0.24 -0.88 -0.77",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Table row (index 100.27 vs 100.35; M/M 0.60; Y/Y -0.08). The narrative also states 'ลดลงร้อยละ 0.08 (YoY)'. It says domestic retail fuel was held back 'จากมาตรการตรึงราคาในช่วงครึ่งเดือนแรก' and the MoM fuel rise came 'ประกอบกับ มี การลดเงิน ชดเชยจากกองทุนน้ำมันเชื้อเพลิง'. | ผู้ตรวจ: The narrative also says 'ลดลงร้อยละ 0.08 (YoY)'. The phrases 'มาตรการตรึงราคาในช่วงครึ่งเดือนแรก' and 'มี การลดเงิน ชดเชยจากกองทุนน้ำมันเชื้อเพลิง' are both in the text."
+ },
+ {
+  "id": "cpi.core.yoy.2026-03",
+  "label": "อัตราเงินเฟ้อพื้นฐาน (YoY) มีนาคม 2569",
+  "value": 0.57,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-04-07",
+  "period": "2026-03",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1775536840_6622fc14022394650587.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมีนาคม 2569 (ข่าว สนค. 7 เมษายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินเฟ้อพื้นฐาน (อัตราเงินเฟ้อทั่วไป เมื่อหักอาหารสดและพลังงานออก) สูงขึ้นร้อยละ 0.57 (YoY) เร่งตัวขึ้น",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "cpi.energy.yoy.2026-03",
+  "label": "ดัชนีกลุ่มพลังงาน อัตราการเปลี่ยนแปลง (YoY) มีนาคม 2569",
+  "value": -2.76,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-04-07",
+  "period": "2026-03",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1775536840_6622fc14022394650587.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมีนาคม 2569 (ข่าว สนค. 7 เมษายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- พลังงาน 12.26 95.70 98.42 4.50 -2.76 -6.51 91.58 -0.29 -8.29 -8.34",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Table '... เดือนมีนาคม 2569 (2566 = 100)'. Columns: weight (มี.ค. 69) | index มี.ค. 69 | index มี.ค. 68 | M/M | Y/Y | A/A | index ก.พ. 69 | M/M | Y/Y | A/A. Energy MoM +4.50. | ผู้ตรวจ: Energy M/M = +4.50."
+ },
+ {
+  "id": "cpi.energy.weight.2026-03",
+  "label": "สัดส่วนน้ำหนักกลุ่มพลังงาน มีนาคม 2569",
+  "value": 12.26,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-04-07",
+  "period": "2026-03",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1775536840_6622fc14022394650587.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมีนาคม 2569 (ข่าว สนค. 7 เมษายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- พลังงาน 12.26 95.70 98.42 4.50 -2.76 -6.51 91.58 -0.29 -8.29 -8.34",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Weight column labelled มี.ค. 69. | ผู้ตรวจ: Weight column มี.ค. 69."
+ },
+ {
+  "id": "cpi.fuel.yoy.2026-03",
+  "label": "ดัชนีน้ำมันเชื้อเพลิง อัตราการเปลี่ยนแปลง (YoY) มีนาคม 2569",
+  "value": -2.1,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-04-07",
+  "period": "2026-03",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1775536840_6622fc14022394650587.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมีนาคม 2569 (ข่าว สนค. 7 เมษายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- น้้ามันเชื้อเพลิง 7.75 95.95 98.01 7.31 -2.10 -7.43 89.41 -0.48 -9.96 -10.05",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Fuel MoM +7.31 in March 2569. | ผู้ตรวจ: Fuel M/M = +7.31."
+ },
+ {
+  "id": "cpi.fuel.weight.2026-03",
+  "label": "สัดส่วนน้ำหนักน้ำมันเชื้อเพลิง มีนาคม 2569",
+  "value": 7.75,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-04-07",
+  "period": "2026-03",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1775536840_6622fc14022394650587.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมีนาคม 2569 (ข่าว สนค. 7 เมษายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- น้้ามันเชื้อเพลิง 7.75 95.95 98.01 7.31 -2.10 -7.43 89.41 -0.48 -9.96 -10.05",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "cpi.core.weight.2026-03",
+  "label": "สัดส่วนน้ำหนักดัชนีราคาผู้บริโภคพื้นฐาน มีนาคม 2569",
+  "value": 70.63,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-04-07",
+  "period": "2026-03",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1775536840_6622fc14022394650587.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมีนาคม 2569 (ข่าว สนค. 7 เมษายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "ดัชนีราคาผูบ้ ริโภคพืน้ ฐาน * 70.63 101.70 101.12 -0.12 0.57 0.58 101.82 0.13 0.56 0.58",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "กลุ่มอาหารสดและพลังงาน = 29.37. | ผู้ตรวจ: The fresh-food-and-energy row = 29.37."
+ },
+ {
+  "id": "cpi.fresh_food.weight.2026-03",
+  "label": "สัดส่วนน้ำหนักกลุ่มอาหารสด มีนาคม 2569",
+  "value": 17.11,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-04-07",
+  "period": "2026-03",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1775536840_6622fc14022394650587.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมีนาคม 2569 (ข่าว สนค. 7 เมษายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- อาหารสด 17.11 98.40 99.17 0.86 -0.78 -0.65 97.56 -1.69 -1.18 -0.59",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "cpi.group.food_nonalcoholic.weight.2026-03",
+  "label": "สัดส่วนน้ำหนักหมวดอาหารและเครื่องดื่มไม่มีแอลกอฮอล์ มีนาคม 2569",
+  "value": 39.29,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-04-07",
+  "period": "2026-03",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1775536840_6622fc14022394650587.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมีนาคม 2569 (ข่าว สนค. 7 เมษายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "หมวดอาหารและเครื่องดื่ มไม่มีแอลกอฮอล์ 39.29 101.61 101.27 0.27 0.34 0.50 101.34 -0.73 0.26 0.59",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "One of the 7 major groups; non-food total (หมวดอื่น ๆ ที่ไม่ใช่อาหารและเครื่องดื่ม) = 60.71. | ผู้ตรวจ: The non-food row = 60.71."
+ },
+ {
+  "id": "cpi.group.apparel.weight.2026-03",
+  "label": "สัดส่วนน้ำหนักหมวดเครื่องนุ่งห่มและรองเท้า มีนาคม 2569",
+  "value": 2.07,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-04-07",
+  "period": "2026-03",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1775536840_6622fc14022394650587.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมีนาคม 2569 (ข่าว สนค. 7 เมษายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "หมวดเครื่องนุ่งห่มและรองเท้า 2.07 97.89 99.35 0.02 -1.47 -1.55 97.87 0.00 -1.50 -1.60",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "cpi.group.housing.weight.2026-03",
+  "label": "สัดส่วนน้ำหนักหมวดเคหสถาน มีนาคม 2569",
+  "value": 24.54,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-04-07",
+  "period": "2026-03",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1775536840_6622fc14022394650587.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมีนาคม 2569 (ข่าว สนค. 7 เมษายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "หมวดเคหสถาน 24.54 99.28 99.81 0.08 -0.53 -0.86 99.20 -0.02 -1.06 -1.03",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Housing includes electricity (ค่ากระแสไฟฟ้า) per the release text. | ผู้ตรวจ: The narrative lists ค่ากระแสไฟฟ้า under หมวดเคหสถาน."
+ },
+ {
+  "id": "cpi.group.medical_personal.weight.2026-03",
+  "label": "สัดส่วนน้ำหนักหมวดการตรวจรักษาและบริการส่วนบุคคล มีนาคม 2569",
+  "value": 6.29,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-04-07",
+  "period": "2026-03",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1775536840_6622fc14022394650587.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมีนาคม 2569 (ข่าว สนค. 7 เมษายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "หมวดการตรวจรักษาและบริการส่วนบุคคล 6.29 98.29 99.32 -0.97 -1.04 -1.03 99.25 0.65 -0.74 -1.03",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "cpi.group.transport_communication.weight.2026-03",
+  "label": "สัดส่วนน้ำหนักหมวดพาหนะการขนส่งและการสื่อสาร มีนาคม 2569",
+  "value": 22.51,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-04-07",
+  "period": "2026-03",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1775536840_6622fc14022394650587.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมีนาคม 2569 (ข่าว สนค. 7 เมษายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "หมวดพาหนะการขนส่งและการสื่อสาร 22.51 99.45 99.47 2.46 -0.02 -1.98 97.06 0.04 -2.92 -2.96",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Contains น้ำมันเชื้อเพลิง (7.75) and ค่าโดยสารสาธารณะ (1.64). | ผู้ตรวจ: The sub-items are ค่าโดยสารสาธารณะ 1.64, fuel 7.75 and การสื่อสาร 4.05."
+ },
+ {
+  "id": "cpi.group.recreation_education.weight.2026-03",
+  "label": "สัดส่วนน้ำหนักหมวดการบันเทิง การอ่าน การศึกษาฯ มีนาคม 2569",
+  "value": 4.05,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-04-07",
+  "period": "2026-03",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1775536840_6622fc14022394650587.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมีนาคม 2569 (ข่าว สนค. 7 เมษายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "หมวดการบันเทิง การอ่าน การศึกษาฯ 4.05 101.34 100.69 -0.23 0.65 0.75 101.57 0.11 0.85 0.80",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "cpi.group.tobacco_alcohol.weight.2026-03",
+  "label": "สัดส่วนน้ำหนักหมวดยาสูบและเครื่องดื่มมีแอลกอฮอล์ มีนาคม 2569",
+  "value": 1.24,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-04-07",
+  "period": "2026-03",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1775536840_6622fc14022394650587.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมีนาคม 2569 (ข่าว สนค. 7 เมษายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "หมวดยาสูบและเครื่องดืม่ มีแอลกอฮอล์ 1.24 101.26 101.33 0.00 -0.07 -0.07 101.26 0.00 -0.03 -0.08",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "The 7 March group weights sum to 99.99 (source rounding). | ผู้ตรวจ: My own sum of the 7 groups is 99.99 (source rounding)."
+ },
+ {
+  "id": "cpi.headline.yoy.2026-04",
+  "label": "อัตราเงินเฟ้อทั่วไป (YoY) เมษายน 2569",
+  "value": 2.89,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-05-06",
+  "period": "2026-04",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig042569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนเมษายน 2569 (6 พฤษภาคม 2569)",
+   "kind": "primary"
+  },
+  "evidence": "ดัชนีรำคำผู้บริโภคทั่วไป 100.00 103.03 100.14 2.75 2.89 0.32 100.27 0.60 -0.08 -0.54",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Table 'ตารางแสดงดัชนีราคาผู้บริโภคทั่วไปและอัตราการเปลี่ยนแปลงเดือนเมษายน 2569 (ปีฐาน 2566 = 100)'. M/M +2.75. The May release table repeats April as 103.03 / 2.75 / 2.89. The April narrative attributes the rise to 'ราคาน้ำมันเชื้อเพลิงในประเทศปรับตัวสูงขึ้นอย่างมีนัยสำคัญ' (extracted text has spacing artifacts). | ผู้ตรวจ: The cover page reads 'เดือนเมษายน 2569 6 พฤษภาคม 2569', and the summary box reads 'เดือนเมษายน 2568 (YoY) สูงขึ้น 2.89'. The May release table repeats April as 103.03 / 2.75 / 2.89."
+ },
+ {
+  "id": "cpi.core.yoy.2026-04",
+  "label": "อัตราเงินเฟ้อพื้นฐาน (YoY) เมษายน 2569",
+  "value": 0.83,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-05-06",
+  "period": "2026-04",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig042569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนเมษายน 2569 (6 พฤษภาคม 2569)",
+   "kind": "primary"
+  },
+  "evidence": "ดัชนีรำคำผู้บริโภคพืน้ ฐำน * 69.02 102.12 101.28 0.41 0.83 0.64 101.70 -0.12 0.57 0.58",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Also stated in the May release: 'เร่งตัวขึ้นจากเดือนเมษายน 2569 ที่สูงขึ้นร้อยละ 0.83 (YoY)'. | ผู้ตรวจ: The narrative says 'สูงขึ้นร้อยละ 0.83 (YoY)'."
+ },
+ {
+  "id": "cpi.energy.yoy.2026-04",
+  "label": "ดัชนีกลุ่มพลังงาน อัตราการเปลี่ยนแปลง (YoY) เมษายน 2569",
+  "value": 18.87,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-05-06",
+  "period": "2026-04",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig042569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนเมษายน 2569 (6 พฤษภาคม 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- พลังงาน 14.07 112.83 94.92 17.90 18.87 -0.39 95.70 4.50 -2.76 -6.51",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Columns: weight (เม.ย. 69) | index เม.ย. 69 | index เม.ย. 68 | M/M | Y/Y | A/A | index มี.ค. 69 | M/M | Y/Y | A/A. Energy MoM +17.90. | ผู้ตรวจ: Energy M/M = +17.90."
+ },
+ {
+  "id": "cpi.energy.weight.2026-04",
+  "label": "สัดส่วนน้ำหนักกลุ่มพลังงาน เมษายน 2569",
+  "value": 14.07,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-05-06",
+  "period": "2026-04",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig042569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนเมษายน 2569 (6 พฤษภาคม 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- พลังงาน 14.07 112.83 94.92 17.90 18.87 -0.39 95.70 4.50 -2.76 -6.51",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Weight column labelled เม.ย. 69. | ผู้ตรวจ: Weight column เม.ย. 69."
+ },
+ {
+  "id": "cpi.fuel.yoy.2026-04",
+  "label": "ดัชนีน้ำมันเชื้อเพลิง อัตราการเปลี่ยนแปลง (YoY) เมษายน 2569",
+  "value": 30.23,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-05-06",
+  "period": "2026-04",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig042569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนเมษายน 2569 (6 พฤษภาคม 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- น้้ามันเชื้อเพลิง 9.67 123.07 94.50 28.26 30.23 1.65 95.95 7.31 -2.10 -7.43",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Fuel MoM +28.26 in April 2569. The May release table repeats April fuel as 123.07 / 28.26 / 30.23. | ผู้ตรวจ: The May table repeats April fuel as 123.07 / 28.26 / 30.23."
+ },
+ {
+  "id": "cpi.fuel.weight.2026-04",
+  "label": "สัดส่วนน้ำหนักน้ำมันเชื้อเพลิง เมษายน 2569",
+  "value": 9.67,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-05-06",
+  "period": "2026-04",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig042569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนเมษายน 2569 (6 พฤษภาคม 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- น้้ามันเชื้อเพลิง 9.67 123.07 94.50 28.26 30.23 1.65 95.95 7.31 -2.10 -7.43",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "cpi.core.weight.2026-04",
+  "label": "สัดส่วนน้ำหนักดัชนีราคาผู้บริโภคพื้นฐาน เมษายน 2569",
+  "value": 69.02,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-05-06",
+  "period": "2026-04",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig042569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนเมษายน 2569 (6 พฤษภาคม 2569)",
+   "kind": "primary"
+  },
+  "evidence": "ดัชนีรำคำผู้บริโภคพืน้ ฐำน * 69.02 102.12 101.28 0.41 0.83 0.64 101.70 -0.12 0.57 0.58",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "กลุ่มอาหารสดและพลังงาน = 30.98. | ผู้ตรวจ: The fresh-food-and-energy row = 30.98."
+ },
+ {
+  "id": "cpi.fresh_food.weight.2026-04",
+  "label": "สัดส่วนน้ำหนักกลุ่มอาหารสด เมษายน 2569",
+  "value": 16.91,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-05-06",
+  "period": "2026-04",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig042569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนเมษายน 2569 (6 พฤษภาคม 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- อาหารสด 16.91 99.92 99.88 1.54 0.04 -0.47 98.40 0.86 -0.78 -0.65",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "cpi.headline.yoy.2026-05",
+  "label": "อัตราเงินเฟ้อทั่วไป (YoY) พฤษภาคม 2569",
+  "value": 2.79,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-06-05",
+  "period": "2026-05",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1780632723_d7dd45a9f1e2cbba4741.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนพฤษภาคม 2569 (ข่าว สนค. 5 มิถุนายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "ของไทย เดือนพฤษภาคม 2569 เท่ากับ 103.20 เมื่อเทียบกับเดือนพฤษภาคม 2568 ซึ่งเท่ากับ 100.40 ทำให้อัตรา เงินเฟ้อทั่วไปสูงขึ้นร้อยละ 2.79 (YoY) เป็นผลจากราคาน้ำมันเชื้อเพลิงในประเทศที่ทรงตัวอยู่ในระดับสูงต่อเนื่อง",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Quote joined across a line break. Headline M/M +0.17. | ผู้ตรวจ: The table row reads '100.00 103.20 100.40 0.17 2.79 0.82', so M/M = +0.17."
+ },
+ {
+  "id": "cpi.core.yoy.2026-05",
+  "label": "อัตราเงินเฟ้อพื้นฐาน (YoY) พฤษภาคม 2569",
+  "value": 0.92,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-06-05",
+  "period": "2026-05",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1780632723_d7dd45a9f1e2cbba4741.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนพฤษภาคม 2569 (ข่าว สนค. 5 มิถุนายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "อัตราเงินเฟ้อพื้นฐาน (อัตราเงินเฟ้อทั่วไป เมื่อหักอาหารสดและพลังงานออก) สูงขึ้นร้อยละ 0.92 (YoY) เร่งตัวขึ้น",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "cpi.energy.yoy.2026-05",
+  "label": "ดัชนีกลุ่มพลังงาน อัตราการเปลี่ยนแปลง (YoY) พฤษภาคม 2569",
+  "value": 18.09,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-06-05",
+  "period": "2026-05",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1780632723_d7dd45a9f1e2cbba4741.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนพฤษภาคม 2569 (ข่าว สนค. 5 มิถุนายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- พลังงาน 13.99 112.34 95.13 -0.43 18.09 3.21 112.83 17.90 18.87 -0.39",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Columns: weight (พ.ค. 69) | index พ.ค. 69 | index พ.ค. 68 | M/M | Y/Y | A/A | index เม.ย. 69 | M/M | Y/Y | A/A."
+ },
+ {
+  "id": "cpi.energy.weight.2026-05",
+  "label": "สัดส่วนน้ำหนักกลุ่มพลังงาน พฤษภาคม 2569",
+  "value": 13.99,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-06-05",
+  "period": "2026-05",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1780632723_d7dd45a9f1e2cbba4741.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนพฤษภาคม 2569 (ข่าว สนค. 5 มิถุนายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- พลังงาน 13.99 112.34 95.13 -0.43 18.09 3.21 112.83 17.90 18.87 -0.39",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Weight column labelled พ.ค. 69. | ผู้ตรวจ: Weight column พ.ค. 69."
+ },
+ {
+  "id": "cpi.fuel.yoy.2026-05",
+  "label": "ดัชนีน้ำมันเชื้อเพลิง อัตราการเปลี่ยนแปลง (YoY) พฤษภาคม 2569",
+  "value": 29.45,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-06-05",
+  "period": "2026-05",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1780632723_d7dd45a9f1e2cbba4741.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนพฤษภาคม 2569 (ข่าว สนค. 5 มิถุนายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- น้้ามันเชื้อเพลิง 9.53 121.45 93.82 -1.32 29.45 7.02 123.07 28.26 30.23 1.65",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Fuel MoM -1.32 in May 2569. | ผู้ตรวจ: Fuel M/M = -1.32."
+ },
+ {
+  "id": "cpi.fuel.weight.2026-05",
+  "label": "สัดส่วนน้ำหนักน้ำมันเชื้อเพลิง พฤษภาคม 2569",
+  "value": 9.53,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-06-05",
+  "period": "2026-05",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1780632723_d7dd45a9f1e2cbba4741.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนพฤษภาคม 2569 (ข่าว สนค. 5 มิถุนายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- น้้ามันเชื้อเพลิง 9.53 121.45 93.82 -1.32 29.45 7.02 123.07 28.26 30.23 1.65",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "cpi.core.weight.2026-05",
+  "label": "สัดส่วนน้ำหนักดัชนีราคาผู้บริโภคพื้นฐาน พฤษภาคม 2569",
+  "value": 69.09,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-06-05",
+  "period": "2026-05",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1780632723_d7dd45a9f1e2cbba4741.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนพฤษภาคม 2569 (ข่าว สนค. 5 มิถุนายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "ดัชนีราคาผูบ้ ริโภคพืน้ ฐาน * 69.09 102.40 101.47 0.27 0.92 0.70 102.12 0.41 0.83 0.64",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "กลุ่มอาหารสดและพลังงาน = 30.90. | ผู้ตรวจ: The fresh-food-and-energy row = 30.90."
+ },
+ {
+  "id": "cpi.fresh_food.weight.2026-05",
+  "label": "สัดส่วนน้ำหนักกลุ่มอาหารสด พฤษภาคม 2569",
+  "value": 16.91,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-06-05",
+  "period": "2026-05",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1780632723_d7dd45a9f1e2cbba4741.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนพฤษภาคม 2569 (ข่าว สนค. 5 มิถุนายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- อาหารสด 16.91 100.12 100.46 0.20 -0.34 -0.44 99.92 1.54 0.04 -0.47",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "cpi.headline.yoy.2026-10",
+  "label": "อัตราเงินเฟ้อทั่วไป (YoY) ตุลาคม 2569",
+  "value": 3.9,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-11-06",
+  "period": "2026-10",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig102569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนตุลาคม 2569 (เผยแพร่ ณ วันที่ 6 พฤศจิกายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "ดัชนีราคาผู้บริโภคทั่วไป 100.00 103.90 100.00 0.94 3.90 1.77 102.93 0.25 2.82 1.54",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Confirms the project note (3.90%). Highlights text: 'อัตราเงินเฟ้อทั่วไปสูงขึ้นร้อยละ 3.90 (YoY) ปัจจัยสาคัญมาจากฐานราคาน้ามันเชื้อเพลิงในประเทศในช่วงเดียวกันของปีก่อนที่อยู่ในระดับต่า' (extraction drops sara am). Sep 2569 headline YoY = 2.82 (same row). | ผู้ตรวจ: The PDF opens (HTTP 200, 9 pages). The highlights say 'อัตราเงินเฟ้อทั่วไปสูงขึ้นร้อยละ 3.90 (YoY)'. Sep 2569 = 2.82, from the same row."
+ },
+ {
+  "id": "cpi.core.yoy.2026-10",
+  "label": "อัตราเงินเฟ้อพื้นฐาน (YoY) ตุลาคม 2569",
+  "value": 1.58,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-11-06",
+  "period": "2026-10",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig102569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนตุลาคม 2569 (เผยแพร่ ณ วันที่ 6 พฤศจิกายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "ดัชนีราคาผู้บริโภคพืน้ ฐาน * 69.10 103.10 101.50 0.12 1.58 1.06 102.98 0.01 1.50 1.01",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Confirms the project note (1.58%). The summary box on p.1 also reads '1. เดือนตุลาคม 2568 (YoY) +3.90 +1.58'. | ผู้ตรวจ: The p.1 summary box reads '1. เดือนตุลาคม 2568 (YoY) +3.90 +1.58'. That label means 'compared with Oct 2568'; it is not a typo."
+ },
+ {
+  "id": "cpi.energy.yoy.2026-10",
+  "label": "ดัชนีกลุ่มพลังงาน อัตราการเปลี่ยนแปลง (YoY) ตุลาคม 2569",
+  "value": 15.6,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-11-06",
+  "period": "2026-10",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig102569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนตุลาคม 2569 (เผยแพร่ ณ วันที่ 6 พฤศจิกายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- พลังงาน 13.43 108.55 93.90 3.51 15.60 7.03 104.87 1.49 10.45 6.11",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22 · สุ่มเปิดแหล่งซ้ำโดย agent หลัก 2026-11-22 ตรง",
+  "notes": "Table 'ตารางแสดงดัชนีราคาผู้บริโภคทั่วไป และอัตราการเปลี่ยนแปลงเดือนตุลาคม ปี 2569 ปีฐาน 2566 = 100'. Columns: weight (ต.ค. 69) | index ต.ค. 69 | index ต.ค. 68 | M/M | Y/Y | A/A | index ก.ย. 69 | M/M | Y/Y | A/A. The broad energy group is +15.60%; the +29.18% in the project note is the narrower fuel sub-item (see cpi.fuel.yoy.2026-10). | ผู้ตรวจ: The broad energy group is +15.60%. The +29.18% is the narrower fuel sub-item."
+ },
+ {
+  "id": "cpi.energy.weight.2026-10",
+  "label": "สัดส่วนน้ำหนักกลุ่มพลังงาน ตุลาคม 2569",
+  "value": 13.43,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-11-06",
+  "period": "2026-10",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig102569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนตุลาคม 2569 (เผยแพร่ ณ วันที่ 6 พฤศจิกายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- พลังงาน 13.43 108.55 93.90 3.51 15.60 7.03 104.87 1.49 10.45 6.11",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Weight column labelled ต.ค. 69. This does not match the project note's 0.1289 energy weight. | ผู้ตรวจ: Weight column ต.ค. 69."
+ },
+ {
+  "id": "cpi.fuel.yoy.2026-10",
+  "label": "ดัชนีน้ำมันเชื้อเพลิง อัตราการเปลี่ยนแปลง (YoY) ตุลาคม 2569",
+  "value": 29.18,
+  "unit": "ร้อยละ (YoY)",
+  "asOf": "2026-11-06",
+  "period": "2026-10",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig102569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนตุลาคม 2569 (เผยแพร่ ณ วันที่ 6 พฤศจิกายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- น้้ามันเชื้อเพลิง 9.30 119.36 92.40 5.15 29.18 13.10 113.51 5.95 20.69 11.39",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Confirms the project note (+29.18%). It is the 'น้ำมันเชื้อเพลิง' sub-item under หมวดพาหนะการขนส่งและการสื่อสาร, not the broad energy group. Fuel MoM +5.15; Sep 2569 fuel YoY = 20.69. | ผู้ตรวจ: Sub-item under transport. The Oct 68 base index 92.40 matches the fuel index in the Oct 2568 report (Cpig102568_tg.pdf), which I opened."
+ },
+ {
+  "id": "cpi.fuel.weight.2026-10",
+  "label": "สัดส่วนน้ำหนักน้ำมันเชื้อเพลิง ตุลาคม 2569",
+  "value": 9.3,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-11-06",
+  "period": "2026-10",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig102569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนตุลาคม 2569 (เผยแพร่ ณ วันที่ 6 พฤศจิกายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- น้้ามันเชื้อเพลิง 9.30 119.36 92.40 5.15 29.18 13.10 113.51 5.95 20.69 11.39",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "For comparison, the Oct 2568 release (Cpig102568_tg.pdf) lists the fuel weight as 7.48. | ผู้ตรวจ: I opened Cpig102568_tg.pdf myself: its fuel row reads '7.48 92.40 99.45 -1.75 -7.09 -5.34', so the researcher's 7.48 comparison is correct."
+ },
+ {
+  "id": "cpi.core.weight.2026-10",
+  "label": "สัดส่วนน้ำหนักดัชนีราคาผู้บริโภคพื้นฐาน ตุลาคม 2569",
+  "value": 69.1,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-11-06",
+  "period": "2026-10",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig102569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนตุลาคม 2569 (เผยแพร่ ณ วันที่ 6 พฤศจิกายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "ดัชนีราคาผู้บริโภคพืน้ ฐาน * 69.10 103.10 101.50 0.12 1.58 1.06 102.98 0.01 1.50 1.01",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "กลุ่มอาหารสดและพลังงาน = 30.90 (17.48 + 13.43, source rounding). Does not match the project note's 0.6968. | ผู้ตรวจ: The fresh-food-and-energy row = 30.90."
+ },
+ {
+  "id": "cpi.fresh_food.weight.2026-10",
+  "label": "สัดส่วนน้ำหนักกลุ่มอาหารสด ตุลาคม 2569",
+  "value": 17.48,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-11-06",
+  "period": "2026-10",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig102569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนตุลาคม 2569 (เผยแพร่ ณ วันที่ 6 พฤศจิกายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "- อาหารสด 17.48 104.16 98.97 2.35 5.24 0.89 101.77 0.27 2.83 0.40",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Does not match the project note's 0.1743. Fresh-food YoY = 5.24."
+ },
+ {
+  "id": "cpi.group.food_nonalcoholic.weight.2026-10",
+  "label": "สัดส่วนน้ำหนักหมวดอาหารและเครื่องดื่มไม่มีแอลกอฮอล์ ตุลาคม 2569",
+  "value": 39.6,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-11-06",
+  "period": "2026-10",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig102569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนตุลาคม 2569 (เผยแพร่ ณ วันที่ 6 พฤศจิกายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "หมวดอาหารและเครื่องดื่มไม่มีแอลกอฮอล์ 39.60 106.10 101.76 1.11 4.26 1.68 104.94 0.18 3.07 1.41",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Also in the p.9 pie chart 'สัดส่วนน้าหนัก' as 39.60%. Non-food total = 60.40. | ผู้ตรวจ: The pie chart text layer also shows 39.60%. Non-food = 60.40."
+ },
+ {
+  "id": "cpi.group.apparel.weight.2026-10",
+  "label": "สัดส่วนน้ำหนักหมวดเครื่องนุ่งห่มและรองเท้า ตุลาคม 2569",
+  "value": 2,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-11-06",
+  "period": "2026-10",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig102569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนตุลาคม 2569 (เผยแพร่ ณ วันที่ 6 พฤศจิกายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "หมวดเครื่องนุ่งห่มและรองเท้า 2.00 97.65 98.10 -0.05 -0.46 -1.00 97.70 0.02 -0.43 -1.06",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "cpi.group.housing.weight.2026-10",
+  "label": "สัดส่วนน้ำหนักหมวดเคหสถาน ตุลาคม 2569",
+  "value": 23.51,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-11-06",
+  "period": "2026-10",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig102569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนตุลาคม 2569 (เผยแพร่ ณ วันที่ 6 พฤศจิกายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "หมวดเคหสถาน 23.51 98.55 99.49 0.23 -0.94 -0.39 98.32 -1.45 -1.10 -0.33",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "cpi.group.medical_personal.weight.2026-10",
+  "label": "สัดส่วนน้ำหนักหมวดการตรวจรักษาและบริการส่วนบุคคล ตุลาคม 2569",
+  "value": 6.09,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-11-06",
+  "period": "2026-10",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig102569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนตุลาคม 2569 (เผยแพร่ ณ วันที่ 6 พฤศจิกายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "หมวดการตรวจรักษาและบริการส่วนบุคคล 6.09 98.67 99.02 -0.82 -0.35 -0.40 99.49 0.15 0.81 -0.40",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "cpi.group.transport_communication.weight.2026-10",
+  "label": "สัดส่วนน้ำหนักหมวดพาหนะการขนส่งและการสื่อสาร ตุลาคม 2569",
+  "value": 23.63,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-11-06",
+  "period": "2026-10",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig102569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนตุลาคม 2569 (เผยแพร่ ณ วันที่ 6 พฤศจิกายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "หมวดพาหนะการขนส่งและการสื่อสาร 23.63 108.18 97.52 2.08 10.93 5.43 105.98 2.22 8.01 4.82",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Group YoY = 10.93; contains fuel (9.30) and public transport fares (1.63). | ผู้ตรวจ: Public transport fares 1.63, fuel 9.30."
+ },
+ {
+  "id": "cpi.group.recreation_education.weight.2026-10",
+  "label": "สัดส่วนน้ำหนักหมวดการบันเทิง การอ่าน การศึกษาฯ ตุลาคม 2569",
+  "value": 3.98,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-11-06",
+  "period": "2026-10",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig102569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนตุลาคม 2569 (เผยแพร่ ณ วันที่ 6 พฤศจิกายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "หมวดการบันเทิง การอ่าน การศึกษาฯ 3.98 102.95 101.42 0.37 1.51 0.92 102.57 0.29 1.38 0.86",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": ""
+ },
+ {
+  "id": "cpi.group.tobacco_alcohol.weight.2026-10",
+  "label": "สัดส่วนน้ำหนักหมวดยาสูบและเครื่องดื่มมีแอลกอฮอล์ ตุลาคม 2569",
+  "value": 1.2,
+  "unit": "สัดส่วนน้ำหนัก (ร้อยละของตะกร้า รวม 100.00)",
+  "asOf": "2026-11-06",
+  "period": "2026-10",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig102569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนตุลาคม 2569 (เผยแพร่ ณ วันที่ 6 พฤศจิกายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "หมวดยาสูบและเครื่องดื่มมีแอลกอฮอล์ 1.20 101.30 101.26 0.02 0.04 -0.04 101.28 0.02 0.01 -0.06",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "The 7 October group weights sum to 100.01 (source rounding). | ผู้ตรวจ: My own sum of the 7 groups is 100.01 (source rounding)."
+ },
+ {
+  "id": "cpi.basket.items.base_2566",
+  "label": "จำนวนรายการสินค้าและบริการในตะกร้า CPI ปีฐาน 2566",
+  "value": 464,
+  "unit": "รายการ",
+  "asOf": "2026-11-06",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig102569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนตุลาคม 2569 (เผยแพร่ ณ วันที่ 6 พฤศจิกายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "Concept ดั ชนี ร าคาผู้ บ ริ โ ภคประเทศไทย ปี ฐ าน 2566 มี จ านวนรายการสิ นค้ า และบริ การ ทั้ ง สิ้ น 464 รายการ (ปี ฐ าน 2562 มี จ านวน 430 รายการ)",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "The same footnote is in the Jan–May 2569 releases. The Jan 2569 footnote says coverage is '52 จังหวัด'; the Oct 2569 footnote says '56 จังหวัด' (adds นครนายก, แม่ฮ่องสอน, สกลนคร, พังงา). When the coverage changed was not checked. | ผู้ตรวจ: The same footnote is in all six PDFs I opened. Province coverage: the Jan, Feb, Mar, Apr and May 2569 footnotes say '52 จังหวัด'; the Oct 2569 footnote says '56 จังหวัด' and adds นครนายก, แม่ฮ่องสอน, สกลนคร and พังงา."
+ },
+ {
+  "id": "cpi.forecast.headline_2026.mid.2026-02-05",
+  "label": "ค่ากลางคาดการณ์อัตราเงินเฟ้อทั่วไปปี 2569 (ณ ประกาศเดือนมกราคม 2569)",
+  "value": 0.5,
+  "unit": "ร้อยละ (ค่ากลางคาดการณ์ทั้งปี)",
+  "asOf": "2026-02-05",
+  "period": "2026",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1770266951_3d2033e9e7834ba24eed.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมกราคม 2569 (ข่าว สนค. 5 กุมภาพันธ์ 2569)",
+   "kind": "primary"
+  },
+  "evidence": "ด้วยปัจจัยดังกล่าว กระทรวงพาณิชย์ยังคงคาดการณ์อัตราเงินเฟ้อทั่วไปปี 2569 อยู่ระหว่างร้อยละ 0.0 - 1.0 (ค่ากลางร้อยละ 0.5)",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Range 0.0–1.0. The Feb 2569 release (Cpig022569_tg.pdf) chart shows the same range, labelled 'ณ ธันวาคม 2568'. | ผู้ตรวจ: I also opened Cpig022569_tg.pdf: its chart text reads 'คาดการณ์อัตราเงินเฟ้อทั่วไปของไทยปี 2569 ณ ธันวาคม 2568', which matches the researcher's note."
+ },
+ {
+  "id": "cpi.forecast.headline_2026.mid.2026-04-07",
+  "label": "ค่ากลางคาดการณ์อัตราเงินเฟ้อทั่วไปปี 2569 (ปรับใหม่ ณ ประกาศเดือนมีนาคม 2569)",
+  "value": 2,
+  "unit": "ร้อยละ (ค่ากลางคาดการณ์ทั้งปี)",
+  "asOf": "2026-04-07",
+  "period": "2026",
+  "source": {
+   "url": "https://uploads.tpso.go.th/editor/pdf/1775536840_6622fc14022394650587.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภค ประจำเดือนมีนาคม 2569 (ข่าว สนค. 7 เมษายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "ด้วยปัจจัยดังกล่าว กระทรวงพาณิชย์จึงปรับคาดการณ์อัตราเงินเฟ้อทั่วไป ปี 2569 จากเดิมระหว่างร้อยละ 0.0 – 1.0 (ค่ากลาง 0.5) เป็นระหว่างร้อยละ 1.5 – 2.5 (ค่ากลาง 2.0)",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Revision from 0.0–1.0 to 1.5–2.5. The range was kept in the Apr 2569 release (6 May) and the May 2569 release (5 Jun: 'ยังคงคาดการณ์ ... 1.5 – 2.5 (ค่ากลาง 2.0)'). | ผู้ตรวจ: The April report (6 May) says 'อยู่ระหว่างร้อยละ 1.5 – 2.5 (ค่ากลางร้อยละ 2.0)'. The May release (5 Jun) says 'ยังคงคาดการณ์ ... 1.5 – 2.5 (ค่ากลาง 2.0)'."
+ },
+ {
+  "id": "cpi.forecast.headline_2026.mid.2026-11-06",
+  "label": "ค่ากลางคาดการณ์อัตราเงินเฟ้อทั่วไปปี 2569 (ณ ประกาศเดือนตุลาคม 2569)",
+  "value": 2,
+  "unit": "ร้อยละ (ค่ากลางคาดการณ์ทั้งปี)",
+  "asOf": "2026-11-06",
+  "period": "2026",
+  "source": {
+   "url": "https://uploads.tpso.go.th/economic/pdf/Cpig102569_tg.pdf",
+   "publisher": "สำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์",
+   "title": "ดัชนีราคาผู้บริโภคของประเทศ เดือนตุลาคม 2569 (เผยแพร่ ณ วันที่ 6 พฤศจิกายน 2569)",
+   "kind": "primary"
+  },
+  "evidence": "ด้ ว ยปั จ จั ย ดั ง กล่ า วกระทรวงพาณิ ช ย์ ค าดการณ์ อั ต ราเงิ น เฟ้อ ทั่ ว ไปปี 2569 อยู่ ร ะหว่ า ง ร้อยละ 1.8 - 2.2 (ค่ากลางร้อยละ 2.0)",
+  "status": "verified",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "Range 1.8–2.2. The p.9 box lists the assumptions: Dubai crude for the full year '85 - 95' USD/bbl, exchange rate '32.4- 32.9' THB/USD, GDP '2.0 - 2.5%'. The quote is spaced oddly because of PDF extraction. | ผู้ตรวจ: The p.9 box reads 'ณ ตุลาคม 2569': GDP '2.0 - 2.5%', Dubai crude '85 - 95' USD/bbl, FX '32.4- 32.9' THB/USD. The midpoint is still 2.0 but the range narrowed from 1.5–2.5."
+ },
+ {
+  "id": "cpi.fuel.contribution_pp.2026-10",
+  "label": "ส่วนผลักดันเงินเฟ้อทั่วไปจากน้ำมันเชื้อเพลิง ตุลาคม 2569",
+  "value": 2.18,
+  "unit": "จุดเปอร์เซ็นต์",
+  "asOf": "2026-11-06",
+  "period": "2026-10",
+  "source": {
+   "url": "https://www.naewna.com/n/?p=152188",
+   "publisher": "แนวหน้า (naewna.com)",
+   "title": "สูงสุดรอบ45เดือน! น้ำมันดัน‘เงินเฟ้อ’ต.ค.พุ่ง3.9%",
+   "kind": "secondary"
+  },
+  "evidence": "มีปัจจัยหลักจากราคาน้ำมันเชื้อเพลิงที่สูงขึ้น 29.18% ซึ่งมีส่วนผลักดันเงินเฟ้อ 2.18 จุดเปอร์เซ็นต์ หรือ 56% ของอัตราเงินเฟ้อทั้งหมด",
+  "status": "secondary-only",
+  "checkedBy": "verify:cpi (workflow wf_0b6ba8ec-182) 2026-11-22",
+  "notes": "News report quoting the สนค. director at the briefing. The figure is not in the TPSO Oct 2569 PDF. PPTV (pptvhd36.com/news/Wealth/286619) also gives about 56% ('ประมาณร้อยละ 56'). Consistency check, not a confirmation: Oct 2568 fuel weight 7.48 × 29.18% ≈ 2.18 pp. | ผู้ตรวจ: The news page opens (HTTP 200). Byline: '7 พฤศจิกายน 2569 เวลา 06:41 น.' (published_time 2026-11-06T23:41:56Z). It quotes the สนค. director. I searched the text of the TPSO Oct 2569 PDF: it has no 2.18 and no contribution figure. One web search found only news (PPTV, dailynews and others), no official page."
+ }
+]
