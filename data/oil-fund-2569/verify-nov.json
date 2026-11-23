@@ -70,7 +70,7 @@
  {
   "id": "rate.gasohol_e85.compensation.2026-11-19",
   "label": "อัตราเงินชดเชย น้ำมันแก๊สโซฮอล E๘๕",
-  "value": 0.57,
+  "value": -0.57,
   "unit": "บาท/ลิตร",
   "asOf": "2026-11-19",
   "source": {
@@ -82,12 +82,12 @@
   "evidence": "น้ำมันแก๊สโซฮอล E๘๕ ” - ๐.๕๗ ... ทั้งนี้ ตั้งแต่วันที่ ๑๙ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
   "status": "verified",
   "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
-  "notes": "Matches project value 0.57 (value in the อัตราเงินชดเชย column; shown as -0.57 in the OIL FUND column of the price structure). Superseded from 2026-11-20 by ฉบับที่ ๑๙๕ (0.55). | ผู้ตรวจ: Value in the อัตราเงินชดเชย column (levy column is '-'). The OFFO 19 Nov price structure shows OIL FUND -0.57 for E85, which is consistent."
+  "notes": "Matches project value 0.57 (value in the อัตราเงินชดเชย column; shown as -0.57 in the OIL FUND column of the price structure). Superseded from 2026-11-20 by ฉบับที่ ๑๙๕ (0.55). | ผู้ตรวจ: Value in the อัตราเงินชดเชย column (levy column is '-'). The OFFO 19 Nov price structure shows OIL FUND -0.57 for E85, which is consistent. | ค่าในไฟล์เป็นลบตามกติกาเครื่องหมายใน data/README.md (ประกาศพิมพ์เป็นค่าบวกในช่องเงินชดเชย)"
  },
  {
   "id": "rate.diesel_b7.compensation.2026-11-19",
   "label": "อัตราเงินชดเชย น้ำมันดีเซลหมุนเร็วธรรมดา (B7)",
-  "value": 1.28,
+  "value": -1.28,
   "unit": "บาท/ลิตร",
   "asOf": "2026-11-19",
   "source": {
@@ -99,12 +99,12 @@
   "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๑.๒๘ ... ทั้งนี้ ตั้งแต่วันที่ ๑๙ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
   "status": "verified",
   "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
-  "notes": "Matches project value 1.28. The announcement names the fuel น้ำมันดีเซลหมุนเร็วธรรมดา (the price structure labels it H-DIESEL B7). Superseded from 2026-11-20 by ฉบับที่ ๑๙๕ (0.87). | ผู้ตรวจ: Compensation column. The announcement calls the fuel น้ำมันดีเซลหมุนเร็วธรรมดา, not 'B7'. The B7 mapping comes from the price structures (H-DIESEL B7, -1.28), so the label is fine."
+  "notes": "Matches project value 1.28. The announcement names the fuel น้ำมันดีเซลหมุนเร็วธรรมดา (the price structure labels it H-DIESEL B7). Superseded from 2026-11-20 by ฉบับที่ ๑๙๕ (0.87). | ผู้ตรวจ: Compensation column. The announcement calls the fuel น้ำมันดีเซลหมุนเร็วธรรมดา, not 'B7'. The B7 mapping comes from the price structures (H-DIESEL B7, -1.28), so the label is fine. | ค่าในไฟล์เป็นลบตามกติกาเครื่องหมายใน data/README.md (ประกาศพิมพ์เป็นค่าบวกในช่องเงินชดเชย)"
  },
  {
   "id": "rate.diesel_b20.compensation.2026-11-19",
   "label": "อัตราเงินชดเชย น้ำมันดีเซลหมุนเร็ว B๒๐",
-  "value": 1.42,
+  "value": -1.42,
   "unit": "บาท/ลิตร",
   "asOf": "2026-11-19",
   "source": {
@@ -116,12 +116,12 @@
   "evidence": "น้ำมันดีเซลหมุนเร็ว B๒๐ ” - ๑.๔๒ ... ทั้งนี้ ตั้งแต่วันที่ ๑๙ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
   "status": "verified",
   "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
-  "notes": "Matches project value 1.42. Superseded from 2026-11-20 by ฉบับที่ ๑๙๕ (1.06). | ผู้ตรวจ: Compensation column. Same in ข้อ ๓ and ข้อ ๔."
+  "notes": "Matches project value 1.42. Superseded from 2026-11-20 by ฉบับที่ ๑๙๕ (1.06). | ผู้ตรวจ: Compensation column. Same in ข้อ ๓ and ข้อ ๔. | ค่าในไฟล์เป็นลบตามกติกาเครื่องหมายใน data/README.md (ประกาศพิมพ์เป็นค่าบวกในช่องเงินชดเชย)"
  },
  {
   "id": "rate.diesel_b7.compensation.2026-11-18",
   "label": "อัตราเงินชดเชย น้ำมันดีเซลหมุนเร็วธรรมดา (B7)",
-  "value": 2.06,
+  "value": -2.06,
   "unit": "บาท/ลิตร",
   "asOf": "2026-11-18",
   "source": {
@@ -133,12 +133,12 @@
   "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒.๐๖ ... ทั้งนี้ ตั้งแต่วันที่ ๑๘ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
   "status": "verified",
   "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
-  "notes": "Matches project value 2.06 (in effect 18 Nov only). Same announcement: B20 compensation 2.09, เบนซิน levy 11.46, แก๊สโซฮอล 95/91 levy 3.45, E20 levy 2.70, E85 compensation 0.71. | ผู้ตรวจ: Confirmed. The researcher's side figures in the same announcement also match: เบนซิน 11.46, แก๊สโซฮอล 95/91 3.45, E20 2.70, E85 compensation 0.71, B20 compensation 2.09."
+  "notes": "Matches project value 2.06 (in effect 18 Nov only). Same announcement: B20 compensation 2.09, เบนซิน levy 11.46, แก๊สโซฮอล 95/91 levy 3.45, E20 levy 2.70, E85 compensation 0.71. | ผู้ตรวจ: Confirmed. The researcher's side figures in the same announcement also match: เบนซิน 11.46, แก๊สโซฮอล 95/91 3.45, E20 2.70, E85 compensation 0.71, B20 compensation 2.09. | ค่าในไฟล์เป็นลบตามกติกาเครื่องหมายใน data/README.md (ประกาศพิมพ์เป็นค่าบวกในช่องเงินชดเชย)"
  },
  {
   "id": "rate.diesel_b7.compensation.2026-11-13",
   "label": "อัตราเงินชดเชย น้ำมันดีเซลหมุนเร็วธรรมดา (B7)",
-  "value": 2.28,
+  "value": -2.28,
   "unit": "บาท/ลิตร",
   "asOf": "2026-11-13",
   "source": {
@@ -150,12 +150,12 @@
   "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๒.๒๘ ... ทั้งนี้ ตั้งแต่วันที่ ๑๓ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
   "status": "verified",
   "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
-  "notes": "Matches project value 2.28. In effect 13–14 Nov: ฉบับที่ ๑๙๑ (ประกาศ 13 Nov) set 2.68 from 15 Nov, ฉบับที่ ๑๙๒ set 2.73 from 17 Nov, then 2.06 from 18 Nov. So the full sequence is 2.28 (13 Nov) → 2.68 (15 Nov) → 2.73 (17 Nov) → 2.06 (18 Nov) → 1.28 (19 Nov) → 0.87 (20 Nov). | ผู้ตรวจ: Confirmed. I also opened ฉ.191 (ประกาศ 13 Nov: B7 −2.68, B20 −3.36, from 15 Nov) and ฉ.192 (ประกาศ 16 Nov: B7 −2.73, B20 −3.32, from 17 Nov). They support the researcher's sequence, so 2.28 was in effect on 13–14 Nov."
+  "notes": "Matches project value 2.28. In effect 13–14 Nov: ฉบับที่ ๑๙๑ (ประกาศ 13 Nov) set 2.68 from 15 Nov, ฉบับที่ ๑๙๒ set 2.73 from 17 Nov, then 2.06 from 18 Nov. So the full sequence is 2.28 (13 Nov) → 2.68 (15 Nov) → 2.73 (17 Nov) → 2.06 (18 Nov) → 1.28 (19 Nov) → 0.87 (20 Nov). | ผู้ตรวจ: Confirmed. I also opened ฉ.191 (ประกาศ 13 Nov: B7 −2.68, B20 −3.36, from 15 Nov) and ฉ.192 (ประกาศ 16 Nov: B7 −2.73, B20 −3.32, from 17 Nov). They support the researcher's sequence, so 2.28 was in effect on 13–14 Nov. | ค่าในไฟล์เป็นลบตามกติกาเครื่องหมายใน data/README.md (ประกาศพิมพ์เป็นค่าบวกในช่องเงินชดเชย)"
  },
  {
   "id": "rate.diesel_b7.compensation.2026-11-01",
   "label": "อัตราเงินชดเชย น้ำมันดีเซลหมุนเร็วธรรมดา (B7)",
-  "value": 3.9,
+  "value": -3.9,
   "unit": "บาท/ลิตร",
   "asOf": "2026-11-01",
   "source": {
@@ -167,12 +167,12 @@
   "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๓.๙๐ ... ทั้งนี้ ตั้งแต่วันที่ ๑ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
   "status": "verified",
   "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
-  "notes": "Matches project value 3.90. Same announcement: B20 compensation 5.82, เบนซิน levy 7.81, แก๊สโซฮอล 95/91 levy 0.35, E20 levy 0.22, E85 compensation 1.32. The news source (siamnews 56391) gives the same figures. | ผู้ตรวจ: Confirmed. The same announcement also gives B20 5.82, เบนซิน levy 7.81, 95/91 levy 0.35, E20 levy 0.22 and E85 compensation 1.32, all as the researcher stated."
+  "notes": "Matches project value 3.90. Same announcement: B20 compensation 5.82, เบนซิน levy 7.81, แก๊สโซฮอล 95/91 levy 0.35, E20 levy 0.22, E85 compensation 1.32. The news source (siamnews 56391) gives the same figures. | ผู้ตรวจ: Confirmed. The same announcement also gives B20 5.82, เบนซิน levy 7.81, 95/91 levy 0.35, E20 levy 0.22 and E85 compensation 1.32, all as the researcher stated. | ค่าในไฟล์เป็นลบตามกติกาเครื่องหมายใน data/README.md (ประกาศพิมพ์เป็นค่าบวกในช่องเงินชดเชย)"
  },
  {
   "id": "rate.diesel_b7.compensation.2026-09-17",
   "label": "อัตราเงินชดเชย น้ำมันดีเซลหมุนเร็วธรรมดา (B7)",
-  "value": 9.22,
+  "value": -9.22,
   "unit": "บาท/ลิตร",
   "asOf": "2026-09-17",
   "source": {
@@ -184,7 +184,7 @@
   "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๙.๒๒ ... น้ำมันดีเซลหมุนเร็ว B๒๐ ” - ๑๒.๗๖ ... ทั้งนี้ ตั้งแต่วันที่ ๑๗ กันยายน ๒๕๖๙ เป็นต้นไป",
   "status": "verified",
   "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
-  "notes": "Matches project value 9.22 (in effect 17 Sep only; ฉบับที่ ๑๕๐ set 8.62 from 18 Sep). Same announcement: B20 compensation 12.76, แก๊สโซฮอล 95/91 compensation 4.74, E20 compensation 7.79, E85 compensation 2.68, เบนซิน levy 1.86, which matches thansettakij 669507. | ผู้ตรวจ: Confirmed. The same announcement has compensation (not levy) for แก๊สโซฮอล 95/91 4.74, E20 7.79 and E85 2.68, and a เบนซิน levy of 1.86. I did not open ฉ.150, so the claim that 9.22 was in force for 17 Sep only is unchecked."
+  "notes": "Matches project value 9.22 (in effect 17 Sep only; ฉบับที่ ๑๕๐ set 8.62 from 18 Sep). Same announcement: B20 compensation 12.76, แก๊สโซฮอล 95/91 compensation 4.74, E20 compensation 7.79, E85 compensation 2.68, เบนซิน levy 1.86, which matches thansettakij 669507. | ผู้ตรวจ: Confirmed. The same announcement has compensation (not levy) for แก๊สโซฮอล 95/91 4.74, E20 7.79 and E85 2.68, and a เบนซิน levy of 1.86. I did not open ฉ.150, so the claim that 9.22 was in force for 17 Sep only is unchecked. | ค่าในไฟล์เป็นลบตามกติกาเครื่องหมายใน data/README.md (ประกาศพิมพ์เป็นค่าบวกในช่องเงินชดเชย)"
  },
  {
   "id": "rate.benzin.levy.2026-11-20",
@@ -257,7 +257,7 @@
  {
   "id": "rate.gasohol_e85.compensation.2026-11-20",
   "label": "อัตราเงินชดเชย น้ำมันแก๊สโซฮอล E๘๕",
-  "value": 0.55,
+  "value": -0.55,
   "unit": "บาท/ลิตร",
   "asOf": "2026-11-20",
   "source": {
@@ -269,12 +269,12 @@
   "evidence": "น้ำมันแก๊สโซฮอล E๘๕ ” - ๐.๕๕ ... ทั้งนี้ ตั้งแต่วันที่ ๒๐ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
   "status": "verified",
   "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
-  "notes": "Not in the project. Supersedes 0.57. | ผู้ตรวจ: Compensation column. The EPPO 20 Nov structure shows OIL FUND −0.55."
+  "notes": "Not in the project. Supersedes 0.57. | ผู้ตรวจ: Compensation column. The EPPO 20 Nov structure shows OIL FUND −0.55. | ค่าในไฟล์เป็นลบตามกติกาเครื่องหมายใน data/README.md (ประกาศพิมพ์เป็นค่าบวกในช่องเงินชดเชย)"
  },
  {
   "id": "rate.diesel_b7.compensation.2026-11-20",
   "label": "อัตราเงินชดเชย น้ำมันดีเซลหมุนเร็วธรรมดา (B7)",
-  "value": 0.87,
+  "value": -0.87,
   "unit": "บาท/ลิตร",
   "asOf": "2026-11-20",
   "source": {
@@ -286,12 +286,12 @@
   "evidence": "น้ำมันดีเซลหมุนเร็วธรรมดา ” - ๐.๘๗ ... ทั้งนี้ ตั้งแต่วันที่ ๒๐ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
   "status": "verified",
   "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
-  "notes": "Not in the project. Supersedes 1.28. | ผู้ตรวจ: Compensation column. The EPPO 20 Nov structure (H-DIESEL) shows OIL FUND −0.87 with retail 39.99."
+  "notes": "Not in the project. Supersedes 1.28. | ผู้ตรวจ: Compensation column. The EPPO 20 Nov structure (H-DIESEL) shows OIL FUND −0.87 with retail 39.99. | ค่าในไฟล์เป็นลบตามกติกาเครื่องหมายใน data/README.md (ประกาศพิมพ์เป็นค่าบวกในช่องเงินชดเชย)"
  },
  {
   "id": "rate.diesel_b20.compensation.2026-11-20",
   "label": "อัตราเงินชดเชย น้ำมันดีเซลหมุนเร็ว B๒๐",
-  "value": 1.06,
+  "value": -1.06,
   "unit": "บาท/ลิตร",
   "asOf": "2026-11-20",
   "source": {
@@ -303,7 +303,7 @@
   "evidence": "น้ำมันดีเซลหมุนเร็ว B๒๐ ” - ๑.๐๖ ... ทั้งนี้ ตั้งแต่วันที่ ๒๐ พฤศจิกายน ๒๕๖๙ เป็นต้นไป",
   "status": "verified",
   "checkedBy": "verify:verify-nov (workflow wf_0b6ba8ec-182) 2026-11-22",
-  "notes": "Not in the project. Supersedes 1.42. | ผู้ตรวจ: Compensation column. The EPPO 20 Nov structure shows OIL FUND −1.06 with retail 33.50."
+  "notes": "Not in the project. Supersedes 1.42. | ผู้ตรวจ: Compensation column. The EPPO 20 Nov structure shows OIL FUND −1.06 with retail 33.50. | ค่าในไฟล์เป็นลบตามกติกาเครื่องหมายใน data/README.md (ประกาศพิมพ์เป็นค่าบวกในช่องเงินชดเชย)"
  },
  {
   "id": "price.retail.benzin.2026-11-19",
