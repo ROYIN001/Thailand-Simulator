@@ -1,0 +1,3759 @@
+{
+ "scenarioId": "oil-fund-2569",
+ "days": [
+  "2026-03-02",
+  "2026-03-03",
+  "2026-03-04",
+  "2026-03-05",
+  "2026-03-06",
+  "2026-03-07",
+  "2026-03-08",
+  "2026-03-09",
+  "2026-03-10",
+  "2026-03-11",
+  "2026-03-12",
+  "2026-03-13",
+  "2026-03-14",
+  "2026-03-15",
+  "2026-03-16",
+  "2026-03-17",
+  "2026-03-18",
+  "2026-03-19",
+  "2026-03-20",
+  "2026-03-21",
+  "2026-03-22",
+  "2026-03-23",
+  "2026-03-24",
+  "2026-03-25",
+  "2026-03-26",
+  "2026-03-27",
+  "2026-03-28",
+  "2026-03-29",
+  "2026-03-30",
+  "2026-03-31",
+  "2026-04-01",
+  "2026-04-02",
+  "2026-04-03",
+  "2026-04-04",
+  "2026-04-05",
+  "2026-04-06",
+  "2026-04-07",
+  "2026-04-08",
+  "2026-04-09",
+  "2026-04-10",
+  "2026-04-11",
+  "2026-04-12",
+  "2026-04-13",
+  "2026-04-14",
+  "2026-04-15",
+  "2026-04-16",
+  "2026-04-17",
+  "2026-04-18",
+  "2026-04-19",
+  "2026-04-20",
+  "2026-04-21",
+  "2026-04-22",
+  "2026-04-23",
+  "2026-04-24",
+  "2026-04-25",
+  "2026-04-26",
+  "2026-04-27",
+  "2026-04-28",
+  "2026-04-29",
+  "2026-04-30",
+  "2026-05-01",
+  "2026-05-02",
+  "2026-05-03",
+  "2026-05-04",
+  "2026-05-05",
+  "2026-05-06",
+  "2026-05-07",
+  "2026-05-08",
+  "2026-05-09",
+  "2026-05-10"
+ ],
+ "weeks": 10,
+ "opening": {
+  "fundOil": {
+   "v": 4031300000000,
+   "kind": "real",
+   "ids": [
+    "fund.position.oil.2026-03-01"
+   ]
+  },
+  "fundLpg": {
+   "v": -3785400000000,
+   "kind": "real",
+   "ids": [
+    "fund.position.lpg.2026-03-01"
+   ]
+  }
+ },
+ "sundays": [
+  {
+   "date": "2026-03-08",
+   "fundOil": {
+    "v": 3694900000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.oil.2026-03-08"
+    ]
+   },
+   "fundLpg": {
+    "v": -3773500000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.lpg.2026-03-08"
+    ]
+   }
+  },
+  {
+   "date": "2026-03-15",
+   "fundOil": {
+    "v": 2501600000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.oil.2026-03-15"
+    ]
+   },
+   "fundLpg": {
+    "v": -3762100000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.lpg.2026-03-15"
+    ]
+   }
+  },
+  {
+   "date": "2026-03-22",
+   "fundOil": {
+    "v": 930200000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.oil.2026-03-22"
+    ]
+   },
+   "fundLpg": {
+    "v": -3741100000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.lpg.2026-03-22"
+    ]
+   }
+  },
+  {
+   "date": "2026-03-29",
+   "fundOil": {
+    "v": -483300000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.oil.2026-03-29"
+    ]
+   },
+   "fundLpg": {
+    "v": -3731500000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.lpg.2026-03-29"
+    ]
+   }
+  },
+  {
+   "date": "2026-04-05",
+   "fundOil": {
+    "v": -1580000000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.oil.2026-04-05"
+    ]
+   },
+   "fundLpg": {
+    "v": -3742600000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.lpg.2026-04-05"
+    ]
+   }
+  },
+  {
+   "date": "2026-04-12",
+   "fundOil": {
+    "v": -2247800000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.oil.2026-04-12"
+    ]
+   },
+   "fundLpg": {
+    "v": -3768900000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.lpg.2026-04-12"
+    ]
+   }
+  },
+  {
+   "date": "2026-04-19",
+   "fundOil": {
+    "v": -2407300000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.oil.2026-04-19"
+    ]
+   },
+   "fundLpg": {
+    "v": -3786000000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.lpg.2026-04-19"
+    ]
+   }
+  },
+  {
+   "date": "2026-04-26",
+   "fundOil": {
+    "v": -2414300000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.oil.2026-04-26"
+    ]
+   },
+   "fundLpg": {
+    "v": -3822100000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.lpg.2026-04-26"
+    ]
+   }
+  },
+  {
+   "date": "2026-05-03",
+   "fundOil": {
+    "v": -2488000000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.oil.2026-05-03"
+    ]
+   },
+   "fundLpg": {
+    "v": -3830900000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.lpg.2026-05-03"
+    ]
+   }
+  },
+  {
+   "date": "2026-05-10",
+   "fundOil": {
+    "v": -2478700000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.oil.2026-05-10"
+    ]
+   },
+   "fundLpg": {
+    "v": -3849200000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.lpg.2026-05-10"
+    ]
+   }
+  }
+ ],
+ "startRates": {
+  "b7": {
+   "v": -74,
+   "kind": "real",
+   "ids": [
+    "rate.diesel_b7.compensation.2026-02-24"
+   ]
+  },
+  "g95": {
+   "v": 130,
+   "kind": "real",
+   "ids": [
+    "rate.gasohol95.levy.2026-02-24"
+   ]
+  }
+ },
+ "vatBp": {
+  "v": 700,
+  "kind": "computed",
+  "ids": [
+   "structure.diesel_b7.vat_wholesale.2026-03-02",
+   "structure.diesel_b7.ex_refinery.2026-03-02",
+   "structure.diesel_b7.excise.2026-03-02",
+   "structure.diesel_b7.municipal_tax.2026-03-02",
+   "structure.diesel_b7.oil_fund.2026-03-02",
+   "structure.diesel_b7.conservation_fund.2026-03-02"
+  ],
+  "note": "ภาษีมูลค่าเพิ่มขายส่ง ÷ (ราคา ณ โรงกลั่น + สรรพสามิต + ภาษีเทศบาล + เงินกองทุน + เงินกองทุนอนุรักษ์) × 10000"
+ },
+ "b7": [
+  {
+   "rate": {
+    "v": -74,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-02-24"
+    ]
+   },
+   "retail": {
+    "v": 2994,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-02"
+    ]
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -74,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-02-24"
+    ]
+   },
+   "retail": {
+    "v": 2994,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -351,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-04"
+    ]
+   },
+   "retail": {
+    "v": 2994,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -621,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-05"
+    ]
+   },
+   "retail": {
+    "v": 2994,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -957,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-06"
+    ]
+   },
+   "retail": {
+    "v": 2994,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1173,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-07"
+    ]
+   },
+   "retail": {
+    "v": 2994,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1173,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-07"
+    ]
+   },
+   "retail": {
+    "v": 2994,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1173,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-07"
+    ]
+   },
+   "retail": {
+    "v": 2994,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1273,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-10"
+    ]
+   },
+   "retail": {
+    "v": 2994,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1697,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-11"
+    ]
+   },
+   "retail": {
+    "v": 2994,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1545,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-12"
+    ]
+   },
+   "retail": {
+    "v": 2994,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1415,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-13"
+    ]
+   },
+   "retail": {
+    "v": 2994,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1831,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-14"
+    ]
+   },
+   "retail": {
+    "v": 2994,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1831,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-14"
+    ]
+   },
+   "retail": {
+    "v": 2994,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1831,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-14"
+    ]
+   },
+   "retail": {
+    "v": 2994,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-16"
+    ]
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -2036,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-17"
+    ]
+   },
+   "retail": {
+    "v": 2994,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-16"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-16)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1986,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-18"
+    ]
+   },
+   "retail": {
+    "v": 3044,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-18"
+    ]
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -2065,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-19"
+    ]
+   },
+   "retail": {
+    "v": 3044,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-18"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-18)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -2109,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-20"
+    ]
+   },
+   "retail": {
+    "v": 3044,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-18"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-18)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -2425,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-21"
+    ]
+   },
+   "retail": {
+    "v": 3044,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-18"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-18)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -2425,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-21"
+    ]
+   },
+   "retail": {
+    "v": 3044,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-18"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-18)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -2425,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-21"
+    ]
+   },
+   "retail": {
+    "v": 3114,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-23"
+    ]
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -2409,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-24"
+    ]
+   },
+   "retail": {
+    "v": 3294,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-24"
+    ]
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -2699,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-25"
+    ]
+   },
+   "retail": {
+    "v": 3294,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-24"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-24)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1912,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-26"
+    ]
+   },
+   "retail": {
+    "v": 3894,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-26"
+    ]
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1602,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-27"
+    ]
+   },
+   "retail": {
+    "v": 3894,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-26"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-26)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1667,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-28"
+    ]
+   },
+   "retail": {
+    "v": 3894,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-26"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-26)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1667,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-28"
+    ]
+   },
+   "retail": {
+    "v": 3894,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-26"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-26)"
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1667,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-28"
+    ]
+   },
+   "retail": {
+    "v": 3894,
+    "kind": "real",
+    "ids": [
+     "price.diesel_b7.retail_bkk.eppo.2026-03-30"
+    ]
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1876,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-03-31"
+    ]
+   },
+   "retail": {
+    "v": 4074,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-03-31"
+    ]
+   },
+   "volume": {
+    "v": 80249229,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -2189,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-01"
+    ]
+   },
+   "retail": {
+    "v": 4074,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-01"
+    ]
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1778,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-02"
+    ]
+   },
+   "retail": {
+    "v": 4424,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-02"
+    ]
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1427,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-03"
+    ]
+   },
+   "retail": {
+    "v": 4774,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-03"
+    ]
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -2071,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-04"
+    ]
+   },
+   "retail": {
+    "v": 4774,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-03"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-03)"
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1810,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-05"
+    ]
+   },
+   "retail": {
+    "v": 4774,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-03"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-03)"
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1810,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-05"
+    ]
+   },
+   "retail": {
+    "v": 5054,
+    "kind": "real",
+    "ids": [
+     "price.diesel_b7.retail_bkk.eppo.2026-04-06"
+    ]
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1810,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-05"
+    ]
+   },
+   "retail": {
+    "v": 5054,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-07"
+    ]
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1854,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-08"
+    ]
+   },
+   "retail": {
+    "v": 5054,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-07"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-07)"
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -1500,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-09"
+    ]
+   },
+   "retail": {
+    "v": 4840,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-09"
+    ]
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -641,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-10"
+    ]
+   },
+   "retail": {
+    "v": 4840,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-09"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-09)"
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -785,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-11"
+    ]
+   },
+   "retail": {
+    "v": 4440,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-11"
+    ]
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -785,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-11"
+    ]
+   },
+   "retail": {
+    "v": 4440,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-11"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-11)"
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -785,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-11"
+    ]
+   },
+   "retail": {
+    "v": 4440,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-11"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-11)"
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -785,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-11"
+    ]
+   },
+   "retail": {
+    "v": 4440,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-11"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-11)"
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -589,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-15"
+    ]
+   },
+   "retail": {
+    "v": 4440,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-15"
+    ]
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -287,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-16"
+    ]
+   },
+   "retail": {
+    "v": 4440,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-15"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-15)"
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -283,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-17"
+    ]
+   },
+   "retail": {
+    "v": 4290,
+    "kind": "real",
+    "ids": [
+     "price.diesel_b7.retail_bkk.2026-04-17"
+    ]
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -283,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-17"
+    ]
+   },
+   "retail": {
+    "v": 4290,
+    "kind": "computed",
+    "ids": [
+     "price.diesel_b7.retail_bkk.2026-04-17"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-17)"
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -283,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-17"
+    ]
+   },
+   "retail": {
+    "v": 4290,
+    "kind": "computed",
+    "ids": [
+     "price.diesel_b7.retail_bkk.2026-04-17"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-17)"
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -283,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-17"
+    ]
+   },
+   "retail": {
+    "v": 4290,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-20"
+    ]
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -176,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-21"
+    ]
+   },
+   "retail": {
+    "v": 4170,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-21"
+    ]
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -53,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-22"
+    ]
+   },
+   "retail": {
+    "v": 4170,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-21"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-21)"
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -232,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-23"
+    ]
+   },
+   "retail": {
+    "v": 4170,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-21"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-21)"
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -223,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-24"
+    ]
+   },
+   "retail": {
+    "v": 4020,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-24"
+    ]
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -223,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-24"
+    ]
+   },
+   "retail": {
+    "v": 4020,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-24"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-24)"
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -223,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-24"
+    ]
+   },
+   "retail": {
+    "v": 4020,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-24"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-24)"
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -223,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-24"
+    ]
+   },
+   "retail": {
+    "v": 4020,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-24"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-24)"
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -288,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-28"
+    ]
+   },
+   "retail": {
+    "v": 4020,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-24"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-24)"
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -220,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-29"
+    ]
+   },
+   "retail": {
+    "v": 4020,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-24"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-24)"
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -218,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-04-30"
+    ]
+   },
+   "retail": {
+    "v": 4020,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-04-24"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-24)"
+   },
+   "volume": {
+    "v": 55689804,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -312,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-05-01"
+    ]
+   },
+   "retail": {
+    "v": 4080,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-05-01"
+    ]
+   },
+   "volume": {
+    "v": 59697869,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -312,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-05-01"
+    ]
+   },
+   "retail": {
+    "v": 4080,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-05-01"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-05-01)"
+   },
+   "volume": {
+    "v": 59697869,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -312,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-05-01"
+    ]
+   },
+   "retail": {
+    "v": 4080,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-05-01"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-05-01)"
+   },
+   "volume": {
+    "v": 59697869,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -312,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-05-01"
+    ]
+   },
+   "retail": {
+    "v": 4080,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-05-01"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-05-01)"
+   },
+   "volume": {
+    "v": 59697869,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -132,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-05-05"
+    ]
+   },
+   "retail": {
+    "v": 4080,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-05-01"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-05-01)"
+   },
+   "volume": {
+    "v": 59697869,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -19,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-05-06"
+    ]
+   },
+   "retail": {
+    "v": 4080,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-05-01"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-05-01)"
+   },
+   "volume": {
+    "v": 59697869,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 54,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.levy.2026-05-07"
+    ]
+   },
+   "retail": {
+    "v": 4080,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-05-01"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-05-01)"
+   },
+   "volume": {
+    "v": 59697869,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 117,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.levy.2026-05-08"
+    ]
+   },
+   "retail": {
+    "v": 3995,
+    "kind": "real",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-05-08"
+    ]
+   },
+   "volume": {
+    "v": 59697869,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 117,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.levy.2026-05-08"
+    ]
+   },
+   "retail": {
+    "v": 3995,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-05-08"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-05-08)"
+   },
+   "volume": {
+    "v": 59697869,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -87,
+    "kind": "real",
+    "ids": [
+     "rate.diesel_b7.compensation.2026-05-10"
+    ]
+   },
+   "retail": {
+    "v": 3995,
+    "kind": "computed",
+    "ids": [
+     "price.retail.diesel_b7.bkk.2026-05-08"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-05-08)"
+   },
+   "volume": {
+    "v": 59697869,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.diesel_b7.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  }
+ ],
+ "g95": [
+  {
+   "rate": {
+    "v": 130,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-02-24"
+    ]
+   },
+   "retail": {
+    "v": 3055,
+    "kind": "real",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-02"
+    ]
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 80,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-03-03"
+    ]
+   },
+   "retail": {
+    "v": 3055,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 10,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-03-04"
+    ]
+   },
+   "retail": {
+    "v": 3055,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -90,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-05"
+    ]
+   },
+   "retail": {
+    "v": 3055,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -200,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-06"
+    ]
+   },
+   "retail": {
+    "v": 3055,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -306,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-07"
+    ]
+   },
+   "retail": {
+    "v": 3055,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -306,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-07"
+    ]
+   },
+   "retail": {
+    "v": 3055,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -306,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-07"
+    ]
+   },
+   "retail": {
+    "v": 3055,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-02"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-02)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -538,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-10"
+    ]
+   },
+   "retail": {
+    "v": 3105,
+    "kind": "real",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-10"
+    ]
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -741,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-11"
+    ]
+   },
+   "retail": {
+    "v": 3105,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-10"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-10)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -786,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-12"
+    ]
+   },
+   "retail": {
+    "v": 3105,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-10"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-10)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -752,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-13"
+    ]
+   },
+   "retail": {
+    "v": 3105,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-10"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-10)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -837,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-14"
+    ]
+   },
+   "retail": {
+    "v": 3105,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-10"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-10)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -837,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-14"
+    ]
+   },
+   "retail": {
+    "v": 3105,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-10"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-10)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -837,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-14"
+    ]
+   },
+   "retail": {
+    "v": 3105,
+    "kind": "real",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-16"
+    ]
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -973,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-17"
+    ]
+   },
+   "retail": {
+    "v": 3105,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-16"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-16)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -973,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-18"
+    ]
+   },
+   "retail": {
+    "v": 3205,
+    "kind": "real",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-18"
+    ]
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -973,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-18"
+    ]
+   },
+   "retail": {
+    "v": 3205,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-18"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-18)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -973,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-18"
+    ]
+   },
+   "retail": {
+    "v": 3205,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-18"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-18)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -973,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-18"
+    ]
+   },
+   "retail": {
+    "v": 3205,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-18"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-18)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -973,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-18"
+    ]
+   },
+   "retail": {
+    "v": 3205,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-18"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-18)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -973,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-18"
+    ]
+   },
+   "retail": {
+    "v": 3305,
+    "kind": "real",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-23"
+    ]
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -973,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-18"
+    ]
+   },
+   "retail": {
+    "v": 3505,
+    "kind": "real",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-24"
+    ]
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -973,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-18"
+    ]
+   },
+   "retail": {
+    "v": 3505,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-24"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-24)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -326,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-26"
+    ]
+   },
+   "retail": {
+    "v": 4105,
+    "kind": "real",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-26"
+    ]
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": -56,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.compensation.2026-03-27"
+    ]
+   },
+   "retail": {
+    "v": 4105,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-26"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-26)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 43,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-03-28"
+    ]
+   },
+   "retail": {
+    "v": 4105,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-26"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-26)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 43,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-03-28"
+    ]
+   },
+   "retail": {
+    "v": 4105,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-26"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-26)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 43,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-03-28"
+    ]
+   },
+   "retail": {
+    "v": 4105,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-26"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-03-26)"
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 43,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-03-28"
+    ]
+   },
+   "retail": {
+    "v": 4205,
+    "kind": "real",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-03-31"
+    ]
+   },
+   "volume": {
+    "v": 20490825,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-03"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 43,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-03-28"
+    ]
+   },
+   "retail": {
+    "v": 4205,
+    "kind": "real",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-01"
+    ]
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 43,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-03-28"
+    ]
+   },
+   "retail": {
+    "v": 4325,
+    "kind": "real",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-02"
+    ]
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 43,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-03-28"
+    ]
+   },
+   "retail": {
+    "v": 4395,
+    "kind": "real",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-03"
+    ]
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 43,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-03-28"
+    ]
+   },
+   "retail": {
+    "v": 4395,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-03"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-03)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 43,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-03-28"
+    ]
+   },
+   "retail": {
+    "v": 4395,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-03"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-03)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 43,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-03-28"
+    ]
+   },
+   "retail": {
+    "v": 4395,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-03"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-03)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 43,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-03-28"
+    ]
+   },
+   "retail": {
+    "v": 4395,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-03"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-03)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 43,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-03-28"
+    ]
+   },
+   "retail": {
+    "v": 4395,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-03"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-03)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 43,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-03-28"
+    ]
+   },
+   "retail": {
+    "v": 4395,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-03"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-03)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 342,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-10"
+    ]
+   },
+   "retail": {
+    "v": 4395,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-03"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-03)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 284,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-11"
+    ]
+   },
+   "retail": {
+    "v": 4295,
+    "kind": "real",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-11"
+    ]
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 284,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-11"
+    ]
+   },
+   "retail": {
+    "v": 4295,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-11"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-11)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 284,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-11"
+    ]
+   },
+   "retail": {
+    "v": 4295,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-11"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-11)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 284,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-11"
+    ]
+   },
+   "retail": {
+    "v": 4295,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-11"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-11)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 284,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-11"
+    ]
+   },
+   "retail": {
+    "v": 4295,
+    "kind": "real",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-15"
+    ]
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 380,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-16"
+    ]
+   },
+   "retail": {
+    "v": 4295,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-15"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-15)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 403,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-17"
+    ]
+   },
+   "retail": {
+    "v": 4295,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-15"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-15)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 403,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-17"
+    ]
+   },
+   "retail": {
+    "v": 4295,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-15"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-15)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 403,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-17"
+    ]
+   },
+   "retail": {
+    "v": 4295,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-15"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-15)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 403,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-17"
+    ]
+   },
+   "retail": {
+    "v": 4245,
+    "kind": "real",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-20"
+    ]
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 351,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-21"
+    ]
+   },
+   "retail": {
+    "v": 4245,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-20"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-20)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 380,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-22"
+    ]
+   },
+   "retail": {
+    "v": 4245,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-20"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-20)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 313,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-23"
+    ]
+   },
+   "retail": {
+    "v": 4245,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-20"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-20)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 255,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-24"
+    ]
+   },
+   "retail": {
+    "v": 4245,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-20"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-20)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 255,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-24"
+    ]
+   },
+   "retail": {
+    "v": 4245,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-20"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-20)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 255,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-24"
+    ]
+   },
+   "retail": {
+    "v": 4245,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-20"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-20)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 255,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-24"
+    ]
+   },
+   "retail": {
+    "v": 4245,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-20"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-20)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 205,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-28"
+    ]
+   },
+   "retail": {
+    "v": 4245,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-20"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-20)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 209,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-29"
+    ]
+   },
+   "retail": {
+    "v": 4245,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-20"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-20)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 176,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-30"
+    ]
+   },
+   "retail": {
+    "v": 4245,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-04-20"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-04-20)"
+   },
+   "volume": {
+    "v": 17082918,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-04"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 30 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 176,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-30"
+    ]
+   },
+   "retail": {
+    "v": 4330,
+    "kind": "real",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-05-01"
+    ]
+   },
+   "volume": {
+    "v": 17872878,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 176,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-30"
+    ]
+   },
+   "retail": {
+    "v": 4330,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-05-01"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-05-01)"
+   },
+   "volume": {
+    "v": 17872878,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 176,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-30"
+    ]
+   },
+   "retail": {
+    "v": 4330,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-05-01"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-05-01)"
+   },
+   "volume": {
+    "v": 17872878,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 176,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-04-30"
+    ]
+   },
+   "retail": {
+    "v": 4330,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-05-01"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-05-01)"
+   },
+   "volume": {
+    "v": 17872878,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 208,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-05-05"
+    ]
+   },
+   "retail": {
+    "v": 4330,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-05-01"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-05-01)"
+   },
+   "volume": {
+    "v": 17872878,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 182,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-05-06"
+    ]
+   },
+   "retail": {
+    "v": 4330,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-05-01"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-05-01)"
+   },
+   "volume": {
+    "v": 17872878,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 217,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-05-07"
+    ]
+   },
+   "retail": {
+    "v": 4330,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-05-01"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-05-01)"
+   },
+   "volume": {
+    "v": 17872878,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 258,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-05-08"
+    ]
+   },
+   "retail": {
+    "v": 4245,
+    "kind": "real",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-05-08"
+    ]
+   },
+   "volume": {
+    "v": 17872878,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 258,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-05-08"
+    ]
+   },
+   "retail": {
+    "v": 4245,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-05-08"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-05-08)"
+   },
+   "volume": {
+    "v": 17872878,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  },
+  {
+   "rate": {
+    "v": 331,
+    "kind": "real",
+    "ids": [
+     "rate.gasohol95.levy.2026-05-10"
+    ]
+   },
+   "retail": {
+    "v": 4245,
+    "kind": "computed",
+    "ids": [
+     "price.retail.gasohol95_e10.bkk.2026-05-08"
+    ],
+    "note": "ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (2026-05-08)"
+   },
+   "volume": {
+    "v": 17872878,
+    "kind": "computed",
+    "ids": [
+     "sales.doeb.gasohol95_e10.2026-05"
+    ],
+    "note": "ยอดจำหน่ายรายเดือน (พันลิตร) × 1000 ÷ 31 วัน ตัดเศษ"
+   }
+  }
+ ]
+}

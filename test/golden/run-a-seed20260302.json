@@ -1,0 +1,294 @@
+{
+ "seed": 20260302,
+ "turns": [
+  {
+   "turn": 1,
+   "shockBp": -140,
+   "guessTarget": 4128,
+   "guessPoints": 0,
+   "timeUsed": 0,
+   "forcedDoc": false,
+   "flowB7": -164988553800,
+   "flowG95": 14184882400,
+   "residualOil": 32517082517,
+   "residualLpg": 11900000000,
+   "fundOil": 3913013411117,
+   "fundLpg": -3773500000000,
+   "retailB7Sunday": 3887,
+   "authority": 5,
+   "trust": 4,
+   "money": 5
+  },
+  {
+   "turn": 2,
+   "shockBp": -29,
+   "guessTarget": 4865,
+   "guessPoints": 0,
+   "timeUsed": 2,
+   "forcedDoc": false,
+   "flowB7": -557571855600,
+   "flowG95": 0,
+   "residualOil": -231122562290,
+   "residualLpg": 11400000000,
+   "fundOil": 3124318993227,
+   "fundLpg": -3762100000000,
+   "retailB7Sunday": 3661,
+   "authority": 5,
+   "trust": 5,
+   "money": 4
+  },
+  {
+   "turn": 3,
+   "shockBp": -124,
+   "guessTarget": 5522,
+   "guessPoints": 0,
+   "timeUsed": 0,
+   "forcedDoc": false,
+   "flowB7": -807538876500,
+   "flowG95": -27301548000,
+   "residualOil": -240755963292,
+   "residualLpg": 21000000000,
+   "fundOil": 2048722605435,
+   "fundLpg": -3741100000000,
+   "retailB7Sunday": 3996,
+   "authority": 4,
+   "trust": 4,
+   "money": 4
+  },
+  {
+   "turn": 4,
+   "shockBp": 73,
+   "guessTarget": 5626,
+   "guessPoints": 0,
+   "timeUsed": 2,
+   "forcedDoc": false,
+   "flowB7": -685830773000,
+   "flowG95": 6110009500,
+   "residualOil": -193557835376,
+   "residualLpg": 9600000000,
+   "fundOil": 1175444006559,
+   "fundLpg": -3731500000000,
+   "retailB7Sunday": 4635,
+   "authority": 3,
+   "trust": 3,
+   "money": 3
+  },
+  {
+   "turn": 5,
+   "shockBp": -42,
+   "guessTarget": 6611,
+   "guessPoints": 0,
+   "timeUsed": 0,
+   "forcedDoc": false,
+   "flowB7": -421354201000,
+   "flowG95": 25102645600,
+   "residualOil": -301289087873,
+   "residualLpg": -11100000000,
+   "fundOil": 477903363286,
+   "fundLpg": -3742600000000,
+   "retailB7Sunday": 5620,
+   "authority": 4,
+   "trust": 2,
+   "money": 3
+  },
+  {
+   "turn": 6,
+   "shockBp": 3,
+   "guessTarget": 5201,
+   "guessPoints": 0,
+   "timeUsed": 0,
+   "forcedDoc": false,
+   "flowB7": -226710174600,
+   "flowG95": 35619028500,
+   "residualOil": -174772867536,
+   "residualLpg": -26300000000,
+   "fundOil": 112039349650,
+   "fundLpg": -3768900000000,
+   "retailB7Sunday": 4638,
+   "authority": 5,
+   "trust": 3,
+   "money": 3
+  },
+  {
+   "turn": 7,
+   "shockBp": -60,
+   "guessTarget": 4488,
+   "guessPoints": 1,
+   "timeUsed": 0,
+   "forcedDoc": false,
+   "flowB7": -116124913200,
+   "flowG95": 36002755200,
+   "residualOil": -17701498658,
+   "residualLpg": -17100000000,
+   "fundOil": 14215692992,
+   "fundLpg": -3786000000000,
+   "retailB7Sunday": 4247,
+   "authority": 5,
+   "trust": 4,
+   "money": 3
+  },
+  {
+   "turn": 8,
+   "shockBp": 172,
+   "guessTarget": 4248,
+   "guessPoints": 3,
+   "timeUsed": 0,
+   "forcedDoc": false,
+   "flowB7": -77692800800,
+   "flowG95": 29891282750,
+   "residualOil": 33902278436,
+   "residualLpg": -36100000000,
+   "fundOil": 316453378,
+   "fundLpg": -3822100000000,
+   "retailB7Sunday": 4113,
+   "authority": 5,
+   "trust": 5,
+   "money": 3
+  },
+  {
+   "turn": 9,
+   "shockBp": -88,
+   "guessTarget": 4299,
+   "guessPoints": 0,
+   "timeUsed": 2,
+   "forcedDoc": false,
+   "flowB7": -28828660900,
+   "flowG95": 30458769250,
+   "residualOil": 11154884086,
+   "residualLpg": -8800000000,
+   "fundOil": 13101445814,
+   "fundLpg": -3830900000000,
+   "retailB7Sunday": 4271,
+   "authority": 5,
+   "trust": 5,
+   "money": 3
+  },
+  {
+   "turn": 10,
+   "shockBp": -189,
+   "guessTarget": 3933,
+   "guessPoints": 0,
+   "timeUsed": 0,
+   "forcedDoc": false,
+   "flowB7": 20877237450,
+   "flowG95": 37550058000,
+   "residualOil": -4191949462,
+   "residualLpg": -18300000000,
+   "fundOil": 67336791802,
+   "fundLpg": -3849200000000,
+   "retailB7Sunday": 4066,
+   "authority": 5,
+   "trust": 5,
+   "money": 3
+  }
+ ],
+ "report": {
+  "outcome": {
+   "fund": {
+    "player": -3781863208198,
+    "baseline": -1060631066146,
+    "real": -6327900000000
+   },
+   "retailB7": {
+    "player": 4066,
+    "baseline": 3933,
+    "real": 3995,
+    "realIds": [
+     "price.retail.diesel_b7.bkk.2026-05-08"
+    ],
+    "realKind": "computed"
+   }
+  },
+  "politics": {
+   "authority": 5,
+   "trust": 5,
+   "max": 5
+  },
+  "understanding": {
+   "points": 4,
+   "max": 30
+  },
+  "pathVsReal": [
+   {
+    "turn": 1,
+    "date": "2026-03-08",
+    "rateB7": -300,
+    "realRateB7": -1173,
+    "fund": 139513411117,
+    "realFund": -78600000000
+   },
+   {
+    "turn": 2,
+    "date": "2026-03-15",
+    "rateB7": -1200,
+    "realRateB7": -1831,
+    "fund": -637781006773,
+    "realFund": -1260500000000
+   },
+   {
+    "turn": 3,
+    "date": "2026-03-22",
+    "rateB7": -1500,
+    "realRateB7": -2425,
+    "fund": -1692377394565,
+    "realFund": -2810900000000
+   },
+   {
+    "turn": 4,
+    "date": "2026-03-29",
+    "rateB7": -1000,
+    "realRateB7": -1667,
+    "fund": -2556055993441,
+    "realFund": -4214800000000
+   },
+   {
+    "turn": 5,
+    "date": "2026-04-05",
+    "rateB7": -1000,
+    "realRateB7": -1810,
+    "fund": -3264696636714,
+    "realFund": -5322600000000
+   },
+   {
+    "turn": 6,
+    "date": "2026-04-12",
+    "rateB7": -600,
+    "realRateB7": -785,
+    "fund": -3656860650350,
+    "realFund": -6016700000000
+   },
+   {
+    "turn": 7,
+    "date": "2026-04-19",
+    "rateB7": -300,
+    "realRateB7": -283,
+    "fund": -3771784307008,
+    "realFund": -6193300000000
+   },
+   {
+    "turn": 8,
+    "date": "2026-04-26",
+    "rateB7": -200,
+    "realRateB7": -223,
+    "fund": -3821783546622,
+    "realFund": -6236400000000
+   },
+   {
+    "turn": 9,
+    "date": "2026-05-03",
+    "rateB7": -100,
+    "realRateB7": -312,
+    "fund": -3817798554186,
+    "realFund": -6318900000000
+   },
+   {
+    "turn": 10,
+    "date": "2026-05-10",
+    "rateB7": 50,
+    "realRateB7": -87,
+    "fund": -3781863208198,
+    "realFund": -6327900000000
+   }
+  ]
+ }
+}
