@@ -105,6 +105,13 @@
     "ids": [
      "fund.position.lpg.2026-03-08"
     ]
+   },
+   "fundNet": {
+    "v": -78600000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.net.2026-03-08"
+    ]
    }
   },
   {
@@ -121,6 +128,13 @@
     "kind": "real",
     "ids": [
      "fund.position.lpg.2026-03-15"
+    ]
+   },
+   "fundNet": {
+    "v": -1260500000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.net.2026-03-15"
     ]
    }
   },
@@ -139,6 +153,13 @@
     "ids": [
      "fund.position.lpg.2026-03-22"
     ]
+   },
+   "fundNet": {
+    "v": -2810900000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.net.2026-03-22"
+    ]
    }
   },
   {
@@ -155,6 +176,13 @@
     "kind": "real",
     "ids": [
      "fund.position.lpg.2026-03-29"
+    ]
+   },
+   "fundNet": {
+    "v": -4214800000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.net.2026-03-29"
     ]
    }
   },
@@ -173,6 +201,13 @@
     "ids": [
      "fund.position.lpg.2026-04-05"
     ]
+   },
+   "fundNet": {
+    "v": -5322600000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.net.2026-04-05"
+    ]
    }
   },
   {
@@ -189,6 +224,13 @@
     "kind": "real",
     "ids": [
      "fund.position.lpg.2026-04-12"
+    ]
+   },
+   "fundNet": {
+    "v": -6016700000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.net.2026-04-12"
     ]
    }
   },
@@ -207,6 +249,13 @@
     "ids": [
      "fund.position.lpg.2026-04-19"
     ]
+   },
+   "fundNet": {
+    "v": -6193300000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.net.2026-04-19"
+    ]
    }
   },
   {
@@ -223,6 +272,13 @@
     "kind": "real",
     "ids": [
      "fund.position.lpg.2026-04-26"
+    ]
+   },
+   "fundNet": {
+    "v": -6236400000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.net.2026-04-26"
     ]
    }
   },
@@ -241,6 +297,13 @@
     "ids": [
      "fund.position.lpg.2026-05-03"
     ]
+   },
+   "fundNet": {
+    "v": -6318900000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.net.2026-05-03"
+    ]
    }
   },
   {
@@ -257,6 +320,13 @@
     "kind": "real",
     "ids": [
      "fund.position.lpg.2026-05-10"
+    ]
+   },
+   "fundNet": {
+    "v": -6327900000000,
+    "kind": "real",
+    "ids": [
+     "fund.position.net.2026-05-10"
     ]
    }
   }

@@ -100,14 +100,16 @@ export const maxSpecialMeetings = (s: GameState): number => Math.trunc(Math.max(
 const withShock = (price: number, shockBp: number): number => price + mulDiv(price, shockBp, 10000);
 const playPrice = (sc: Scenario, base: number, rate: number, realRate: number): number => base + mulDiv(rate - realRate, 10000 + sc.vatBp.v, 10000);
 
-/** อัตราต่ำสุดที่ตั้งได้ตั้งแต่วัน fromDay ถึงสิ้นสัปดาห์ของตาปัจจุบัน โดยราคาในเกมไม่ติดลบทุกวัน (ชดเชยเกินราคาไม่ได้) */
-export function rateFloor(s: GameState, sc: Scenario, fuel: Fuel, fromDay = 0): number {
+/** อัตราต่ำสุดที่ตั้งได้ในวัน fromDay ถึง toDay ของตาปัจจุบัน โดยราคาในเกมไม่ติดลบ (ชดเชยเกินราคาไม่ได้) · ต่ำกว่านี้ 1 สตางค์จะถูกปฏิเสธ */
+export function rateFloor(s: GameState, sc: Scenario, fuel: Fuel, fromDay = 0, toDay = 6): number {
   const shock = s.shocksBp[s.turn - 1];
   if (shock === undefined) throw new Error('ฉากจบแล้ว');
   let floor = s.params.rateMinSatang;
-  for (let i = fromDay; i < 7; i++) {
+  for (let i = fromDay; i <= toDay; i++) {
     const d = sc[fuel][(s.turn - 1) * 7 + i] as Scenario['b7'][number];
-    floor = Math.max(floor, d.rate.v - mulDiv(withShock(d.retail.v, shock), 10000, 10000 + sc.vatBp.v));
+    // ราคา = S − trunc(k × (10000+vat) ÷ 10000) ≥ 0  ⇔  k ≤ trunc((S × 10000 + 9999) ÷ (10000+vat)) โดย k = อัตราจริง − อัตรา
+    const maxBelowReal = mulDiv(withShock(d.retail.v, shock) * 10000 + 9999, 1, 10000 + sc.vatBp.v);
+    floor = Math.max(floor, d.rate.v - maxBelowReal);
   }
   return floor;
 }
@@ -202,7 +204,8 @@ export function submitTurn(s: GameState, sc: Scenario, input: TurnInput): GameSt
   const total = fundTotal(balances);
   const retailSunday = (days.b7[6] as DayTrace).retail;
   // ทั้งสองทางนโยบายมีราคา และวัดทุกวันของสัปดาห์ ไม่ใช่แค่วันอาทิตย์ (docs/rattanava-engine-a.md หัวข้อ 5)
-  const maxRetailB7 = Math.max(...days.b7.map((d) => d.retail));
+  // วันที่ราคาจริงไม่แน่นอนไม่ใช้ตัดสินความเชื่อใจ เพราะราคาวันนั้นเป็นแค่ค่าแทน
+  const maxRetailB7 = Math.max(0, ...days.b7.filter((_, i) => (sc.b7[start + i] as Scenario['b7'][number]).retail.kind !== 'uncertain').map((d) => d.retail));
   const maxG95OverBase = Math.max(...days.g95.map((d) => d.retail - playPrice(sc, withShock(d.realRetail, shock), sc.startRates.g95.v, d.realRate)));
   const authorityBreach = isAuthorityBreach(prevTotal - total, p);
   const trustBreach = isTrustBreach(maxRetailB7, maxG95OverBase, p);
@@ -285,7 +288,7 @@ export type Report = {
   outcome: {
     fund: { player: number; baseline: number; real: Real };
     retailB7LastSunday: { player: number; baseline: number; real: Real };
-    retailB7Average: { player: number; baseline: number; real: number; realHasUncertain: boolean }; // ค่าเฉลี่ยรายวันทั้งฉาก (ตัดเศษ)
+    retailB7Average: { player: number; baseline: number; real: Real; uncertainDays: string[] }; // ค่าเฉลี่ยรายวันทั้งฉาก (ตัดเศษ) · uncertainDays คือวันที่ราคาจริงเป็นค่าแทน ซึ่งทำให้ค่าเฉลี่ยทั้งสามไม่แน่นอนด้วย
   };
   politics: { authority: number; trust: number; authorityMin: number; trustMin: number; authorityBreaches: number; trustBreaches: number; forcedDocs: number; max: number };
   understanding: { points: number; max: number; voidTurns: number[] };
@@ -318,9 +321,14 @@ export function report(s: GameState, sc: Scenario): Report {
   const scored = s.history.filter((h) => h.guessPoints !== null);
   return {
     outcome: {
-      fund: { player: fundTotal(s.balances), baseline: fundTotal(baseline.balances), real: real(lastSun.fundOil.v + lastSun.fundLpg.v, [...lastSun.fundOil.ids, ...lastSun.fundLpg.ids], 'real') },
+      fund: { player: fundTotal(s.balances), baseline: fundTotal(baseline.balances), real: real(lastSun.fundNet.v, lastSun.fundNet.ids, 'real') },
       retailB7LastSunday: { player: last.retailB7Sunday, baseline: bLast.retailB7Sunday, real: real(lastDay.retail.v, lastDay.retail.ids, lastDay.retail.kind) },
-      retailB7Average: { player: avg(allDays(s)), baseline: avg(allDays(baseline)), real: avg(sc.b7.map((d) => d.retail.v)), realHasUncertain: sc.b7.some((d) => d.retail.kind === 'uncertain') },
+      retailB7Average: {
+        player: avg(allDays(s)),
+        baseline: avg(allDays(baseline)),
+        real: real(avg(sc.b7.map((d) => d.retail.v)), [...new Set(sc.b7.flatMap((d) => d.retail.ids))], sc.b7.some((d) => d.retail.kind === 'uncertain') ? 'uncertain' : 'computed'),
+        uncertainDays: sc.days.filter((_, i) => (sc.b7[i] as Scenario['b7'][number]).retail.kind === 'uncertain'),
+      },
     },
     politics: {
       authority: s.authority,
@@ -358,7 +366,7 @@ export function report(s: GameState, sc: Scenario): Report {
         retailB7Sunday: h.retailB7Sunday,
         realRetailB7Sunday: real(sunDay.retail.v, sunDay.retail.ids, sunDay.retail.kind),
         fund: h.fundOil + h.fundLpg,
-        realFund: real(sun.fundOil.v + sun.fundLpg.v, [...sun.fundOil.ids, ...sun.fundLpg.ids], 'real'),
+        realFund: real(sun.fundNet.v, sun.fundNet.ids, 'real'),
       };
     }),
   };

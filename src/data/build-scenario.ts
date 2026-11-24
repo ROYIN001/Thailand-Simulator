@@ -97,7 +97,11 @@ export function buildScenario(records: FactRecord[]): Scenario {
     },
     sundays: Array.from({ length: WEEKS }, (_, w) => {
       const date = days[w * 7 + 6] as string;
-      return { date, fundOil: real(`fund.position.oil.${date}`, millionBahtToSatang), fundLpg: real(`fund.position.lpg.${date}`, millionBahtToSatang) };
+      const fundOil = real(`fund.position.oil.${date}`, millionBahtToSatang);
+      const fundLpg = real(`fund.position.lpg.${date}`, millionBahtToSatang);
+      const fundNet = real(`fund.position.net.${date}`, millionBahtToSatang);
+      if (fundOil.v + fundLpg.v !== fundNet.v) throw new Error(`ฐานะสุทธิไม่เท่ากับผลรวมสองบัญชี ณ ${date}`);
+      return { date, fundOil, fundLpg, fundNet };
     }),
     startRates: {
       b7: { v: bahtToSatang(inForce(b7Rates, openingDate, 'อัตรา B7').value as number), kind: 'real', ids: [inForce(b7Rates, openingDate, 'อัตรา B7').id] },

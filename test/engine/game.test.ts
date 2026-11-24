@@ -164,6 +164,21 @@ describe('ทุน', () => {
     expect(firstZero).toBeGreaterThanOrEqual(0);
     if (firstZero < 9) expect(s.history[firstZero + 1]!.forcedDoc).toBe(true);
   });
+  it('rateFloor เป็นค่าต่ำสุดพอดี: ตั้งได้ แต่ต่ำกว่า 1 สตางค์ถูกปฏิเสธ', () => {
+    for (const seed of [0, 1, 20260302]) {
+      let s = createGame(sc, seed);
+      while (!isFinished(s, sc)) {
+        for (const fuel of ['b7', 'g95'] as const) {
+          const floor = rateFloor(s, sc, fuel);
+          if (floor > s.params.rateMinSatang) {
+            const seg = (r: number) => ({ guessSatang: 0, segments: [{ fromDay: 0, b7: fuel === 'b7' ? r : 130, g95: fuel === 'g95' ? r : 130 }] });
+            expect(() => submitTurn(s, sc, seg(floor - 1)), `seed ${seed} ตา ${s.turn} ${fuel}`).toThrow(/ชดเชยเกินราคา/);
+          }
+        }
+        s = submitTurn(s, sc, maxSubsidy(s));
+      }
+    }
+  });
   it('ชดเชยเกินราคาไม่ได้', () => {
     expect(() => submitTurn(createGame(sc, 1), sc, { guessSatang: 0, segments: [{ fromDay: 0, b7: -5000, g95: 130 }] })).toThrow(/ชดเชยเกินราคา/);
     const s = createGame(sc, 1);
