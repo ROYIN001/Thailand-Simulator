@@ -1,0 +1,20 @@
+{
+  "rules": {
+    "no-restricted-globals": "off"
+  },
+  "overrides": [
+    {
+      "files": ["src/engine/**/*.ts"],
+      "rules": {
+        "no-restricted-properties": ["error",
+          { "object": "Math", "property": "random", "message": "ใช้ PRNG ของ repo (deterministic)" },
+          { "object": "Math", "property": "pow", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "exp", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "log", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "sin", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Date", "property": "now", "message": "ไม่ deterministic" }
+        ]
+      }
+    }
+  ]
+}
