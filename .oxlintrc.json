@@ -1,18 +1,33 @@
 {
-  "rules": {
-    "no-restricted-globals": "off"
-  },
   "overrides": [
     {
       "files": ["src/engine/**/*.ts"],
       "rules": {
+        "no-restricted-globals": ["error", "Date", "crypto", "performance"],
         "no-restricted-properties": ["error",
           { "object": "Math", "property": "random", "message": "ใช้ PRNG ของ repo (deterministic)" },
           { "object": "Math", "property": "pow", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
           { "object": "Math", "property": "exp", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "expm1", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
           { "object": "Math", "property": "log", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "log1p", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "log2", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "log10", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
           { "object": "Math", "property": "sin", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
-          { "object": "Date", "property": "now", "message": "ไม่ deterministic" }
+          { "object": "Math", "property": "cos", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "tan", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "asin", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "acos", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "atan", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "atan2", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "sinh", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "cosh", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "tanh", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "asinh", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "acosh", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "atanh", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "cbrt", "message": "ผลต่างข้ามเบราว์เซอร์ได้" },
+          { "object": "Math", "property": "hypot", "message": "ผลต่างข้ามเบราว์เซอร์ได้" }
         ]
       }
     }

@@ -46,6 +46,9 @@ export function buildScenario(records: FactRecord[]): Scenario {
     return hit;
   };
 
+  // ระเบียนที่บอกวันที่ราคาเปลี่ยน (ป้าย "…เป็น X บาท/ลิตร (วันที่)") · ก่อนวันนั้นราคายังเป็นค่าเดิมแน่นอน
+  const isChangeEvent = (r: FactRecord): boolean => /^price\.diesel_b7\.retail_bkk\.\d{4}-\d{2}-\d{2}$/.test(r.id) && r.label.includes('เป็น');
+
   function fuel(rateRe: RegExp, retailRe: RegExp, salesPrefix: string): FuelDay[] {
     const rates = series(rateRe);
     const retails = series(retailRe);
@@ -56,9 +59,16 @@ export function buildScenario(records: FactRecord[]): Scenario {
       const sid = `${salesPrefix}.${month}`;
       const s = need(sid);
       const dim = daysInMonth(date);
+      const next = retails.find((x) => x.asOf > date);
+      // หมายเหตุของระเบียนถัดไปแบบ "Previous file YYYY-MM-DD: ค่าเดิม" ยืนยันว่าราคาเดิมยังใช้อยู่ถึงวันนั้น
+      const prevFile = next ? /Previous file (\d{4}-\d{2}-\d{2})/.exec(next.notes)?.[1] : undefined;
+      const confirmedUntil = prevFile !== undefined && prevFile >= date;
+      const changedBeforeNext = next !== undefined && next.value !== p.value && !isChangeEvent(next) && !confirmedUntil;
       const retail: Sourced = p.asOf === date
         ? { v: bahtToSatang(p.value as number), kind: 'real', ids: [p.id] }
-        : { v: bahtToSatang(p.value as number), kind: 'computed', ids: [p.id], note: `ไม่มีไฟล์ของวันนี้ ใช้ค่าล่าสุดก่อนหน้า (${p.asOf})` };
+        : changedBeforeNext
+          ? { v: bahtToSatang(p.value as number), kind: 'uncertain', ids: [p.id, (next as FactRecord).id], note: `ไม่มีระเบียนของวันนี้ ราคาเปลี่ยนจาก ${p.value} (${p.asOf}) เป็น ${(next as FactRecord).value} (${(next as FactRecord).asOf}) โดยไม่รู้วันที่เปลี่ยน · ตัวเลขนี้เป็นค่าแทนในการคำนวณเท่านั้น` }
+          : { v: bahtToSatang(p.value as number), kind: 'computed', ids: [p.id], note: `ไม่มีระเบียนของวันนี้ในไฟล์ข้อมูล ใช้ค่าล่าสุดก่อนหน้า (${p.asOf})` };
       return {
         rate: { v: bahtToSatang(r.value as number), kind: 'real', ids: [r.id] },
         retail,

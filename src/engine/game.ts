@@ -19,8 +19,8 @@ export type TurnRecord = {
   turn: number;
   input: TurnInput;
   shockBp: number;
-  guessTarget: number; // ราคา B7 วันอาทิตย์ ถ้าใช้อัตรา ณ ต้นฉาก (สตางค์/ลิตร)
-  guessPoints: number;
+  guessTarget: number | null; // ราคา B7 วันอาทิตย์ ถ้าใช้อัตรา ณ ต้นฉาก (สตางค์/ลิตร) · null = ราคาจริงวันนั้นไม่แน่นอน ไม่นับการทาย
+  guessPoints: number | null;
   forcedDoc: boolean; // ตานี้มีเอกสารบังคับที่ใช้เวลา
   timeUsed: number;
   days: Record<Fuel, DayTrace[]>;
@@ -38,6 +38,10 @@ export type TurnRecord = {
   authority: number;
   trust: number;
   money: number;
+  maxRetailB7: number; // ราคา B7 ในเกมสูงสุดของสัปดาห์
+  maxG95OverBase: number; // ราคาแก๊สโซฮอล์ 95 ในเกมสูงกว่าเส้นฐานมากที่สุดของสัปดาห์
+  authorityBreach: boolean;
+  trustBreach: boolean;
 };
 
 export type GameState = {
@@ -52,7 +56,6 @@ export type GameState = {
   authority: number;
   trust: number;
   forcedDocNext: boolean;
-  prevRetailB7: number;
   history: TurnRecord[];
 };
 
@@ -73,12 +76,11 @@ export function createGame(sc: Scenario, seed: number, params: GameParams = DEFA
     signedEntry(0, 'opening', 'fund.lpg', sc.opening.fundLpg.v, 'ยอดยกมา บัญชี LPG'),
   ];
   for (const e of entries) balances = post(balances, e);
-  const first = sc.b7[0];
-  if (!first) throw new Error('ฉากไม่มีวัน');
+  if (sc.b7.length !== sc.weeks * 7) throw new Error('ฉากไม่ครบทุกวัน');
   return {
     scenarioId: sc.scenarioId,
     seed,
-    params,
+    params: structuredClone(params),
     turn: 1,
     shocksBp,
     balances,
@@ -87,7 +89,6 @@ export function createGame(sc: Scenario, seed: number, params: GameParams = DEFA
     authority: params.capitalMax,
     trust: params.capitalMax,
     forcedDocNext: false,
-    prevRetailB7: first.retail.v,
     history: [],
   };
 }
@@ -97,16 +98,34 @@ export const timeAvailable = (s: GameState): number => s.params.timePerWeek - (s
 export const maxSpecialMeetings = (s: GameState): number => Math.trunc(Math.max(0, timeAvailable(s)) / s.params.specialMeetingCost);
 
 const withShock = (price: number, shockBp: number): number => price + mulDiv(price, shockBp, 10000);
-// ราคาไม่ต่ำกว่าศูนย์ แม้ผู้เล่นชดเชยเกินราคา
-const playPrice = (sc: Scenario, base: number, rate: number, realRate: number): number => Math.max(0, base + mulDiv(rate - realRate, 10000 + sc.vatBp.v, 10000));
+const playPrice = (sc: Scenario, base: number, rate: number, realRate: number): number => base + mulDiv(rate - realRate, 10000 + sc.vatBp.v, 10000);
+
+/** อัตราต่ำสุดที่ตั้งได้ตั้งแต่วัน fromDay ถึงสิ้นสัปดาห์ของตาปัจจุบัน โดยราคาในเกมไม่ติดลบทุกวัน (ชดเชยเกินราคาไม่ได้) */
+export function rateFloor(s: GameState, sc: Scenario, fuel: Fuel, fromDay = 0): number {
+  const shock = s.shocksBp[s.turn - 1];
+  if (shock === undefined) throw new Error('ฉากจบแล้ว');
+  let floor = s.params.rateMinSatang;
+  for (let i = fromDay; i < 7; i++) {
+    const d = sc[fuel][(s.turn - 1) * 7 + i] as Scenario['b7'][number];
+    floor = Math.max(floor, d.rate.v - mulDiv(withShock(d.retail.v, shock), 10000, 10000 + sc.vatBp.v));
+  }
+  return floor;
+}
 
 /** ราคา B7 วันอาทิตย์ของตา ถ้าใช้อัตรา ณ ต้นฉาก (สิ่งที่ผู้เล่นทาย) */
-export function guessTarget(s: GameState, sc: Scenario, turn = s.turn): number {
+export function guessTarget(s: GameState, sc: Scenario, turn = s.turn): number | null {
   const day = sc.b7[(turn - 1) * 7 + 6];
   const shock = s.shocksBp[turn - 1];
   if (!day || shock === undefined) throw new Error(`ไม่มีตา ${turn}`);
+  if (day.retail.kind === 'uncertain') return null;
   return playPrice(sc, withShock(day.retail.v, shock), sc.startRates.b7.v, day.rate.v);
 }
+
+/** อำนาจลดเมื่อฐานะรวมลดเกินระดับในสัปดาห์ (ราคาของการชดเชย) */
+export const isAuthorityBreach = (decline: number, p: GameParams): boolean => decline > p.authorityDropFundSatang;
+/** ความเชื่อใจลดเมื่อราคา B7 วันใดเกินระดับ หรือราคาแก๊สโซฮอล์ 95 วันใดสูงกว่าเส้นฐานเกินระดับ (ราคาของการปล่อยราคาและการเก็บเงินผู้ใช้) */
+export const isTrustBreach = (maxRetailB7: number, maxG95OverBase: number, p: GameParams): boolean =>
+  maxRetailB7 > p.trustB7LevelSatang || maxG95OverBase > p.trustG95OverBaseSatang;
 
 export function scoreGuess(guess: number, target: number, p: GameParams): number {
   const diff = Math.abs(guess - target);
@@ -151,6 +170,7 @@ export function submitTurn(s: GameState, sc: Scenario, input: TurnInput): GameSt
       const realVolume = d.volume.v;
       const rate = seg[f];
       const retail = playPrice(sc, withShock(realRetail, shock), rate, realRate);
+      if (retail < 0) throw new Error(`อัตรา ${f} ชดเชยเกินราคาในวันที่ ${sc.days[start + i]} (ดู rateFloor)`);
       // ปริมาณ = ปริมาณจริง × (1 + e × (ราคาในเกม − ราคาจริง) ÷ ราคาจริง) · ประมาณเชิงเส้น ไม่ต่ำกว่าศูนย์
       const volume = Math.max(0, mulDiv(realVolume, 10000 * realRetail + p.elasticityBp * (retail - realRetail), 10000 * realRetail));
       const flow = mul(rate, volume);
@@ -181,18 +201,24 @@ export function submitTurn(s: GameState, sc: Scenario, input: TurnInput): GameSt
   const prevTotal = fundTotal(s.balances);
   const total = fundTotal(balances);
   const retailSunday = (days.b7[6] as DayTrace).retail;
-  const authority = clamp(s.authority + (prevTotal - total > p.authorityDropFundSatang ? -1 : 1), 0, p.capitalMax);
-  const trust = clamp(s.trust + (retailSunday - s.prevRetailB7 > p.trustDropRetailSatang ? -1 : 1), 0, p.capitalMax);
+  // ทั้งสองทางนโยบายมีราคา และวัดทุกวันของสัปดาห์ ไม่ใช่แค่วันอาทิตย์ (docs/rattanava-engine-a.md หัวข้อ 5)
+  const maxRetailB7 = Math.max(...days.b7.map((d) => d.retail));
+  const maxG95OverBase = Math.max(...days.g95.map((d) => d.retail - playPrice(sc, withShock(d.realRetail, shock), sc.startRates.g95.v, d.realRate)));
+  const authorityBreach = isAuthorityBreach(prevTotal - total, p);
+  const trustBreach = isTrustBreach(maxRetailB7, maxG95OverBase, p);
+  const authority = clamp(s.authority + (authorityBreach ? -p.capitalStep : p.capitalStep), 0, p.capitalMax);
+  const trust = clamp(s.trust + (trustBreach ? -p.capitalStep : p.capitalStep), 0, p.capitalMax);
+  const money = moneyGauge(total, p);
   const last = input.segments[input.segments.length - 1] as RateSegment;
   const forcedDoc = s.forcedDocNext;
   const sunDay = sc.b7[start + 6] as Scenario['b7'][number];
 
   const record: TurnRecord = {
     turn: t,
-    input,
+    input: { guessSatang: input.guessSatang, segments: input.segments.map(({ fromDay, b7, g95 }) => ({ fromDay, b7, g95 })) },
     shockBp: shock,
     guessTarget: target,
-    guessPoints: scoreGuess(input.guessSatang, target, p),
+    guessPoints: target === null ? null : scoreGuess(input.guessSatang, target, p),
     forcedDoc,
     timeUsed: (forcedDoc ? p.forcedDocCost : 0) + (input.segments.length - 1) * p.specialMeetingCost,
     days,
@@ -209,7 +235,11 @@ export function submitTurn(s: GameState, sc: Scenario, input: TurnInput): GameSt
     realRateB7Sunday: sunDay.rate.v,
     authority,
     trust,
-    money: moneyGauge(total, p),
+    money,
+    maxRetailB7,
+    maxG95OverBase,
+    authorityBreach,
+    trustBreach,
   };
 
   return {
@@ -220,8 +250,7 @@ export function submitTurn(s: GameState, sc: Scenario, input: TurnInput): GameSt
     rates: { b7: last.b7, g95: last.g95 },
     authority,
     trust,
-    forcedDocNext: authority === 0 || trust === 0,
-    prevRetailB7: retailSunday,
+    forcedDocNext: authority === 0 || trust === 0 || money === 0,
     history: [...s.history, record],
   };
 }
@@ -247,39 +276,90 @@ export function realPathInput(s: GameState, sc: Scenario, maxSpecials = Number.M
     const prev = segments[segments.length - 1];
     if (!prev || prev.b7 !== b7 || prev.g95 !== g95) segments.push({ fromDay: i, b7, g95 });
   }
-  return { guessSatang: guessTarget(s, sc), segments: segments.slice(0, 1 + maxSpecials) };
+  return { guessSatang: guessTarget(s, sc) ?? 0, segments: segments.slice(0, 1 + maxSpecials) };
 }
+
+type Real = { v: number; ids: string[]; kind: 'real' | 'computed' | 'uncertain' };
 
 export type Report = {
   outcome: {
-    fund: { player: number; baseline: number; real: number };
-    retailB7: { player: number; baseline: number; real: number; realIds: string[]; realKind: 'real' | 'computed' };
+    fund: { player: number; baseline: number; real: Real };
+    retailB7LastSunday: { player: number; baseline: number; real: Real };
+    retailB7Average: { player: number; baseline: number; real: number; realHasUncertain: boolean }; // ค่าเฉลี่ยรายวันทั้งฉาก (ตัดเศษ)
   };
-  politics: { authority: number; trust: number; max: number };
-  understanding: { points: number; max: number };
-  pathVsReal: { turn: number; date: string; rateB7: number; realRateB7: number; fund: number; realFund: number }[];
+  politics: { authority: number; trust: number; authorityMin: number; trustMin: number; authorityBreaches: number; trustBreaches: number; forcedDocs: number; max: number };
+  understanding: { points: number; max: number; voidTurns: number[] };
+  pathVsReal: {
+    turn: number;
+    date: string;
+    playerSegments: RateSegment[];
+    realChangesB7: { date: string; rate: number; id: string }[]; // วันที่อัตรา B7 จริงเปลี่ยนในสัปดาห์นั้น
+    rateB7Sunday: number;
+    realRateB7Sunday: Real;
+    retailB7Sunday: number;
+    realRetailB7Sunday: Real;
+    fund: number;
+    realFund: Real;
+  }[];
 };
 
-export function report(s: GameState, baseline: GameState, sc: Scenario): Report {
-  if (!isFinished(s, sc) || !isFinished(baseline, sc)) throw new Error('ต้องเล่นจบก่อนจึงสรุปได้');
+const real = (v: number, ids: string[], kind: Real['kind']): Real => ({ v, ids, kind });
+const avg = (xs: number[]): number => Math.trunc(xs.reduce((a, b) => a + b, 0) / xs.length);
+
+/** สรุปตอนจบ · เส้นฐานสร้างจาก seed และ params ของเกมเอง จึงเทียบผิดเส้นไม่ได้ */
+export function report(s: GameState, sc: Scenario): Report {
+  if (!isFinished(s, sc)) throw new Error('ต้องเล่นจบก่อนจึงสรุปได้');
+  const baseline = runBaseline(sc, s.seed, s.params);
   const last = s.history[s.history.length - 1] as TurnRecord;
   const bLast = baseline.history[baseline.history.length - 1] as TurnRecord;
+  const lastSun = sc.sundays[sc.weeks - 1] as Scenario['sundays'][number];
   const lastDay = sc.b7[sc.b7.length - 1] as Scenario['b7'][number];
-  const maxPoints = sc.weeks * Math.max(...s.params.guessBands.map((b) => b.points));
+  const allDays = (g: GameState) => g.history.flatMap((h) => h.days.b7.map((d) => d.retail));
+  const scored = s.history.filter((h) => h.guessPoints !== null);
   return {
     outcome: {
-      fund: { player: fundTotal(s.balances), baseline: fundTotal(baseline.balances), real: last.realFundOil + last.realFundLpg },
-      retailB7: { player: last.retailB7Sunday, baseline: bLast.retailB7Sunday, real: lastDay.retail.v, realIds: lastDay.retail.ids, realKind: lastDay.retail.kind },
+      fund: { player: fundTotal(s.balances), baseline: fundTotal(baseline.balances), real: real(lastSun.fundOil.v + lastSun.fundLpg.v, [...lastSun.fundOil.ids, ...lastSun.fundLpg.ids], 'real') },
+      retailB7LastSunday: { player: last.retailB7Sunday, baseline: bLast.retailB7Sunday, real: real(lastDay.retail.v, lastDay.retail.ids, lastDay.retail.kind) },
+      retailB7Average: { player: avg(allDays(s)), baseline: avg(allDays(baseline)), real: avg(sc.b7.map((d) => d.retail.v)), realHasUncertain: sc.b7.some((d) => d.retail.kind === 'uncertain') },
     },
-    politics: { authority: s.authority, trust: s.trust, max: s.params.capitalMax },
-    understanding: { points: s.history.reduce((a, h) => a + h.guessPoints, 0), max: maxPoints },
-    pathVsReal: s.history.map((h, i) => ({
-      turn: h.turn,
-      date: (sc.sundays[i] as Scenario['sundays'][number]).date,
-      rateB7: h.rateB7Sunday,
-      realRateB7: h.realRateB7Sunday,
-      fund: h.fundOil + h.fundLpg,
-      realFund: h.realFundOil + h.realFundLpg,
-    })),
+    politics: {
+      authority: s.authority,
+      trust: s.trust,
+      authorityMin: Math.min(...s.history.map((h) => h.authority)),
+      trustMin: Math.min(...s.history.map((h) => h.trust)),
+      authorityBreaches: s.history.filter((h) => h.authorityBreach).length,
+      trustBreaches: s.history.filter((h) => h.trustBreach).length,
+      forcedDocs: s.history.filter((h) => h.forcedDoc).length,
+      max: s.params.capitalMax,
+    },
+    understanding: {
+      points: scored.reduce((a, h) => a + (h.guessPoints as number), 0),
+      max: scored.length * Math.max(...s.params.guessBands.map((b) => b.points)),
+      voidTurns: s.history.filter((h) => h.guessPoints === null).map((h) => h.turn),
+    },
+    pathVsReal: s.history.map((h, i) => {
+      const sun = sc.sundays[i] as Scenario['sundays'][number];
+      const week = sc.b7.slice(i * 7, i * 7 + 7);
+      const sunDay = week[6] as Scenario['b7'][number];
+      const before = i === 0 ? sc.startRates.b7.v : (sc.b7[i * 7 - 1] as Scenario['b7'][number]).rate.v;
+      const realChangesB7: { date: string; rate: number; id: string }[] = [];
+      let prev = before;
+      week.forEach((d, j) => {
+        if (d.rate.v !== prev) realChangesB7.push({ date: sc.days[i * 7 + j] as string, rate: d.rate.v, id: d.rate.ids[0] as string });
+        prev = d.rate.v;
+      });
+      return {
+        turn: h.turn,
+        date: sun.date,
+        playerSegments: h.input.segments,
+        realChangesB7,
+        rateB7Sunday: h.rateB7Sunday,
+        realRateB7Sunday: real(sunDay.rate.v, sunDay.rate.ids, sunDay.rate.kind),
+        retailB7Sunday: h.retailB7Sunday,
+        realRetailB7Sunday: real(sunDay.retail.v, sunDay.retail.ids, sunDay.retail.kind),
+        fund: h.fundOil + h.fundLpg,
+        realFund: real(sun.fundOil.v + sun.fundLpg.v, [...sun.fundOil.ids, ...sun.fundLpg.ids], 'real'),
+      };
+    }),
   };
 }

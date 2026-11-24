@@ -1,9 +1,10 @@
 // ชนิดของไฟล์ฉากที่สร้างจากไฟล์ข้อมูลกลาง (scripts/build-scenario.ts) · ทุกค่ามี id หรือสูตรที่บอกที่มา
 export type Sourced = {
   v: number; // จำนวนเต็มในหน่วยของช่อง (สตางค์ สตางค์ต่อลิตร ลิตรต่อวัน หรือ basis point)
-  kind: 'real' | 'computed';
+  // uncertain = ไม่มีระเบียนของวันนั้น และราคาเปลี่ยนก่อนระเบียนถัดไปโดยไม่รู้วันที่เปลี่ยน · ตัวเลขเป็นแค่ค่าแทนในการคำนวณภายใน หน้าจอต้องแสดงเป็นกรอบเส้นประ
+  kind: 'real' | 'computed' | 'uncertain';
   ids: string[]; // ระเบียนในไฟล์ข้อมูลกลางที่ค่านี้มาจาก
-  note?: string; // สูตรหรือเหตุผล เมื่อ kind เป็น computed
+  note?: string; // สูตรหรือเหตุผล เมื่อ kind ไม่ใช่ real
 };
 
 export type FuelDay = { rate: Sourced; retail: Sourced; volume: Sourced };

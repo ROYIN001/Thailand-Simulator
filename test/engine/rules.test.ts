@@ -8,10 +8,24 @@ import { scenario } from './helpers.ts';
 
 describe('กฎของเครื่องยนต์', () => {
   const dir = 'src/engine';
-  const files = readdirSync(dir).filter((f) => f.endsWith('.ts'));
+  const files = readdirSync(dir, { recursive: true, encoding: 'utf8' }).filter((f) => f.endsWith('.ts'));
+  // อนุญาตเฉพาะเมธอดของ Math ที่ให้ผลแน่นอนทุกเบราว์เซอร์ · ห้ามนามแฝงของ Math และห้าม Date crypto performance และ **
+  const ALLOWED_MATH = new Set(['trunc', 'max', 'min', 'abs', 'imul']);
+  const strip = (code: string) => code.replace(/\/\*[\s\S]*?\*\//g, '').replace(/(^|[^:])\/\/.*$/gm, '$1').replace(/'(?:[^'\\\n]|\\.)*'|`(?:[^`\\]|\\.)*`/g, "''");
   it.each(files)('%s ไม่ใช้ API ที่ไม่ deterministic', (f) => {
-    const code = readFileSync(join(dir, f), 'utf8').replace(/\/\*[\s\S]*?\*\//g, '').replace(/\/\/.*$/gm, '');
-    expect(code).not.toMatch(/Math\.(random|pow|exp|expm1|log|log1p|log2|log10|sin|cos|tan|atan2|cbrt|hypot)\b|Date\.now|new Date\(|performance\.now|\*\*/);
+    const code = strip(readFileSync(join(dir, f), 'utf8'));
+    for (const m of code.matchAll(/\bMath\s*(?:\.\s*([A-Za-z0-9_$]+)|\[)?/g)) {
+      expect(m[1] !== undefined && ALLOWED_MATH.has(m[1]), `ใช้ Math แบบไม่อนุญาตใน ${f}: ${m[0]}`).toBe(true);
+    }
+    expect(code).not.toMatch(/\bDate\b|\bcrypto\b|\bperformance\b|\*\*/);
+  });
+  it('ตัวตรวจจับสิ่งที่ห้ามได้จริง', () => {
+    const bad = ['const M = Math; M.random()', 'const { sinh } = Math', 'Math.atan(1)', "Math['random']()", 'new Date', 'crypto.getRandomValues(a)', 'performance.now()', 'x ** 2'];
+    for (const b of bad) {
+      const code = strip(b);
+      const mathBad = [...code.matchAll(/\bMath\s*(?:\.\s*([A-Za-z0-9_$]+)|\[)?/g)].some((m) => !(m[1] !== undefined && ALLOWED_MATH.has(m[1])));
+      expect(mathBad || /\bDate\b|\bcrypto\b|\bperformance\b|\*\*/.test(code), b).toBe(true);
+    }
   });
 });
 

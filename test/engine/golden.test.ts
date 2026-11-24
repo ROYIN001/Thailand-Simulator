@@ -1,7 +1,7 @@
 // golden run: seed และชุดการตัดสินใจคงที่ ผลต้องตรงกับไฟล์ใน test/golden/ ทุกตัว
 // ถ้าตั้งใจเปลี่ยนเครื่องยนต์ ให้รัน vitest -u แล้วอธิบายส่วนต่างใน commit
 import { describe, expect, it } from 'vitest';
-import { report, runBaseline, runPlan, type GameState, type TurnInput } from '../../src/engine/game.ts';
+import { FUELS, rateFloor, report, runPlan, type GameState, type TurnInput } from '../../src/engine/game.ts';
 import { scenario as sc } from './helpers.ts';
 
 const SEED = 20260302;
@@ -27,19 +27,32 @@ const plan = (s: GameState): TurnInput => {
   };
 };
 
+const summarize = (s: GameState) => ({
+  seed: s.seed,
+  turns: s.history.map((h) => ({
+    turn: h.turn, shockBp: h.shockBp, guessTarget: h.guessTarget, guessPoints: h.guessPoints, timeUsed: h.timeUsed, forcedDoc: h.forcedDoc,
+    flowB7: h.flows.b7, flowG95: h.flows.g95, residualOil: h.residualOil, residualLpg: h.residualLpg,
+    fundOil: h.fundOil, fundLpg: h.fundLpg, retailB7Sunday: h.retailB7Sunday, maxRetailB7: h.maxRetailB7, maxG95OverBase: h.maxG95OverBase,
+    authorityBreach: h.authorityBreach, trustBreach: h.trustBreach, authority: h.authority, trust: h.trust, money: h.money,
+    days: FUELS.map((f) => h.days[f].map((d) => [d.rate, d.retail, d.volume, d.flow])),
+  })),
+  finalRates: s.rates,
+  forcedDocNext: s.forcedDocNext,
+  balances: s.balances,
+  entries: s.entries.map((e) => [e.week, e.from, e.to, e.amount]),
+  report: report(s, sc),
+});
+
+// แผนที่สอง: ชดเชยเต็มที่ทุกตา (ที่ระดับต่ำสุดที่ตั้งได้) ให้ทุนหมดและเกิดเอกสารบังคับ
+const harsh = (s: GameState): TurnInput => ({ guessSatang: 4500, segments: [{ fromDay: 0, b7: rateFloor(s, sc, 'b7'), g95: rateFloor(s, sc, 'g95') }] });
+
 describe('golden run', () => {
   it(`seed ${SEED} แผนตายตัว`, async () => {
-    const s = runPlan(sc, SEED, plan);
-    const base = runBaseline(sc, SEED);
-    const summary = {
-      seed: SEED,
-      turns: s.history.map((h) => ({
-        turn: h.turn, shockBp: h.shockBp, guessTarget: h.guessTarget, guessPoints: h.guessPoints, timeUsed: h.timeUsed, forcedDoc: h.forcedDoc,
-        flowB7: h.flows.b7, flowG95: h.flows.g95, residualOil: h.residualOil, residualLpg: h.residualLpg,
-        fundOil: h.fundOil, fundLpg: h.fundLpg, retailB7Sunday: h.retailB7Sunday, authority: h.authority, trust: h.trust, money: h.money,
-      })),
-      report: report(s, base, sc),
-    };
-    await expect(`${JSON.stringify(summary, null, 1)}\n`).toMatchFileSnapshot('../golden/run-a-seed20260302.json');
+    await expect(`${JSON.stringify(summarize(runPlan(sc, SEED, plan)), null, 1)}\n`).toMatchFileSnapshot('../golden/run-a-seed20260302.json');
+  });
+  it(`seed ${SEED} ชดเชยเต็มที่ทุกตา`, async () => {
+    const s = runPlan(sc, SEED, harsh);
+    expect(s.history.some((h) => h.forcedDoc)).toBe(true);
+    await expect(`${JSON.stringify(summarize(s), null, 1)}\n`).toMatchFileSnapshot('../golden/run-a-harsh-seed20260302.json');
   });
 });

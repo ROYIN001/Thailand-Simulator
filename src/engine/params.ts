@@ -3,8 +3,10 @@
 export type GameParams = {
   elasticityBp: number; // ความยืดหยุ่นของปริมาณต่อราคา × 10000 (เช่น −2000 = −0.20)
   shockMaxBp: number; // ช็อกราคาของสัปดาห์ สุ่มสม่ำเสมอใน ±ค่านี้ (basis point)
-  authorityDropFundSatang: number; // ฐานะรวมลดเกินเท่านี้ในสัปดาห์ → อำนาจ −1
-  trustDropRetailSatang: number; // ราคา B7 วันอาทิตย์ขึ้นเกินเท่านี้ (สตางค์/ลิตร) → ความเชื่อใจ −1
+  authorityDropFundSatang: number; // ฐานะรวมลดเกินเท่านี้ในสัปดาห์ → อำนาจ −1 (ราคาของการชดเชย)
+  trustB7LevelSatang: number; // ราคา B7 ในเกมวันใดของสัปดาห์เกินระดับนี้ → ความเชื่อใจ −1 (ราคาของการปล่อยราคา)
+  trustG95OverBaseSatang: number; // ราคาแก๊สโซฮอล์ 95 ในเกมวันใดสูงกว่าเส้นฐานเกินเท่านี้ → ความเชื่อใจ −1 (ราคาของการเก็บเงินผู้ใช้เบนซิน)
+  capitalStep: number; // ลดหรือฟื้นครั้งละกี่ช่อง
   capitalMax: number;
   timePerWeek: number;
   specialMeetingCost: number;
@@ -17,11 +19,19 @@ export type GameParams = {
 
 export const ELASTICITY_PRESETS = { low: -1000, mid: -2000, high: -3000 } as const;
 
-export const DEFAULT_PARAMS: GameParams = {
+const deepFreeze = <T>(o: T): T => {
+  if (o && typeof o === 'object') { for (const v of Object.values(o)) deepFreeze(v); Object.freeze(o); }
+  return o;
+};
+
+export const DEFAULT_PARAMS: GameParams = deepFreeze({
   elasticityBp: ELASTICITY_PRESETS.mid,
   shockMaxBp: 200,
   authorityDropFundSatang: 8_000 * 100_000_000,
-  trustDropRetailSatang: 200,
+  // 30 บาท/ลิตร คือระดับราคาดีเซลที่กรอบนโยบาย กพช. 2562 ใช้เป็นเงื่อนไขให้ใช้กองทุน (policy.nepc_framework_2562.diesel_crisis_threshold) · ใช้เป็นระดับของเกม ไม่ใช่กฎจริงของความเชื่อใจ
+  trustB7LevelSatang: 3000,
+  trustG95OverBaseSatang: 200,
+  capitalStep: 1,
   capitalMax: 5,
   timePerWeek: 5,
   specialMeetingCost: 2,
@@ -33,4 +43,4 @@ export const DEFAULT_PARAMS: GameParams = {
     { withinSatang: 150, points: 1 },
   ],
   moneyBandSatang: 20_000 * 100_000_000,
-};
+});

@@ -1,0 +1,2051 @@
+{
+ "seed": 20260302,
+ "turns": [
+  {
+   "turn": 1,
+   "shockBp": -140,
+   "guessTarget": 4128,
+   "guessPoints": 0,
+   "timeUsed": 0,
+   "forcedDoc": false,
+   "flowB7": -1846119908701,
+   "flowG95": -455976535155,
+   "residualOil": 32517082517,
+   "residualLpg": 11900000000,
+   "fundOil": 1761720638661,
+   "fundLpg": -3773500000000,
+   "retailB7Sunday": 1177,
+   "maxRetailB7": 1177,
+   "maxG95OverBase": -3011,
+   "authorityBreach": true,
+   "trustBreach": false,
+   "authority": 4,
+   "trust": 5,
+   "money": 3,
+   "days": [
+    [
+     [
+      -2833,
+      1,
+      96293714,
+      -272800091762
+     ],
+     [
+      -2833,
+      1,
+      96293714,
+      -272800091762
+     ],
+     [
+      -2833,
+      298,
+      94701595,
+      -268289618635
+     ],
+     [
+      -2833,
+      587,
+      93152361,
+      -263900638713
+     ],
+     [
+      -2833,
+      946,
+      91227881,
+      -258448586873
+     ],
+     [
+      -2833,
+      1177,
+      89989566,
+      -254940440478
+     ],
+     [
+      -2833,
+      1177,
+      89989566,
+      -254940440478
+     ]
+    ],
+    [
+     [
+      -2685,
+      1,
+      24587648,
+      -66017834880
+     ],
+     [
+      -2685,
+      55,
+      24515209,
+      -65823336165
+     ],
+     [
+      -2685,
+      130,
+      24414600,
+      -65553201000
+     ],
+     [
+      -2685,
+      237,
+      24271063,
+      -65167804155
+     ],
+     [
+      -2685,
+      355,
+      24112771,
+      -64742790135
+     ],
+     [
+      -2685,
+      468,
+      23961186,
+      -64335784410
+     ],
+     [
+      -2685,
+      468,
+      23961186,
+      -64335784410
+     ]
+    ]
+   ]
+  },
+  {
+   "turn": 2,
+   "shockBp": -29,
+   "guessTarget": 4865,
+   "guessPoints": 0,
+   "timeUsed": 0,
+   "forcedDoc": false,
+   "flowB7": -2613223144455,
+   "flowG95": -529628028465,
+   "residualOil": -231122562290,
+   "residualLpg": 11400000000,
+   "fundOil": -1612253096549,
+   "fundLpg": -3762100000000,
+   "retailB7Sunday": 705,
+   "maxRetailB7": 705,
+   "maxG95OverBase": -3511,
+   "authorityBreach": true,
+   "trustBreach": false,
+   "authority": 3,
+   "trust": 5,
+   "money": 2,
+   "days": [
+    [
+     [
+      -3963,
+      1,
+      96293714,
+      -381611988582
+     ],
+     [
+      -3963,
+      108,
+      95720122,
+      -379338843486
+     ],
+     [
+      -3963,
+      562,
+      93286378,
+      -369693916014
+     ],
+     [
+      -3963,
+      399,
+      94160167,
+      -373156741821
+     ],
+     [
+      -3963,
+      260,
+      94905300,
+      -376109703900
+     ],
+     [
+      -3963,
+      705,
+      92519802,
+      -366655975326
+     ],
+     [
+      -3963,
+      705,
+      92519802,
+      -366655975326
+     ]
+    ],
+    [
+     [
+      -3153,
+      1,
+      24587648,
+      -77524854144
+     ],
+     [
+      -3153,
+      298,
+      24195671,
+      -76288950663
+     ],
+     [
+      -3153,
+      516,
+      23907942,
+      -75381741126
+     ],
+     [
+      -3153,
+      564,
+      23844589,
+      -75181989117
+     ],
+     [
+      -3153,
+      527,
+      23893423,
+      -75335962719
+     ],
+     [
+      -3153,
+      618,
+      23773316,
+      -74957265348
+     ],
+     [
+      -3153,
+      618,
+      23773316,
+      -74957265348
+     ]
+    ]
+   ]
+  },
+  {
+   "turn": 3,
+   "shockBp": -124,
+   "guessTarget": null,
+   "guessPoints": null,
+   "timeUsed": 0,
+   "forcedDoc": false,
+   "flowB7": -3037060676938,
+   "flowG95": -630852430075,
+   "residualOil": -240755963292,
+   "residualLpg": 21000000000,
+   "fundOil": -5520922166854,
+   "fundLpg": -3741100000000,
+   "retailB7Sunday": 687,
+   "maxRetailB7": 687,
+   "maxG95OverBase": -4100,
+   "authorityBreach": true,
+   "trustBreach": false,
+   "authority": 2,
+   "trust": 5,
+   "money": 0,
+   "days": [
+    [
+     [
+      -4594,
+      1,
+      96293714,
+      -442373322116
+     ],
+     [
+      -4594,
+      220,
+      95119727,
+      -436980025838
+     ],
+     [
+      -4594,
+      217,
+      95154916,
+      -437141684104
+     ],
+     [
+      -4594,
+      301,
+      94712017,
+      -435107006098
+     ],
+     [
+      -4594,
+      349,
+      94458931,
+      -433944329014
+     ],
+     [
+      -4594,
+      687,
+      92676786,
+      -425757154884
+     ],
+     [
+      -4594,
+      687,
+      92676786,
+      -425757154884
+     ]
+    ],
+    [
+     [
+      -3703,
+      1,
+      24587670,
+      -91048142010
+     ],
+     [
+      -3703,
+      146,
+      24396290,
+      -90339461870
+     ],
+     [
+      -3703,
+      245,
+      24275713,
+      -89892965239
+     ],
+     [
+      -3703,
+      245,
+      24275713,
+      -89892965239
+     ],
+     [
+      -3703,
+      245,
+      24275713,
+      -89892965239
+     ],
+     [
+      -3703,
+      245,
+      24275713,
+      -89892965239
+     ],
+     [
+      -3703,
+      245,
+      24275713,
+      -89892965239
+     ]
+    ]
+   ]
+  },
+  {
+   "turn": 4,
+   "shockBp": 73,
+   "guessTarget": 5626,
+   "guessPoints": 0,
+   "timeUsed": 2,
+   "forcedDoc": true,
+   "flowB7": -3293169350000,
+   "flowG95": -649919638420,
+   "residualOil": -193557835376,
+   "residualLpg": 9600000000,
+   "fundOil": -9657568990650,
+   "fundLpg": -3731500000000,
+   "retailB7Sunday": 356,
+   "maxRetailB7": 856,
+   "maxG95OverBase": -4225,
+   "authorityBreach": true,
+   "trustBreach": false,
+   "authority": 1,
+   "trust": 5,
+   "money": 0,
+   "days": [
+    [
+     [
+      -5000,
+      381,
+      94335365,
+      -471676825000
+     ],
+     [
+      -5000,
+      546,
+      93638717,
+      -468193585000
+     ],
+     [
+      -5000,
+      856,
+      92128258,
+      -460641290000
+     ],
+     [
+      -5000,
+      618,
+      93751872,
+      -468759360000
+     ],
+     [
+      -5000,
+      287,
+      95116150,
+      -475580750000
+     ],
+     [
+      -5000,
+      356,
+      94831754,
+      -474158770000
+     ],
+     [
+      -5000,
+      356,
+      94831754,
+      -474158770000
+     ]
+    ],
+    [
+     [
+      -3820,
+      283,
+      24238072,
+      -92589435040
+     ],
+     [
+      -3820,
+      484,
+      24023080,
+      -91768165600
+     ],
+     [
+      -3820,
+      484,
+      24023080,
+      -91768165600
+     ],
+     [
+      -3820,
+      396,
+      24193649,
+      -92419739180
+     ],
+     [
+      -3820,
+      107,
+      24482168,
+      -93521881760
+     ],
+     [
+      -3820,
+      1,
+      24587991,
+      -93926125620
+     ],
+     [
+      -3820,
+      1,
+      24587991,
+      -93926125620
+     ]
+    ]
+   ]
+  },
+  {
+   "turn": 5,
+   "shockBp": -42,
+   "guessTarget": null,
+   "guessPoints": null,
+   "timeUsed": 2,
+   "forcedDoc": true,
+   "flowB7": -2541344915000,
+   "flowG95": -568981927206,
+   "residualOil": -301289087873,
+   "residualLpg": -11100000000,
+   "fundOil": -13069184920729,
+   "fundLpg": -3742600000000,
+   "retailB7Sunday": 1341,
+   "maxRetailB7": 1620,
+   "maxG95OverBase": -4180,
+   "authorityBreach": true,
+   "trustBreach": false,
+   "authority": 0,
+   "trust": 5,
+   "money": 0,
+   "days": [
+    [
+     [
+      -5000,
+      312,
+      95013108,
+      -475065540000
+     ],
+     [
+      -5000,
+      715,
+      93482275,
+      -467411375000
+     ],
+     [
+      -5000,
+      1050,
+      63957156,
+      -319785780000
+     ],
+     [
+      -5000,
+      959,
+      64413365,
+      -322066825000
+     ],
+     [
+      -5000,
+      931,
+      64655699,
+      -323278495000
+     ],
+     [
+      -5000,
+      1620,
+      63048230,
+      -315241150000
+     ],
+     [
+      -5000,
+      1341,
+      63699150,
+      -318495750000
+     ]
+    ],
+    [
+     [
+      -3777,
+      1,
+      24587991,
+      -92868842007
+     ],
+     [
+      -3777,
+      101,
+      24490556,
+      -92500830012
+     ],
+     [
+      -3777,
+      101,
+      20417438,
+      -77116663326
+     ],
+     [
+      -3777,
+      220,
+      20325710,
+      -76770206670
+     ],
+     [
+      -3777,
+      290,
+      20274061,
+      -76575128397
+     ],
+     [
+      -3777,
+      290,
+      20274061,
+      -76575128397
+     ],
+     [
+      -3777,
+      290,
+      20274061,
+      -76575128397
+     ]
+    ]
+   ]
+  },
+  {
+   "turn": 6,
+   "shockBp": 3,
+   "guessTarget": 5201,
+   "guessPoints": 0,
+   "timeUsed": 2,
+   "forcedDoc": true,
+   "flowB7": -2236124716140,
+   "flowG95": -530953157430,
+   "residualOil": -174772867536,
+   "residualLpg": -26300000000,
+   "fundOil": -16011035661835,
+   "fundLpg": -3768900000000,
+   "retailB7Sunday": 1,
+   "maxRetailB7": 1759,
+   "maxG95OverBase": -4130,
+   "authorityBreach": true,
+   "trustBreach": false,
+   "authority": 0,
+   "trust": 5,
+   "money": 0,
+   "days": [
+    [
+     [
+      -4935,
+      1712,
+      63054874,
+      -311175803190
+     ],
+     [
+      -4935,
+      1712,
+      63054874,
+      -311175803190
+     ],
+     [
+      -4935,
+      1759,
+      62951296,
+      -310664645760
+     ],
+     [
+      -4935,
+      1166,
+      64144528,
+      -316553245680
+     ],
+     [
+      -4935,
+      247,
+      66259360,
+      -326989941600
+     ],
+     [
+      -4935,
+      1,
+      66825256,
+      -329782638360
+     ],
+     [
+      -4935,
+      1,
+      66825256,
+      -329782638360
+     ]
+    ],
+    [
+     [
+      -3730,
+      359,
+      20220422,
+      -75422174060
+     ],
+     [
+      -3730,
+      359,
+      20220422,
+      -75422174060
+     ],
+     [
+      -3730,
+      359,
+      20220422,
+      -75422174060
+     ],
+     [
+      -3730,
+      359,
+      20220422,
+      -75422174060
+     ],
+     [
+      -3730,
+      39,
+      20469183,
+      -76350052590
+     ],
+     [
+      -3730,
+      2,
+      20497910,
+      -76457204300
+     ],
+     [
+      -3730,
+      2,
+      20497910,
+      -76457204300
+     ]
+    ]
+   ]
+  },
+  {
+   "turn": 7,
+   "shockBp": -60,
+   "guessTarget": 4488,
+   "guessPoints": 3,
+   "timeUsed": 2,
+   "forcedDoc": true,
+   "flowB7": -1974970465996,
+   "flowG95": -513534967743,
+   "residualOil": -17701498658,
+   "residualLpg": -17100000000,
+   "fundOil": -18517242594232,
+   "fundLpg": -3786000000000,
+   "retailB7Sunday": 2,
+   "maxRetailB7": 688,
+   "maxG95OverBase": -3977,
+   "authorityBreach": true,
+   "trustBreach": false,
+   "authority": 0,
+   "trust": 5,
+   "money": 0,
+   "days": [
+    [
+     [
+      -4268,
+      688,
+      65101882,
+      -277854832376
+     ],
+     [
+      -4268,
+      688,
+      65101882,
+      -277854832376
+     ],
+     [
+      -4268,
+      478,
+      65628678,
+      -280103197704
+     ],
+     [
+      -4268,
+      155,
+      66438939,
+      -283561391652
+     ],
+     [
+      -4268,
+      2,
+      66822572,
+      -285198737296
+     ],
+     [
+      -4268,
+      2,
+      66822572,
+      -285198737296
+     ],
+     [
+      -4268,
+      2,
+      66822572,
+      -285198737296
+     ]
+    ],
+    [
+     [
+      -3587,
+      129,
+      20396884,
+      -73163622908
+     ],
+     [
+      -3587,
+      129,
+      20396884,
+      -73163622908
+     ],
+     [
+      -3587,
+      129,
+      20396884,
+      -73163622908
+     ],
+     [
+      -3587,
+      26,
+      20478819,
+      -73457523753
+     ],
+     [
+      -3587,
+      1,
+      20498706,
+      -73528858422
+     ],
+     [
+      -3587,
+      1,
+      20498706,
+      -73528858422
+     ],
+     [
+      -3587,
+      1,
+      20498706,
+      -73528858422
+     ]
+    ]
+   ]
+  },
+  {
+   "turn": 8,
+   "shockBp": 172,
+   "guessTarget": 4248,
+   "guessPoints": 0,
+   "timeUsed": 2,
+   "forcedDoc": true,
+   "flowB7": -1870272296048,
+   "flowG95": -519255842544,
+   "residualOil": 33902278436,
+   "residualLpg": -36100000000,
+   "fundOil": -20872868454388,
+   "fundLpg": -3822100000000,
+   "retailB7Sunday": 31,
+   "maxRetailB7": 369,
+   "maxG95OverBase": -4025,
+   "authorityBreach": true,
+   "trustBreach": false,
+   "authority": 0,
+   "trust": 5,
+   "money": 0,
+   "days": [
+    [
+     [
+      -4016,
+      369,
+      65869744,
+      -264532891904
+     ],
+     [
+      -4016,
+      133,
+      66472525,
+      -266953660400
+     ],
+     [
+      -4016,
+      1,
+      66825093,
+      -268369573488
+     ],
+     [
+      -4016,
+      193,
+      66312266,
+      -266310060256
+     ],
+     [
+      -4016,
+      31,
+      66741875,
+      -268035370000
+     ],
+     [
+      -4016,
+      31,
+      66741875,
+      -268035370000
+     ],
+     [
+      -4016,
+      31,
+      66741875,
+      -268035370000
+     ]
+    ],
+    [
+     [
+      -3632,
+      1,
+      20498696,
+      -74451263872
+     ],
+     [
+      -3632,
+      57,
+      20453625,
+      -74287566000
+     ],
+     [
+      -3632,
+      26,
+      20478575,
+      -74378184400
+     ],
+     [
+      -3632,
+      97,
+      20421431,
+      -74170637392
+     ],
+     [
+      -3632,
+      159,
+      20371530,
+      -73989396960
+     ],
+     [
+      -3632,
+      159,
+      20371530,
+      -73989396960
+     ],
+     [
+      -3632,
+      159,
+      20371530,
+      -73989396960
+     ]
+    ]
+   ]
+  },
+  {
+   "turn": 9,
+   "shockBp": -88,
+   "guessTarget": 4299,
+   "guessPoints": 0,
+   "timeUsed": 2,
+   "forcedDoc": true,
+   "flowB7": -1894413534966,
+   "flowG95": -535977202693,
+   "residualOil": 11154884086,
+   "residualLpg": -8800000000,
+   "fundOil": -23292104307961,
+   "fundLpg": -3830900000000,
+   "retailB7Sunday": 161,
+   "maxRetailB7": 161,
+   "maxG95OverBase": -4073,
+   "authorityBreach": true,
+   "trustBreach": false,
+   "authority": 0,
+   "trust": 5,
+   "money": 0,
+   "days": [
+    [
+     [
+      -3942,
+      6,
+      66811140,
+      -263369513880
+     ],
+     [
+      -3942,
+      76,
+      66617196,
+      -262604986632
+     ],
+     [
+      -3942,
+      3,
+      66819452,
+      -263402279784
+     ],
+     [
+      -3942,
+      1,
+      66824994,
+      -263424126348
+     ],
+     [
+      -3942,
+      161,
+      71166297,
+      -280537542774
+     ],
+     [
+      -3942,
+      161,
+      71166297,
+      -280537542774
+     ],
+     [
+      -3942,
+      161,
+      71166297,
+      -280537542774
+     ]
+    ],
+    [
+     [
+      -3677,
+      1,
+      20498696,
+      -75373705192
+     ],
+     [
+      -3677,
+      55,
+      20455234,
+      -75213895418
+     ],
+     [
+      -3677,
+      50,
+      20459259,
+      -75228695343
+     ],
+     [
+      -3677,
+      86,
+      20430284,
+      -75122154268
+     ],
+     [
+      -3677,
+      170,
+      21307112,
+      -78346250824
+     ],
+     [
+      -3677,
+      170,
+      21307112,
+      -78346250824
+     ],
+     [
+      -3677,
+      170,
+      21307112,
+      -78346250824
+     ]
+    ]
+   ]
+  },
+  {
+   "turn": 10,
+   "shockBp": -189,
+   "guessTarget": 3933,
+   "guessPoints": 0,
+   "timeUsed": 2,
+   "forcedDoc": true,
+   "flowB7": -1762611964632,
+   "flowG95": -531442269015,
+   "residualOil": -4191949462,
+   "residualLpg": -18300000000,
+   "fundOil": -25590350491070,
+   "fundLpg": -3849200000000,
+   "retailB7Sunday": 219,
+   "maxRetailB7": 543,
+   "maxG95OverBase": -3949,
+   "authorityBreach": true,
+   "trustBreach": false,
+   "authority": 0,
+   "trust": 5,
+   "money": 0,
+   "days": [
+    [
+     [
+      -3546,
+      543,
+      70048425,
+      -248391715050
+     ],
+     [
+      -3546,
+      351,
+      70610288,
+      -250384081248
+     ],
+     [
+      -3546,
+      230,
+      70964378,
+      -251639684388
+     ],
+     [
+      -3546,
+      151,
+      71195561,
+      -252459459306
+     ],
+     [
+      -3546,
+      1,
+      71634454,
+      -254015773884
+     ],
+     [
+      -3546,
+      1,
+      71634454,
+      -254015773884
+     ],
+     [
+      -3546,
+      219,
+      70982932,
+      -251705476872
+     ]
+    ],
+    [
+     [
+      -3561,
+      251,
+      21240243,
+      -75636505323
+     ],
+     [
+      -3561,
+      217,
+      21268312,
+      -75736459032
+     ],
+     [
+      -3561,
+      244,
+      21246022,
+      -75657084342
+     ],
+     [
+      -3561,
+      207,
+      21276567,
+      -75765855087
+     ],
+     [
+      -3561,
+      79,
+      21380930,
+      -76137491730
+     ],
+     [
+      -3561,
+      79,
+      21380930,
+      -76137491730
+     ],
+     [
+      -3561,
+      1,
+      21446611,
+      -76371381771
+     ]
+    ]
+   ]
+  }
+ ],
+ "finalRates": {
+  "b7": -3546,
+  "g95": -3561
+ },
+ "forcedDocNext": true,
+ "balances": {
+  "fund.oil": -25590350491070,
+  "fund.lpg": -3849200000000,
+  "traders": 28535832971622,
+  "other": 1149617519448,
+  "opening": -245900000000
+ },
+ "entries": [
+  [
+   0,
+   "opening",
+   "fund.oil",
+   4031300000000
+  ],
+  [
+   0,
+   "fund.lpg",
+   "opening",
+   3785400000000
+  ],
+  [
+   1,
+   "fund.oil",
+   "traders",
+   1846119908701
+  ],
+  [
+   1,
+   "fund.oil",
+   "traders",
+   455976535155
+  ],
+  [
+   1,
+   "other",
+   "fund.oil",
+   32517082517
+  ],
+  [
+   1,
+   "other",
+   "fund.lpg",
+   11900000000
+  ],
+  [
+   2,
+   "fund.oil",
+   "traders",
+   2613223144455
+  ],
+  [
+   2,
+   "fund.oil",
+   "traders",
+   529628028465
+  ],
+  [
+   2,
+   "fund.oil",
+   "other",
+   231122562290
+  ],
+  [
+   2,
+   "other",
+   "fund.lpg",
+   11400000000
+  ],
+  [
+   3,
+   "fund.oil",
+   "traders",
+   3037060676938
+  ],
+  [
+   3,
+   "fund.oil",
+   "traders",
+   630852430075
+  ],
+  [
+   3,
+   "fund.oil",
+   "other",
+   240755963292
+  ],
+  [
+   3,
+   "other",
+   "fund.lpg",
+   21000000000
+  ],
+  [
+   4,
+   "fund.oil",
+   "traders",
+   3293169350000
+  ],
+  [
+   4,
+   "fund.oil",
+   "traders",
+   649919638420
+  ],
+  [
+   4,
+   "fund.oil",
+   "other",
+   193557835376
+  ],
+  [
+   4,
+   "other",
+   "fund.lpg",
+   9600000000
+  ],
+  [
+   5,
+   "fund.oil",
+   "traders",
+   2541344915000
+  ],
+  [
+   5,
+   "fund.oil",
+   "traders",
+   568981927206
+  ],
+  [
+   5,
+   "fund.oil",
+   "other",
+   301289087873
+  ],
+  [
+   5,
+   "fund.lpg",
+   "other",
+   11100000000
+  ],
+  [
+   6,
+   "fund.oil",
+   "traders",
+   2236124716140
+  ],
+  [
+   6,
+   "fund.oil",
+   "traders",
+   530953157430
+  ],
+  [
+   6,
+   "fund.oil",
+   "other",
+   174772867536
+  ],
+  [
+   6,
+   "fund.lpg",
+   "other",
+   26300000000
+  ],
+  [
+   7,
+   "fund.oil",
+   "traders",
+   1974970465996
+  ],
+  [
+   7,
+   "fund.oil",
+   "traders",
+   513534967743
+  ],
+  [
+   7,
+   "fund.oil",
+   "other",
+   17701498658
+  ],
+  [
+   7,
+   "fund.lpg",
+   "other",
+   17100000000
+  ],
+  [
+   8,
+   "fund.oil",
+   "traders",
+   1870272296048
+  ],
+  [
+   8,
+   "fund.oil",
+   "traders",
+   519255842544
+  ],
+  [
+   8,
+   "other",
+   "fund.oil",
+   33902278436
+  ],
+  [
+   8,
+   "fund.lpg",
+   "other",
+   36100000000
+  ],
+  [
+   9,
+   "fund.oil",
+   "traders",
+   1894413534966
+  ],
+  [
+   9,
+   "fund.oil",
+   "traders",
+   535977202693
+  ],
+  [
+   9,
+   "other",
+   "fund.oil",
+   11154884086
+  ],
+  [
+   9,
+   "fund.lpg",
+   "other",
+   8800000000
+  ],
+  [
+   10,
+   "fund.oil",
+   "traders",
+   1762611964632
+  ],
+  [
+   10,
+   "fund.oil",
+   "traders",
+   531442269015
+  ],
+  [
+   10,
+   "fund.oil",
+   "other",
+   4191949462
+  ],
+  [
+   10,
+   "fund.lpg",
+   "other",
+   18300000000
+  ]
+ ],
+ "report": {
+  "outcome": {
+   "fund": {
+    "player": -29439550491070,
+    "baseline": -1060631066146,
+    "real": {
+     "v": -6327900000000,
+     "ids": [
+      "fund.position.oil.2026-05-10",
+      "fund.position.lpg.2026-05-10"
+     ],
+     "kind": "real"
+    }
+   },
+   "retailB7LastSunday": {
+    "player": 219,
+    "baseline": 3933,
+    "real": {
+     "v": 3995,
+     "ids": [
+      "price.retail.diesel_b7.bkk.2026-05-08"
+     ],
+     "kind": "computed"
+    }
+   },
+   "retailB7Average": {
+    "player": 445,
+    "baseline": 4869,
+    "real": 3843,
+    "realHasUncertain": true
+   }
+  },
+  "politics": {
+   "authority": 0,
+   "trust": 5,
+   "authorityMin": 0,
+   "trustMin": 5,
+   "authorityBreaches": 10,
+   "trustBreaches": 0,
+   "forcedDocs": 7,
+   "max": 5
+  },
+  "understanding": {
+   "points": 3,
+   "max": 24,
+   "voidTurns": [
+    3,
+    5
+   ]
+  },
+  "pathVsReal": [
+   {
+    "turn": 1,
+    "date": "2026-03-08",
+    "playerSegments": [
+     {
+      "fromDay": 0,
+      "b7": -2833,
+      "g95": -2685
+     }
+    ],
+    "realChangesB7": [
+     {
+      "date": "2026-03-04",
+      "rate": -351,
+      "id": "rate.diesel_b7.compensation.2026-03-04"
+     },
+     {
+      "date": "2026-03-05",
+      "rate": -621,
+      "id": "rate.diesel_b7.compensation.2026-03-05"
+     },
+     {
+      "date": "2026-03-06",
+      "rate": -957,
+      "id": "rate.diesel_b7.compensation.2026-03-06"
+     },
+     {
+      "date": "2026-03-07",
+      "rate": -1173,
+      "id": "rate.diesel_b7.compensation.2026-03-07"
+     }
+    ],
+    "rateB7Sunday": -2833,
+    "realRateB7Sunday": {
+     "v": -1173,
+     "ids": [
+      "rate.diesel_b7.compensation.2026-03-07"
+     ],
+     "kind": "real"
+    },
+    "retailB7Sunday": 1177,
+    "realRetailB7Sunday": {
+     "v": 2994,
+     "ids": [
+      "price.retail.diesel_b7.bkk.2026-03-02"
+     ],
+     "kind": "computed"
+    },
+    "fund": -2011779361339,
+    "realFund": {
+     "v": -78600000000,
+     "ids": [
+      "fund.position.oil.2026-03-08",
+      "fund.position.lpg.2026-03-08"
+     ],
+     "kind": "real"
+    }
+   },
+   {
+    "turn": 2,
+    "date": "2026-03-15",
+    "playerSegments": [
+     {
+      "fromDay": 0,
+      "b7": -3963,
+      "g95": -3153
+     }
+    ],
+    "realChangesB7": [
+     {
+      "date": "2026-03-10",
+      "rate": -1273,
+      "id": "rate.diesel_b7.compensation.2026-03-10"
+     },
+     {
+      "date": "2026-03-11",
+      "rate": -1697,
+      "id": "rate.diesel_b7.compensation.2026-03-11"
+     },
+     {
+      "date": "2026-03-12",
+      "rate": -1545,
+      "id": "rate.diesel_b7.compensation.2026-03-12"
+     },
+     {
+      "date": "2026-03-13",
+      "rate": -1415,
+      "id": "rate.diesel_b7.compensation.2026-03-13"
+     },
+     {
+      "date": "2026-03-14",
+      "rate": -1831,
+      "id": "rate.diesel_b7.compensation.2026-03-14"
+     }
+    ],
+    "rateB7Sunday": -3963,
+    "realRateB7Sunday": {
+     "v": -1831,
+     "ids": [
+      "rate.diesel_b7.compensation.2026-03-14"
+     ],
+     "kind": "real"
+    },
+    "retailB7Sunday": 705,
+    "realRetailB7Sunday": {
+     "v": 2994,
+     "ids": [
+      "price.retail.diesel_b7.bkk.2026-03-02"
+     ],
+     "kind": "computed"
+    },
+    "fund": -5374353096549,
+    "realFund": {
+     "v": -1260500000000,
+     "ids": [
+      "fund.position.oil.2026-03-15",
+      "fund.position.lpg.2026-03-15"
+     ],
+     "kind": "real"
+    }
+   },
+   {
+    "turn": 3,
+    "date": "2026-03-22",
+    "playerSegments": [
+     {
+      "fromDay": 0,
+      "b7": -4594,
+      "g95": -3703
+     }
+    ],
+    "realChangesB7": [
+     {
+      "date": "2026-03-17",
+      "rate": -2036,
+      "id": "rate.diesel_b7.compensation.2026-03-17"
+     },
+     {
+      "date": "2026-03-18",
+      "rate": -1986,
+      "id": "rate.diesel_b7.compensation.2026-03-18"
+     },
+     {
+      "date": "2026-03-19",
+      "rate": -2065,
+      "id": "rate.diesel_b7.compensation.2026-03-19"
+     },
+     {
+      "date": "2026-03-20",
+      "rate": -2109,
+      "id": "rate.diesel_b7.compensation.2026-03-20"
+     },
+     {
+      "date": "2026-03-21",
+      "rate": -2425,
+      "id": "rate.diesel_b7.compensation.2026-03-21"
+     }
+    ],
+    "rateB7Sunday": -4594,
+    "realRateB7Sunday": {
+     "v": -2425,
+     "ids": [
+      "rate.diesel_b7.compensation.2026-03-21"
+     ],
+     "kind": "real"
+    },
+    "retailB7Sunday": 687,
+    "realRetailB7Sunday": {
+     "v": 3044,
+     "ids": [
+      "price.retail.diesel_b7.bkk.2026-03-18",
+      "price.retail.diesel_b7.bkk.2026-03-23"
+     ],
+     "kind": "uncertain"
+    },
+    "fund": -9262022166854,
+    "realFund": {
+     "v": -2810900000000,
+     "ids": [
+      "fund.position.oil.2026-03-22",
+      "fund.position.lpg.2026-03-22"
+     ],
+     "kind": "real"
+    }
+   },
+   {
+    "turn": 4,
+    "date": "2026-03-29",
+    "playerSegments": [
+     {
+      "fromDay": 0,
+      "b7": -5000,
+      "g95": -3820
+     }
+    ],
+    "realChangesB7": [
+     {
+      "date": "2026-03-24",
+      "rate": -2409,
+      "id": "rate.diesel_b7.compensation.2026-03-24"
+     },
+     {
+      "date": "2026-03-25",
+      "rate": -2699,
+      "id": "rate.diesel_b7.compensation.2026-03-25"
+     },
+     {
+      "date": "2026-03-26",
+      "rate": -1912,
+      "id": "rate.diesel_b7.compensation.2026-03-26"
+     },
+     {
+      "date": "2026-03-27",
+      "rate": -1602,
+      "id": "rate.diesel_b7.compensation.2026-03-27"
+     },
+     {
+      "date": "2026-03-28",
+      "rate": -1667,
+      "id": "rate.diesel_b7.compensation.2026-03-28"
+     }
+    ],
+    "rateB7Sunday": -5000,
+    "realRateB7Sunday": {
+     "v": -1667,
+     "ids": [
+      "rate.diesel_b7.compensation.2026-03-28"
+     ],
+     "kind": "real"
+    },
+    "retailB7Sunday": 356,
+    "realRetailB7Sunday": {
+     "v": 3894,
+     "ids": [
+      "price.retail.diesel_b7.bkk.2026-03-26"
+     ],
+     "kind": "computed"
+    },
+    "fund": -13389068990650,
+    "realFund": {
+     "v": -4214800000000,
+     "ids": [
+      "fund.position.oil.2026-03-29",
+      "fund.position.lpg.2026-03-29"
+     ],
+     "kind": "real"
+    }
+   },
+   {
+    "turn": 5,
+    "date": "2026-04-05",
+    "playerSegments": [
+     {
+      "fromDay": 0,
+      "b7": -5000,
+      "g95": -3777
+     }
+    ],
+    "realChangesB7": [
+     {
+      "date": "2026-03-31",
+      "rate": -1876,
+      "id": "rate.diesel_b7.compensation.2026-03-31"
+     },
+     {
+      "date": "2026-04-01",
+      "rate": -2189,
+      "id": "rate.diesel_b7.compensation.2026-04-01"
+     },
+     {
+      "date": "2026-04-02",
+      "rate": -1778,
+      "id": "rate.diesel_b7.compensation.2026-04-02"
+     },
+     {
+      "date": "2026-04-03",
+      "rate": -1427,
+      "id": "rate.diesel_b7.compensation.2026-04-03"
+     },
+     {
+      "date": "2026-04-04",
+      "rate": -2071,
+      "id": "rate.diesel_b7.compensation.2026-04-04"
+     },
+     {
+      "date": "2026-04-05",
+      "rate": -1810,
+      "id": "rate.diesel_b7.compensation.2026-04-05"
+     }
+    ],
+    "rateB7Sunday": -5000,
+    "realRateB7Sunday": {
+     "v": -1810,
+     "ids": [
+      "rate.diesel_b7.compensation.2026-04-05"
+     ],
+     "kind": "real"
+    },
+    "retailB7Sunday": 1341,
+    "realRetailB7Sunday": {
+     "v": 4774,
+     "ids": [
+      "price.retail.diesel_b7.bkk.2026-04-03",
+      "price.diesel_b7.retail_bkk.eppo.2026-04-06"
+     ],
+     "kind": "uncertain"
+    },
+    "fund": -16811784920729,
+    "realFund": {
+     "v": -5322600000000,
+     "ids": [
+      "fund.position.oil.2026-04-05",
+      "fund.position.lpg.2026-04-05"
+     ],
+     "kind": "real"
+    }
+   },
+   {
+    "turn": 6,
+    "date": "2026-04-12",
+    "playerSegments": [
+     {
+      "fromDay": 0,
+      "b7": -4935,
+      "g95": -3730
+     }
+    ],
+    "realChangesB7": [
+     {
+      "date": "2026-04-08",
+      "rate": -1854,
+      "id": "rate.diesel_b7.compensation.2026-04-08"
+     },
+     {
+      "date": "2026-04-09",
+      "rate": -1500,
+      "id": "rate.diesel_b7.compensation.2026-04-09"
+     },
+     {
+      "date": "2026-04-10",
+      "rate": -641,
+      "id": "rate.diesel_b7.compensation.2026-04-10"
+     },
+     {
+      "date": "2026-04-11",
+      "rate": -785,
+      "id": "rate.diesel_b7.compensation.2026-04-11"
+     }
+    ],
+    "rateB7Sunday": -4935,
+    "realRateB7Sunday": {
+     "v": -785,
+     "ids": [
+      "rate.diesel_b7.compensation.2026-04-11"
+     ],
+     "kind": "real"
+    },
+    "retailB7Sunday": 1,
+    "realRetailB7Sunday": {
+     "v": 4440,
+     "ids": [
+      "price.retail.diesel_b7.bkk.2026-04-11"
+     ],
+     "kind": "computed"
+    },
+    "fund": -19779935661835,
+    "realFund": {
+     "v": -6016700000000,
+     "ids": [
+      "fund.position.oil.2026-04-12",
+      "fund.position.lpg.2026-04-12"
+     ],
+     "kind": "real"
+    }
+   },
+   {
+    "turn": 7,
+    "date": "2026-04-19",
+    "playerSegments": [
+     {
+      "fromDay": 0,
+      "b7": -4268,
+      "g95": -3587
+     }
+    ],
+    "realChangesB7": [
+     {
+      "date": "2026-04-15",
+      "rate": -589,
+      "id": "rate.diesel_b7.compensation.2026-04-15"
+     },
+     {
+      "date": "2026-04-16",
+      "rate": -287,
+      "id": "rate.diesel_b7.compensation.2026-04-16"
+     },
+     {
+      "date": "2026-04-17",
+      "rate": -283,
+      "id": "rate.diesel_b7.compensation.2026-04-17"
+     }
+    ],
+    "rateB7Sunday": -4268,
+    "realRateB7Sunday": {
+     "v": -283,
+     "ids": [
+      "rate.diesel_b7.compensation.2026-04-17"
+     ],
+     "kind": "real"
+    },
+    "retailB7Sunday": 2,
+    "realRetailB7Sunday": {
+     "v": 4290,
+     "ids": [
+      "price.diesel_b7.retail_bkk.2026-04-17"
+     ],
+     "kind": "computed"
+    },
+    "fund": -22303242594232,
+    "realFund": {
+     "v": -6193300000000,
+     "ids": [
+      "fund.position.oil.2026-04-19",
+      "fund.position.lpg.2026-04-19"
+     ],
+     "kind": "real"
+    }
+   },
+   {
+    "turn": 8,
+    "date": "2026-04-26",
+    "playerSegments": [
+     {
+      "fromDay": 0,
+      "b7": -4016,
+      "g95": -3632
+     }
+    ],
+    "realChangesB7": [
+     {
+      "date": "2026-04-21",
+      "rate": -176,
+      "id": "rate.diesel_b7.compensation.2026-04-21"
+     },
+     {
+      "date": "2026-04-22",
+      "rate": -53,
+      "id": "rate.diesel_b7.compensation.2026-04-22"
+     },
+     {
+      "date": "2026-04-23",
+      "rate": -232,
+      "id": "rate.diesel_b7.compensation.2026-04-23"
+     },
+     {
+      "date": "2026-04-24",
+      "rate": -223,
+      "id": "rate.diesel_b7.compensation.2026-04-24"
+     }
+    ],
+    "rateB7Sunday": -4016,
+    "realRateB7Sunday": {
+     "v": -223,
+     "ids": [
+      "rate.diesel_b7.compensation.2026-04-24"
+     ],
+     "kind": "real"
+    },
+    "retailB7Sunday": 31,
+    "realRetailB7Sunday": {
+     "v": 4020,
+     "ids": [
+      "price.retail.diesel_b7.bkk.2026-04-24"
+     ],
+     "kind": "computed"
+    },
+    "fund": -24694968454388,
+    "realFund": {
+     "v": -6236400000000,
+     "ids": [
+      "fund.position.oil.2026-04-26",
+      "fund.position.lpg.2026-04-26"
+     ],
+     "kind": "real"
+    }
+   },
+   {
+    "turn": 9,
+    "date": "2026-05-03",
+    "playerSegments": [
+     {
+      "fromDay": 0,
+      "b7": -3942,
+      "g95": -3677
+     }
+    ],
+    "realChangesB7": [
+     {
+      "date": "2026-04-28",
+      "rate": -288,
+      "id": "rate.diesel_b7.compensation.2026-04-28"
+     },
+     {
+      "date": "2026-04-29",
+      "rate": -220,
+      "id": "rate.diesel_b7.compensation.2026-04-29"
+     },
+     {
+      "date": "2026-04-30",
+      "rate": -218,
+      "id": "rate.diesel_b7.compensation.2026-04-30"
+     },
+     {
+      "date": "2026-05-01",
+      "rate": -312,
+      "id": "rate.diesel_b7.compensation.2026-05-01"
+     }
+    ],
+    "rateB7Sunday": -3942,
+    "realRateB7Sunday": {
+     "v": -312,
+     "ids": [
+      "rate.diesel_b7.compensation.2026-05-01"
+     ],
+     "kind": "real"
+    },
+    "retailB7Sunday": 161,
+    "realRetailB7Sunday": {
+     "v": 4080,
+     "ids": [
+      "price.retail.diesel_b7.bkk.2026-05-01"
+     ],
+     "kind": "computed"
+    },
+    "fund": -27123004307961,
+    "realFund": {
+     "v": -6318900000000,
+     "ids": [
+      "fund.position.oil.2026-05-03",
+      "fund.position.lpg.2026-05-03"
+     ],
+     "kind": "real"
+    }
+   },
+   {
+    "turn": 10,
+    "date": "2026-05-10",
+    "playerSegments": [
+     {
+      "fromDay": 0,
+      "b7": -3546,
+      "g95": -3561
+     }
+    ],
+    "realChangesB7": [
+     {
+      "date": "2026-05-05",
+      "rate": -132,
+      "id": "rate.diesel_b7.compensation.2026-05-05"
+     },
+     {
+      "date": "2026-05-06",
+      "rate": -19,
+      "id": "rate.diesel_b7.compensation.2026-05-06"
+     },
+     {
+      "date": "2026-05-07",
+      "rate": 54,
+      "id": "rate.diesel_b7.levy.2026-05-07"
+     },
+     {
+      "date": "2026-05-08",
+      "rate": 117,
+      "id": "rate.diesel_b7.levy.2026-05-08"
+     },
+     {
+      "date": "2026-05-10",
+      "rate": -87,
+      "id": "rate.diesel_b7.compensation.2026-05-10"
+     }
+    ],
+    "rateB7Sunday": -3546,
+    "realRateB7Sunday": {
+     "v": -87,
+     "ids": [
+      "rate.diesel_b7.compensation.2026-05-10"
+     ],
+     "kind": "real"
+    },
+    "retailB7Sunday": 219,
+    "realRetailB7Sunday": {
+     "v": 3995,
+     "ids": [
+      "price.retail.diesel_b7.bkk.2026-05-08"
+     ],
+     "kind": "computed"
+    },
+    "fund": -29439550491070,
+    "realFund": {
+     "v": -6327900000000,
+     "ids": [
+      "fund.position.oil.2026-05-10",
+      "fund.position.lpg.2026-05-10"
+     ],
+     "kind": "real"
+    }
+   }
+  ]
+ }
+}
