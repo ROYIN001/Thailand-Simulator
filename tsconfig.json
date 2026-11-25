@@ -3,8 +3,15 @@
     "target": "es2022",
     "module": "esnext",
     "moduleResolution": "bundler",
-    "lib": ["es2022", "dom"],
-    "types": ["node"],
+    "lib": [
+      "es2022",
+      "dom",
+      "dom.iterable"
+    ],
+    "types": [
+      "node",
+      "vite/client"
+    ],
     "strict": true,
     "noEmit": true,
     "noUncheckedIndexedAccess": true,
@@ -13,7 +20,15 @@
     "erasableSyntaxOnly": true,
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
   },
-  "include": ["src", "scripts", "test"]
+  "include": [
+    "src",
+    "scripts",
+    "test",
+    "vite.config.ts",
+    "vitest.config.ts"
+  ]
 }
