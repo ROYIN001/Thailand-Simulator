@@ -33,7 +33,7 @@ const summarize = (s: GameState) => ({
     turn: h.turn, shockBp: h.shockBp, guessTarget: h.guessTarget, guessPoints: h.guessPoints, timeUsed: h.timeUsed, forcedDoc: h.forcedDoc,
     flowB7: h.flows.b7, flowG95: h.flows.g95, residualOil: h.residualOil, residualLpg: h.residualLpg,
     fundOil: h.fundOil, fundLpg: h.fundLpg, retailB7Sunday: h.retailB7Sunday, maxRetailB7: h.maxRetailB7, maxG95OverBase: h.maxG95OverBase,
-    authorityBreach: h.authorityBreach, trustBreach: h.trustBreach, authority: h.authority, trust: h.trust, money: h.money,
+    authorityLoss: h.authorityLoss, trustLoss: h.trustLoss, authority: h.authority, trust: h.trust, money: h.money,
     days: FUELS.map((f) => h.days[f].map((d) => [d.date, d.rate, d.realRate, d.retail, d.realRetail, d.volume, d.flow, d.realFlow])),
   })),
   finalRates: s.rates,

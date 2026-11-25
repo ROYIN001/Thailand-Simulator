@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import fc from 'fast-check';
-import { createGame, guessTarget, isAuthorityBreach, isFinished, isTrustBreach, maxSpecialMeetings, rateFloor, realPathInput, report, runBaseline, runPlan, scoreGuess, submitTurn, type GameState, type TurnInput } from '../../src/engine/game.ts';
+import { authorityLoss, createGame, guessTarget, isFinished, trustLoss, maxSpecialMeetings, rateFloor, realPathInput, report, runBaseline, runPlan, scoreGuess, submitTurn, type GameState, type TurnInput } from '../../src/engine/game.ts';
 import { ELASTICITY_PRESETS } from '../../src/engine/params.ts';
 import { ledgerSum, ACCOUNTS } from '../../src/engine/ledger.ts';
 import { DEFAULT_PARAMS } from '../../src/engine/params.ts';
@@ -139,13 +139,35 @@ describe('ทุน', () => {
     expect(s.history[0]!.maxG95OverBase).toBe(Math.trunc((200 * 10700) / 10000));
     expect(s.history[0]!.trustBreach).toBe(true);
   });
-  it('ขอบของเกณฑ์เป็นแบบมากกว่าเท่านั้น', () => {
-    const p = DEFAULT_PARAMS;
-    expect(isAuthorityBreach(p.authorityDropFundSatang, p)).toBe(false);
-    expect(isAuthorityBreach(p.authorityDropFundSatang + 1, p)).toBe(true);
-    expect(isTrustBreach(p.trustB7LevelSatang, p.trustG95OverBaseSatang, p)).toBe(false);
-    expect(isTrustBreach(p.trustB7LevelSatang + 1, 0, p)).toBe(true);
-    expect(isTrustBreach(0, p.trustG95OverBaseSatang + 1, p)).toBe(true);
+  it('เสียทุนเป็นขั้นบันได', () => {
+    const p = DEFAULT_PARAMS, S = p.authorityStepSatang;
+    expect([0, S - 1, S, 2 * S - 1, 2 * S, -S].map((d) => authorityLoss(d, p))).toEqual([0, 0, 1, 1, 2, 0]);
+    const L = p.trustB7LevelSatang, B = p.trustB7StepSatang, G = p.trustG95OverBaseSatang;
+    expect([L, L + 1, L + B, L + B + 1, L + 4 * B].map((x) => trustLoss(x, 0, p))).toEqual([0, 1, 1, 2, 4]);
+    expect(trustLoss(0, G, p)).toBe(0);
+    expect(trustLoss(0, G + 1, p)).toBe(1);
+    expect(trustLoss(L + 1, G + 1, p)).toBe(2);
+  });
+  it('ฟื้นได้ 1 ช่องต่อเมื่อไม่เสียติดกัน 2 สัปดาห์', () => {
+    let s = { ...createGame(sc, 1, { ...DEFAULT_PARAMS, shockMaxBp: 0 }), authority: 2, trust: 2 };
+    // อัตรา ณ ต้นฉาก ตา 1 ไม่ทำให้ฐานะลดถึง 8,000 ล้านบาท
+    s = submitTurn(s, sc, { guessSatang: 0, segments: [{ fromDay: 0, b7: sc.startRates.b7.v, g95: sc.startRates.g95.v }] });
+    expect(s.history[0]!.authorityLoss).toBe(0);
+    expect(s.authority).toBe(2);
+    expect(s.authorityClean).toBe(1);
+  });
+  it('เก็บเงินสูงสุดเสียความเชื่อใจมากกว่าไม่ทำอะไร', () => {
+    const keep = runBaseline(sc, 20260302);
+    const maxLevy = runPlan(sc, 20260302, () => ({ guessSatang: 0, segments: [{ fromDay: 0, b7: 2000, g95: 2000 }] }));
+    expect(report(maxLevy, sc).politics.trustLost).toBeGreaterThan(report(keep, sc).politics.trustLost);
+  });
+  it('สลับนโยบายทุกสัปดาห์ไม่รักษาทุนไว้ได้', () => {
+    const whip = runPlan(sc, 20260302, (st) => st.turn % 2 === 1
+      ? { guessSatang: 0, segments: [{ fromDay: 0, b7: rateFloor(st, sc, 'b7'), g95: sc.startRates.g95.v }] }
+      : { guessSatang: 0, segments: [{ fromDay: 0, b7: 2000, g95: 2000 }] });
+    const r = report(whip, sc).politics;
+    expect(Math.min(r.authorityMin, r.trustMin)).toBeLessThanOrEqual(1);
+    expect(r.forcedDocs).toBeGreaterThan(0);
   });
   it('ทุนหมดแล้วตาถัดไปมีเอกสารบังคับ เหลือประชุมพิเศษ 1 ครั้ง และใช้เวลา 2 ช่อง', () => {
     let s = createGame(sc, 1);

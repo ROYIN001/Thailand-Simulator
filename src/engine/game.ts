@@ -40,6 +40,8 @@ export type TurnRecord = {
   money: number;
   maxRetailB7: number; // ราคา B7 ในเกมสูงสุดของสัปดาห์
   maxG95OverBase: number; // ราคาแก๊สโซฮอล์ 95 ในเกมสูงกว่าเส้นฐานมากที่สุดของสัปดาห์
+  authorityLoss: number;
+  trustLoss: number;
   authorityBreach: boolean;
   trustBreach: boolean;
 };
@@ -55,6 +57,8 @@ export type GameState = {
   rates: { b7: number; g95: number };
   authority: number;
   trust: number;
+  authorityClean: number; // สัปดาห์ติดกันที่ไม่เสียอำนาจ
+  trustClean: number;
   forcedDocNext: boolean;
   history: TurnRecord[];
 };
@@ -88,6 +92,8 @@ export function createGame(sc: Scenario, seed: number, params: GameParams = DEFA
     rates: { b7: sc.startRates.b7.v, g95: sc.startRates.g95.v },
     authority: params.capitalMax,
     trust: params.capitalMax,
+    authorityClean: 0,
+    trustClean: 0,
     forcedDocNext: false,
     history: [],
   };
@@ -123,11 +129,22 @@ export function guessTarget(s: GameState, sc: Scenario, turn = s.turn): number |
   return playPrice(sc, withShock(day.retail.v, shock), sc.startRates.b7.v, day.rate.v);
 }
 
-/** อำนาจลดเมื่อฐานะรวมลดเกินระดับในสัปดาห์ (ราคาของการชดเชย) */
-export const isAuthorityBreach = (decline: number, p: GameParams): boolean => decline > p.authorityDropFundSatang;
-/** ความเชื่อใจลดเมื่อราคา B7 วันใดเกินระดับ หรือราคาแก๊สโซฮอล์ 95 วันใดสูงกว่าเส้นฐานเกินระดับ (ราคาของการปล่อยราคาและการเก็บเงินผู้ใช้) */
-export const isTrustBreach = (maxRetailB7: number, maxG95OverBase: number, p: GameParams): boolean =>
-  maxRetailB7 > p.trustB7LevelSatang || maxG95OverBase > p.trustG95OverBaseSatang;
+/** ช็อกของสัปดาห์นี้ ซึ่งแฟ้มบอกผู้เล่นก่อนทาย (คำตัดสินของ Royin 25 พ.ย. 2569) */
+export const weekShockBp = (s: GameState): number | undefined => s.shocksBp[s.turn - 1];
+
+const stepsAbove = (x: number, step: number): number => (x > 0 ? Math.trunc((x + step - 1) / step) : 0);
+/** ช่องอำนาจที่เสียในสัปดาห์: ฐานะรวมลดทุก 8,000 ล้านบาท เสีย 1 ช่อง (ราคาของการชดเชย) */
+export const authorityLoss = (decline: number, p: GameParams): number => (decline > 0 ? Math.trunc(decline / p.authorityStepSatang) : 0);
+/** ช่องความเชื่อใจที่เสียในสัปดาห์: ราคา B7 เกินระดับทุก 5 บาท และแก๊สโซฮอล์ 95 สูงกว่าเส้นฐานเกินระดับทุก 5 บาท เสียอย่างละ 1 ช่อง (ปัดขึ้น) */
+export const trustLoss = (maxRetailB7: number, maxG95OverBase: number, p: GameParams): number =>
+  stepsAbove(maxRetailB7 - p.trustB7LevelSatang, p.trustB7StepSatang) + stepsAbove(maxG95OverBase - p.trustG95OverBaseSatang, p.trustG95StepSatang);
+
+/** เสียทุนตามจำนวนช่อง · ฟื้นได้เมื่อไม่เสียติดกันครบจำนวนสัปดาห์ที่กำหนด */
+function updateCapital(value: number, clean: number, loss: number, p: GameParams): { value: number; clean: number } {
+  if (loss > 0) return { value: clamp(value - loss, 0, p.capitalMax), clean: 0 };
+  const streak = clean + 1;
+  return streak >= p.recoverAfterCleanWeeks ? { value: clamp(value + p.capitalStep, 0, p.capitalMax), clean: 0 } : { value, clean: streak };
+}
 
 export function scoreGuess(guess: number, target: number, p: GameParams): number {
   const diff = Math.abs(guess - target);
@@ -207,10 +224,12 @@ export function submitTurn(s: GameState, sc: Scenario, input: TurnInput): GameSt
   // วันที่ราคาจริงไม่แน่นอนไม่ใช้ตัดสินความเชื่อใจ เพราะราคาวันนั้นเป็นแค่ค่าแทน
   const maxRetailB7 = Math.max(0, ...days.b7.filter((_, i) => (sc.b7[start + i] as Scenario['b7'][number]).retail.kind !== 'uncertain').map((d) => d.retail));
   const maxG95OverBase = Math.max(...days.g95.map((d) => d.retail - playPrice(sc, withShock(d.realRetail, shock), sc.startRates.g95.v, d.realRate)));
-  const authorityBreach = isAuthorityBreach(prevTotal - total, p);
-  const trustBreach = isTrustBreach(maxRetailB7, maxG95OverBase, p);
-  const authority = clamp(s.authority + (authorityBreach ? -p.capitalStep : p.capitalStep), 0, p.capitalMax);
-  const trust = clamp(s.trust + (trustBreach ? -p.capitalStep : p.capitalStep), 0, p.capitalMax);
+  const aLoss = authorityLoss(prevTotal - total, p);
+  const tLoss = trustLoss(maxRetailB7, maxG95OverBase, p);
+  const a = updateCapital(s.authority, s.authorityClean, aLoss, p);
+  const tr = updateCapital(s.trust, s.trustClean, tLoss, p);
+  const authority = a.value;
+  const trust = tr.value;
   const money = moneyGauge(total, p);
   const last = input.segments[input.segments.length - 1] as RateSegment;
   const forcedDoc = s.forcedDocNext;
@@ -241,8 +260,10 @@ export function submitTurn(s: GameState, sc: Scenario, input: TurnInput): GameSt
     money,
     maxRetailB7,
     maxG95OverBase,
-    authorityBreach,
-    trustBreach,
+    authorityLoss: aLoss,
+    trustLoss: tLoss,
+    authorityBreach: aLoss > 0,
+    trustBreach: tLoss > 0,
   };
 
   return {
@@ -253,6 +274,8 @@ export function submitTurn(s: GameState, sc: Scenario, input: TurnInput): GameSt
     rates: { b7: last.b7, g95: last.g95 },
     authority,
     trust,
+    authorityClean: a.clean,
+    trustClean: tr.clean,
     forcedDocNext: authority === 0 || trust === 0 || money === 0,
     history: [...s.history, record],
   };
@@ -290,7 +313,7 @@ export type Report = {
     retailB7LastSunday: { player: number; baseline: number; real: Real };
     retailB7Average: { player: number; baseline: number; real: Real; uncertainDays: string[] }; // ค่าเฉลี่ยรายวันทั้งฉาก (ตัดเศษ) · uncertainDays คือวันที่ราคาจริงเป็นค่าแทน ซึ่งทำให้ค่าเฉลี่ยทั้งสามไม่แน่นอนด้วย
   };
-  politics: { authority: number; trust: number; authorityMin: number; trustMin: number; authorityBreaches: number; trustBreaches: number; forcedDocs: number; max: number };
+  politics: { authority: number; trust: number; authorityMin: number; trustMin: number; authorityBreaches: number; trustBreaches: number; authorityLost: number; trustLost: number; forcedDocs: number; max: number };
   understanding: { points: number; max: number; voidTurns: number[] };
   pathVsReal: {
     turn: number;
@@ -337,6 +360,9 @@ export function report(s: GameState, sc: Scenario): Report {
       trustMin: Math.min(...s.history.map((h) => h.trust)),
       authorityBreaches: s.history.filter((h) => h.authorityBreach).length,
       trustBreaches: s.history.filter((h) => h.trustBreach).length,
+      // รวมช่องที่เสียก่อนตัดที่ศูนย์ เพื่อให้เห็นว่านโยบายสุดทางแพงกว่าแม้ทุนหมดเท่ากัน
+      authorityLost: s.history.reduce((n, h) => n + h.authorityLoss, 0),
+      trustLost: s.history.reduce((n, h) => n + h.trustLoss, 0),
       forcedDocs: s.history.filter((h) => h.forcedDoc).length,
       max: s.params.capitalMax,
     },
