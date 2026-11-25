@@ -2,12 +2,13 @@
 import { useMemo, useState } from 'preact/hooks';
 import { isFinished, moneyGauge, report, submitTurn, timeAvailable, type RateSegment, type TurnRecord } from '../engine/game.ts';
 import { parseFixture } from '../game/fixtures.ts';
-import { baselineFor, makeGame, readStored, replay, scenario as sc, writeStored, type Phase, type Save } from '../game/session.ts';
+import { baselineFor, makeGame, readStored, type Game, replay, scenario as sc, writeStored, type Phase, type Save } from '../game/session.ts';
 import { CalendarView } from './calendar/index.tsx';
-import { computed, DR, game, MarkLegend, Num, Ord, SourceContext, type SourceItem } from './evidence.tsx';
+import { DR, game, MarkLegend, Num, Ord, SourceContext, type SourceItem } from './evidence.tsx';
 import { mbaht } from './format.ts';
 import { CapitalRow, StepBar } from './kit.tsx';
 import { MoneyView } from './money/index.tsx';
+import { fundChain } from './money/items.ts';
 import { EndReport, ResultStep } from './result/index.tsx';
 import { downloadSave, StartScreen } from './start.tsx';
 import { SourceSheet } from './trace/index.tsx';
@@ -108,7 +109,7 @@ export function App({ fixture = null, initialTab = 'desk' }: { fixture?: string 
   return (
     <SourceContext.Provider value={setSource}>
       <div class="app">
-        <TopBar save={save} onMenu={() => setBoot({ save: null, error: null })} />
+        <TopBar g={save && state && baseline ? makeGame(sc, save, state, baseline) : null} onMenu={() => setBoot({ save: null, error: null })} />
         {save && (
           <nav class="tabs" role="tablist" aria-label="มุมมอง">
             {TABS.map(([t, name]) => (
@@ -136,9 +137,8 @@ export function App({ fixture = null, initialTab = 'desk' }: { fixture?: string 
 }
 
 /** แถบบน: ตาและช่วงวันที่ · ทุน 4 อย่าง · ฐานะกองทุนในเกม · ปุ่มเมนู */
-function TopBar({ save, onMenu }: { save: Save | null; onMenu: () => void }) {
-  const state = save ? replay(save, sc) : null;
-  if (!save || !state)
+function TopBar({ g, onMenu }: { g: Game | null; onMenu: () => void }) {
+  if (!g)
     return (
       <header class="topbar">
         <div class="topbar__in">
@@ -147,10 +147,14 @@ function TopBar({ save, onMenu }: { save: Save | null; onMenu: () => void }) {
         </div>
       </header>
     );
+  const { save, state } = g;
+  const chain = fundChain(g);
+  const fundItem = chain.weeks[chain.weeks.length - 1]?.fund ?? chain.opening; // กดแล้วตามต่อถึงเงินรายสัปดาห์และระเบียนต้นทาง
   const shown = save.phase === 'result' || save.phase === 'end' ? state.history.length : state.turn; // ตาที่จอกำลังพูดถึง
   const start = sc.days[(shown - 1) * 7] as string;
   const end = sc.days[(shown - 1) * 7 + 6] as string;
   const fund = state.balances['fund.oil'] + state.balances['fund.lpg'];
+  if (fundItem.text !== mbaht(fund)) throw new Error('ฐานะบนแถบบนไม่ตรงกับบัญชี');
   const p = state.params;
   const deciding = save.phase === 'files' || save.phase === 'guess' || save.phase === 'rates';
   return (
@@ -162,12 +166,7 @@ function TopBar({ save, onMenu }: { save: Save | null; onMenu: () => void }) {
         </span>
         <span>
           ฐานะกองทุนในเกม{' '}
-          <Num
-            v={mbaht(fund)}
-            unit="ล้านบาท"
-            strong
-            ev={computed('ฐานะรวมของกองทุนในเกม (บัญชีน้ำมัน + บัญชี LPG)', 'ยอดยกมาจริง ณ 1 มี.ค. 2569 + เงินเข้าออกทุกตาตามบัญชีในเกม', undefined, ['fund.position.oil.2026-03-01', 'fund.position.lpg.2026-03-01'])}
-          />
+          <Num v={fundItem.text} unit="ล้านบาท" strong ev={fundItem.ev} />
         </span>
         <details class="topbar__capitals" style={{ marginLeft: 'auto' }}>
           <summary class="btn btn--quiet" style={{ listStyle: 'none' }}>

@@ -91,17 +91,27 @@ export function Paper({ sender, from, meta, children, foot }: { sender: Sender; 
   );
 }
 
+const openSheets: object[] = []; // แผ่นที่เปิดซ้อนกัน · Esc ปิดเฉพาะแผ่นบนสุด
+
 /** แผ่นซ้อนแบบ dialog: Esc ปิด · โฟกัสเข้าแผ่นเมื่อเปิด และคืนโฟกัสเมื่อปิด */
 export function Sheet({ title, onClose, children }: { title: string; onClose: () => void; children: ComponentChildren }) {
   const ref = useRef<HTMLDivElement | null>(null);
+  const close = useRef(onClose);
+  close.current = onClose;
   useEffect(() => {
+    const me = {};
+    openSheets.push(me);
     const prev = document.activeElement as HTMLElement | null;
     ref.current?.focus();
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose();
+      if (e.key === 'Escape' && openSheets[openSheets.length - 1] === me) {
+        e.stopImmediatePropagation();
+        close.current();
+      }
     };
     document.addEventListener('keydown', onKey);
     return () => {
+      openSheets.splice(openSheets.indexOf(me), 1);
       document.removeEventListener('keydown', onKey);
       prev?.focus();
     };

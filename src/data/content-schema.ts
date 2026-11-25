@@ -17,7 +17,7 @@ export const NumSeg = z
     unit: z.string().min(1).optional(),
     ev: z.enum(['real', 'computed', 'game']),
     ids: z.array(factId).default([]),
-    label: z.string().min(1).optional(), // ตัวเลขนี้คืออะไร (ถ้าไม่ใส่ จอใช้ label ของระเบียน)
+    label: z.string().min(1).optional(), // ตัวเลขนี้คืออะไร (ถ้าไม่ใส่ จอใช้ "ตัวเลขในเอกสาร <หัวเรื่อง>")
     note: z.string().min(1).optional(), // สูตรของค่าคำนวณ หรือเหตุผลของค่าของเกม
   })
   .superRefine((s, ctx) => {
