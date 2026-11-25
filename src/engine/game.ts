@@ -221,8 +221,8 @@ export function submitTurn(s: GameState, sc: Scenario, input: TurnInput): GameSt
   const total = fundTotal(balances);
   const retailSunday = (days.b7[6] as DayTrace).retail;
   // ทั้งสองทางนโยบายมีราคา และวัดทุกวันของสัปดาห์ ไม่ใช่แค่วันอาทิตย์ (docs/rattanava-engine-a.md หัวข้อ 5)
-  // วันที่ราคาจริงไม่แน่นอนไม่ใช้ตัดสินความเชื่อใจ เพราะราคาวันนั้นเป็นแค่ค่าแทน
-  const maxRetailB7 = Math.max(0, ...days.b7.filter((_, i) => (sc.b7[start + i] as Scenario['b7'][number]).retail.kind !== 'uncertain').map((d) => d.retail));
+  // วัน uncertain ใช้ค่าแทนซึ่งไม่สูงกว่าราคาจริงที่เป็นไปได้ (มีเทสต์) จึงนับได้โดยไม่ทำให้ผู้เล่นเสียเกินจริง และกันการเก็บเงินเต็มที่เฉพาะวันเหล่านั้น
+  const maxRetailB7 = Math.max(...days.b7.map((d) => d.retail));
   const maxG95OverBase = Math.max(...days.g95.map((d) => d.retail - playPrice(sc, withShock(d.realRetail, shock), sc.startRates.g95.v, d.realRate)));
   const aLoss = authorityLoss(prevTotal - total, p);
   const tLoss = trustLoss(maxRetailB7, maxG95OverBase, p);
@@ -292,7 +292,8 @@ export function runPlan(sc: Scenario, seed: number, plan: (s: GameState) => Turn
 export const runBaseline = (sc: Scenario, seed: number, params: GameParams = DEFAULT_PARAMS): GameState =>
   runPlan(sc, seed, () => ({ guessSatang: 0, segments: [{ fromDay: 0, b7: sc.startRates.b7.v, g95: sc.startRates.g95.v }] }), params);
 
-/** เดินตามอัตราจริงทุกวัน (ประชุมพิเศษตามวันที่อัตราจริงเปลี่ยน ถ้าเวลาพอ) · ใช้ตรวจว่าเครื่องยนต์ยึดกับเส้นจริง */
+/** เดินตามอัตราจริงทุกวัน (ประชุมพิเศษตามวันที่อัตราจริงเปลี่ยน ถ้าเวลาพอ) · ใช้ตรวจว่าเครื่องยนต์ยึดกับเส้นจริง
+ * shortcut: ถ้าเวลาไม่พอ เก็บการเปลี่ยนช่วงต้นสัปดาห์ ไม่ได้เลือกวันที่ใกล้เส้นจริงที่สุด · ต้องปรับถ้าจะใช้เป็น "ทางจริง" บนจอ */
 export function realPathInput(s: GameState, sc: Scenario, maxSpecials = Number.MAX_SAFE_INTEGER): TurnInput {
   const start = (s.turn - 1) * 7;
   const segments: RateSegment[] = [];

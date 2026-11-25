@@ -68,6 +68,13 @@ describe('ไฟล์ฉาก', () => {
     const records = readdirSync(d).filter((f) => f.endsWith('.json')).flatMap((f) => FactFile.parse(JSON.parse(readFileSync(join(d, f), 'utf8'))));
     expect(buildScenario(records)).toEqual(scenario);
   });
+  it('ค่าแทนของวัน uncertain ของ B7 ไม่สูงกว่าราคาที่บันทึกไว้ถัดไป (เครื่องยนต์นับวันเหล่านี้ในความเชื่อใจได้)', () => {
+    scenario.b7.forEach((d, i) => {
+      if (d.retail.kind !== 'uncertain') return;
+      const next = scenario.b7.slice(i + 1).find((x) => x.retail.kind !== 'uncertain')!;
+      expect(d.retail.v, scenario.days[i]).toBeLessThanOrEqual(next.retail.v);
+    });
+  });
   it('ค่าจริงทุกค่าอ้าง id ที่มีอยู่และ verified', () => {
     const d = 'data/oil-fund-2569';
     const byId = new Map(readdirSync(d).filter((f) => f.endsWith('.json')).flatMap((f) => FactFile.parse(JSON.parse(readFileSync(join(d, f), 'utf8')))).map((r) => [r.id, r]));
