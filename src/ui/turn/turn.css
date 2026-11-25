@@ -1,0 +1,115 @@
+/* จอสามขั้นก่อนเห็นผล · ใช้โทเคนใน styles/base.css เท่านั้น */
+.turn-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 14px; }
+.turn-head h2 { font-size: 20px; }
+.turn-question { font: 700 19px/1.4 var(--f-display); flex: 1 1 320px; min-width: 0; }
+.turn-center { text-align: center; }
+.turn-list { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 8px; }
+.turn-note { background: var(--surface-sunk); border: 1px solid var(--hairline); border-radius: var(--r-tile); padding: 10px 12px; font-size: 13.5px; line-height: 1.55; }
+.turn-note--warn { background: var(--subsidy-tint); border-color: var(--subsidy-tint); color: var(--subsidy-deep); }
+.turn-pill { display: inline-flex; align-items: center; gap: 6px; flex-wrap: wrap; background: var(--subsidy-tint); color: var(--subsidy-deep); border-radius: 999px; padding: 4px 12px; font: 600 13.5px/1.4 var(--f-display); }
+.turn-desktop { display: none; }
+@media (min-width: 1024px) { .turn-desktop { display: flex; } }
+
+/* ---- ปฏิทินของสัปดาห์ (DESIGN.md "Calendar Rows และ Day Chips") ---- */
+.turn-week { display: flex; flex-direction: column; gap: 8px; }
+.turn-days { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; max-width: 420px; }
+.turn-day { min-height: 44px; border-radius: var(--r-chip); background: var(--page); border: 1px solid var(--hairline); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2px; }
+.turn-day__wd { font-size: 11.5px; line-height: 1.2; color: var(--muted); white-space: nowrap; }
+.turn-day__n { font: 700 15px/1.15 var(--f-display); }
+.turn-day--meet { background: var(--surface); border: 1.5px solid var(--negative); color: var(--negative); }
+.turn-day--meet .turn-day__wd { color: var(--negative); font-weight: 600; }
+.turn-day--sun { background: var(--subsidy-tint); border-color: var(--subsidy-tint); }
+
+/* ---- ถาดแฟ้ม ---- */
+.turn-tray { list-style: none; margin: 0; background: var(--tray-hand); border-radius: 24px; padding: 26px 12px 14px; box-shadow: inset 0 2px 5px rgba(51,41,25,.09); display: flex; flex-wrap: wrap; gap: 26px 16px; align-items: stretch; }
+.turn-tray__item { position: relative; flex: 1 1 300px; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+.turn-tray__item--wide { flex-basis: 100%; }
+.turn-tray__item .paper { flex: 1 1 auto; overflow-wrap: anywhere; }
+.turn-tag { position: absolute; top: -14px; left: 14px; z-index: 2; display: inline-flex; align-items: center; gap: 4px; padding: 3px 11px; border-radius: 9px; background: var(--surface); border: 1px solid var(--border-control); box-shadow: 0 2px 0 var(--under-shadow); font: 600 13px/1.35 var(--f-display); white-space: nowrap; }
+.turn-tag--urgent { background: var(--negative); border-color: var(--negative); color: #fff; box-shadow: 0 2px 0 var(--negative-shadow); }
+
+/* ---- บันทึกช็อกแบบย่อ (จอทาย) ---- */
+.turn-memo { padding: 12px 14px; gap: 4px; font-family: var(--f-doc); }
+.turn-memo .stamp { top: 10px; right: 12px; }
+.turn-memo__from { font-size: 12.5px; color: var(--paper-meta); padding-right: 100px; }
+.turn-memo p:last-child { font-size: 15px; line-height: 1.6; }
+
+/* ---- กราฟทาย ---- */
+.turn-chart { width: 100%; min-width: 0; }
+.turn-chart svg { display: block; font: 400 11.5px var(--f-ui); fill: var(--muted); overflow: visible; }
+.turn-chart__now { fill: var(--page); }
+.turn-chart__grid { stroke: var(--hairline); }
+.turn-chart__xnow { fill: var(--subsidy-deep); font-weight: 600; }
+.turn-chart__band1 { fill: var(--subsidy); fill-opacity: .14; }
+.turn-chart__band3 { fill: var(--subsidy); fill-opacity: .38; }
+.turn-chart__base line { stroke: var(--levy); stroke-width: 2.2; }
+.turn-chart__base circle, .turn-chart__base rect:not(.turn-chart__unk) { fill: var(--levy); }
+.turn-chart__mine line { stroke: var(--ink); stroke-width: 2.2; }
+.turn-chart__mine rect:not(.turn-chart__unk) { fill: var(--ink); }
+.turn-chart__real circle { fill: var(--muted); }
+.turn-chart__real text { font: 700 11px var(--f-display); fill: var(--muted); }
+.turn-chart line.turn-chart__gap { stroke-width: 1.6; stroke-dasharray: 2 3; }
+.turn-chart__unk { fill: var(--surface); stroke: var(--pending-border); stroke-width: 1.5; stroke-dasharray: 3 2; }
+.turn-chart__stem { stroke: var(--subsidy); stroke-width: 1.5; }
+.turn-chart__handle { fill: var(--subsidy); stroke: #fff; stroke-width: 2; pointer-events: none; }
+.turn-chart__glabel { font: 700 13px var(--f-display); fill: var(--subsidy-deep); paint-order: stroke; stroke: #fff; stroke-width: 3px; }
+.turn-chart__lane { fill: transparent; cursor: ns-resize; touch-action: none; }
+.turn-legend { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 12.5px; color: var(--muted); }
+.turn-legend li { display: inline-flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+.turn-sw { display: inline-block; flex: none; width: 14px; height: 3px; }
+.turn-sw--base { background: var(--levy); }
+.turn-sw--mine { background: var(--ink); }
+.turn-sw--real { width: 7px; height: 7px; border-radius: 50%; background: var(--muted); }
+.turn-sw--unk { width: 10px; height: 10px; border: 1.5px dashed var(--pending-border); border-radius: 2px; }
+.turn-sw--band3 { width: 10px; height: 10px; background: var(--subsidy); opacity: .5; }
+.turn-sw--band1 { width: 10px; height: 10px; background: var(--subsidy); opacity: .2; }
+
+/* ---- ช่องพิมพ์และปุ่มเพิ่มลด ---- */
+.turn-input { display: inline-flex; flex-direction: column; gap: 2px; }
+.turn-input input { width: 104px; min-height: 44px; border: 1.5px solid var(--ink); border-radius: 10px; padding: 0 10px; background: var(--surface); text-align: center; font: 700 22px/1 var(--f-display); font-variant-numeric: tabular-nums; }
+.turn-input input[aria-invalid='true'] { border-color: var(--negative); }
+.turn-input__err { font-size: 12px; color: var(--negative); max-width: 180px; }
+.turn-stepper { width: 100%; max-width: 440px; align-self: center; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 8px; }
+.turn-stepper .btn { min-width: 64px; padding: 0 10px; }
+.turn-stepper__mid { display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 0; text-align: center; }
+.turn-stepper__val { display: inline-flex; align-items: center; gap: 6px; }
+
+.turn-details { display: block; }
+.turn-details > * + * { margin-top: 10px; }
+.turn-details summary { font: 600 15px/1.3 var(--f-display); min-height: 44px; display: flex; align-items: center; cursor: pointer; }
+.turn-table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+.turn-table th, .turn-table td { text-align: left; padding: 6px 4px; border-bottom: 1px solid var(--row-rule); white-space: nowrap; }
+.turn-table thead th { font: 400 12px/1.35 var(--f-ui); color: var(--muted); }
+
+/* ---- แป้นอัตรา ---- */
+.turn-dials { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 12px; }
+.turn-dial { margin: 0; min-width: 0; border: 1px solid var(--hairline); border-radius: var(--r-tile); background: var(--surface-sunk); padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 8px; }
+.turn-dial legend { font: 600 15.5px/1.35 var(--f-display); padding: 0 4px; }
+.turn-dial__row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; }
+.turn-dial__val { display: inline-flex; align-items: center; gap: 6px; }
+.turn-seg { display: inline-flex; border: 1px solid var(--border-control); border-radius: var(--r-control); overflow: hidden; background: var(--surface); }
+.turn-seg button { all: unset; min-height: 44px; padding: 0 14px; display: inline-grid; place-items: center; cursor: pointer; font: 600 14.5px/1.2 var(--f-display); color: var(--muted); }
+.turn-seg button + button { border-left: 1px solid var(--border-control); }
+.turn-seg button[aria-pressed='true'] { background: var(--ink); color: #fff; }
+.turn-seg button:focus-visible { outline: 3px solid var(--levy); outline-offset: -3px; }
+.turn-range { width: 100%; min-height: 44px; margin: 0; accent-color: var(--ink); cursor: pointer; }
+.turn-range__ends { display: flex; justify-content: space-between; gap: 8px; margin-top: -8px; }
+.turn-steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+.turn-steps .btn { padding: 0 4px; }
+.turn-dial__sum { font-size: 14.5px; }
+
+.turn-meet__head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; }
+.turn-dayset { margin: 0; padding: 0; border: 0; display: flex; flex-direction: column; gap: 6px; }
+.turn-dayset legend { font: 600 14px/1.4 var(--f-display); padding: 0; margin-bottom: 6px; }
+.turn-daypick { display: flex; flex-wrap: wrap; gap: 6px; }
+.turn-daybtn { all: unset; box-sizing: border-box; min-width: 48px; min-height: 48px; padding: 2px 6px; border-radius: var(--r-chip); background: var(--page); border: 1px solid var(--hairline); display: flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; font-size: 12px; }
+.turn-daybtn time { font: 700 15px/1.15 var(--f-display); }
+.turn-daybtn[aria-pressed='true'] { background: var(--ink); border-color: var(--ink); color: #fff; box-shadow: 0 2px 0 var(--ink-shadow); }
+.turn-daybtn:focus-visible { outline: 3px solid var(--levy); outline-offset: 2px; }
+.turn-add { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+.turn-pipline { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+
+.turn-summary { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 10px; }
+.turn-summary li { display: flex; flex-direction: column; gap: 2px; }
+.turn-summary__rate { font-size: 14px; }
+.turn-actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }

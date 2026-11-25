@@ -1,0 +1,107 @@
+/* จอผลสัปดาห์และบัตรรายงานตอนจบ · ใช้โทเคนใน styles/base.css เท่านั้น */
+.rs-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px 12px; }
+.rs-head h2 { font-size: 20px; }
+.rs-pill { display: inline-flex; align-items: center; gap: 4px; background: var(--ink); color: #fff; border-radius: 999px; padding: 6px 12px; box-shadow: 0 2px 0 var(--ink-shadow); font: 700 13.5px/1.3 var(--f-display); white-space: nowrap; }
+.rs-guess p:first-child { font-size: 15.5px; line-height: 1.9; }
+.rs-compare { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 14px; }
+.rs-lead { font-size: 15px; }
+.rs-sub { font: 600 15px/1.3 var(--f-display); }
+
+/* ---- น้ำตกเงิน (แท่งเป็น HTML ตัวเลขจึงกดตามเงินได้) ---- */
+.rs-fall { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.rs-fall__row { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; gap: 3px 10px; }
+.rs-fall__label { font-size: 13.5px; line-height: 1.4; }
+.rs-fall__v { justify-self: end; font-size: 14.5px; }
+.rs-fall__track { grid-column: 1 / -1; position: relative; height: 14px; }
+.rs-fall__zero { position: absolute; top: -5px; bottom: -5px; width: 1.5px; margin-left: -0.75px; background: var(--ink); }
+.rs-fall__bar { position: absolute; top: 0; bottom: 0; min-width: 2px; border-radius: 3px; }
+.rs-fall__row--total .rs-fall__label { font-weight: 600; }
+.rs-fall__row--total .rs-fall__track { height: 16px; }
+.rs-bar--base { background: var(--muted); }
+.rs-bar--sub { background: var(--subsidy); }
+.rs-bar--levy { background: var(--levy); }
+.rs-bar--other { background: var(--series-neutral); }
+.rs-bar--end { background: var(--ink); }
+.rs-bar--neg { background: var(--negative); }
+.rs-tone--sub { color: var(--subsidy-deep); }
+.rs-tone--levy { color: var(--levy); }
+.rs-tone--neg { color: var(--negative); }
+
+/* ---- กราฟ SVG ---- */
+.rs-chart { width: 100%; min-width: 0; }
+.rs-chart svg { display: block; font: 400 11.5px var(--f-ui); fill: var(--muted); overflow: visible; }
+.rs-chart__grid { stroke: var(--hairline); stroke-dasharray: 3 3; }
+.rs-chart__grid--zero { stroke: var(--ink); stroke-dasharray: none; stroke-width: 1.2; }
+.rs-chart__level { stroke: var(--negative); stroke-width: 1.2; }
+.rs-chart__levellabel { fill: var(--negative); font-weight: 600; paint-order: stroke; stroke: #fff; stroke-width: 3px; }
+.rs-chart__mine line { stroke: var(--ink); stroke-width: 2.4; }
+.rs-chart__mine rect:not(.rs-chart__unk) { fill: var(--ink); }
+.rs-chart__real line { stroke: var(--muted); stroke-width: 1.8; }
+.rs-chart__real circle { fill: var(--muted); }
+.rs-chart line.rs-chart__gap { stroke: var(--pending-border); stroke-dasharray: 3 3; stroke-width: 1.6; }
+.rs-chart__unk { fill: var(--surface); stroke: var(--pending-border); stroke-width: 1.5; stroke-dasharray: 3 2; }
+.rs-chart__label { font: 700 12px var(--f-display); fill: var(--ink); paint-order: stroke; stroke: #fff; stroke-width: 3px; }
+.rs-chart__label--real, .rs-fund__label--real { fill: var(--muted); }
+.rs-fund__label--base { fill: var(--levy); }
+.rs-fund polyline { fill: none; stroke-width: 2; stroke-linejoin: round; }
+.rs-fund--mine polyline { stroke: var(--ink); stroke-width: 2.4; }
+.rs-fund--base polyline { stroke: var(--levy); }
+.rs-fund--real polyline { stroke: var(--muted); stroke-width: 1.6; }
+.rs-fund--real circle { fill: var(--muted); }
+
+/* ---- ตารางรายวันใต้กราฟ ---- */
+.rs-days summary { min-height: 44px; display: flex; align-items: center; gap: 6px; cursor: pointer; font: 600 14px/1.3 var(--f-display); list-style: none; }
+.rs-days summary::-webkit-details-marker { display: none; }
+.rs-days summary::before { content: '▸'; }
+.rs-days[open] summary::before { content: '▾'; }
+.rs-days table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.rs-days th, .rs-days td { text-align: left; padding: 6px 4px; border-top: 1px solid var(--row-rule); font-weight: 400; }
+.rs-days thead th { border-top: 0; font: 600 12.5px var(--f-ui); color: var(--muted); }
+
+/* ---- ทุน ---- */
+.rs-caps { display: grid; gap: 10px; grid-template-columns: minmax(0, 1fr); }
+.rs-cap { gap: 6px; }
+.rs-cap__head { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+.rs-cap__name { font: 600 14px/1.2 var(--f-display); min-width: 76px; }
+.rs-cap__head > .num { margin-left: auto; font-size: 16px; }
+.rs-cap__why { font-size: 13.5px; line-height: 1.6; display: flex; flex-direction: column; gap: 4px; }
+.rs-forced { background: var(--subsidy-tint); color: var(--subsidy-deep); border-radius: var(--r-chip); padding: 8px 12px; font-size: 13.5px; line-height: 1.6; }
+
+/* ---- ปุ่ม ---- */
+.rs-actions { display: flex; flex-direction: column; gap: 14px; }
+.rs-actions__row { display: flex; flex-wrap: wrap; gap: 10px; }
+.rs-actions__row .btn { flex: 1 1 auto; }
+
+/* ---- แผ่น "ทำไมคำตอบ" ---- */
+.rs-steps { margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 8px; line-height: 1.9; }
+
+/* ---- บัตรรายงาน ---- */
+.rs-axes { display: grid; gap: 16px; grid-template-columns: minmax(0, 1fr); align-items: start; }
+@media (min-width: 1024px) {
+  .rs-axes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .rs-axes > :first-child { grid-column: 1 / -1; }
+}
+.rs-big { font: 600 16px/1.5 var(--f-display); }
+.rs-turns { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13.5px; }
+.rs-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+.rs-pair { display: flex; flex-direction: column; gap: 2px; }
+.rs-scroll { overflow-x: auto; }
+
+.rs-table { width: 100%; border-collapse: collapse; font-size: 14px; line-height: 1.6; }
+.rs-table th, .rs-table td { text-align: left; vertical-align: top; padding: 8px 6px; border-top: 1px solid var(--row-rule); font-weight: 400; }
+.rs-table thead th { border-top: 0; font: 600 12.5px/1.35 var(--f-ui); color: var(--muted); }
+.rs-table tbody th { font: 600 14px/1.45 var(--f-display); }
+
+/* จอแคบ: แถวของตารางกลายเป็นการ์ด ป้ายคอลัมน์อยู่เหนือค่า */
+@media (max-width: 719px) {
+  .rs-table--outcome thead, .rs-table--pol thead, .rs-table--path thead { display: none; }
+  .rs-table--outcome tbody, .rs-table--pol tbody, .rs-table--path tbody, .rs-table--path tr, .rs-table--path th, .rs-table--path td { display: block; }
+  .rs-table--outcome tr, .rs-table--pol tr { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 8px; border-top: 1px solid var(--row-rule); padding: 8px 0; }
+  .rs-table--pol tr { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .rs-table--outcome th, .rs-table--pol th { grid-column: 1 / -1; border: 0; padding: 0 0 4px; }
+  .rs-table--outcome td, .rs-table--pol td { border: 0; padding: 0; }
+  .rs-table--path tr { border-top: 1px solid var(--hairline); padding: 10px 0; }
+  .rs-table--path th, .rs-table--path td { border: 0; padding: 3px 0; }
+  .rs-table--path .rs-pair { flex-direction: row; flex-wrap: wrap; gap: 2px 14px; }
+  .rs-table--outcome td::before, .rs-table--pol td::before, .rs-table--path td::before { content: attr(data-label); display: block; font: 400 12.5px/1.4 var(--f-ui); color: var(--muted); }
+}
