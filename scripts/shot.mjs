@@ -14,7 +14,8 @@ const VIEWPORTS = [
   { width: 1440, height: 900 },
 ];
 mkdirSync(out, { recursive: true });
-const server = await preview({ preview: { port: 0, open: false }, logLevel: 'silent' });
+// DIST = โฟลเดอร์ผล build ของตัวเอง (หลาย agent build พร้อมกันได้โดยไม่ทับกัน): npx vite build --outDir <dir> แล้ว DIST=<dir> node scripts/shot.mjs ...
+const server = await preview({ build: { outDir: process.env.DIST ?? 'dist' }, preview: { port: 0, open: false }, logLevel: 'silent' });
 const base = server.resolvedUrls.local[0];
 const browser = await chromium.launch();
 let problems = 0;
